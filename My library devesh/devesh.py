@@ -3,7 +3,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-def fix_col(df):
+
+ '''this function will fix the names of columns and make simple names all in smallcase with only _ as space and - .'''
+
+def fix_col(df):   
     l = list(df.columns)
     l1 = []
     for i in l:
@@ -14,6 +17,8 @@ def fix_col(df):
     df.rename(d, axis=1, inplace=True)
     return df
 
+'''remove_outliers will remove the outliers from a givem column in a fata frame'''
+
 def remove_outliers(df,col):
     q1 = df[col].quantile(0.25)
     q3 = df[col].quantile(0.75)
@@ -22,3 +27,15 @@ def remove_outliers(df,col):
     ub = q3 + 1.5*iqr                     # upper bound
     return df.loc[(df[col]>lb)&(df[col]<ub)]
 
+'''histall function will make histogram of all the columns from the dataframe'''
+def histall(df):
+    cl = list(df.columns)
+    ln = range(1,(len(cl)+1))
+    l = zip(cl,ln)
+    s=5
+    plt.figure(figsize=(s,s*len(cl)))
+    for i,j in l:
+        plt.subplot(len(cl),1,j)
+        plt.title( i)
+        plt.xlabel('-'*100)
+        sns.histplot(x=df[i])
