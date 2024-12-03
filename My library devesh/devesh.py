@@ -17,7 +17,7 @@ def fix_col(df):
     df.rename(d, axis=1, inplace=True)
     return df
 
-'''remove_outliers will remove the outliers from a givem column in a fata frame'''
+'''remove_outliers will remove the outliers from a givem column in a Data frame'''
 
 def remove_outliers(df,col):
     q1 = df[col].quantile(0.25)
