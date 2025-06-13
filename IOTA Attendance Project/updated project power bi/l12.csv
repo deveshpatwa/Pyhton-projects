@@ -1,0 +1,702 @@
+,full_name,first name,emp_id,Date,Half Day/ Full Day?,Type of leave,is on full day leave,is on half day leave,is work from home,unique_id
+0,Anjali Bohra,Anjali,Anjali,2022-03-21,Full day,Casual Leave,1,0,0,2022-03-21-Anjali
+1,Devendra Patidar,Devendra,Devendra,2022-03-24,Full day,Sick leave (Illness or Injury),1,0,0,2022-03-24-Devendra
+2,Devendra Patidar,Devendra,Devendra,2022-03-25,Full day,Sick leave (Illness or Injury),1,0,0,2022-03-25-Devendra
+3,Devendra Patidar,Devendra,Devendra,2022-03-26,Full day,Sick leave (Illness or Injury),1,0,0,2022-03-26-Devendra
+4,Saheba Khan,Saheba,TIA004,2022-03-26,Full day,Exam,1,0,0,2022-03-26-TIA004
+5,Saheba Khan,Saheba,TIA004,2022-03-29,Full day,Exam,1,0,0,2022-03-29-TIA004
+6,Saheba Khan,Saheba,TIA004,2022-03-31,Full day,Exam,1,0,0,2022-03-31-TIA004
+7,Saheba Khan,Saheba,TIA004,2022-03-08,Full day,Exam,1,0,0,2022-03-08-TIA004
+8,Saheba Khan,Saheba,TIA004,2022-04-04,Full day,Exam,1,0,0,2022-04-04-TIA004
+9,Saheba Khan,Saheba,TIA004,2022-04-06,Full day,Paper,1,0,0,2022-04-06-TIA004
+10,Saheba Khan,Saheba,TIA004,2022-04-08,Full day,Paper,1,0,0,2022-04-08-TIA004
+11,Saheba Khan,Saheba,TIA004,2022-04-11,Full day,Paper,1,0,0,2022-04-11-TIA004
+12,Saheba Khan,Saheba,TIA004,2022-04-13,Full day,Paper,1,0,0,2022-04-13-TIA004
+13,Saheba Khan,Saheba,TIA004,2022-04-22,Full day,Paper,1,0,0,2022-04-22-TIA004
+14,Saheba Khan,Saheba,TIA004,2022-04-25,Full day,Paper,1,0,0,2022-04-25-TIA004
+15,Saheba Khan,Saheba,TIA004,2022-04-27,Full day,Paper,1,0,0,2022-04-27-TIA004
+16,Devendra Patidar,Devendra,Devendra,2022-04-07,Full day,Casual Leave,1,0,0,2022-04-07-Devendra
+17,Devendra Patidar,Devendra,Devendra,2022-04-08,Full day,Casual Leave,1,0,0,2022-04-08-Devendra
+18,Saheba Khan,Saheba,TIA004,2022-04-12,Full day,Sick leave (Illness or Injury),1,0,0,2022-04-12-TIA004
+19,Anjali Bohra,Anjali,Anjali,2022-04-16,Full day,Casual Leave,1,0,0,2022-04-16-Anjali
+20,Devendra Patidar,Devendra,Devendra,2022-04-16,Full day,Casual Leave,1,0,0,2022-04-16-Devendra
+21,Devendra Patidar,Devendra,Devendra,2022-04-17,Full day,Casual Leave,1,0,0,2022-04-17-Devendra
+22,Devendra Patidar,Devendra,Devendra,2022-04-18,Full day,Casual Leave,1,0,0,2022-04-18-Devendra
+23,Devendra Patidar,Devendra,Devendra,2022-04-19,Full day,Casual Leave,1,0,0,2022-04-19-Devendra
+24,Devendra Patidar,Devendra,Devendra,2022-04-20,Full day,Casual Leave,1,0,0,2022-04-20-Devendra
+25,Saheba Khan,Saheba,TIA004,2022-05-07,Full day,Out of station,1,0,0,2022-05-07-TIA004
+26,Saheba Khan,Saheba,TIA004,2022-05-09,Full day,Out of station,1,0,0,2022-05-09-TIA004
+27,Devendra Patidar,Devendra,Devendra,2022-05-23,Full day,Casual Leave,1,0,0,2022-05-23-Devendra
+28,Devendra Patidar,Devendra,Devendra,2022-05-24,Full day,Casual Leave,1,0,0,2022-05-24-Devendra
+29,Devendra Patidar,Devendra,Devendra,2022-05-25,Full day,Casual Leave,1,0,0,2022-05-25-Devendra
+30,Devendra Patidar,Devendra,Devendra,2022-05-26,Full day,Casual Leave,1,0,0,2022-05-26-Devendra
+31,Anjali Bohra,Anjali,Anjali,2022-05-02,1st Half,Casual Leave,0,1,0,2022-05-02-Anjali
+32,Lokesh Patidar,Lokesh,,2022-05-02,Full day,Casual Leave,1,0,0,
+33,Lokesh Patidar,Lokesh,,2022-05-03,Full day,Casual Leave,1,0,0,
+34,Lokesh Patidar,Lokesh,,2022-05-04,Full day,Casual Leave,1,0,0,
+35,Lokesh Patidar,Lokesh,,2022-05-05,Full day,Casual Leave,1,0,0,
+36,Lokesh Patidar,Lokesh,,2022-05-06,Full day,Casual Leave,1,0,0,
+37,Lokesh Patidar,Lokesh,,2022-05-07,Full day,Casual Leave,1,0,0,
+38,Lokesh Patidar,Lokesh,,2022-05-08,Full day,Casual Leave,1,0,0,
+39,Lokesh Patidar,Lokesh,,2022-05-09,Full day,Casual Leave,1,0,0,
+40,Lokesh Patidar,Lokesh,,2022-05-10,Full day,Casual Leave,1,0,0,
+41,Lokesh Patidar,Lokesh,,2022-05-11,Full day,Casual Leave,1,0,0,
+42,Lokesh Patidar,Lokesh,,2022-05-12,Full day,Casual Leave,1,0,0,
+43,Lokesh Patidar,Lokesh,,2022-05-13,Full day,Casual Leave,1,0,0,
+44,Lokesh Patidar,Lokesh,,2022-05-14,Full day,Casual Leave,1,0,0,
+45,Devendra Patidar,Devendra,Devendra,2022-06-04,2nd Half,Casual Leave,0,1,0,2022-06-04-Devendra
+46,Shubham Jain,Shubham,,2022-06-29,Full day,Sick leave (Illness or Injury),1,0,0,
+47,Shubham Jain,Shubham,,2022-06-30,Full day,Sick leave (Illness or Injury),1,0,0,
+48,Aishwarya Mittal,Aishwarya,,2022-06-14,Full day,Emergency leave,1,0,0,
+49,Saheba Khan,Saheba,TIA004,2022-06-07,Full day,Sick leave (Illness or Injury),1,0,0,2022-06-07-TIA004
+50,Saheba Khan,Saheba,TIA004,2022-06-06,2nd Half,Sick leave (Illness or Injury),0,1,0,2022-06-06-TIA004
+51,Aishwarya Mittal,Aishwarya,,2022-06-18,2nd Half,Academic classes.,0,1,0,
+52,Devendra Patidar,Devendra,Devendra,2022-06-23,Full day,Casual Leave,1,0,0,2022-06-23-Devendra
+53,Saheba Khan,Saheba,TIA004,2022-07-01,Full day,Sick leave (Illness or Injury),1,0,0,2022-07-01-TIA004
+54,Anjali Bohra,Anjali,Anjali,2022-05-02,Full day,out of station,1,0,0,2022-05-02-Anjali
+55,Anjali Bohra,Anjali,Anjali,2022-06-02,Full day,Out of station,1,0,0,2022-06-02-Anjali
+56,Anjali Bohra,Anjali,Anjali,2022-06-03,Full day,Out of station,1,0,0,2022-06-03-Anjali
+57,Anjali Bohra,Anjali,Anjali,2022-06-04,Full day,Out of station,1,0,0,2022-06-04-Anjali
+58,Anjali Bohra,Anjali,Anjali,2022-06-20,Full day,Exam,1,0,0,2022-06-20-Anjali
+59,Anjali Bohra,Anjali,Anjali,2022-06-21,Full day,Exam,1,0,0,2022-06-21-Anjali
+60,Anjali Bohra,Anjali,Anjali,2022-06-22,Full day,Exam,1,0,0,2022-06-22-Anjali
+61,Anjali Bohra,Anjali,Anjali,2022-06-23,Full day,Exam,1,0,0,2022-06-23-Anjali
+62,Anjali Bohra,Anjali,Anjali,2022-06-24,Full day,Exam,1,0,0,2022-06-24-Anjali
+63,Anjali Bohra,Anjali,Anjali,2022-06-25,Full day,Exam,1,0,0,2022-06-25-Anjali
+64,Anjali Bohra,Anjali,Anjali,2022-06-27,Full day,exam,1,0,0,2022-06-27-Anjali
+65,Anjali Bohra,Anjali,Anjali,2022-06-28,Full day,exam,1,0,0,2022-06-28-Anjali
+66,Anjali Bohra,Anjali,Anjali,2022-06-29,Full day,exam,1,0,0,2022-06-29-Anjali
+67,Saheba Khan,Saheba,TIA004,2022-07-07,Full day,Casual Leave,1,0,0,2022-07-07-TIA004
+68,Saheba Khan,Saheba,TIA004,2022-07-08,Full day,Casual Leave,1,0,0,2022-07-08-TIA004
+69,Saheba Khan,Saheba,TIA004,2022-07-09,Full day,Casual Leave,1,0,0,2022-07-09-TIA004
+70,Saheba Khan,Saheba,TIA004,2022-07-10,Full day,Casual Leave,1,0,0,2022-07-10-TIA004
+71,Saheba Khan,Saheba,TIA004,2022-07-11,Full day,Casual Leave,1,0,0,2022-07-11-TIA004
+72,Lokesh Patidar,Lokesh,,2022-07-07,Full day,Casual Leave,1,0,0,
+73,Lokesh Patidar,Lokesh,,2022-07-08,Full day,Casual Leave,1,0,0,
+74,Lokesh Patidar,Lokesh,,2022-07-09,Full day,Casual Leave,1,0,0,
+75,Devendra Patidar,Devendra,Devendra,2022-07-02,Full day,Sick leave (Illness or Injury),1,0,0,2022-07-02-Devendra
+76,Abhishek Patel,Abhishek,TIA009,2022-07-08,Full day,Casual Leave,1,0,0,2022-07-08-TIA009
+77,Abhishek Patel,Abhishek,TIA009,2022-07-09,Full day,Casual Leave,1,0,0,2022-07-09-TIA009
+78,Aishwarya Mittal,Aishwarya,,2022-07-09,Full day,Casual Leave,1,0,0,
+79,Devendra Patidar,Devendra,Devendra,2022-07-14,Full day,Sick leave (Illness or Injury),1,0,0,2022-07-14-Devendra
+80,Devendra Patidar,Devendra,Devendra,2022-07-15,Full day,Sick leave (Illness or Injury),1,0,0,2022-07-15-Devendra
+81,Siddharth Soni,Siddharth,TIA008,2022-07-26,Full day,Casual Leave,1,0,0,2022-07-26-TIA008
+82,Devendra Patidar,Devendra,Devendra,2022-07-26,1st Half,Casual Leave,0,1,0,2022-07-26-Devendra
+83,Anjali Bohra,Anjali,Anjali,2022-07-29,2nd Half,Casual Leave,0,1,0,2022-07-29-Anjali
+84,Anjali Bohra,Anjali,Anjali,2022-07-30,Full day,Casual Leave,1,0,0,2022-07-30-Anjali
+85,Aishwarya Mittal,Aishwarya,,2022-08-03,Full day,Sick leave (Illness or Injury),1,0,0,
+86,Aishwarya Mittal,Aishwarya,,2022-08-04,Full day,Sick leave (Illness or Injury),1,0,0,
+87,Saheba Khan,Saheba,TIA004,2022-08-08,Full day,Sick leave (Illness or Injury),1,0,0,2022-08-08-TIA004
+88,Saheba Khan,Saheba,TIA004,2022-08-09,Full day,Sick leave (Illness or Injury),1,0,0,2022-08-09-TIA004
+89,Saheba Khan,Saheba,TIA004,2022-08-10,Full day,Sick leave (Illness or Injury),1,0,0,2022-08-10-TIA004
+90,Saheba Khan,Saheba,TIA004,2022-08-16,Full day,Sick leave (Illness or Injury),1,0,0,2022-08-16-TIA004
+91,Aishwarya Mittal,Aishwarya,,2022-08-27,Full day,Casual Leave,1,0,0,
+92,Aishwarya Mittal,Aishwarya,,2022-09-02,Full day,Casual Leave,1,0,0,
+93,Anjali Bohra,Anjali,Anjali,2022-09-05,Full day,Casual Leave,1,0,0,2022-09-05-Anjali
+94,Anjali Bohra,Anjali,Anjali,2022-09-06,Full day,Casual Leave,1,0,0,2022-09-06-Anjali
+95,Devendra Patidar,Devendra,Devendra,2022-09-05,Full day,Sick leave (Illness or Injury),1,0,0,2022-09-05-Devendra
+96,Lokesh Patidar,Lokesh,,2022-09-08,Full day,Sick leave (Illness or Injury),1,0,0,
+97,Devendra Patidar,Devendra,Devendra,2022-08-16,Full day,Casual Leave,1,0,0,2022-08-16-Devendra
+98,Aishwarya Mittal,Aishwarya,,2022-09-10,1st Half,Casual Leave,0,1,0,
+99,Aishwarya Mittal,Aishwarya,,2022-09-11,1st Half,Casual Leave,0,1,0,
+100,Saheba Khan,Saheba,TIA004,2022-09-16,Full day,Leave without pay,1,0,0,2022-09-16-TIA004
+101,Anjali Bohra,Anjali,Anjali,2022-09-23,Full day,Casual Leave,1,0,0,2022-09-23-Anjali
+102,Devendra Patidar,Devendra,Devendra,2022-09-30,Full day,Sick leave (Illness or Injury),1,0,0,2022-09-30-Devendra
+103,Devendra Patidar,Devendra,Devendra,2022-10-01,Full day,Sick leave (Illness or Injury),1,0,0,2022-10-01-Devendra
+104,Devendra Patidar,Devendra,Devendra,2022-09-29,2nd Half,Sick leave (Illness or Injury),0,1,0,2022-09-29-Devendra
+105,Aishwarya Mittal,Aishwarya,,2022-10-01,2nd Half,Leave without pay,0,1,0,
+106,Rahul Soni,Rahul,,2022-10-03,Full day,Ritual at home,1,0,0,
+107,Siddharth Soni,Siddharth,TIA008,2022-09-15,Full day,Sick leave (Illness or Injury),1,0,0,2022-09-15-TIA008
+108,Siddharth Soni,Siddharth,TIA008,2022-09-16,Full day,Sick leave (Illness or Injury),1,0,0,2022-09-16-TIA008
+109,Siddharth Soni,Siddharth,TIA008,2022-09-17,Full day,Sick leave (Illness or Injury),1,0,0,2022-09-17-TIA008
+110,Siddharth Soni,Siddharth,TIA008,2022-09-18,Full day,Sick leave (Illness or Injury),1,0,0,2022-09-18-TIA008
+111,Siddharth Soni,Siddharth,TIA008,2022-09-19,Full day,Sick leave (Illness or Injury),1,0,0,2022-09-19-TIA008
+112,Siddharth Soni,Siddharth,TIA008,2022-09-20,Full day,Sick leave (Illness or Injury),1,0,0,2022-09-20-TIA008
+113,Siddharth Soni,Siddharth,TIA008,2022-09-21,Full day,Sick leave (Illness or Injury),1,0,0,2022-09-21-TIA008
+114,Siddharth Soni,Siddharth,TIA008,2022-09-22,Full day,Sick leave (Illness or Injury),1,0,0,2022-09-22-TIA008
+115,Siddharth Soni,Siddharth,TIA008,2022-09-23,Full day,Sick leave (Illness or Injury),1,0,0,2022-09-23-TIA008
+116,Siddharth Soni,Siddharth,TIA008,2022-09-24,Full day,Sick leave (Illness or Injury),1,0,0,2022-09-24-TIA008
+117,Siddharth Soni,Siddharth,TIA008,2022-09-25,Full day,Sick leave (Illness or Injury),1,0,0,2022-09-25-TIA008
+118,Siddharth Soni,Siddharth,TIA008,2022-09-26,Full day,Sick leave (Illness or Injury),1,0,0,2022-09-26-TIA008
+119,Siddharth Soni,Siddharth,TIA008,2022-09-27,Full day,Sick leave (Illness or Injury),1,0,0,2022-09-27-TIA008
+120,Siddharth Soni,Siddharth,TIA008,2022-09-28,Full day,Sick leave (Illness or Injury),1,0,0,2022-09-28-TIA008
+121,Siddharth Soni,Siddharth,TIA008,2022-09-29,Full day,Sick leave (Illness or Injury),1,0,0,2022-09-29-TIA008
+122,Siddharth Soni,Siddharth,TIA008,2022-09-30,Full day,Sick leave (Illness or Injury),1,0,0,2022-09-30-TIA008
+123,Siddharth Soni,Siddharth,TIA008,2022-10-01,Full day,Sick leave (Illness or Injury),1,0,0,2022-10-01-TIA008
+124,Siddharth Soni,Siddharth,TIA008,2022-10-02,Full day,Sick leave (Illness or Injury),1,0,0,2022-10-02-TIA008
+125,Siddharth Soni,Siddharth,TIA008,2022-10-03,Full day,Sick leave (Illness or Injury),1,0,0,2022-10-03-TIA008
+126,Siddharth Soni,Siddharth,TIA008,2022-10-04,Full day,Sick leave (Illness or Injury),1,0,0,2022-10-04-TIA008
+127,Hemant Ranotiya,Hemant,TIA001,2022-10-13,Full day,Casual Leave,1,0,0,2022-10-13-TIA001
+128,Hemant Ranotiya,Hemant,TIA001,2022-10-14,Full day,Casual Leave,1,0,0,2022-10-14-TIA001
+129,Bantubala Patidar,Bantubala,TIAT005,2022-10-03,Full day,Sick leave (Illness or Injury),1,0,0,2022-10-03-TIAT005
+130,Bantubala Patidar,Bantubala,TIAT005,2022-10-04,Full day,Sick leave (Illness or Injury),1,0,0,2022-10-04-TIAT005
+131,Devendra Patidar,Devendra,Devendra,2022-10-12,Full day,Casual Leave,1,0,0,2022-10-12-Devendra
+132,Aishwarya Mittal,Aishwarya,,2022-10-15,Full day,Leave without pay,1,0,0,
+133,Aishwarya Mittal,Aishwarya,,2022-10-16,Full day,Leave without pay,1,0,0,
+134,Aishwarya Mittal,Aishwarya,,2022-10-28,Full day,Leave without pay,1,0,0,
+135,Aishwarya Mittal,Aishwarya,,2022-10-29,Full day,Leave without pay,1,0,0,
+136,Aishwarya Mittal,Aishwarya,,2022-10-30,Full day,Leave without pay,1,0,0,
+137,Aishwarya Mittal,Aishwarya,,2022-10-31,Full day,Leave without pay,1,0,0,
+138,Aishwarya Mittal,Aishwarya,,2022-11-01,Full day,Leave without pay,1,0,0,
+139,Aishwarya Mittal,Aishwarya,,2022-11-02,Full day,Leave without pay,1,0,0,
+140,Aishwarya Mittal,Aishwarya,,2022-11-03,Full day,Leave without pay,1,0,0,
+141,Devendra Patidar,Devendra,Devendra,2022-11-03,Full day,Casual Leave,1,0,0,2022-11-03-Devendra
+142,Devendra Patidar,Devendra,Devendra,2022-11-04,Full day,Casual Leave,1,0,0,2022-11-04-Devendra
+143,Devendra Patidar,Devendra,Devendra,2022-11-05,Full day,Casual Leave,1,0,0,2022-11-05-Devendra
+144,Siddharth Soni,Siddharth,TIA008,2022-11-22,Full day,Casual Leave,1,0,0,2022-11-22-TIA008
+145,Aishwarya Mittal,Aishwarya,,2022-11-28,Full day,Casual Leave,1,0,0,
+146,Aishwarya Mittal,Aishwarya,,2022-11-29,Full day,Casual Leave,1,0,0,
+147,Aishwarya Mittal,Aishwarya,,2022-11-30,Full day,Casual Leave,1,0,0,
+148,Varun Kumar,Varun,TIA006,2022-11-21,2nd Half,Sick leave (Illness or Injury),0,1,0,2022-11-21-TIA006
+149,Varun Kumar,Varun,TIA006,2022-11-22,Full day,Sick leave (Illness or Injury),1,0,0,2022-11-22-TIA006
+150,Varun Kumar,Varun,TIA006,2022-11-16,2nd Half,Casual Leave,0,1,0,2022-11-16-TIA006
+151,Varun Kumar,Varun,TIA006,2022-11-17,2nd Half,Casual Leave,0,1,0,2022-11-17-TIA006
+152,Hemant Ranotiya,Hemant,TIA001,2022-11-25,Full day,Casual Leave,1,0,0,2022-11-25-TIA001
+153,Hemant Ranotiya,Hemant,TIA001,2022-11-26,Full day,Casual Leave,1,0,0,2022-11-26-TIA001
+154,Devendra Patidar,Devendra,Devendra,2022-11-28,Full day,Casual Leave,1,0,0,2022-11-28-Devendra
+155,Varun Kumar,Varun,TIA006,2022-11-25,2nd Half,Casual Leave,0,1,0,2022-11-25-TIA006
+156,Varun Kumar,Varun,TIA006,2022-11-26,Full day,Casual Leave,1,0,0,2022-11-26-TIA006
+157,Bantubala Patidar,Bantubala,TIAT005,2022-11-26,Full day,Casual Leave,1,0,0,2022-11-26-TIAT005
+158,Bantubala Patidar,Bantubala,TIAT005,2022-12-03,Full day,Casual Leave,1,0,0,2022-12-03-TIAT005
+159,Bantubala Patidar,Bantubala,TIAT005,2022-12-04,Full day,Casual Leave,1,0,0,2022-12-04-TIAT005
+160,Bantubala Patidar,Bantubala,TIAT005,2022-12-05,Full day,Casual Leave,1,0,0,2022-12-05-TIAT005
+161,Bantubala Patidar,Bantubala,TIAT005,2022-12-06,Full day,Casual Leave,1,0,0,2022-12-06-TIAT005
+162,Lokesh Patidar,Lokesh,,2022-09-21,Full day,Sick leave (Illness or Injury),1,0,0,
+163,Lokesh Patidar,Lokesh,,2022-09-22,Full day,Sick leave (Illness or Injury),1,0,0,
+164,Lokesh Patidar,Lokesh,,2022-09-23,Full day,Sick leave (Illness or Injury),1,0,0,
+165,Lokesh Patidar,Lokesh,,2022-09-24,Full day,Sick leave (Illness or Injury),1,0,0,
+166,Lokesh Patidar,Lokesh,,2022-09-25,Full day,Sick leave (Illness or Injury),1,0,0,
+167,Lokesh Patidar,Lokesh,,2022-09-26,Full day,Sick leave (Illness or Injury),1,0,0,
+168,Lokesh Patidar,Lokesh,,2022-09-27,Full day,Sick leave (Illness or Injury),1,0,0,
+169,Lokesh Patidar,Lokesh,,2022-09-28,Full day,Sick leave (Illness or Injury),1,0,0,
+170,Lokesh Patidar,Lokesh,,2022-09-29,Full day,Sick leave (Illness or Injury),1,0,0,
+171,Lokesh Patidar,Lokesh,,2022-09-30,Full day,Sick leave (Illness or Injury),1,0,0,
+172,Lokesh Patidar,Lokesh,,2022-10-01,Full day,Sick leave (Illness or Injury),1,0,0,
+173,Lokesh Patidar,Lokesh,,2022-10-02,Full day,Sick leave (Illness or Injury),1,0,0,
+174,Lokesh Patidar,Lokesh,,2022-10-03,Full day,Sick leave (Illness or Injury),1,0,0,
+175,Lokesh Patidar,Lokesh,,2022-10-04,Full day,Sick leave (Illness or Injury),1,0,0,
+176,Lokesh Patidar,Lokesh,,2022-10-05,Full day,Sick leave (Illness or Injury),1,0,0,
+177,Lokesh Patidar,Lokesh,,2022-10-06,Full day,Sick leave (Illness or Injury),1,0,0,
+178,Devendra Patidar,Devendra,Devendra,2022-12-02,Full day,Casual Leave,1,0,0,2022-12-02-Devendra
+179,Devendra Patidar,Devendra,Devendra,2022-12-03,Full day,Casual Leave,1,0,0,2022-12-03-Devendra
+180,Devendra Patidar,Devendra,Devendra,2022-12-04,Full day,Casual Leave,1,0,0,2022-12-04-Devendra
+181,Devendra Patidar,Devendra,Devendra,2022-12-05,Full day,Casual Leave,1,0,0,2022-12-05-Devendra
+182,Devendra Patidar,Devendra,Devendra,2022-12-06,Full day,Casual Leave,1,0,0,2022-12-06-Devendra
+183,Devendra Patidar,Devendra,Devendra,2022-12-07,Full day,Casual Leave,1,0,0,2022-12-07-Devendra
+184,Devendra Patidar,Devendra,Devendra,2022-12-08,Full day,Casual Leave,1,0,0,2022-12-08-Devendra
+185,Devendra Patidar,Devendra,Devendra,2022-12-09,Full day,Casual Leave,1,0,0,2022-12-09-Devendra
+186,Devendra Patidar,Devendra,Devendra,2022-12-10,Full day,Casual Leave,1,0,0,2022-12-10-Devendra
+187,Devendra Patidar,Devendra,Devendra,2022-12-11,Full day,Casual Leave,1,0,0,2022-12-11-Devendra
+188,Devendra Patidar,Devendra,Devendra,2022-12-12,Full day,Casual Leave,1,0,0,2022-12-12-Devendra
+189,Saheba Khan,Saheba,TIA004,2022-12-23,Full day,Leave without pay,1,0,0,2022-12-23-TIA004
+190,Varun Kumar,Varun,TIA006,2023-01-13,Full day,Casual Leave,1,0,0,2023-01-13-TIA006
+191,Varun Kumar,Varun,TIA006,2023-01-21,Full day,Casual Leave,1,0,0,2023-01-21-TIA006
+192,Aishwarya Mittal,Aishwarya,,2023-01-16,Full day,Leave without pay,1,0,0,
+193,Aishwarya Mittal,Aishwarya,,2023-01-17,Full day,Leave without pay,1,0,0,
+194,Aishwarya Mittal,Aishwarya,,2023-01-18,Full day,Leave without pay,1,0,0,
+195,Aishwarya Mittal,Aishwarya,,2023-01-19,Full day,Leave without pay,1,0,0,
+196,Bantubala Patidar,Bantubala,TIAT005,2023-01-21,Full day,Casual Leave,1,0,0,2023-01-21-TIAT005
+197,Bantubala Patidar,Bantubala,TIAT005,2023-01-22,Full day,Casual Leave,1,0,0,2023-01-22-TIAT005
+198,Bantubala Patidar,Bantubala,TIAT005,2023-01-23,Full day,Casual Leave,1,0,0,2023-01-23-TIAT005
+199,Bantubala Patidar,Bantubala,TIAT005,2023-01-24,Full day,Casual Leave,1,0,0,2023-01-24-TIAT005
+200,Devendra Patidar,Devendra,Devendra,2023-01-28,Full day,Casual Leave,1,0,0,2023-01-28-Devendra
+201,Varun Kumar,Varun,TIA006,2023-01-30,Full day,Casual Leave,1,0,0,2023-01-30-TIA006
+202,Varun Kumar,Varun,TIA006,2023-01-31,Full day,Casual Leave,1,0,0,2023-01-31-TIA006
+203,Varun Kumar,Varun,TIA006,2023-02-01,Full day,Casual Leave,1,0,0,2023-02-01-TIA006
+204,Varun Kumar,Varun,TIA006,2023-02-02,Full day,Casual Leave,1,0,0,2023-02-02-TIA006
+205,Varun Kumar,Varun,TIA006,2023-02-03,Full day,Casual Leave,1,0,0,2023-02-03-TIA006
+206,Varun Kumar,Varun,TIA006,2023-02-04,Full day,Casual Leave,1,0,0,2023-02-04-TIA006
+207,Varun Kumar,Varun,TIA006,2023-02-06,Full day,Casual Leave,1,0,0,2023-02-06-TIA006
+208,Varun Kumar,Varun,TIA006,2023-02-07,Full day,Casual Leave,1,0,0,2023-02-07-TIA006
+209,Varun Kumar,Varun,TIA006,2023-02-08,Full day,Casual Leave,1,0,0,2023-02-08-TIA006
+210,Sachin Vaishnave,Sachin,TIA012,2023-01-09,Full day,Relocation Purpose,1,0,0,2023-01-09-TIA012
+211,Sachin Vaishnave,Sachin,TIA012,2023-01-10,Full day,Relocation Purpose,1,0,0,2023-01-10-TIA012
+212,Sachin Vaishnave,Sachin,TIA012,2023-01-11,Full day,Relocation Purpose,1,0,0,2023-01-11-TIA012
+213,Lokesh Patidar,Lokesh,,2023-01-23,Full day,Sick leave (Illness or Injury),1,0,0,
+214,Lokesh Patidar,Lokesh,,2023-01-24,Full day,Sick leave (Illness or Injury),1,0,0,
+215,Lokesh Patidar,Lokesh,,2023-01-25,Full day,Sick leave (Illness or Injury),1,0,0,
+216,Lokesh Patidar,Lokesh,,2023-01-26,Full day,Sick leave (Illness or Injury),1,0,0,
+217,Lokesh Patidar,Lokesh,,2023-01-27,Full day,Sick leave (Illness or Injury),1,0,0,
+218,Lokesh Patidar,Lokesh,,2023-01-28,Full day,Sick leave (Illness or Injury),1,0,0,
+219,Ajay Gadage,Ajay,,2023-01-25,Full day,Casual Leave,1,0,0,
+220,Ajay Gadage,Ajay,,2023-01-27,Full day,Casual Leave,1,0,0,
+221,Ajay Gadage,Ajay,,2023-01-28,Full day,Casual Leave,1,0,0,
+222,Aishwarya Mittal,Aishwarya,,2023-02-15,Full day,Leave without pay,1,0,0,
+223,Siddharth Soni,Siddharth,TIA008,2023-02-18,Full day,Casual Leave,1,0,0,2023-02-18-TIA008
+224,Bantubala Patidar,Bantubala,TIAT005,2023-02-20,Full day,Sick leave (Illness or Injury),1,0,0,2023-02-20-TIAT005
+225,Varun Kumar,Varun,TIA006,2023-02-25,Full day,Casual Leave,1,0,0,2023-02-25-TIA006
+226,Devendra Patidar,Devendra,Devendra,2023-02-23,Full day,Sick leave (Illness or Injury),1,0,0,2023-02-23-Devendra
+227,Saheba Khan,Saheba,TIA004,2023-02-24,2nd Half,Casual Leave,0,1,0,2023-02-24-TIA004
+228,Saheba Khan,Saheba,TIA004,2023-02-27,2nd Half,Casual Leave,0,1,0,2023-02-27-TIA004
+229,Saheba Khan,Saheba,TIA004,2023-02-28,2nd Half,Casual Leave,0,1,0,2023-02-28-TIA004
+230,Abhishek Patel,Abhishek,TIA009,2023-01-11,Full day,Casual Leave,1,0,0,2023-01-11-TIA009
+231,Abhishek Patel,Abhishek,TIA009,2023-01-12,Full day,Casual Leave,1,0,0,2023-01-12-TIA009
+232,Abhishek Patel,Abhishek,TIA009,2023-01-13,Full day,Casual Leave,1,0,0,2023-01-13-TIA009
+233,Abhishek Patel,Abhishek,TIA009,2023-02-18,Full day,Casual Leave,1,0,0,2023-02-18-TIA009
+234,Abhishek Patel,Abhishek,TIA009,2023-02-20,Full day,Casual Leave,1,0,0,2023-02-20-TIA009
+235,Abhishek Patel,Abhishek,TIA009,2023-02-21,Full day,Casual Leave,1,0,0,2023-02-21-TIA009
+236,Sachin Vaishnave,Sachin,TIA012,2023-03-02,2nd Half,Sick leave (Illness or Injury),0,1,0,2023-03-02-TIA012
+237,Sachin Vaishnave,Sachin,TIA012,2023-03-03,Full day,Sick leave (Illness or Injury),1,0,0,2023-03-03-TIA012
+238,Abhishek Patel,Abhishek,TIA009,2023-03-09,Full day,Sick leave (Illness or Injury),1,0,0,2023-03-09-TIA009
+239,Abhishek Patel,Abhishek,TIA009,2023-03-10,Full day,Sick leave (Illness or Injury),1,0,0,2023-03-10-TIA009
+240,Abhishek Patel,Abhishek,TIA009,2023-03-11,Full day,Sick leave (Illness or Injury),1,0,0,2023-03-11-TIA009
+241,Kuldeep Chouhan,Kuldeep,TIA013,2023-03-07,Full day,Casual Leave,1,0,0,2023-03-07-TIA013
+242,Kuldeep Chouhan,Kuldeep,TIA013,2023-03-08,Full day,Casual Leave,1,0,0,2023-03-08-TIA013
+243,Kuldeep Chouhan,Kuldeep,TIA013,2023-03-09,Full day,Casual Leave,1,0,0,2023-03-09-TIA013
+244,Kuldeep Chouhan,Kuldeep,TIA013,2023-03-10,Full day,Casual Leave,1,0,0,2023-03-10-TIA013
+245,Kuldeep Chouhan,Kuldeep,TIA013,2023-03-11,Full day,Casual Leave,1,0,0,2023-03-11-TIA013
+246,Kuldeep Chouhan,Kuldeep,TIA013,2023-03-12,Full day,Casual Leave,1,0,0,2023-03-12-TIA013
+247,Kuldeep Chouhan,Kuldeep,TIA013,2023-03-15,2nd Half,Casual Leave,0,1,0,2023-03-15-TIA013
+248,Bantubala Patidar,Bantubala,TIAT005,2023-03-28,Full day,Casual Leave,1,0,0,2023-03-28-TIAT005
+249,Bantubala Patidar,Bantubala,TIAT005,2023-03-30,Full day,Casual Leave,1,0,0,2023-03-30-TIAT005
+250,Siddharth Soni,Siddharth,TIA008,2023-03-29,2nd Half,Casual Leave,0,1,0,2023-03-29-TIA008
+251,Sachin Vaishnave,Sachin,TIA012,2023-04-04,2nd Half,Casual Leave,0,1,0,2023-04-04-TIA012
+252,Devendra Patidar,Devendra,Devendra,2023-03-29,Full day,Casual Leave,1,0,0,2023-03-29-Devendra
+253,Devendra Patidar,Devendra,Devendra,2023-03-30,Full day,Casual Leave,1,0,0,2023-03-30-Devendra
+254,Devendra Patidar,Devendra,Devendra,2023-03-31,Full day,Casual Leave,1,0,0,2023-03-31-Devendra
+255,Devendra Patidar,Devendra,Devendra,2023-04-01,Full day,Casual Leave,1,0,0,2023-04-01-Devendra
+256,Saheba Khan,Saheba,TIA004,2023-04-08,1st Half,Casual Leave,0,1,0,2023-04-08-TIA004
+257,Kuldeep Chouhan,Kuldeep,TIA013,2023-04-11,Full day,School work,1,0,0,2023-04-11-TIA013
+258,Saheba Khan,Saheba,TIA004,2023-04-18,Full day,Casual Leave,1,0,0,2023-04-18-TIA004
+259,Bantubala Patidar,Bantubala,TIAT005,2023-04-20,Full day,Casual Leave,1,0,0,2023-04-20-TIAT005
+260,Bantubala Patidar,Bantubala,TIAT005,2023-04-21,Full day,Casual Leave,1,0,0,2023-04-21-TIAT005
+261,Bantubala Patidar,Bantubala,TIAT005,2023-04-22,Full day,Casual Leave,1,0,0,2023-04-22-TIAT005
+262,Devendra Patidar,Devendra,Devendra,2023-04-18,1st Half,Casual Leave,0,1,0,2023-04-18-Devendra
+263,Varun Kumar,Varun,TIA006,2023-05-08,Full day,Casual Leave,1,0,0,2023-05-08-TIA006
+264,Kuldeep Chouhan,Kuldeep,TIA013,2023-05-13,Full day,work at home,1,0,0,2023-05-13-TIA013
+265,Devendra Patidar,Devendra,Devendra,2023-05-17,Full day,Sick leave (Illness or Injury),1,0,0,2023-05-17-Devendra
+266,Devendra Patidar,Devendra,Devendra,2023-05-18,Full day,Sick leave (Illness or Injury),1,0,0,2023-05-18-Devendra
+267,Yashika Agrawal,Yashika,,2023-05-25,Full day,Marriage,1,0,0,
+268,Yashika Agrawal,Yashika,,2023-05-26,Full day,Marriage,1,0,0,
+269,Sachin Vaishnave,Sachin,TIA012,2023-05-22,Full day,Casual Leave,1,0,0,2023-05-22-TIA012
+270,Sachin Vaishnave,Sachin,TIA012,2023-05-23,Full day,Casual Leave,1,0,0,2023-05-23-TIA012
+271,Varun Kumar,Varun,TIA006,2023-05-29,Full day,Casual Leave,1,0,0,2023-05-29-TIA006
+272,Varun Kumar,Varun,TIA006,2023-05-30,Full day,Casual Leave,1,0,0,2023-05-30-TIA006
+273,Saheba Khan,Saheba,TIA004,2023-05-29,Full day,Casual Leave,1,0,0,2023-05-29-TIA004
+274,Saheba Khan,Saheba,TIA004,2023-05-29,Full day,Casual Leave,1,0,0,2023-05-29-TIA004
+275,Varun Kumar,Varun,TIA006,2023-06-03,2nd Half,Casual Leave,0,1,0,2023-06-03-TIA006
+276,Sachin Vaishnave,Sachin,TIA012,2023-06-03,2nd Half,Sick leave (Illness or Injury),0,1,0,2023-06-03-TIA012
+277,Yashika Agrawal,Yashika,,2023-06-05,2nd Half,Personal,0,1,0,
+278,Yashika Agrawal,Yashika,,2023-06-08,Full day,Sick leave (Illness or Injury),1,0,0,
+279,Yashika Agrawal,Yashika,,2023-06-09,Full day,Sick leave (Illness or Injury),1,0,0,
+280,Devendra Patidar,Devendra,Devendra,2023-06-05,Full day,Casual Leave,1,0,0,2023-06-05-Devendra
+281,Devendra Patidar,Devendra,Devendra,2023-06-06,Full day,Casual Leave,1,0,0,2023-06-06-Devendra
+282,Devendra Patidar,Devendra,Devendra,2023-06-07,Full day,Casual Leave,1,0,0,2023-06-07-Devendra
+283,Devendra Patidar,Devendra,Devendra,2023-06-08,Full day,Casual Leave,1,0,0,2023-06-08-Devendra
+284,Varun Kumar,Varun,TIA006,2023-06-10,2nd Half,Casual Leave,0,1,0,2023-06-10-TIA006
+285,Varun Kumar,Varun,TIA006,2023-06-17,2nd Half,Casual Leave,0,1,0,2023-06-17-TIA006
+286,Varun Kumar,Varun,TIA006,2023-06-24,2nd Half,Casual Leave,0,1,0,2023-06-24-TIA006
+287,Siddharth Soni,Siddharth,TIA008,2023-07-05,Full day,Casual Leave,1,0,0,2023-07-05-TIA008
+288,Siddharth Soni,Siddharth,TIA008,2023-07-06,Full day,Casual Leave,1,0,0,2023-07-06-TIA008
+289,Siddharth Soni,Siddharth,TIA008,2023-07-07,Full day,Casual Leave,1,0,0,2023-07-07-TIA008
+290,Siddharth Soni,Siddharth,TIA008,2023-07-08,Full day,Casual Leave,1,0,0,2023-07-08-TIA008
+291,Yashika Agrawal,Yashika,,2023-06-30,Full day,Going out of station,1,0,0,
+292,Yashika Agrawal,Yashika,,2023-06-27,2nd Half,Casual Leave,0,1,0,
+293,Abhishek Patel,Abhishek,TIA009,2023-07-03,2nd Half,Casual Leave,0,1,0,2023-07-03-TIA009
+294,Varun Kumar,Varun,TIA006,2023-07-01,2nd Half,Casual Leave,0,1,0,2023-07-01-TIA006
+295,Varun Kumar,Varun,TIA006,2023-07-08,2nd Half,Casual Leave,0,1,0,2023-07-08-TIA006
+296,Sachin Vaishnave,Sachin,TIA012,2023-07-08,2nd Half,Casual Leave,0,1,0,2023-07-08-TIA012
+297,Bantubala Patidar,Bantubala,TIAT005,2023-07-03,Full day,Casual Leave,1,0,0,2023-07-03-TIAT005
+298,Bantubala Patidar,Bantubala,TIAT005,2023-07-04,Full day,Casual Leave,1,0,0,2023-07-04-TIAT005
+299,Devendra Patidar,Devendra,Devendra,2023-07-11,Full day,Sick leave (Illness or Injury),1,0,0,2023-07-11-Devendra
+300,Kuldeep Chouhan,Kuldeep,TIA013,2023-07-17,Full day,Casual Leave,1,0,0,2023-07-17-TIA013
+301,Saheba Khan,Saheba,TIA004,2023-07-24,1st Half,Casual Leave,0,1,0,2023-07-24-TIA004
+302,Saheba Khan,Saheba,TIA004,2023-07-26,1st Half,Casual Leave,0,1,0,2023-07-26-TIA004
+303,Saheba Khan,Saheba,TIA004,2023-07-28,Full day,Casual Leave,1,0,0,2023-07-28-TIA004
+304,Siddharth Soni,Siddharth,TIA008,2023-07-28,Full day,SBI Bank Work,1,0,0,2023-07-28-TIA008
+305,Abhishek Patel,Abhishek,TIA009,2023-07-29,2nd Half,Casual Leave,0,1,0,2023-07-29-TIA009
+306,Sachin Vaishnave,Sachin,TIA012,2023-08-07,2nd Half,Sick leave (Illness or Injury),0,1,0,2023-08-07-TIA012
+307,Abhishek Patel,Abhishek,TIA009,2023-08-04,Full day,Sick leave (Illness or Injury),1,0,0,2023-08-04-TIA009
+308,Siddharth Soni,Siddharth,TIA008,2023-08-10,Full day,College Work,1,0,0,2023-08-10-TIA008
+309,Devendra Patidar,Devendra,Devendra,2023-08-05,Full day,Sick leave (Illness or Injury),1,0,0,2023-08-05-Devendra
+310,Devendra Patidar,Devendra,Devendra,2023-07-29,Full day,Sick leave (Illness or Injury),1,0,0,2023-07-29-Devendra
+311,Sachin Vaishnave,Sachin,TIA012,2023-08-11,Full day,Sick leave (Illness or Injury),1,0,0,2023-08-11-TIA012
+312,Varun Kumar,Varun,TIA006,2023-08-28,Full day,Casual Leave,1,0,0,2023-08-28-TIA006
+313,Varun Kumar,Varun,TIA006,2023-08-29,Full day,Casual Leave,1,0,0,2023-08-29-TIA006
+314,Devendra Patidar,Devendra,Devendra,2023-08-18,Full day,Sick leave (Illness or Injury),1,0,0,2023-08-18-Devendra
+315,Devendra Patidar,Devendra,Devendra,2023-08-19,Full day,Sick leave (Illness or Injury),1,0,0,2023-08-19-Devendra
+316,Priyanka Bhargava,Priyanka,,2023-08-19,Full day,Casual Leave,1,0,0,
+317,Priyanka Bhargava,Priyanka,,2023-08-20,Full day,Casual Leave,1,0,0,
+318,Priyanka Bhargava,Priyanka,,2023-08-21,Full day,Casual Leave,1,0,0,
+319,Lokesh Patidar,Lokesh,,2023-09-01,Full day,Sick leave (Illness or Injury),1,0,0,
+320,Lokesh Patidar,Lokesh,,2023-09-02,Full day,Sick leave (Illness or Injury),1,0,0,
+321,Priyanka Bhargava,Priyanka,,2023-08-28,Full day,Casual Leave,1,0,0,
+322,Priyanka Bhargava,Priyanka,,2023-08-29,Full day,Casual Leave,1,0,0,
+323,Priyanka Bhargava,Priyanka,,2023-08-30,Full day,Casual Leave,1,0,0,
+324,Priyanka Bhargava,Priyanka,,2023-08-31,Full day,Casual Leave,1,0,0,
+325,Priyanka Bhargava,Priyanka,,2023-09-01,Full day,Casual Leave,1,0,0,
+326,Bantubala Patidar,Bantubala,TIAT005,2023-08-29,Full day,Casual Leave,1,0,0,2023-08-29-TIAT005
+327,Sachin Vaishnave,Sachin,TIA012,2023-09-02,Full day,Casual Leave,1,0,0,2023-09-02-TIA012
+328,Varun Kumar,Varun,TIA006,2023-09-05,2nd Half,Casual Leave,0,1,0,2023-09-05-TIA006
+329,Abhishek Patel,Abhishek,TIA009,2023-09-06,Full day,Casual Leave,1,0,0,2023-09-06-TIA009
+330,Govind Rathore,Govind,,1995-04-12,Full day,medical cause,1,0,0,
+331,Govind Rathore,Govind,,2023-09-01,Full day,Leave without pay,1,0,0,
+332,Govind Rathore,Govind,,2023-09-05,Full day,medical casue,1,0,0,
+333,Saloni Soni,Saloni,,2023-09-07,Full day,Casual Leave,1,0,0,
+334,Varun Kumar,Varun,TIA006,2023-09-11,Full day,Sick leave (Illness or Injury),1,0,0,2023-09-11-TIA006
+335,Kuldeep Chouhan,Kuldeep,TIA013,2023-09-16,Full day,Sick leave (Illness or Injury),1,0,0,2023-09-16-TIA013
+336,Priyanka Bhargava,Priyanka,,2023-09-19,Full day,Casual Leave,1,0,0,
+337,Varun Kumar,Varun,TIA006,2023-09-21,2nd Half,Casual Leave,0,1,0,2023-09-21-TIA006
+338,Sachin Vaishnave,Sachin,TIA012,2023-10-07,Full day,Casual Leave,1,0,0,2023-10-07-TIA012
+339,Varun Kumar,Varun,TIA006,2023-10-07,2nd Half,Casual Leave,0,1,0,2023-10-07-TIA006
+340,Varun Kumar,Varun,TIA006,2023-10-07,1st Half,Work from Home,0,1,0,2023-10-07-TIA006
+341,Varun Kumar,Varun,TIA006,2023-10-13,2nd Half,Casual Leave,0,1,0,2023-10-13-TIA006
+342,Devendra Patidar,Devendra,Devendra,2023-10-16,Full day,Sick leave (Illness or Injury),1,0,0,2023-10-16-Devendra
+343,Devendra Patidar,Devendra,Devendra,2023-10-17,Full day,Sick leave (Illness or Injury),1,0,0,2023-10-17-Devendra
+344,Varun Kumar,Varun,TIA006,2023-10-19,2nd Half,Casual Leave,0,1,0,2023-10-19-TIA006
+345,Varun Kumar,Varun,TIA006,2023-10-28,2nd Half,Casual Leave,0,1,0,2023-10-28-TIA006
+346,Devendra Patidar,Devendra,Devendra,2023-10-23,Full day,Sick leave (Illness or Injury),1,0,0,2023-10-23-Devendra
+347,Devendra Patidar,Devendra,Devendra,2023-10-24,Full day,Sick leave (Illness or Injury),1,0,0,2023-10-24-Devendra
+348,Devendra Patidar,Devendra,Devendra,2023-10-25,Full day,Sick leave (Illness or Injury),1,0,0,2023-10-25-Devendra
+349,Devendra Patidar,Devendra,Devendra,2023-10-26,Full day,Sick leave (Illness or Injury),1,0,0,2023-10-26-Devendra
+350,Devendra Patidar,Devendra,Devendra,2023-10-27,Full day,Sick leave (Illness or Injury),1,0,0,2023-10-27-Devendra
+351,Devendra Patidar,Devendra,Devendra,2023-10-28,Full day,Sick leave (Illness or Injury),1,0,0,2023-10-28-Devendra
+352,Devendra Patidar,Devendra,Devendra,2023-10-29,Full day,Sick leave (Illness or Injury),1,0,0,2023-10-29-Devendra
+353,Sachin Vaishnave,Sachin,TIA012,2023-11-01,2nd Half,Casual Leave,0,1,0,2023-11-01-TIA012
+354,Varun Kumar,Varun,TIA006,2023-11-01,2nd Half,Casual Leave,0,1,0,2023-11-01-TIA006
+355,Varun Kumar,Varun,TIA006,2023-11-09,2nd Half,Casual Leave,0,1,0,2023-11-09-TIA006
+356,Sachin Vaishnave,Sachin,TIA012,2023-11-14,Full day,Casual Leave,1,0,0,2023-11-14-TIA012
+357,Saheba Khan,Saheba,TIA004,2023-11-14,Full day,Casual Leave,1,0,0,2023-11-14-TIA004
+358,Varun Kumar,Varun,TIA006,2023-11-18,Full day,Casual Leave,1,0,0,2023-11-18-TIA006
+359,Sachin Vaishnave,Sachin,TIA012,2023-11-16,Full day,Casual Leave,1,0,0,2023-11-16-TIA012
+360,Sachin Vaishnave,Sachin,TIA012,2023-11-17,Full day,Casual Leave,1,0,0,2023-11-17-TIA012
+361,Sachin Vaishnave,Sachin,TIA012,2023-11-18,Full day,Casual Leave,1,0,0,2023-11-18-TIA012
+362,Sachin Vaishnave,Sachin,TIA012,2023-11-20,Full day,Casual Leave,1,0,0,2023-11-20-TIA012
+363,Saheba Khan,Saheba,TIA004,2023-11-23,Full day,Casual Leave,1,0,0,2023-11-23-TIA004
+364,Gayatri Goyal,Gayatri,TIA018,2023-11-24,2nd Half,Sick leave (Illness or Injury),0,1,0,2023-11-24-TIA018
+365,Varun Kumar,Varun,TIA006,2023-11-25,2nd Half,Casual Leave,0,1,0,2023-11-25-TIA006
+366,Sachin Vaishnave,Sachin,TIA012,2023-11-27,Full day,Sick leave (Illness or Injury),1,0,0,2023-11-27-TIA012
+367,Varun Kumar,Varun,TIA006,2023-12-02,2nd Half,Casual Leave,0,1,0,2023-12-02-TIA006
+368,Varun Kumar,Varun,TIA006,2023-12-04,Full day,Casual Leave,1,0,0,2023-12-04-TIA006
+369,Gayatri Goyal,Gayatri,TIA018,2023-12-08,Full day,Sick leave (Illness or Injury),1,0,0,2023-12-08-TIA018
+370,Sachin Vaishnave,Sachin,TIA012,2023-12-08,Full day,Sick leave (Illness or Injury),1,0,0,2023-12-08-TIA012
+371,Gayatri Goyal,Gayatri,TIA018,2023-12-12,2nd Half,Sick leave (Illness or Injury),0,1,0,2023-12-12-TIA018
+372,Sachin Vaishnave,Sachin,TIA012,2023-12-13,2nd Half,Casual Leave,0,1,0,2023-12-13-TIA012
+373,Varun Kumar,Varun,TIA006,2023-12-15,2nd Half,Casual Leave,0,1,0,2023-12-15-TIA006
+374,Varun Kumar,Varun,TIA006,2023-12-20,2nd Half,Casual Leave,0,1,0,2023-12-20-TIA006
+375,Sachin Vaishnave,Sachin,TIA012,2023-12-22,2nd Half,Visit to Dentist Hospital,0,1,0,2023-12-22-TIA012
+376,Saheba Khan,Saheba,TIA004,2023-12-23,Full day,Casual Leave,1,0,0,2023-12-23-TIA004
+377,Gayatri Goyal,Gayatri,TIA018,2023-12-29,Full day,Sick leave (Illness or Injury),1,0,0,2023-12-29-TIA018
+378,Bantubala Patidar,Bantubala,TIAT005,2024-01-02,Full day,Casual Leave,1,0,0,2024-01-02-TIAT005
+379,Bantubala Patidar,Bantubala,TIAT005,2024-01-08,Full day,Sick leave (Illness or Injury),1,0,0,2024-01-08-TIAT005
+380,Varun Kumar,Varun,TIA006,2024-01-29,Full day,Casual Leave,1,0,0,2024-01-29-TIA006
+381,Varun Kumar,Varun,TIA006,2024-01-30,Full day,Casual Leave,1,0,0,2024-01-30-TIA006
+382,Varun Kumar,Varun,TIA006,2024-01-31,Full day,Casual Leave,1,0,0,2024-01-31-TIA006
+383,Varun Kumar,Varun,TIA006,2024-02-01,Full day,Casual Leave,1,0,0,2024-02-01-TIA006
+384,Varun Kumar,Varun,TIA006,2024-02-02,Full day,Casual Leave,1,0,0,2024-02-02-TIA006
+385,Varun Kumar,Varun,TIA006,2024-02-03,Full day,Casual Leave,1,0,0,2024-02-03-TIA006
+386,Varun Kumar,Varun,TIA006,2024-01-23,2nd Half,Casual Leave,0,1,0,2024-01-23-TIA006
+387,Abhishek Patel,Abhishek,TIA009,2024-01-29,2nd Half,Casual Leave,0,1,0,2024-01-29-TIA009
+388,Abhishek Patel,Abhishek,TIA009,2024-01-30,Full day,Casual Leave,1,0,0,2024-01-30-TIA009
+389,Sachin Vaishnave,Sachin,TIA012,2024-01-27,2nd Half,Sick leave (Illness or Injury),0,1,0,2024-01-27-TIA012
+390,Aditi Chawda,Aditi,TIA019,2024-01-28,Full day,Casual Leave,1,0,0,2024-01-28-TIA019
+391,Aditi Chawda,Aditi,TIA019,2024-01-29,Full day,Casual Leave,1,0,0,2024-01-29-TIA019
+392,Aditi Chawda,Aditi,TIA019,2024-01-30,Full day,Casual Leave,1,0,0,2024-01-30-TIA019
+393,Aditi Chawda,Aditi,TIA019,2024-01-31,Full day,Casual Leave,1,0,0,2024-01-31-TIA019
+394,Aditi Chawda,Aditi,TIA019,2024-02-01,Full day,Casual Leave,1,0,0,2024-02-01-TIA019
+395,Aditi Chawda,Aditi,TIA019,2024-02-02,Full day,Casual Leave,1,0,0,2024-02-02-TIA019
+396,Aditi Chawda,Aditi,TIA019,2024-02-03,Full day,Casual Leave,1,0,0,2024-02-03-TIA019
+397,Aditi Chawda,Aditi,TIA019,2024-02-10,Full day,Sick leave (Illness or Injury),1,0,0,2024-02-10-TIA019
+398,Bantubala Patidar,Bantubala,TIAT005,2024-02-12,Full day,Casual Leave,1,0,0,2024-02-12-TIAT005
+399,Bantubala Patidar,Bantubala,TIAT005,2024-02-13,Full day,Casual Leave,1,0,0,2024-02-13-TIAT005
+400,Bantubala Patidar,Bantubala,TIAT005,2024-02-14,Full day,Casual Leave,1,0,0,2024-02-14-TIAT005
+401,Bantubala Patidar,Bantubala,TIAT005,2024-02-15,Full day,Casual Leave,1,0,0,2024-02-15-TIAT005
+402,Shivangi Gupta,Shivangi,TIA022,2024-02-17,Full day,Sick leave (Illness or Injury),1,0,0,2024-02-17-TIA022
+403,Varun Kumar,Varun,TIA006,2024-02-19,2nd Half,Casual Leave,0,1,0,2024-02-19-TIA006
+404,Saheba Khan,Saheba,TIA004,2024-02-27,1st Half,Casual Leave,0,1,0,2024-02-27-TIA004
+405,Varun Kumar,Varun,TIA006,2024-02-29,2nd Half,Casual Leave,0,1,0,2024-02-29-TIA006
+406,Aditi Chawda,Aditi,TIA019,2024-03-04,Full day,College Presentation,1,0,0,2024-03-04-TIA019
+407,Sachin Vaishnave,Sachin,TIA012,2024-03-09,Full day,Casual Leave,1,0,0,2024-03-09-TIA012
+408,Saheba Khan,Saheba,TIA004,2024-03-07,Full day,Casual Leave,1,0,0,2024-03-07-TIA004
+409,Aditi Chawda,Aditi,TIA019,2024-03-14,Full day,Work From Home,0,0,1,2024-03-14-TIA019
+410,Varun Kumar,Varun,TIA006,2024-03-16,2nd Half,Casual Leave,0,1,0,2024-03-16-TIA006
+411,Aditi Chawda,Aditi,TIA019,2024-03-15,Full day,Sick leave (Illness or Injury),1,0,0,2024-03-15-TIA019
+412,Aditi Chawda,Aditi,TIA019,2024-03-16,Full day,Sick leave (Illness or Injury),1,0,0,2024-03-16-TIA019
+413,Aditi Chawda,Aditi,TIA019,2024-03-18,Full day,Work From Home,0,0,1,2024-03-18-TIA019
+414,Aditi Chawda,Aditi,TIA019,2024-03-19,Full day,Work From Home,0,0,1,2024-03-19-TIA019
+415,Aditi Chawda,Aditi,TIA019,2024-03-20,Full day,Work From Home,0,0,1,2024-03-20-TIA019
+416,Aditi Chawda,Aditi,TIA019,2024-03-21,Full day,Work From Home,0,0,1,2024-03-21-TIA019
+417,Aditi Chawda,Aditi,TIA019,2024-03-22,Full day,Work From Home,0,0,1,2024-03-22-TIA019
+418,Aditi Chawda,Aditi,TIA019,2024-03-23,Full day,Work From Home,0,0,1,2024-03-23-TIA019
+419,Varun Kumar,Varun,TIA006,2024-03-23,Full day,Casual Leave,1,0,0,2024-03-23-TIA006
+420,Aditi Chawda,Aditi,TIA019,2024-03-23,Full day,Sick leave (Illness or Injury),1,0,0,2024-03-23-TIA019
+421,Bantubala Patidar,Bantubala,TIAT005,2024-03-26,Full day,Casual Leave,1,0,0,2024-03-26-TIAT005
+422,Bantubala Patidar,Bantubala,TIAT005,2024-03-27,Full day,Casual Leave,1,0,0,2024-03-27-TIAT005
+423,Aditi Chawda,Aditi,TIA019,2024-03-27,Full day,Work From Home,0,0,1,2024-03-27-TIA019
+424,Aditi Chawda,Aditi,TIA019,2024-03-28,Full day,Work From Home,0,0,1,2024-03-28-TIA019
+425,Aditi Chawda,Aditi,TIA019,2024-03-29,Full day,Work From Home,0,0,1,2024-03-29-TIA019
+426,Aditi Chawda,Aditi,TIA019,2024-03-30,Full day,Work From Home,0,0,1,2024-03-30-TIA019
+427,Varun Kumar,Varun,TIA006,2024-03-28,Full day,Casual Leave,1,0,0,2024-03-28-TIA006
+428,Varun Kumar,Varun,TIA006,2024-03-26,Full day,Casual Leave,1,0,0,2024-03-26-TIA006
+429,Saheba Khan,Saheba,TIA004,2024-03-23,Full day,Casual Leave,1,0,0,2024-03-23-TIA004
+430,Varun Kumar,Varun,TIA006,2024-04-06,Full day,Sick leave (Illness or Injury),1,0,0,2024-04-06-TIA006
+431,Saheba Khan,Saheba,TIA004,2024-04-06,2nd Half,Casual Leave,0,1,0,2024-04-06-TIA004
+432,Aditi Chawda,Aditi,TIA019,2024-04-11,1st Half,Sick leave (Illness or Injury),0,1,0,2024-04-11-TIA019
+433,Saheba Khan,Saheba,TIA004,2024-04-10,Full day,Casual Leave,1,0,0,2024-04-10-TIA004
+434,Sachin Vaishnave,Sachin,TIA012,2024-04-17,Full day,Ram Navmi Leave,1,0,0,2024-04-17-TIA012
+435,Aditi Chawda,Aditi,TIA019,2024-04-22,Full day,Sick leave (Illness or Injury),1,0,0,2024-04-22-TIA019
+436,Aditi Chawda,Aditi,TIA019,2024-04-23,Full day,Work From Home,0,0,1,2024-04-23-TIA019
+437,Saheba Khan,Saheba,TIA004,2024-04-23,Full day,Casual Leave,1,0,0,2024-04-23-TIA004
+438,Varun Kumar,Varun,TIA006,2024-04-27,Full day,Casual Leave,1,0,0,2024-04-27-TIA006
+439,Bantubala Patidar,Bantubala,TIAT005,2024-04-23,Full day,Casual Leave,1,0,0,2024-04-23-TIAT005
+440,Bantubala Patidar,Bantubala,TIAT005,2024-04-24,Full day,Casual Leave,1,0,0,2024-04-24-TIAT005
+441,Aditi Chawda,Aditi,TIA019,2024-05-17,Full day,Work From Home,0,0,1,2024-05-17-TIA019
+442,Saheba Khan,Saheba,TIA004,2024-05-18,Full day,Sick leave (Illness or Injury),1,0,0,2024-05-18-TIA004
+443,Abhishek Patel,Abhishek,TIA009,2024-05-20,Full day,Casual Leave,1,0,0,2024-05-20-TIA009
+444,Aditi Chawda,Aditi,TIA019,2024-05-21,Full day,Examination,1,0,0,2024-05-21-TIA019
+445,Sachin Vaishnave,Sachin,TIA012,2024-05-22,Full day,Casual Leave,1,0,0,2024-05-22-TIA012
+446,Siddharth Soni,Siddharth,TIA008,2024-05-23,1st Half,Sick leave (Illness or Injury),0,1,0,2024-05-23-TIA008
+447,Bantubala Patidar,Bantubala,TIAT005,2024-05-27,Full day,Casual Leave,1,0,0,2024-05-27-TIAT005
+448,Sachin Vaishnave,Sachin,TIA012,2024-05-28,2nd Half,Doctors visit,0,1,0,2024-05-28-TIA012
+449,Bantubala Patidar,Bantubala,TIAT005,2024-05-29,Full day,Casual Leave,1,0,0,2024-05-29-TIAT005
+450,Bantubala Patidar,Bantubala,TIAT005,2024-05-31,Full day,Casual Leave,1,0,0,2024-05-31-TIAT005
+451,Saheba Khan,Saheba,TIA004,2024-06-01,Full day,Casual Leave,1,0,0,2024-06-01-TIA004
+452,Bantubala Patidar,Bantubala,TIAT005,2024-06-05,Full day,Casual Leave,1,0,0,2024-06-05-TIAT005
+453,Sachin Vaishnave,Sachin,TIA012,2024-05-30,Full day,Sick leave (Illness or Injury),1,0,0,2024-05-30-TIA012
+454,Sachin Vaishnave,Sachin,TIA012,2024-05-31,Full day,Sick leave (Illness or Injury),1,0,0,2024-05-31-TIA012
+455,Sachin Vaishnave,Sachin,TIA012,2024-06-01,Full day,Sick leave (Illness or Injury),1,0,0,2024-06-01-TIA012
+456,Sachin Vaishnave,Sachin,TIA012,2024-06-02,Full day,Sick leave (Illness or Injury),1,0,0,2024-06-02-TIA012
+457,Sachin Vaishnave,Sachin,TIA012,2024-06-03,Full day,Sick leave (Illness or Injury),1,0,0,2024-06-03-TIA012
+458,Sachin Vaishnave,Sachin,TIA012,2024-06-04,Full day,Sick leave (Illness or Injury),1,0,0,2024-06-04-TIA012
+459,Sachin Vaishnave,Sachin,TIA012,2024-06-05,Full day,Sick leave (Illness or Injury),1,0,0,2024-06-05-TIA012
+460,Sachin Vaishnave,Sachin,TIA012,2024-06-06,Full day,Sick leave (Illness or Injury),1,0,0,2024-06-06-TIA012
+461,Sachin Vaishnave,Sachin,TIA012,2024-06-07,Full day,Sick leave (Illness or Injury),1,0,0,2024-06-07-TIA012
+462,Sachin Vaishnave,Sachin,TIA012,2024-06-08,Full day,Sick leave (Illness or Injury),1,0,0,2024-06-08-TIA012
+463,Sachin Vaishnave,Sachin,TIA012,2024-06-09,Full day,Sick leave (Illness or Injury),1,0,0,2024-06-09-TIA012
+464,Kuldeep Chouhan,Kuldeep,TIA013,2024-06-15,2nd Half,Casual Leave,0,1,0,2024-06-15-TIA013
+465,Bantubala Patidar,Bantubala,TIAT005,2024-06-10,Full day,Sick leave (Illness or Injury),1,0,0,2024-06-10-TIAT005
+466,Saheba Khan,Saheba,TIA004,2024-06-22,1st Half,Sick leave (Illness or Injury),0,1,0,2024-06-22-TIA004
+467,Sachin Vaishnave,Sachin,TIA012,2024-06-20,1st Half,Sick leave (Illness or Injury),0,1,0,2024-06-20-TIA012
+468,Saheba Khan,Saheba,TIA004,2024-06-25,Full day,Sick leave (Illness or Injury),1,0,0,2024-06-25-TIA004
+469,Saheba Khan,Saheba,TIA004,2024-06-26,Full day,Sick leave (Illness or Injury),1,0,0,2024-06-26-TIA004
+470,Aditi Chawda,Aditi,TIA019,2024-07-17,Full day,Casual Leave,1,0,0,2024-07-17-TIA019
+471,Sachin Vaishnave,Sachin,TIA012,2024-07-16,Full day,Leave without pay,1,0,0,2024-07-16-TIA012
+472,Bantubala Patidar,Bantubala,TIAT005,2024-07-18,Full day,Casual Leave,1,0,0,2024-07-18-TIAT005
+473,Bantubala Patidar,Bantubala,TIAT005,2024-07-19,Full day,Casual Leave,1,0,0,2024-07-19-TIAT005
+474,Aditi Chawda,Aditi,TIA019,2024-08-07,Full day,Casual Leave,1,0,0,2024-08-07-TIA019
+475,Aditi Chawda,Aditi,TIA019,2024-08-16,Full day,Casual Leave,1,0,0,2024-08-16-TIA019
+476,Aditi Chawda,Aditi,TIA019,2024-08-17,Full day,Casual Leave,1,0,0,2024-08-17-TIA019
+477,Saheba Khan,Saheba,TIA004,2024-08-16,Full day,Casual Leave,1,0,0,2024-08-16-TIA004
+478,Saheba Khan,Saheba,TIA004,2024-08-17,Full day,Casual Leave,1,0,0,2024-08-17-TIA004
+479,Bantubala Patidar,Bantubala,TIAT005,2024-09-23,Full day,Sick leave (Illness or Injury),1,0,0,2024-09-23-TIAT005
+480,Sachin Vaishnave,Sachin,TIA012,2024-09-20,Full day,Casual Leave,1,0,0,2024-09-20-TIA012
+481,Sachin Vaishnave,Sachin,TIA012,2024-09-28,Full day,Casual Leave,1,0,0,2024-09-28-TIA012
+482,Bantubala Patidar,Bantubala,TIAT005,2024-09-30,Full day,Exam preparation,1,0,0,2024-09-30-TIAT005
+483,Bantubala Patidar,Bantubala,TIAT005,2024-10-04,Full day,Exams Preparations,1,0,0,2024-10-04-TIAT005
+484,Bantubala Patidar,Bantubala,TIAT005,2024-10-08,Full day,exams preparations,1,0,0,2024-10-08-TIAT005
+485,Devesh Patwa,Devesh,TIA023,2024-10-07,Full day,Emergency leave,1,0,0,2024-10-07-TIA023
+486,Swarna Birla,Swarna,,2024-10-09,Full day,Work From Home,0,0,1,
+487,Swarna Birla,Swarna,,2024-10-10,Full day,Work From Home,0,0,1,
+488,Aditi Chawda,Aditi,TIA019,2024-10-11,Full day,Durga Pujan,1,0,0,2024-10-11-TIA019
+489,Swarna Birla,Swarna,,2024-10-15,Full day,Work From Home,0,0,1,
+490,Purnima Khandelwal,Purnima,TIA024,2024-10-25,Full day,Casual Leave,1,0,0,2024-10-25-TIA024
+491,Purnima Khandelwal,Purnima,TIA024,2024-10-26,Full day,Casual Leave,1,0,0,2024-10-26-TIA024
+492,Purnima Khandelwal,Purnima,TIA024,2024-10-27,Full day,Casual Leave,1,0,0,2024-10-27-TIA024
+493,Purnima Khandelwal,Purnima,TIA024,2024-10-28,Full day,Casual Leave,1,0,0,2024-10-28-TIA024
+494,Purnima Khandelwal,Purnima,TIA024,2024-11-06,Full day,Casual Leave,1,0,0,2024-11-06-TIA024
+495,Sachin Vaishnave,Sachin,TIA012,2024-10-19,Full day,Casual Leave,1,0,0,2024-10-19-TIA012
+496,Devendra Patidar,Devendra,Devendra,2024-10-14,Full day,Casual Leave,1,0,0,2024-10-14-Devendra
+497,Devendra Patidar,Devendra,Devendra,2024-10-15,Full day,Casual Leave,1,0,0,2024-10-15-Devendra
+498,Devendra Patidar,Devendra,Devendra,2024-10-16,2nd Half,Casual Leave,0,1,0,2024-10-16-Devendra
+499,Saheba Khan,Saheba,TIA004,2024-10-18,Full day,Sick leave (Illness or Injury),1,0,0,2024-10-18-TIA004
+500,Arvind Vishwakarma,Arvind,TIA026,2024-10-28,Full day,Casual Leave,1,0,0,2024-10-28-TIA026
+501,Devesh Patwa,Devesh,TIA023,2024-10-28,Full day,Casual Leave,1,0,0,2024-10-28-TIA023
+502,Aditi Chawda,Aditi,TIA019,2024-10-28,Full day,Work From Home,0,0,1,2024-10-28-TIA019
+503,Kuldeep Chouhan,Kuldeep,TIA013,2024-11-04,Full day,Casual Leave,1,0,0,2024-11-04-TIA013
+504,Bantubala Patidar,Bantubala,TIAT005,2024-10-28,Full day,Casual Leave,1,0,0,2024-10-28-TIAT005
+505,Devesh Patwa,Devesh,TIA023,2024-11-04,Full day,Casual Leave,1,0,0,2024-11-04-TIA023
+506,Varun Kumar,Varun,TIA006,2024-11-04,Full day,Casual Leave,1,0,0,2024-11-04-TIA006
+507,Swarna Birla,Swarna,,2024-11-04,Full day,Work From Home,0,0,1,
+508,Swarna Birla,Swarna,,2024-11-05,Full day,Work From Home,0,0,1,
+509,Swarna Birla,Swarna,,2024-11-06,Full day,Work From Home,0,0,1,
+510,Swarna Birla,Swarna,,2024-11-07,Full day,Work From Home,0,0,1,
+511,Swarna Birla,Swarna,,2024-11-08,Full day,Work From Home,0,0,1,
+512,Swarna Birla,Swarna,,2024-11-09,Full day,Work From Home,0,0,1,
+513,Swarna Birla,Swarna,,2024-11-10,Full day,Work From Home,0,0,1,
+514,Swarna Birla,Swarna,,2024-11-11,Full day,Work From Home,0,0,1,
+515,Swarna Birla,Swarna,,2024-11-12,Full day,Work From Home,0,0,1,
+516,Swarna Birla,Swarna,,2024-11-13,Full day,Work From Home,0,0,1,
+517,Swarna Birla,Swarna,,2024-11-14,Full day,Work From Home,0,0,1,
+518,Swarna Birla,Swarna,,2024-11-15,Full day,Work From Home,0,0,1,
+519,Swarna Birla,Swarna,,2024-11-16,Full day,Work From Home,0,0,1,
+520,Swarna Birla,Swarna,,2024-11-17,Full day,Work From Home,0,0,1,
+521,Swarna Birla,Swarna,,2024-11-18,Full day,Work From Home,0,0,1,
+522,Swarna Birla,Swarna,,2024-11-19,Full day,Work From Home,0,0,1,
+523,Swarna Birla,Swarna,,2024-11-20,Full day,Work From Home,0,0,1,
+524,Swarna Birla,Swarna,,2024-11-21,Full day,Work From Home,0,0,1,
+525,Swarna Birla,Swarna,,2024-11-22,Full day,Work From Home,0,0,1,
+526,Swarna Birla,Swarna,,2024-11-23,Full day,Work From Home,0,0,1,
+527,Swarna Birla,Swarna,,2024-11-24,Full day,Work From Home,0,0,1,
+528,Swarna Birla,Swarna,,2024-11-25,Full day,Work From Home,0,0,1,
+529,Swarna Birla,Swarna,,2024-11-26,Full day,Work From Home,0,0,1,
+530,Swarna Birla,Swarna,,2024-11-27,Full day,Work From Home,0,0,1,
+531,Swarna Birla,Swarna,,2024-11-28,Full day,Work From Home,0,0,1,
+532,Saheba Khan,Saheba,TIA004,2024-10-28,Full day,Casual Leave,1,0,0,2024-10-28-TIA004
+533,Aditi Chawda,Aditi,TIA019,2024-11-09,Full day,Sick leave (Illness or Injury),1,0,0,2024-11-09-TIA019
+534,Devesh Patwa,Devesh,TIA023,2024-11-21,Full day,Casual Leave,1,0,0,2024-11-21-TIA023
+535,Arvind Vishwakarma,Arvind,TIA026,2024-11-22,Full day,Casual Leave,1,0,0,2024-11-22-TIA026
+536,Arvind Vishwakarma,Arvind,TIA026,2024-11-23,Full day,Casual Leave,1,0,0,2024-11-23-TIA026
+537,Saheba Khan,Saheba,TIA004,2024-11-16,Full day,Casual Leave,1,0,0,2024-11-16-TIA004
+538,Devesh Patwa,Devesh,TIA023,2024-11-23,2nd Half,Casual Leave,0,1,0,2024-11-23-TIA023
+539,Abhishek Patel,Abhishek,TIA009,2024-11-21,Full day,Casual Leave,1,0,0,2024-11-21-TIA009
+540,Abhishek Patel,Abhishek,TIA009,2024-11-22,Full day,Casual Leave,1,0,0,2024-11-22-TIA009
+541,Abhishek Patel,Abhishek,TIA009,2024-11-23,Full day,Casual Leave,1,0,0,2024-11-23-TIA009
+542,Sachin Vaishnave,Sachin,TIA012,2024-11-15,Full day,Casual Leave,1,0,0,2024-11-15-TIA012
+543,Sachin Vaishnave,Sachin,TIA012,2024-11-16,Full day,Casual Leave,1,0,0,2024-11-16-TIA012
+544,Sachin Vaishnave,Sachin,TIA012,2024-11-17,Full day,Casual Leave,1,0,0,2024-11-17-TIA012
+545,Sachin Vaishnave,Sachin,TIA012,2024-11-18,Full day,Casual Leave,1,0,0,2024-11-18-TIA012
+546,Sachin Vaishnave,Sachin,TIA012,2024-11-19,Full day,Casual Leave,1,0,0,2024-11-19-TIA012
+547,Sachin Vaishnave,Sachin,TIA012,2024-11-20,Full day,Casual Leave,1,0,0,2024-11-20-TIA012
+548,Sachin Vaishnave,Sachin,TIA012,2024-11-21,Full day,Casual Leave,1,0,0,2024-11-21-TIA012
+549,Sachin Vaishnave,Sachin,TIA012,2024-11-22,Full day,Casual Leave,1,0,0,2024-11-22-TIA012
+550,Sachin Vaishnave,Sachin,TIA012,2024-11-23,Full day,Casual Leave,1,0,0,2024-11-23-TIA012
+551,Sachin Vaishnave,Sachin,TIA012,2024-11-24,Full day,Casual Leave,1,0,0,2024-11-24-TIA012
+552,Sachin Vaishnave,Sachin,TIA012,2024-11-25,Full day,Casual Leave,1,0,0,2024-11-25-TIA012
+553,Purnima Khandelwal,Purnima,TIA024,2024-11-30,2nd Half,Casual Leave,0,1,0,2024-11-30-TIA024
+554,Kuldeep Chouhan,Kuldeep,TIA013,2024-11-30,2nd Half,Casual Leave,0,1,0,2024-11-30-TIA013
+555,Devesh Patwa,Devesh,TIA023,2024-12-06,Full day,Leave without pay,1,0,0,2024-12-06-TIA023
+556,Devesh Patwa,Devesh,TIA023,2024-12-07,Full day,Leave without pay,1,0,0,2024-12-07-TIA023
+557,Devesh Patwa,Devesh,TIA023,2024-12-08,Full day,Leave without pay,1,0,0,2024-12-08-TIA023
+558,Devesh Patwa,Devesh,TIA023,2024-12-09,Full day,Leave without pay,1,0,0,2024-12-09-TIA023
+559,Devesh Patwa,Devesh,TIA023,2024-12-10,Full day,Leave without pay,1,0,0,2024-12-10-TIA023
+560,Purnima Khandelwal,Purnima,TIA024,2024-12-09,Full day,Sick leave (Illness or Injury),1,0,0,2024-12-09-TIA024
+561,Purnima Khandelwal,Purnima,TIA024,2024-12-18,Full day,Work From Home,0,0,1,2024-12-18-TIA024
+562,Aditi Chawda,Aditi,TIA019,2024-12-19,2nd Half,Travelling,0,1,0,2024-12-19-TIA019
+563,Aditi Chawda,Aditi,TIA019,2024-12-21,Full day,To collect my degree,1,0,0,2024-12-21-TIA019
+564,Purnima Khandelwal,Purnima,TIA024,2024-12-21,Full day,Casual Leave,1,0,0,2024-12-21-TIA024
+565,Aditi Chawda,Aditi,TIA019,2024-12-24,2nd Half,Traveling for home,0,1,0,2024-12-24-TIA019
+566,Diksha Rai,Diksha,TIA027,2024-12-26,2nd Half,Casual Leave,0,1,0,2024-12-26-TIA027
+567,Mahak Jain,Mahak,TIA025,2025-01-04,Full day,Casual Leave,1,0,0,2025-01-04-TIA025
+568,Mahak Jain,Mahak,TIA025,2025-01-05,Full day,Casual Leave,1,0,0,2025-01-05-TIA025
+569,Mahak Jain,Mahak,TIA025,2025-01-06,Full day,Casual Leave,1,0,0,2025-01-06-TIA025
+570,Bantubala Patidar,Bantubala,TIAT005,2024-12-30,Full day,Casual Leave,1,0,0,2024-12-30-TIAT005
+571,Bantubala Patidar,Bantubala,TIAT005,2024-12-31,Full day,Casual Leave,1,0,0,2024-12-31-TIAT005
+572,Saheba Khan,Saheba,TIA004,2024-12-23,Full day,Casual Leave,1,0,0,2024-12-23-TIA004
+573,Diksha Rai,Diksha,TIA027,2025-01-10,2nd Half,Casual Leave,0,1,0,2025-01-10-TIA027
+574,Diksha Rai,Diksha,TIA027,2025-01-12,Full day,Casual Leave,1,0,0,2025-01-12-TIA027
+575,Diksha Rai,Diksha,TIA027,2025-01-13,Full day,Casual Leave,1,0,0,2025-01-13-TIA027
+576,Devesh Patwa,Devesh,TIA023,2025-01-10,2nd Half,Casual Leave,0,1,0,2025-01-10-TIA023
+577,Devesh Patwa,Devesh,TIA023,2025-01-11,Full day,Casual Leave,1,0,0,2025-01-11-TIA023
+578,Varun Kumar,Varun,TIA006,2025-01-11,Full day,Casual Leave,1,0,0,2025-01-11-TIA006
+579,Arvind Vishwakarma,Arvind,TIA026,2025-01-15,Full day,Casual Leave,1,0,0,2025-01-15-TIA026
+580,Arvind Vishwakarma,Arvind,TIA026,2025-01-16,Full day,Casual Leave,1,0,0,2025-01-16-TIA026
+581,Arvind Vishwakarma,Arvind,TIA026,2025-01-17,Full day,Casual Leave,1,0,0,2025-01-17-TIA026
+582,Arvind Vishwakarma,Arvind,TIA026,2025-01-18,Full day,Casual Leave,1,0,0,2025-01-18-TIA026
+583,Arvind Vishwakarma,Arvind,TIA026,2025-01-13,Full day,Sick leave (Illness or Injury),1,0,0,2025-01-13-TIA026
+584,Santosh Chouhan,Santosh,TIA028,2025-01-25,1st Half,Casual Leave,0,1,0,2025-01-25-TIA028
+585,Santosh Chouhan,Santosh,TIA028,2025-01-27,Full day,Casual Leave,1,0,0,2025-01-27-TIA028
+586,Varun Kumar,Varun,TIA006,2025-01-22,Full day,Casual Leave,1,0,0,2025-01-22-TIA006
+587,Kuldeep Chouhan,Kuldeep,TIA013,2025-01-25,Full day,Casual Leave,1,0,0,2025-01-25-TIA013
+588,Bantubala Patidar,Bantubala,TIAT005,2025-01-29,Full day,For viva,1,0,0,2025-01-29-TIAT005
+589,Arvind Vishwakarma,Arvind,TIA026,2025-02-03,Full day,Casual Leave,1,0,0,2025-02-03-TIA026
+590,Purnima Khandelwal,Purnima,TIA024,2025-01-31,1st Half,Sick leave (Illness or Injury),0,1,0,2025-01-31-TIA024
+591,Diksha Rai,Diksha,TIA027,2025-01-15,Full day,Sick leave (Illness or Injury),1,0,0,2025-01-15-TIA027
+592,Diksha Rai,Diksha,TIA027,2025-01-16,Full day,Sick leave (Illness or Injury),1,0,0,2025-01-16-TIA027
+593,Diksha Rai,Diksha,TIA027,2025-01-17,Full day,Sick leave (Illness or Injury),1,0,0,2025-01-17-TIA027
+594,Bantubala Patidar,Bantubala,TIAT005,2025-02-05,Full day,Casual Leave,1,0,0,2025-02-05-TIAT005
+595,Aditi Chawda,Aditi,TIA019,2025-02-10,Full day,Brother's Engagement,1,0,0,2025-02-10-TIA019
+596,Aditi Chawda,Aditi,TIA019,2025-02-17,Full day,Brother' s Wedding,1,0,0,2025-02-17-TIA019
+597,Aditi Chawda,Aditi,TIA019,2025-02-18,Full day,Brother' s Wedding,1,0,0,2025-02-18-TIA019
+598,Aditi Chawda,Aditi,TIA019,2025-02-19,Full day,Brother' s Wedding,1,0,0,2025-02-19-TIA019
+599,Aditi Chawda,Aditi,TIA019,2025-02-20,Full day,Brother' s Wedding,1,0,0,2025-02-20-TIA019
+600,Aditi Chawda,Aditi,TIA019,2025-02-21,Full day,Brother' s Wedding,1,0,0,2025-02-21-TIA019
+601,Aditi Chawda,Aditi,TIA019,2025-02-22,Full day,Brother' s Wedding,1,0,0,2025-02-22-TIA019
+602,Diksha Rai,Diksha,TIA027,2025-02-07,2nd Half,Sick leave (Illness or Injury),0,1,0,2025-02-07-TIA027
+603,Saheba Khan,Saheba,TIA004,2025-02-08,Full day,Casual Leave,1,0,0,2025-02-08-TIA004
+604,Varun Kumar,Varun,TIA006,2025-02-13,Full day,Casual Leave,1,0,0,2025-02-13-TIA006
+605,Purnima Khandelwal,Purnima,TIA024,2025-02-12,Full day,Casual Leave,1,0,0,2025-02-12-TIA024
+606,Santosh Chouhan,Santosh,TIA028,2025-02-15,Full day,Casual Leave,1,0,0,2025-02-15-TIA028
+607,Aditi Chawda,Aditi,TIA019,2025-02-15,Full day,Brother's Wedding,1,0,0,2025-02-15-TIA019
+608,Arvind Vishwakarma,Arvind,TIA026,2025-02-17,2nd Half,Casual Leave,0,1,0,2025-02-17-TIA026
+609,Arvind Vishwakarma,Arvind,TIA026,2025-02-17,2nd Half,Casual Leave,0,1,0,2025-02-17-TIA026
+610,Purnima Khandelwal,Purnima,TIA024,2025-02-17,Full day,Work From Home,0,0,1,2025-02-17-TIA024
+611,Saheba Khan,Saheba,TIA004,2025-02-18,2nd Half,Sick leave (Illness or Injury),0,1,0,2025-02-18-TIA004
+612,Purnima Khandelwal,Purnima,TIA024,2025-02-22,2nd Half,Casual Leave,0,1,0,2025-02-22-TIA024
+613,Arvind Vishwakarma,Arvind,TIA026,2025-02-22,2nd Half,Personal Work,0,1,0,2025-02-22-TIA026
+614,Arvind Vishwakarma,Arvind,TIA026,2025-02-24,Full day,Leave without pay,1,0,0,2025-02-24-TIA026
+615,Arvind Vishwakarma,Arvind,TIA026,2025-02-25,Full day,Leave without pay,1,0,0,2025-02-25-TIA026
+616,Arvind Vishwakarma,Arvind,TIA026,2025-02-26,Full day,Leave without pay,1,0,0,2025-02-26-TIA026
+617,Arvind Vishwakarma,Arvind,TIA026,2025-02-27,Full day,Leave without pay,1,0,0,2025-02-27-TIA026
+618,Arvind Vishwakarma,Arvind,TIA026,2025-02-28,Full day,Leave without pay,1,0,0,2025-02-28-TIA026
+619,Arvind Vishwakarma,Arvind,TIA026,2025-03-01,Full day,Leave without pay,1,0,0,2025-03-01-TIA026
+620,Arvind Vishwakarma,Arvind,TIA026,2025-03-02,Full day,Leave without pay,1,0,0,2025-03-02-TIA026
+621,Arvind Vishwakarma,Arvind,TIA026,2025-03-03,Full day,Leave without pay,1,0,0,2025-03-03-TIA026
+622,Arvind Vishwakarma,Arvind,TIA026,2025-03-04,Full day,Leave without pay,1,0,0,2025-03-04-TIA026
+623,Arvind Vishwakarma,Arvind,TIA026,2025-03-05,Full day,Leave without pay,1,0,0,2025-03-05-TIA026
+624,Arvind Vishwakarma,Arvind,TIA026,2025-03-06,Full day,Leave without pay,1,0,0,2025-03-06-TIA026
+625,Arvind Vishwakarma,Arvind,TIA026,2025-03-07,Full day,Leave without pay,1,0,0,2025-03-07-TIA026
+626,Arvind Vishwakarma,Arvind,TIA026,2025-03-08,Full day,Leave without pay,1,0,0,2025-03-08-TIA026
+627,Saheba Khan,Saheba,TIA004,2025-02-24,2nd Half,Casual Leave,0,1,0,2025-02-24-TIA004
+628,Mahak Jain,Mahak,TIA025,2025-02-21,Full day,Work From Home,0,0,1,2025-02-21-TIA025
+629,Mahak Jain,Mahak,TIA025,2025-02-26,Full day,Work From Home,0,0,1,2025-02-26-TIA025
+630,Diksha Rai,Diksha,TIA027,2025-02-28,2nd Half,Casual Leave,0,1,0,2025-02-28-TIA027
+631,Bantubala Patidar,Bantubala,TIAT005,2025-03-01,Full day,For exam,1,0,0,2025-03-01-TIAT005
+632,Saheba Khan,Saheba,TIA004,2025-03-03,Full day,Casual Leave,1,0,0,2025-03-03-TIA004
+633,Devesh Patwa,Devesh,TIA023,2025-03-03,Full day,Casual Leave,1,0,0,2025-03-03-TIA023
+634,Varun Kumar,Varun,TIA006,2025-03-08,Full day,Sick leave (Illness or Injury),1,0,0,2025-03-08-TIA006
+635,Arvind Vishwakarma,Arvind,TIA026,2025-03-10,Full day,Sick leave (Illness or Injury),1,0,0,2025-03-10-TIA026
+636,Diksha Rai,Diksha,TIA027,2025-03-08,Full day,Casual Leave,1,0,0,2025-03-08-TIA027
+637,Purnima Khandelwal,Purnima,TIA024,2025-03-10,Full day,Sick leave (Illness or Injury),1,0,0,2025-03-10-TIA024
+638,Mahak Jain,Mahak,TIA025,2025-03-04,Full day,Work From Home,0,0,1,2025-03-04-TIA025
+639,Mahak Jain,Mahak,TIA025,2025-03-05,Full day,Work From Home,0,0,1,2025-03-05-TIA025
+640,Kuldeep Chouhan,Kuldeep,TIA013,2025-03-15,Full day,Casual Leave,1,0,0,2025-03-15-TIA013
+641,Kuldeep Chouhan,Kuldeep,TIA013,2025-03-17,Full day,Casual Leave,1,0,0,2025-03-17-TIA013
+642,Kuldeep Chouhan,Kuldeep,TIA013,2025-03-18,Full day,Casual Leave,1,0,0,2025-03-18-TIA013
+643,Kuldeep Chouhan,Kuldeep,TIA013,2025-03-21,Full day,Casual Leave,1,0,0,2025-03-21-TIA013
+644,Diksha Rai,Diksha,TIA027,2025-03-13,2nd Half,Casual Leave,0,1,0,2025-03-13-TIA027
+645,Diksha Rai,Diksha,TIA027,2025-03-15,1st Half,Casual Leave,0,1,0,2025-03-15-TIA027
+646,Varun Kumar,Varun,TIA006,2025-03-15,Full day,Casual Leave,1,0,0,2025-03-15-TIA006
+647,Purnima Khandelwal,Purnima,TIA024,2025-03-15,Full day,Work From Home,0,0,1,2025-03-15-TIA024
+648,Mahak Jain,Mahak,TIA025,2025-03-11,Full day,Work From Home,0,0,1,2025-03-11-TIA025
+649,Mahak Jain,Mahak,TIA025,2025-03-12,Full day,Work From Home,0,0,1,2025-03-12-TIA025
+650,Mahak Jain,Mahak,TIA025,2025-03-13,Full day,Work From Home,0,0,1,2025-03-13-TIA025
+651,Mahak Jain,Mahak,TIA025,2025-03-10,Full day,Sick leave (Illness or Injury),1,0,0,2025-03-10-TIA025
+652,Devesh Patwa,Devesh,TIA023,2025-03-15,Full day,Work From Home,0,0,1,2025-03-15-TIA023
+653,Devesh Patwa,Devesh,TIA023,2025-03-17,Full day,Casual Leave,1,0,0,2025-03-17-TIA023
+654,Devesh Patwa,Devesh,TIA023,2025-03-18,Full day,Casual Leave,1,0,0,2025-03-18-TIA023
+655,Devesh Patwa,Devesh,TIA023,2025-03-20,Full day,Casual Leave,1,0,0,2025-03-20-TIA023
+656,Varun Kumar,Varun,TIA006,2025-03-29,Full day,Casual Leave,1,0,0,2025-03-29-TIA006
+657,Varun Kumar,Varun,TIA006,2025-03-31,Full day,Casual Leave,1,0,0,2025-03-31-TIA006
+658,Mahak Jain,Mahak,TIA025,2025-03-25,Full day,Casual Leave,1,0,0,2025-03-25-TIA025
+659,Arvind Vishwakarma,Arvind,TIA026,2025-03-27,2nd Half,Personal Work,0,1,0,2025-03-27-TIA026
+660,Bantubala Patidar,Bantubala,TIAT005,2025-03-28,Full day,Casual Leave,1,0,0,2025-03-28-TIAT005
+661,Bantubala Patidar,Bantubala,TIAT005,2025-03-29,Full day,Casual Leave,1,0,0,2025-03-29-TIAT005
+662,Aditi Chawda,Aditi,TIA019,2025-03-29,Full day,Sick leave (Illness or Injury),1,0,0,2025-03-29-TIA019
+663,Saheba Khan,Saheba,TIA004,2025-03-27,Full day,Casual Leave,1,0,0,2025-03-27-TIA004
+664,Aditi Chawda,Aditi,TIA019,2025-04-01,Full day,Work From Home,0,0,1,2025-04-01-TIA019
+665,Purnima Khandelwal,Purnima,TIA024,2025-03-31,1st Half,Casual Leave,0,1,0,2025-03-31-TIA024
+666,Diksha Rai,Diksha,TIA027,2025-03-15,2nd Half,Casual Leave,0,1,0,2025-03-15-TIA027
+667,Diksha Rai,Diksha,TIA027,2025-03-27,Full day,Casual Leave,1,0,0,2025-03-27-TIA027
+668,Diksha Rai,Diksha,TIA027,2025-03-28,Full day,Casual Leave,1,0,0,2025-03-28-TIA027
+669,Diksha Rai,Diksha,TIA027,2025-03-29,Full day,Casual Leave,1,0,0,2025-03-29-TIA027
+670,Diksha Rai,Diksha,TIA027,2025-03-30,Full day,Casual Leave,1,0,0,2025-03-30-TIA027
+671,Diksha Rai,Diksha,TIA027,2025-03-31,Full day,Casual Leave,1,0,0,2025-03-31-TIA027
+672,Diksha Rai,Diksha,TIA027,2025-04-01,Full day,Casual Leave,1,0,0,2025-04-01-TIA027
+673,Diksha Rai,Diksha,TIA027,2025-04-02,Full day,Casual Leave,1,0,0,2025-04-02-TIA027
+674,Diksha Rai,Diksha,TIA027,2025-04-03,Full day,Casual Leave,1,0,0,2025-04-03-TIA027
+675,Diksha Rai,Diksha,TIA027,2025-04-04,Full day,Casual Leave,1,0,0,2025-04-04-TIA027
+676,Diksha Rai,Diksha,TIA027,2025-04-05,Full day,Casual Leave,1,0,0,2025-04-05-TIA027
+677,Purnima Khandelwal,Purnima,TIA024,2025-04-04,1st Half,Sick leave (Illness or Injury),0,1,0,2025-04-04-TIA024
+678,Varun Kumar,Varun,TIA006,2025-04-05,2nd Half,Casual Leave,0,1,0,2025-04-05-TIA006
+679,Kuldeep Chouhan,Kuldeep,TIA013,2025-04-05,2nd Half,Casual Leave,0,1,0,2025-04-05-TIA013
+680,Devesh Patwa,Devesh,TIA023,2025-04-04,Full day,Casual Leave,1,0,0,2025-04-04-TIA023
+681,Arvind Vishwakarma,Arvind,TIA026,2025-04-10,Full day,Work From Home,0,0,1,2025-04-10-TIA026
+682,Arvind Vishwakarma,Arvind,TIA026,2025-04-11,Full day,Work From Home,0,0,1,2025-04-11-TIA026
+683,Arvind Vishwakarma,Arvind,TIA026,2025-04-12,Full day,Work From Home,0,0,1,2025-04-12-TIA026
+684,Varun Kumar,Varun,TIA006,2025-04-12,2nd Half,Casual Leave,0,1,0,2025-04-12-TIA006
+685,Mahak Jain,Mahak,TIA025,2025-04-16,Full day,Casual Leave,1,0,0,2025-04-16-TIA025
+686,Saheba Khan,Saheba,TIA004,2025-04-19,Full day,Casual Leave,1,0,0,2025-04-19-TIA004
+687,Saheba Khan,Saheba,TIA004,2025-04-21,Full day,Sick leave (Illness or Injury),1,0,0,2025-04-21-TIA004
+688,Saheba Khan,Saheba,TIA004,2025-04-22,Full day,Sick leave (Illness or Injury),1,0,0,2025-04-22-TIA004
+689,Saheba Khan,Saheba,TIA004,2025-04-23,Full day,Work From Home,0,0,1,2025-04-23-TIA004
+690,Mahak Jain,Mahak,TIA025,2025-04-24,Full day,Work From Home,0,0,1,2025-04-24-TIA025
+691,Purnima Khandelwal,Purnima,TIA024,2025-04-30,1st Half,Sick leave (Illness or Injury),0,1,0,2025-04-30-TIA024
+692,Aditi Chawda,Aditi,TIA019,2025-05-02,Full day,Sick leave (Illness or Injury),1,0,0,2025-05-02-TIA019
+693,Purnima Khandelwal,Purnima,TIA024,2025-05-02,Full day,Casual Leave,1,0,0,2025-05-02-TIA024
+694,Purnima Khandelwal,Purnima,TIA024,2025-05-03,Full day,Casual Leave,1,0,0,2025-05-03-TIA024
+695,Purnima Khandelwal,Purnima,TIA024,2025-05-04,Full day,Casual Leave,1,0,0,2025-05-04-TIA024
+696,Purnima Khandelwal,Purnima,TIA024,2025-05-05,Full day,Casual Leave,1,0,0,2025-05-05-TIA024
+697,Purnima Khandelwal,Purnima,TIA024,2025-05-06,Full day,Casual Leave,1,0,0,2025-05-06-TIA024
+698,Aditi Chawda,Aditi,TIA019,2025-05-07,Full day,Work From Home,0,0,1,2025-05-07-TIA019
+699,Purnima Khandelwal,Purnima,TIA024,2025-05-07,Full day,Casual Leave,1,0,0,2025-05-07-TIA024
+700,Arvind Vishwakarma,Arvind,TIA026,2025-05-10,Full day,Sick leave (Illness or Injury),1,0,0,2025-05-10-TIA026

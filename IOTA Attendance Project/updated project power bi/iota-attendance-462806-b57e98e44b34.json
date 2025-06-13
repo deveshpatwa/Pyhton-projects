@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "iota-attendance-462806",
+  "private_key_id": "b57e98e44b349d3437f561b56892fafaa06bce27",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCrk0e0U5ulxWts\nhbMzk5RVxwmomLmIte04KJwloncqTWEIn0evO4NVxuhlQFGXnfIgNEWQkZKQXy+I\nLYSStGTVAcmRHRngwZ+KF+EWhg1zTciy/mxHgCbgMH0oXJD34MEZCMJ/2zlPfHa4\nXcDamHmBFJ+o97O3kZFjZAj36QYQ6UW0hNkMGGKTWY3JGeOa8MzLp+tiGmPGgJeP\n6Mk5JbcDmhx8oCrB4GQ6QkxYTTGmwz/mtB+OXX4PhKU24fURiuytK+bKJqrpJQHH\n4bfD1PMFqqVejoGDjoDwqTn9D6zYE+LGLYAmrvW0gNqw76C7KqDYy05Txeg2vHmf\nyI1dSwkPAgMBAAECggEAAjSazlBYTGAr5NAu/NR6Nb6sBftPNSbZLW+gjKZtdpYX\nWp1eDzmLkys36TEb22RLrKgKfOFAxexoLewfhKo1UOkHwQ+E9weyqMlWfXW3gEjO\nSvOaSydCN0fiuCb4dhXavqCuMtlUIS32UF6m7sQ9QHi9IpPEM/y/N0GYMi3g0ejl\nkBhh5WFNnuF6/ZSS5yBdztDuC0CRlZNpJO2fzz1CUh5CAgrkxhDd92Vo6WAqQsJC\nVs4sbAdai+GGPE/GULbelAx2HYsiFOM9nE2zfDpD+wim5QaOWg0tMySo103Cu3qW\nWpWbSoyV4bxxTcLe1He7T75hBLeu08Hg5lyz+CUPAQKBgQDRltPLxWvcAxEZl9G8\nLFBCxnHlAZ1UiOuQE5e3e/SHGE3XOr3YgMoWFkj4tVZm+5O08rBiYCjqMr/LOz9B\nwJdMva911uFcwPgART4bkWsnYdFxAf1JULYJDr2x9BmoSg+9tA2jG0PFLXymFCZk\neKMDGr4Or+JnsF4IzNAqNVe/1wKBgQDRkYbNRNstgpqlhYy183Jva+j5X6RIkGk8\njHCbdw3VNVJqXycRRo96WRCytfrCl7zloq7Vj8edBsMmvjIS7gdJwCk7zypcUGov\nhYsnBrQkt+W5nMK3fEpSKCwrnQuzh9rJ3hSQrvh7ctyYrDfGL2mqRLm6J3sNbnpo\n0tpmi4W5iQKBgE/Izs9fU/Po5vWLKbgsVlFVIb4/oxivFp0+GB8s/KUAx4ELR4HH\nZSaLTTQAM+f4FP5o9GQ+ntSohQJkh2wMWIxKGSUOq7OXcdEIiuALt3LCdexDCZyD\nMQi5p9S6S5oYt21LwXU5x86jxjOisArHMabY40jMA6/dH67R6NxoegL5AoGAPcRa\nqt2EjCFWWzrFgktCizyO6hEaZpjJq6Lo/alVVmXk6J0q8piNaU4e8c1ZH0mBz1zn\nkuJRvyJjGmQsdg/Z7g7JGGuy3IqHAYKmxNXg+oGJH+/oJBRqA1T7z871x/Bet+jQ\nvuQTMK9l/UmlFrCawCiJZSiFyCurwIGFBXxR6aECgYEAjQgetAKHyPt7EW5jKjtY\nVb9oZOWA1l/+okaoot0S6t5FWW37k1NIMc2GLSHVHtW4W/5+Gh6rGux+uop1v5Cl\nTrhhbhkkENdM0rws3mh8tOWA34H9uNQqtgwaBfYOedawEYD+MkEC9/GMlF9OcyoK\n+Y5Zc22V2LQhwyEicQFuNrc=\n-----END PRIVATE KEY-----\n",
+  "client_email": "iota-attendance@iota-attendance-462806.iam.gserviceaccount.com",
+  "client_id": "110426542454310580049",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/iota-attendance%40iota-attendance-462806.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

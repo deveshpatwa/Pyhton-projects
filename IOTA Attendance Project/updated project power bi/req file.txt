@@ -1,0 +1,14 @@
+date
+emp name
+emp code
+emp bio code
+emp official in time
+emp official out time
+actual in time
+actual out time
+come late
+gone early
+is holiday
+is on full day leave
+is work from home
+is half day leave
