@@ -3,9 +3,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-
- '''this function will fix the names of columns and make simple names all in smallcase with only _ as space and - .'''
-
 def fix_col(df):   
     l = list(df.columns)
     l1 = []

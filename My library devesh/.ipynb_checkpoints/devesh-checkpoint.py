@@ -3,9 +3,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-
- '''this function will fix the names of columns and make simple names all in smallcase with only _ as space and - .'''
-
 def fix_col(df):   
     l = list(df.columns)
     l1 = []
@@ -17,7 +14,7 @@ def fix_col(df):
     df.rename(d, axis=1, inplace=True)
     return df
 
-'''remove_outliers will remove the outliers from a givem column in a fata frame'''
+'''remove_outliers will remove the outliers from a givem column in a Data frame'''
 
 def remove_outliers(df,col):
     q1 = df[col].quantile(0.25)
