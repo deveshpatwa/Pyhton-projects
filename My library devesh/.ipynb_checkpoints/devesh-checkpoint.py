@@ -36,3 +36,13 @@ def histall(df):
         plt.title( i)
         plt.xlabel('-'*100)
         sns.histplot(x=df[i])
+
+# finding only numeric column name and return it list
+def find_numeric_col_names(df):
+    l = []
+    for i in df.columns:
+        if df[i].dtype == 'int64' or df[i].dtype == float:
+            l.append(i)
+    return l
+
+

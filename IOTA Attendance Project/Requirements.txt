@@ -1,9 +1,0 @@
-in order to work this python code make sure these things
-
---Every file should be in a single folder----
-1. the attendance data should be named as "attendance.csv"
-2. it should have timesheet
-3. the user data should be named as "user.dat"
-4. Python code file
-
----> Run the python codes it will generate a final.xlsx file which is the final report
