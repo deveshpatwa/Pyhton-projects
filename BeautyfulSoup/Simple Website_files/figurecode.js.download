@@ -1,0 +1,11 @@
+$( document ).ready(function() {
+  $("body").on("click", ".figurecode .figure-btn", function(e) {
+    $(e["target"]).closest(".figurecode").removeClass("figure-hidden");
+    $(e["target"]).closest(".figurecode").addClass("code-hidden");
+  })
+
+  $("body").on("click", ".figurecode .code-btn", function(e) {
+    $(e["target"]).closest(".figurecode").removeClass("code-hidden");
+    $(e["target"]).closest(".figurecode").addClass("figure-hidden");
+  })
+})
