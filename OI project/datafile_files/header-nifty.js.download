@@ -1,0 +1,323 @@
+'use strict';
+
+var niftyHeaderWebsocket = void 0;
+var sliderSpeed = ['low', 'medium', 'high']; //slider speed ranges
+var freq = 'high'; // default speed
+
+// streaming function that takes status to enable or disable the stremaing
+// frequency has a default value which can be changed
+function streamHeaderNifty(status, freq) {
+  if (status === false) {
+    $('.header-stream-toggle').prop("checked", false); //diable button incase of trigger from js e.g. slider change or autodisconnect
+    if (niftyHeaderWebsocket && niftyHeaderWebsocket.readyState === WebSocket.OPEN) {
+      niftyHeaderSocket = false; //this variable is availabe from common.js
+      niftyHeaderWebsocket.close();
+      console.log('Nifty Header WebSocket connection closed.');
+    }
+  } else {
+    $('.header-stream-toggle').prop("checked", true); // enable in case of trigger from js e.g. slider change
+    var url = streamURL + 'streams/indices/' + freq + '/nifty50?index=nifty 50';
+    niftyHeaderWebsocket = new WebSocket(url);
+
+    var updateHeaderData = function updateHeaderData(data) {
+      // console.log("(header-nifty.js)||updateStockData():: current price in function", data.currentPrice);
+
+      //NIFTY header stream
+      try {
+
+        // current and new price difference logic
+        var oldLTP = $("#header-nifty-val").text();
+        var newLTP = data.currentPrice.toLocaleString("en-IN", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+        var diff = parseFloat(newLTP.replaceAll(',', "")) - parseFloat(oldLTP.replaceAll(',', ""));
+        var flag = diff >= 0 ? 1 : 0;
+        $(".header-nifty-val").empty();
+
+        $(".header-nifty-val").append(highlightPriceChange(oldLTP, newLTP, flag));
+        $(".header-up-down").attr('class', 'header-up-down market-up-down fa ' + (data.perChange >= 0 ? "fa-caret-up cool-green" : "fa-caret-down cool-red"));
+        $(".header-txt-color").attr('class', 'header-txt-color per ' + (data.perChange >= 0 ? "greenTxt" : "redTxt"));
+        $(".header-change").text('' + data.change.toLocaleString("en-IN", { minimumFractionDigits: 2, maximumFractionDigits: 2 }));
+        $(".header-perChange").text('' + data.perChange);
+        $(".header-tradeDate").text('' + moment(data.recievedTime).format("DD-MMM-YYYY HH:mm"));
+      } catch (e) {
+        console.log("header nifty error", e);
+      }
+
+      // if current page is of indices and broadmarket streaming is running then nifty50 should be updated from here
+      try {
+        if (streamActiveIndexSegment && streamActiveIndexSegment === 'indiceseligibleinderivatives') {
+          if (indicesWebsocketMap['indiceseligibleinderivatives'] && indicesWebsocketMap['indiceseligibleinderivatives'].readyState === WebSocket.OPEN) {
+
+            // logic for finding difference between current and new 
+            var _oldLTP = $('[headers="indiceseligibleinderivatives current ' + data.indexName + '"]').text();
+            var _newLTP = data.currentPrice.toLocaleString("en-IN", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+            var _diff = parseFloat(_newLTP.replaceAll(',', "")) - parseFloat(_oldLTP.replaceAll(',', ""));
+            var _flag = _diff >= 0 ? 1 : 0;
+
+            $('[headers="indiceseligibleinderivatives current ' + data.indexName + '"]').empty();
+
+            // for current, change, open, high, low
+            $('#streamTime-indiceseligibleinderivatives').text(data.recievedTime);
+            $('[headers="indiceseligibleinderivatives current ' + data.indexName + '"]').append(highlightPriceChange(_oldLTP, _newLTP, _flag)); //highlightPriceChange() is used for color change based on previous value
+            $('[headers="indiceseligibleinderivatives percentChange ' + data.indexName + '"]').text(data.perChange.toLocaleString("en-IN", { minimumFractionDigits: 2, maximumFractionDigits: 2 }));
+            $('[headers="indiceseligibleinderivatives percentChange ' + data.indexName + '"]').attr('class', 'text-right ' + (data.perChange >= 0 ? "greenTxt" : "redTxt"));
+            $('[headers="indiceseligibleinderivatives openCol ' + data.indexName + '"]').text(data.open !== 0 ? data.open.toLocaleString("en-IN", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) : '-');
+            $('[headers="indiceseligibleinderivatives highCol ' + data.indexName + '"]').text(data.high !== 0 ? data.high.toLocaleString("en-IN", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) : '-');
+            $('[headers="indiceseligibleinderivatives lowCol ' + data.indexName + '"]').text(data.low !== 0 ? data.low.toLocaleString("en-IN", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) : '-');
+
+            if (data.indicativeStatus.toUpperCase() === 'OPEN') {
+              $('[headers="indiceseligibleinderivatives indicativeClose ' + data.indexName + '"]').text(data.indicativeValue);
+
+              var oldindicativeLTP = $('[headers="indiceseligibleinderivatives indicativeClose ' + data.indexName + '"]').text();
+              var newindicativeLTP = data.indicativeValue.toLocaleString("en-IN", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+              var indicativeDiff = parseFloat(newindicativeLTP.replaceAll(',', "")) - parseFloat(oldindicativeLTP.replaceAll(',', ""));
+              var indicativeFlag = indicativeDiff >= 0 ? 1 : 0;
+              $('[headers="indiceseligibleinderivatives indicativeClose ' + data.indexName + '"]').empty();
+              $('[headers="indiceseligibleinderivatives indicativeClose ' + data.indexName + '"]').append(highlightPriceChange(oldindicativeLTP, newindicativeLTP, indicativeFlag));
+            } else {
+              $('[headers="indiceseligibleinderivatives indicativeClose ' + data.indexName + '"]').text('-');
+            }
+          }
+        }
+      } catch (e) {
+        console.log("not on indices page", e);
+      }
+
+      //indicative close
+      try {
+        if (data.indicativeStatus.toUpperCase() === 'OPEN') {
+          $('#indicativeClosing').attr('class', 'show');
+
+          var _oldLTP2 = $('.marketStat-nifty50_Indicative .ltp').text();
+          var _newLTP2 = data.indicativeValue.toLocaleString("en-IN", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+          var _diff2 = parseFloat(_newLTP2.replaceAll(',', "")) - parseFloat(_oldLTP2.replaceAll(',', ""));
+          var _flag2 = _diff2 >= 0 ? 1 : 0;
+          $('.marketStat-nifty50_Indicative .ltp').empty();
+          $('.marketStat-nifty50_Indicative .ltp').append(highlightPriceChange(_oldLTP2, _newLTP2, _flag2));
+          $('.marketStat-nifty50_Indicative .per').text(DecimalFixed(data.indicativeChange) + ' (' + data.indicativePerChange + '%)');
+          $('.nifty50-indicative-tradedate').text('' + moment(data.indicativeRecdTime).format("DD-MMM-YYYY HH:mm"));
+          $('.marketStat-nifty50_Indicative .market-up-down').remove();
+          if (data.indicativePerChange >= 0) {
+            $('.marketStat-nifty50_Indicative .index_val').append(' <i class="market-up-down fa fa-caret-up cool-green"></i>');
+            $('.marketStat-nifty50_Indicative .per').removeClass('redTxt').addClass('greenTxt');
+          } else {
+            $('.marketStat-nifty50_Indicative .index_val').append(' <i class="market-up-down fa fa-caret-down cool-red"></i>');
+            $('.marketStat-nifty50_Indicative .per').removeClass('greenTxt').addClass('redTxt');
+          }
+        } else if (data.indicativeStatus.toUpperCase() === 'CLOSE') {
+          $('#indicativeClosing').attr('class', 'hide');
+        }
+      } catch (e) {
+        console.log("indicative close error", e);
+      }
+    };
+
+    niftyHeaderWebsocket.onopen = function (event) {
+      niftyHeaderSocket = true;
+      console.log("Nifty header Websocket is connected...");
+    };
+
+    niftyHeaderWebsocket.onmessage = function (event) {
+      try {
+        var headerStockData = JSON.parse(event.data);
+        // console.log("(header-nifty.js)||webSocket.onmessage:: current price in event", headerStockData.currentPrice)
+
+        if (headerStockData.mktStatus.toUpperCase() === 'CLOSE') {
+          streamHeaderNifty(false);
+          return;
+        }
+        var data = {
+          indexName: headerStockData.indexName,
+          currentPrice: headerStockData.currentPrice,
+          perChange: headerStockData.perChange,
+          change: headerStockData.change,
+          open: headerStockData.open,
+          high: headerStockData.high,
+          low: headerStockData.low,
+          recievedTime: headerStockData.recievedTime,
+          indicativeStatus: headerStockData.indStatus,
+          indicativeValue: headerStockData.indValue,
+          indicativeChange: headerStockData.indChange,
+          indicativePerChange: headerStockData.indPerChange,
+          indicativeRecdTime: headerStockData.indRecievedTime
+        };
+
+        if (data.indexName === 'NIFTY 50') {
+          updateHeaderData(data);
+        }
+      } catch (error) {
+        console.error("(stream.js)||webSocket.onmessage:: Error parsing WebSocket message", error);
+      }
+    };
+
+    //work on reconnection of websocket if the first time it failed
+    // webSocket.onerror = (event) => {
+    //     console.log(event);
+    // }
+  }
+}
+
+// streaming frequency change slider
+$('.header-stream-range').on('input', function () {
+  var frequency = $(this).val();
+  freq = sliderSpeed[frequency - 1];
+  $('.stream-range').val(frequency);
+
+  // streming should not work with slider if button is off
+  if ($('.header-stream-toggle').is(":checked")) {
+    streamHeaderNifty(false);
+    streamHeaderNifty(true, freq);
+  }
+});
+
+// streaming enalbe/disable button
+$('.header-stream-toggle').change(function () {
+  if ($(this).is(":checked")) {
+    streamHeaderNifty(true, freq);
+    timeoutID = window.setTimeout(disconnectWebsocket, 300000);
+  } else {
+    streamHeaderNifty(false);
+  }
+});
+
+function addNifty50StreamingKeyboardNavigation() {
+  var $tooltipButton1 = $('#tooltipButton');
+  var $tooltipModal1 = $('#tooltipModal');
+  var $range = $('#stream-freq-slider');
+
+  // Handle Enter or Space key on tooltipButton
+  $tooltipButton1.on('keydown', function (e) {
+    // Only trigger if the event originated from the button itself
+    if (e.target === this && (e.key === 'Enter' || e.key === ' ')) {
+      e.preventDefault();
+      $tooltipModal1.show();
+      $tooltipButton1.focus();
+    } else if (e.key === 'Escape') {
+      $tooltipModal1.hide();
+    }
+  });
+
+  $('.switch2').on('keydown', function (e) {
+    if (e.key === 'Enter' || e.key === ' ') {
+      var checkbox = document.getElementById('cc-toggle');
+      checkbox.checked = !checkbox.checked;
+    } else if (e.key === 'Escape') {
+      $tooltipModal1.hide();
+    }
+  });
+
+  $range.on('keydown', function (e) {
+    var val = parseInt($(this).val());
+    if (e.key === 'ArrowRight' || e.key === 'ArrowUp') {
+      e.preventDefault();
+      if (val < 3) $(this).val(val + 1).trigger('input');
+    } else if (e.key === 'ArrowLeft' || e.key === 'ArrowDown') {
+      e.preventDefault();
+      if (val > 1) $(this).val(val - 1).trigger('input');
+    } else if (e.key === 'Escape') {
+      $tooltipModal1.hide();
+    }
+    $('#cc-toggle').blur();
+  });
+
+  $(document).on('focusin', function (e) {
+    var $tooltipModal = $('#tooltipModal');
+    // Check if focus is outside both tooltipModal and tooltipButton
+    if ($tooltipModal.is(':visible') && !$(e.target).closest('#tooltipModal').length && !$(e.target).closest('#tooltipButton').length) {
+      $tooltipModal.hide();
+    }
+  });
+}
+
+$(document).ready(function () {
+  var $tooltipButton = $('.stream-selector-header');
+  var $tooltipModal = $('.stream-range-freq-tooltip');
+  var $fontPlus = $('.font_plus');
+  var $fontReset = $('.font_reset');
+  var $fontMinus = $('.font_minus');
+  var $linkContrast = $('.link_contrast1');
+  var $linkContrastReset = $('.link_contrast_reset');
+  var isModalOpen = false;
+
+  // Show tooltip
+  var showTooltip = function showTooltip() {
+    $tooltipModal.show();
+  };
+
+  // Hide tooltip
+  var hideTooltip = function hideTooltip() {
+    if (!isModalOpen) {
+      $tooltipModal.hide();
+    }
+  };
+
+  // Handle hover on tooltip
+  $tooltipModal.on('mouseover', function () {
+    if (!isModalOpen) {
+      showTooltip();
+    }
+  });
+
+  // Handle mouse leaving both button and tooltip
+  $tooltipButton.on('mouseout', function (e) {
+    if (!$tooltipModal.is(e.relatedTarget) && !isModalOpen) {
+      hideTooltip();
+    }
+  });
+
+  $tooltipModal.on('mouseout', function (e) {
+    if (!$tooltipButton.is(e.relatedTarget) && !isModalOpen) {
+      hideTooltip();
+    }
+  });
+
+  // Toggle tooltip visibility on button click
+  $tooltipButton.on('click', function () {
+    isModalOpen = !isModalOpen;
+    if (isModalOpen) {
+      showTooltip();
+    } else {
+      hideTooltip();
+    }
+  });
+
+  $fontPlus.on('click', function (event) {
+    event.preventDefault();
+    increaseFont();
+  });
+
+  $fontReset.on('click', function (event) {
+    event.preventDefault();
+    resetFont();
+  });
+
+  $fontMinus.on('click', function (event) {
+    event.preventDefault();
+    decreaseFont();
+  });
+
+  $linkContrast.on('click', function (event) {
+    event.preventDefault();
+    highContrast();
+  });
+
+  $linkContrastReset.on('click', function (event) {
+    event.preventDefault();
+    normalContrast();
+  });
+
+  // Hide tooltip when clicking outside
+  $(document).on('click', function (e) {
+    if (!$tooltipModal.is(e.target) && !$tooltipModal.has(e.target).length && !$tooltipButton.is(e.target) && !$tooltipButton.has(e.target).length) {
+      $tooltipModal.hide();
+      isModalOpen = false;
+    }
+  });
+
+  // Prevent hiding tooltip when clicking inside
+  $tooltipModal.on('click', function (e) {
+    return e.stopPropagation();
+  });
+
+  // keyboard navigation on streaming nifty section - gigw
+  addNifty50StreamingKeyboardNavigation();
+});

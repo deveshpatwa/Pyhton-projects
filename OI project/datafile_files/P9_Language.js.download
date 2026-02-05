@@ -1,0 +1,151 @@
+var langCodeList = "Hindi,Marathi,Gujarati,Bengali,Tamil,Telugu,Kannada,Malayalam,Oriya,Assamese,Punjabi,Urdu";
+document.onreadystatechange = function () {
+    var urlName = window.location.pathname;
+    var strSegment = window.location.pathname.split("/");
+    var langName = GetLanguage(strSegment[1]);
+    let domainName = window.location.protocol + "//" + window.location.hostname;
+    if (!!langName) {
+        const domainNameWithLang1 = domainName+'/'+ ((!!langName) ? langName.toLowerCase()+'/' : '');
+        // to handle home page of selected langauge
+        document.getElementById("logoURL").href = domainNameWithLang1;
+        document.getElementById("link_0").href = domainNameWithLang1;
+        setTimeout(()=>{
+            const targetId = '.breadcrumb_head';
+            // Change the href attribute of the first <a> tag in the first <li> child of breadcrumb
+            $(targetId).find('li:first-child a:first').attr('href', domainNameWithLang1);
+        }, 2000);
+        let langvalue = langName.toLowerCase();  
+        let selectElement = document.getElementById("P9LngDdl");
+        for (let i = 0; i < selectElement.options.length; i++) {
+            if (selectElement.options[i].value === langvalue) {
+                selectElement.options[i].selected = true;
+                break;
+            }
+        }
+ 
+    }
+    //GenerateDropDown();
+}
+function ChangeLanguage(dropMenu) {
+    var strLang = dropMenu.options[dropMenu.selectedIndex].value;
+    RedirectUrl(strLang);
+}
+function normalizeUrl(url) {
+    const hasProtocol = url.includes("://");
+    const [protocol, rest] = hasProtocol ? url.split("://") : [null, url];
+    const normalizedRest = rest.replace(/\/+/g, '/');
+    return hasProtocol ? `${protocol}://${normalizedRest}` : normalizedRest;
+}
+ 
+ 
+function RedirectUrl(strLang) {
+    var newUrl = '';
+    var pathName=window.location.pathname;
+    var strSegment = window.location.pathname.split("/");
+    var segmentLang = strSegment[1];
+    var origHost = window.location.host;
+ 
+    if (langCodeList.toString().toLowerCase().indexOf(segmentLang.toString().toLowerCase()) > -1)
+            pathName = pathName.replace("/"+segmentLang, "");
+       
+    if (strLang.toString().toLowerCase() == "english") {
+        newUrl = window.location.protocol + "//" + origHost + pathName + window.location.search;
+    } else {
+        if(pathName=="/")pathName="";
+        newUrl = window.location.protocol + "//" + origHost + "/" + strLang.toString().toLowerCase() +"/"+ pathName+window.location.search;
+    }
+    console.log('newUrl ::'+newUrl)
+    // localStorage.setItem("language", strLang.toString().toLowerCase());
+    window.location = normalizeUrl(newUrl);
+}
+ 
+function GenerateDropDown() {
+    var options = ["English", "Hindi", "Marathi"];
+    var langName;
+    var strSegment = window.location.pathname.split("/");
+    var curLang = strSegment[1];
+    if (langCodeList.toString().toLowerCase().indexOf(curLang.toString().toLowerCase()) > -1 && curLang)
+        langName = curLang;
+    else
+        langName = "English";
+ 
+    var langDdl = document.getElementById("P9LngDdl");
+    if (langDdl)
+        document.getElementById("P9LngDdl").value = langName;
+}
+ 
+function GetSubDomain(hostname) {
+    var regexParse = new RegExp('[a-z\-0-9]{2,63}\.[a-z\.]{2,5}$');
+    if (hostname) {
+        var urlParts = regexParse.exec(hostname);
+        return hostname.replace(urlParts[0], '').slice(0, -1);
+    }
+}
+function GetLanguage(strLanguage) {
+    if (!strLanguage)
+        return strLanguage;
+ 
+    var strLang;
+    switch (strLanguage.toLowerCase()) {
+    case "hindi":
+        strLang = "Hindi";
+        break;
+    case "kannada":
+        strLang = "Kannada";
+        break;
+    case "marathi":
+        strLang = "Marathi";
+        break;
+    case "punjabi":
+        strLang = "Punjabi";
+        break;
+    case "telugu":
+        strLang = "Telugu";
+        break;
+    case "tamil":
+        strLang = "Tamil";
+        break;
+    case "malayalam":
+        strLang = "Malayalam";
+        break;
+    case "bengali":
+        strLang = "Bengali";
+        break;
+    case "bangla":
+        strLang = "Bangla";
+        break;
+    case "gujarati":
+        strLang = "Gujarati";
+        break;
+    case "arabic":
+        strLang = "Arabic";
+        break;
+    case "bhojpuri":
+        strLang = "Bhojpuri";
+        break;
+    case "odia":
+        strLang = "Odia";
+        break;
+    case "oriya":
+        strLang = "Oriya";
+        break;
+    case "rajasthani":
+        strLang = "Rajasthani";
+        break;
+    case "assamese":
+        strLang = "Assamese";
+        break;
+    case "english":
+        strLang = "en-in";
+        break;
+    case "urdu":
+        strLang = "Urdu";
+        break;
+ 
+    default:
+        break;
+    }
+ 
+    return strLang;
+}
+ 

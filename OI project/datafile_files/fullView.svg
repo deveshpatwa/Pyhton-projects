@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20.829" height="20.828" viewBox="0 0 20.829 20.828">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#e76d24;stroke-linecap:round;stroke-width:2px;fill-rule:evenodd}
+        </style>
+    </defs>
+    <g id="Group_1111" data-name="Group 1111" transform="translate(-389.586 -791.586)">
+        <path id="Path_824" d="M0 0h4.091" class="cls-1" data-name="Path 824" transform="translate(391 793)"/>
+        <path id="Path_825" d="M0 4.091V0" class="cls-1" data-name="Path 825" transform="translate(391 793)"/>
+        <path id="Path_826" d="M21.091 22H17" class="cls-1" data-name="Path 826" transform="translate(387.909 789)"/>
+        <path id="Path_827" d="M22 17v4.091" class="cls-1" data-name="Path 827" transform="translate(387 789.909)"/>
+        <path id="Path_828" d="M0 21.091V17" class="cls-1" data-name="Path 828" transform="translate(391 789.909)"/>
+        <path id="Path_829" d="M4.091 22H0" class="cls-1" data-name="Path 829" transform="translate(391 789)"/>
+        <path id="Path_830" d="M22 0v4.091" class="cls-1" data-name="Path 830" transform="translate(387 793)"/>
+        <path id="Path_831" d="M17 0h4.091" class="cls-1" data-name="Path 831" transform="translate(387.909 793)"/>
+        <path id="Path_832" d="M14 6.545L20.545 0" class="cls-1" data-name="Path 832" transform="translate(388.455 793)"/>
+        <path id="Path_833" d="M0 20.545L6.545 14" class="cls-1" data-name="Path 833" transform="translate(391 790.455)"/>
+        <path id="Path_834" d="M14 14l6.545 6.545" class="cls-1" data-name="Path 834" transform="translate(388.455 790.455)"/>
+        <path id="Path_835" d="M0 0l6.545 6.545" class="cls-1" data-name="Path 835" transform="translate(391 793)"/>
+    </g>
+</svg>

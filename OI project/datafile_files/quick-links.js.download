@@ -1,0 +1,650 @@
+'use strict';
+
+var clearing = 'clearing',
+    trading = 'trading',
+    listing = 'listing',
+    compliance = 'compliance',
+    others = 'others';
+
+var nifty50Data = false;
+var circularData = false;
+var monthArray = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
+var newDate = new Date();
+var getDate = newDate.getDate();
+if (getDate < 10) {
+    getDate = "0" + getDate;
+}
+var getMMM = monthArray[newDate.getMonth()];
+var getMonth = newDate.getMonth() + 1;
+if (getMonth < 10) {
+    getMonth = "0" + getMonth;
+}
+var getFullyear = newDate.getFullYear();
+var getYear = newDate.getYear() - 100;
+var DDMMMYYYY = getDate + getMMM + getFullyear;
+var DDMMYY = getDate + getMonth + getYear;
+var DDMMYYYY = getDate + getMonth + getFullyear;
+var YYYYMMDD = getFullyear + getMonth + getDate;
+var reportDt = ["30-Mar-2021", "12-May-2021"];
+var defaultEquityReport = [{
+    "name": "Bhavcopy file (csv)",
+    "type": "daily-reports",
+    "category": "capital-market",
+    "section": "equities",
+    "link": 'https://nsearchives.nseindia.com/content/historical/EQUITIES/' + getFullyear + '/' + getMMM + '/cm' + DDMMMYYYY + 'bhav.csv.zip'
+}, {
+    "name": "Market Activity Report (csv)",
+    "type": "daily-reports",
+    "category": "capital-market",
+    "section": "equities",
+    "link": 'https://nsearchives.nseindia.com/archives/equities/mkt/MA' + DDMMYY + '.csv'
+}, {
+    "name": "Security-wise Delivery Positions (DAT)",
+    "type": "daily-reports",
+    "category": "capital-market",
+    "section": "equities",
+    "link": 'https://nsearchives.nseindia.com/archives/equities/mto/MTO_' + DDMMYYYY + '.DAT"'
+}, {
+    "name": "List of securities for auction (csv)",
+    "type": "daily-reports",
+    "category": "capital-market",
+    "section": "equities",
+    "link": '"https://nsearchives.nseindia.com/content/nsccl/AUB_2019139_' + DDMMYYYY + '.csv"'
+}, {
+    "name": "CM - Category-wise Turnover",
+    "type": "daily-reports",
+    "category": "capital-market",
+    "section": "equities",
+    "link": '"https://nsearchives.nseindia.com/archives/equities/cat/cat_turnover_' + DDMMYY + '.xls"'
+}, {
+    "name": "Price Band changes from next trade date (csv)",
+    "type": "daily-reports",
+    "category": "capital-market",
+    "section": "equities",
+    "link": '"https://nsearchives.nseindia.com/content/equities/eq_band_changes_' + DDMMYYYY + '.csv"'
+}, {
+    "name": "NIFTY 50 Top 10 Holdings (csv)",
+    "type": "daily-reports",
+    "category": "capital-market",
+    "section": "indices",
+    "link": '"https://nsearchives.nseindia.com/content/indices/top10nifty50_' + DDMMYY + '.csv"'
+}, {
+    "name": "Daily Snapshot (csv)",
+    "type": "daily-reports",
+    "category": "capital-market",
+    "section": "indices",
+    "link": '"https://nsearchives.nseindia.com/content/indices/ind_close_all_' + DDMMYYYY + '.csv"'
+}, {
+    "name": "List of eligible securities in SLBS(csv)",
+    "type": "daily-reports",
+    "category": "capital-market",
+    "section": "slb",
+    "link": '"https://nsearchives.nseindia.com/archives/slbs/seclist/SLB_ELG_SEC_' + DDMMYYYY + '.csv"'
+}];
+
+var defaultDerivativeReport = [{
+    "name": "FAO - Bhavcopy (csv)",
+    "type": "daily-reports",
+    "category": "derivatives",
+    "section": "equity",
+    "link": 'https://nsearchives.nseindia.com/content/historical/DERIVATIVES/' + getFullyear + '/' + getMMM + '/fo' + DDMMMYYYY + 'bhav.csv.zip'
+}, {
+    "name": "CD - Bhavcopy (csv)",
+    "type": "daily-reports",
+    "category": "derivatives",
+    "section": "currency",
+    "link": 'https://nsearchives.nseindia.com/archives/cd/bhav/CD_Bhavcopy' + DDMMYY + '.zip'
+}, {
+    "name": "COM - Bhavcopy (csv)",
+    "type": "daily-reports",
+    "category": "derivatives",
+    "section": "commodity",
+    "link": 'https://nsearchives.nseindia.com/archives/com/bhavcopy/co' + DDMMMYYYY + 'bhav.csv.zip'
+}, {
+    "name": "IRD - Bhavcopy (csv)",
+    "type": "daily-reports",
+    "category": "derivatives",
+    "section": "irf",
+    "link": 'https://nsearchives.nseindia.com/archives/ird/bhav/IRF_NSE' + DDMMYY + '.csv'
+}, {
+    "name": "FAO - Daily Settlement Prices (csv)",
+    "type": "daily-reports",
+    "category": "derivatives",
+    "section": "equity",
+    "link": 'https://nsearchives.nseindia.com/archives/nsccl/sett/FOSett_prce_' + DDMMYYYY + '.csv'
+}, {
+    "name": "FAO - Security in ban period for F&O segment (csv)",
+    "type": "daily-reports",
+    "category": "derivatives",
+    "section": "equity",
+    "link": 'https://nsearchives.nseindia.com/archives/fo/sec_ban/fo_secban_' + DDMMYYYY + '.csv'
+}, {
+    "name": "CD - Daily Settlement Prices (csv)",
+    "type": "daily-reports",
+    "category": "derivatives",
+    "section": "currency",
+    "link": 'https://nsearchives.nseindia.com/archives/cd/sett/CDSett_prce_' + DDMMYYYY + '.csv'
+}, {
+    "name": "Haircut for Approved Securities (csv)",
+    "type": "daily-reports",
+    "category": "derivatives",
+    "section": "equity",
+    "link": 'https://nsearchives.nseindia.com/content/equities/APPSEC_COLLVAL_' + DDMMYYYY + '.csv'
+}, {
+    "name": "Haircut for Mutual Funds (csv)",
+    "type": "daily-reports",
+    "category": "derivatives",
+    "section": "equity",
+    "link": 'https://nsearchives.nseindia.com/archives/fo/mf_haircut/MF_VAR_' + DDMMYYYY + '.csv'
+}];
+
+var defaultDebtReport = [{
+    "name": "NTR - Securities available for trading (csv)",
+    "type": "daily-reports",
+    "category": "debt",
+    "section": "debt-segment",
+    "link": 'https://nsearchives.nseindia.com/content/historical/WDM/' + getFullyear + '/' + getMMM + '/wdmlist_' + DDMMMYYYY + '.csv'
+}, {
+    "name": "CBM - Bhavcopy for the day (csv)",
+    "type": "daily-reports",
+    "category": "debt",
+    "section": "corporate-bonds",
+    "link": 'https://nsearchives.nseindia.com/archives/debt/cbm/cbm_trd' + YYYYMMDD + '.csv'
+}, {
+    "name": "CBM - Security master (csv)",
+    "type": "daily-reports",
+    "category": "debt",
+    "section": "corporate-bonds",
+    "link": ""
+}, {
+    "name": "CBM - Settlement Details (csv)",
+    "type": "daily-reports",
+    "category": "debt",
+    "section": "corporate-bonds",
+    "link": ""
+}];
+
+B.on(document, 'allGood', function () {
+    /* Select All Start */
+    $('.selectAll').click(function () {
+        var checkInput = !$(this).find('input').is(':checked');
+        var containerName = $(this).data('container');
+        $('#' + containerName + ' .chk_container').each(function () {
+            if (checkInput) {
+                if ($(this).find('input').is(':checked')) {
+                    $(this).click();
+                }
+            } else {
+                if (!$(this).find('input').is(':checked')) {
+                    $(this).click();
+                }
+            }
+        });
+
+        var tabs = [{ id: 'getNifty50Data', handler: function handler(e) {
+                e.preventDefault();getNifty50Data();
+            } }, { id: 'loadQuickLinkModal', handler: function handler(e) {
+                e.preventDefault();getNifty50Data();loadQuickLinkModal('merged_reports');
+            } }, { id: 'loadQuickLinkModal_corporate', handler: function handler(e) {
+                e.preventDefault();loadQuickLinkModal('qlink_corporates');
+            } }, { id: 'loadQuickLinkModal_member', handler: function handler(e) {
+                e.preventDefault();loadQuickLinkModal('qlink_members');
+            } }, { id: 'multiple_downloadReports_QLEquityMarket', handler: function handler(e) {
+                e.preventDefault();downloadReports('#QLEquityMarket', 'daily');
+            } }, { id: 'multiple_downloadReports_ql', handler: function handler(e) {
+                e.preventDefault();downloadReports('#QLDerivativeMarket', 'daily');
+            } }, { id: 'downloadReports_QLDeb', handler: function handler(e) {
+                e.preventDefault();downloadReports('#QLDebtMarket', 'daily');
+            } }, { id: 'launch_btn', handler: function handler(e) {
+                e.preventDefault();genComTab();
+            } }, { id: 'genDownloadLink', handler: function handler(e) {
+                e.preventDefault();genDownloadLink('memberCircular');
+            } }, { id: 'genDownloadLink_member', handler: function handler(e) {
+                e.preventDefault();genDownloadLink('memberTrading');
+            } }, { id: 'genDownloadLink_memberClearing', handler: function handler(e) {
+                e.preventDefault();genDownloadLink('memberClearing');
+            } }, { id: 'genDownloadLink_memberListing', handler: function handler(e) {
+                e.preventDefault();genDownloadLink('memberListing');
+            } }, { id: 'genDownloadLink_memberCompliance', handler: function handler(e) {
+                e.preventDefault();genDownloadLink('memberCompliance');
+            } }, { id: 'genDownloadLink_memberOthers', handler: function handler(e) {
+                e.preventDefault();genDownloadLink('memberOthers');
+            } }, { id: 'closeAlertBox', handler: function handler(e) {
+                e.preventDefault();closeAlertBox();
+            } }];
+        tabs.forEach(function (tab) {
+            var element = document.getElementById(tab.id);
+            if (element) {
+                element.addEventListener("click", tab.handler);
+            }
+        });
+    });
+    /* Select All End */
+
+    /* Single File Download Start */
+    $(document).on('click', '.reportDownloadIcon', function () {
+        var downloadData = [];
+        var _this = $(this).parents('.reportsDownload');
+        var obj = { "name": _this.find('label.chk_container').text().trim(), "type": _this.data("type"), "category": _this.data("cat"), "section": _this.data("section"), "link": _this.data("link") };
+        downloadData.push(obj);
+
+        //fileDownload(downloadData, 'daily');
+    });
+
+    /* Singlr File Download End */
+
+    //Load Investor Market Capital
+    // investorEquity("favCapital", "#QLEquityMarket");
+
+    // investorEquity("favDerivatives", "#QLDerivativeMarket");
+
+    // investorEquity("favDebt", "#QLDebtMarket");
+
+    // getcircularData();
+
+    // latestCircular();
+});
+
+function getcircularData() {
+    if (!circularData) {
+        circularData = true;
+        B.get('/api/circulars').then(function (resp) {
+            var respJSON = JSON.parse(resp);
+            var memberCircular = [];
+            var memberTrading = [];
+            var memberClearing = [];
+            var memberListing = [];
+            var memberCompliance = [];
+            var memberOthers = [];
+            respJSON && respJSON.data && respJSON.data.forEach(function (item, index) {
+                if (item) {
+                    if (index < 3) {
+                        memberCircular.push(item);
+                    }
+                    if (item.circCategory.toLowerCase() === trading && memberTrading.length < 3) {
+                        memberTrading.push(item);
+                    }
+                    if (item.circCategory.toLowerCase() === listing && memberListing.length < 3) {
+                        memberListing.push(item);
+                    }
+                    if (item.circCategory.toLowerCase() === clearing && memberClearing.length < 3) {
+                        memberClearing.push(item);
+                    }
+                    if (item.circCategory.toLowerCase() === compliance && memberCompliance.length < 3) {
+                        memberCompliance.push(item);
+                    }
+                    if (item.circCategory.toLowerCase() === others && memberOthers.length < 3) {
+                        memberOthers.push(item);
+                    }
+                    if (memberTrading.length === 3 && memberListing.length === 3 && memberCompliance.length === 3 && memberOthers.length === 3) {
+                        return;
+                    }
+                }
+            });
+
+            /* Exchange Communication Page */
+            //Commenting this since this is making problem inside page of Circulars
+            /*if($('#circularContainer').length) {
+                circularList = respJSON.data;
+                circularAPI = CircularCard({cardStyle: {class: 'row'}, data: respJSON.data || []});
+                B.render(circularAPI, B.findOne('#circularContainer'));
+            }*/
+            /* Exchange Communication page End */
+
+            /*console.log("latestCircular", memberCircular);
+            console.log("trading", memberTrading);
+            console.log("memberClearing", memberClearing);
+            console.log("memberListing", memberListing);
+            console.log("compliance", memberCompliance);*/
+            var memberCircularAPI = CircularCard({ cardStyle: { class: 'row' }, data: memberCircular || [], selectBox: true });
+            B.render(memberCircularAPI, B.findOne('#memberCircular'));
+
+            var memberTradingAPI = CircularCard({ cardStyle: { class: 'row' }, data: memberTrading || [], selectBox: true });
+            B.render(memberTradingAPI, B.findOne('#memberTrading'));
+
+            var memberClearingAPI = CircularCard({ cardStyle: { class: 'row' }, data: memberClearing || [], selectBox: true });
+            B.render(memberClearingAPI, B.findOne('#memberClearing'));
+
+            var memberListingAPI = CircularCard({ cardStyle: { class: 'row' }, data: memberListing || [], selectBox: true });
+            B.render(memberListingAPI, B.findOne('#memberListing'));
+
+            var memberComplianceAPI = CircularCard({ cardStyle: { class: 'row' }, data: memberCompliance || [], selectBox: true });
+            B.render(memberComplianceAPI, B.findOne('#memberCompliance'));
+
+            var memberOthersAPI = CircularCard({ cardStyle: { class: 'row' }, data: memberOthers || [], selectBox: true });
+            B.render(memberOthersAPI, B.findOne('#memberOthers'));
+        });
+    }
+}
+function getNifty50Data() {
+    try {
+        if (!nifty50Data) {
+            nifty50Data = true;
+            B.get('/api/equity-stockIndices?index=NIFTY 50&nometa=true').then(function (resp) {
+                var respJSON = JSON.parse(resp);
+                var metaData = respJSON.metadata;
+                B.findOne('#qlMarketStatus .asondate span').innerText = metaData.timeVal;
+                B.findOne('#qlMarketStatus .val').innerText = DecimalFixed(metaData.last);
+                B.findOne('#qlMarketStatus .val_per').innerText = metaData.change.toFixed(2) + " (" + DecimalFixed(metaData.percChange) + "%)";
+                B.findOne('#qlMarketStatus .val_per').className = DecimalFixed(metaData.percChange) < 0 ? 'val_per redTxt' : 'val_per greenTxt';
+                B.findOne('#qlMarketStatus .arrow').className = DecimalFixed(metaData.percChange) < 0 ? 'arrow arrow-down-red' : 'arrow arrow-up-green';
+                B.findOne('#qlMarketStatus .arrow .invisibleText').innerText = DecimalFixed(metaData.percChange) < 0 ? 'Low' : 'High';
+
+                B.findOne('#qlMarketStatus #qlopen').innerText = DecimalFixed(metaData.open);
+                B.findOne('#qlMarketStatus #qlclose').innerText = DecimalFixed(metaData.previousClose);
+                B.findOne('#qlMarketStatus #qlhigh').innerText = DecimalFixed(metaData.high);
+                B.findOne('#qlMarketStatus #qllow').innerText = DecimalFixed(metaData.low);
+
+                B.findOne('#qlMarketStatus #qlvolume').innerText = DecimalFixed(metaData.totalTradedVolume / 100000);
+                B.findOne('#qlMarketStatus #qlvalue').innerText = DecimalFixed(metaData.totalTradedValue / 100000);
+                B.findOne('#qlMarketStatus #qlffmc').innerText = DecimalFixed(metaData.ffmc_sum);
+                if ($("#qlrangeslider2").length) {
+                    $("#qlrangeslider2").rangeslider("destroy");
+                }
+                if ($("#rangeslider2").length) {
+                    $("#rangeslider2").rangeslider("destroy");
+                }
+
+                B.findOne('#qlwhlMin').innerHTML = "Low " + DecimalFixed(metaData.yearLow) + " <small>(" + '52 W/L' + ")</small> ";
+                B.findOne('#qlwhlMax').innerHTML = "High " + DecimalFixed(metaData.yearHigh) + " <small>(" + '52 W/H' + ")</small> ";
+                if ($('#whlMin').length) {
+                    B.findOne('#whlMin').innerHTML = DecimalFixed(metaData.yearLow) + " <small>(" + '52 W/L' + ")</small> ";
+                }
+                if ($('#whlMax').length) {
+                    B.findOne('#whlMax').innerHTML = " <small>(" + '52 W/H' + ")</small> " + DecimalFixed(metaData.yearHigh);
+                }
+
+                $("#qlrangeslider2, #rangeslider2").attr("value", metaData.last);
+                $("#qlrangeslider2, #rangeslider2").attr("min", metaData.yearLow);
+                $("#qlrangeslider2, #rangeslider2").attr("max", metaData.yearHigh);
+                $("#qlrangeslider2, #rangeslider2").val(metaData.last).change();
+                if ($("#qlrangeslider2").length) {
+                    initRangeSlider("#qlrangeslider2");
+                }
+                if ($("#rangeslider2").length) {
+                    initRangeSlider("#rangeslider2");
+                }
+                //initRangeSlider("#qlrangeslider2");
+            });
+        }
+    } catch (e) {
+        console.log(e);
+    }
+}
+
+function genDownloadLink(section) {
+    try {
+        var linkArray = [];
+        $('#' + section + ' .item').each(function () {
+            if ($(this).find('input').is(':checked')) {
+                linkArray.push($(this).find('.download').attr('href'));
+            }
+        });
+        if (linkArray.length > 0) {
+            var zipUrl = "/api/zipem?fileURLs=" + JSON.stringify(linkArray);
+            window.open(zipUrl, '_blank');
+            console.log("linkArray", linkArray);
+        } else {
+            alert("Kindly select below cards");
+        }
+    } catch (e) {
+        console.log("genDownloadLink", e.message);
+    }
+}
+
+function showFavorites(qlforInvestor, id) {
+    $(id).empty();
+    if (qlforInvestor.length > 0) {
+        qlforInvestor.map(function (item) {
+            var fileLabel = getFileLabel(item.name);
+            fileLabel = fileLabel != null ? '<div class= "text-justify font-italic text-danger font-weight-bold" style="font-size: 11px;">' + fileLabel + '</div>' : '';
+            if (id === "#capitalFav" || id === "#derivativeFav" || id === "#debtFav") {
+                $(id).append('<div data-link="' + escapeHtml(item.link) + '" data-cat="' + escapeHtml(item.category) + '" data-section="' + escapeHtml(item.section) + '" data-type="' + escapeHtml(item.type) + '" class="col-lg-4 col-md-4 col-sm-6 my-2 reportsDownload">\n                                <div class="card h-100">\n                                    <div class="card-body position-relative">\n                                        <label class="chk_container">' + escapeHtml(item.name) + '\n                                            <input type="checkbox">\n                                                <span class="checkmark"></span>\n                                        </label>\n                                        <span class="fav" role="button" tabindex="0" aria-pressed="false" aria-label="Favorite"><i class="fa fa-star"></i> </span>\n                                        <span class="reportDownloadIcon"><a href="' + escapeHtml(item.link) + '" target="_blank" class="pdf-download-link" aria-label="Download" rel="noreferrer noopener"></a> </span>\n                                        ' + fileLabel + '\n                                        </div>\n                                    </div>\n                                </div>');
+            } else {
+                $(id).append('<div data-link="' + escapeHtml(item.link) + '" data-cat="' + escapeHtml(item.category) + '" data-section="' + escapeHtml(item.section) + '" data-type="' + escapeHtml(item.type) + '" class="col-md-4 my-2 reportsDownload">\n                        <div class="card h-100">\n                            <div class="card-body pt-2 pb-2">\n                                <label class="chk_container">' + escapeHtml(item.name) + '\n                                    <input type="checkbox">\n                                        <span class="checkmark"></span>\n                                </label>\n                                <span class="reportDownloadIcon"><a href="' + escapeHtml(item.link) + '"  target="_blank" class="pdf-download-link" aria-label="Download" rel="noreferrer noopener"></a> </span>\n                            </div>\n                        </div>\n                    </div>');
+            }
+        });
+    } else {
+        $(id).append('<div class="w-100 text-center">No Records</div>');
+    }
+}
+function investorEquity(storageName, id) {
+    try {
+        var qlforInvestor = localStorage.getItem(storageName);
+        qlforInvestor = JSON.parse(qlforInvestor);
+
+        if (!qlforInvestor || qlforInvestor.length <= 0) {
+            B.get('/api/merged-daily-reports?key=' + storageName).then(function (resp) {
+                qlforInvestor = JSON.parse(resp);
+                showFavorites(qlforInvestor, id);
+            });
+        } else {
+            var files = [];
+            qlforInvestor.forEach(function (file) {
+                files.push(file.name);
+            });
+            if (files.length > 0) {
+                B.get('/api/syncDailyReport?files=' + files + '&storage=' + storageName).then(function (resp) {
+                    if (resp) {
+                        var jsonResp = JSON.parse(resp);
+                        qlforInvestor.forEach(function (ql, index) {
+                            jsonResp.forEach(function (res) {
+                                if (res.name === ql.name) {
+                                    qlforInvestor[index] = res || ql;
+                                }
+                            });
+                        });
+                        localStorage.setItem(storageName, JSON.stringify(qlforInvestor));
+                        showFavorites(qlforInvestor, id);
+                    }
+                });
+            } else showFavorites(qlforInvestor, id);
+        }
+    } catch (e) {
+        console.log("investorEquity Error", e.message);
+    }
+}
+
+function SingledownloadReports(id, type, _this) {
+    var downloadData = [];
+    //#cr_equity_daily
+    var $this = $(_this).parents('.reportsDownload');
+    var fileName = $this.find('label.chk_container').text().trim();
+    var reportDate = $(id + '_date').val();
+    if (reportDt.includes(reportDate) && fileName === 'F&O - Bhavcopy(csv)') {
+        fileName = 'F&O - Bhavcopy_Revised(csv)';
+    }
+    if (reportDt.includes(reportDate) && fileName === 'F&O - Bhavcopy (fo.zip)') {
+        fileName = 'F&O - Bhavcopy_Revised (fo.zip)';
+    }
+    // if((reportDate === '30-Mar-2021' || reportDate === '12-May-2021') && fileName === 'F&O - Bhavcopy(csv)'){
+    //     fileName = 'F&O - Bhavcopy_Revised(csv)';
+    // }
+    // if((reportDate === '30-Mar-2021' || reportDate === '12-May-2021') && fileName === 'F&O - Bhavcopy (fo.zip)'){
+    //     fileName = 'F&O - Bhavcopy_Revised (fo.zip)';
+    // }
+    var obj = { "name": fileName, "type": $this.data("type"), "category": $this.data("cat"), "section": $this.data("section"), "link": $this.data("link") };
+    downloadData.push(obj);
+    fileDownload(downloadData, type, id, "single");
+}
+
+function getDnldMsgElement(msg) {
+    var ele = document.createElement("span");
+    ele.className = "ason";
+    ele.innerHTML = '  <i>' + msg + '</i>';
+    return ele;
+}
+
+function downloadReports(id, type) {
+    var downloadData = [];
+    //#cr_equity_daily
+    $(id + ' .reportsDownload').each(function () {
+        if ($(this).find('label.chk_container input').is(":checked")) {
+            var fileName = $(this).find('label.chk_container').text().trim();
+            var reportDate = $(id + '_date').val();
+
+            // if(reportDate === '30-Mar-2021' && fileName === 'F&O - Bhavcopy(csv)'){
+            //     fileName = 'F&O - Bhavcopy_Revised(csv)';
+            // }
+            // if(reportDate === '30-Mar-2021' && fileName === 'F&O - Bhavcopy (fo.zip)'){
+            //     fileName = 'F&O - Bhavcopy_Revised (fo.zip)';
+            // }
+            if (reportDt.includes(reportDate) && fileName === 'F&O - Bhavcopy(csv)') {
+                fileName = 'F&O - Bhavcopy_Revised(csv)';
+            }
+            if (reportDt.includes(reportDate) && fileName === 'F&O - Bhavcopy (fo.zip)') {
+                fileName = 'F&O - Bhavcopy_Revised (fo.zip)';
+            }
+            var obj = { "name": fileName, "type": $(this).data("type"), "category": $(this).data("cat"), "section": $(this).data("section"), "link": $(this).data("link") };
+            downloadData.push(obj);
+        }
+    });
+    if (!type) {
+        if (id.includes("archives")) type = "Archives";else if (id.includes("monthly")) type = "Monthly";else if (id.includes("daily")) type = "Daily";else if (id.includes("weekly")) type = "weekly";else if (id.includes("common")) type = "Common";
+    } else {
+        type = type[0].toUpperCase() + type.substr(1, type.length - 1);
+    }
+    if (id === "#cr_derv_commodity_dailyMargin") {
+        type = "Archives";
+    }
+    console.log('type :::', type);
+    fileDownload(downloadData, type, id);
+}
+
+function fileDownload(data, type, id, mode) {
+    try {
+        var downloadData = data;
+        if (downloadData.length) {
+            var zipUrl = void 0,
+                archiveNames = void 0;
+            if (type && (type.toLowerCase() === "daily" || type.toLowerCase() === "monthly")) {
+                archiveNames = downloadData.map(function (e) {
+                    return e.link;
+                });
+                zipUrl = "/api/zipem?fileURLs=" + encodeURIComponent(JSON.stringify(archiveNames));
+            } else {
+                archiveNames = downloadData;
+                zipUrl = '/api/reports?archives=' + encodeURIComponent(JSON.stringify(archiveNames));
+
+                if (!id.includes("monthly")) {
+                    var reportDate = $(id + '_date').val();
+                    if (reportDate !== "" && reportDate !== "Select Date") {
+                        zipUrl += '&date=' + reportDate;
+                    } else {
+                        alert("Please Select the date");
+                        return;
+                    }
+                }
+            }
+            zipUrl += '&type=' + type;
+            if (mode && mode === "single") {
+                zipUrl += '&mode=' + mode;
+            }
+            // Give intimation that download will start...
+            // let ele = getDnldMsgElement(" Please wait for the download to start...")
+            // event.target.parentElement.appendChild(ele);
+            // setTimeout(function(){
+            //     ele.remove()
+            // }, 1500)
+            showErrorSnackBar('wait for download to start...', 2, 3000);
+            downloadFile(zipUrl, function (err) {
+                console.log('Error in downloading file', err);
+                if (err.show) {
+                    showErrorSnackBar(err.error);
+                } else {
+                    showErrorSnackBar('Error in downloading file. <br> &nbsp; &nbsp; Please retry after some time.');
+                }
+            });
+        } else {
+            alert("Select files to download");
+        }
+    } catch (e) {
+        console.log(e);
+    }
+}
+
+function latestCircular() {
+    try {
+        B.get('/api/latest-circular').then(function (resp) {
+            var respJSON = JSON.parse(resp);
+            var latestEquityCircular = [];
+            var latestDebtCircular = [];
+
+            respJSON[0] && respJSON[0].content && respJSON[0].content.field_latest_circular && respJSON[0].content.field_latest_circular.map(function (item) {
+                if (item.name === "Debt") {
+                    latestDebtCircular.push(item);
+                }
+                if (item.name === "Equity") {
+                    latestEquityCircular.push(item);
+                }
+            });
+
+            if (latestEquityCircular.length) {
+                latestEquityCircular.map(function (obj) {
+                    $('#circulars_equity_data').append('<div class="p-3 borderBottom">\n                            <p class="mb-0">' + obj.field_body + '</p>\n                            <div class="row">\n                                <div class="qlLatestCircularDwnd mb-2 col-6">NSE Circular: <br /><a href="' + obj.field_nse_file_attachement.url + '" target="_blank" rel="noreferrer noopener"><img src="/assets/images/icon-pdf.svg" width="18" height="18" class="mr-1" alt="Icon Pdf" title="Icon Pdf">' + obj.field_nse_circular_date + '</a>\n                                </div>\n                                <div class="qlLatestCircularDwnd mb-2 col-6">SEBI Circular: <br /><a href="' + obj.field_sebi_file_attachement.url + '" target="_blank" rel="noreferrer noopener"><img src="/assets/images/icon-pdf.svg" width="18" height="18" class="mr-1" alt="Icon Pdf" title="Icon Pdf">' + obj.field_sebi_circular_date + '</a>\n                                </div>\n                            </div>\n                        </div>');
+                });
+            } else {
+                $('#circulars_equity_data').append('<div class="p-3 borderBottom text-center">No Records</div>');
+            }
+
+            if (latestDebtCircular.length) {
+                latestDebtCircular.map(function (obj) {
+                    $('#circulars_debt_data').append('<div class="p-3 borderBottom">\n                            <p class="mb-0">' + obj.field_body + '</p>\n                            <div class="row">\n                                <div class="qlLatestCircularDwnd mb-2 col-6">NSE Circular: <br /><a href="' + obj.field_nse_file_attachement.url + '" target="_blank" rel="noreferrer noopener"><img src="/assets/images/icon-pdf.svg" width="18" height="18" class="mr-1" alt="Icon Pdf" title="Icon Pdf">' + obj.field_nse_circular_date + '</a>\n                                </div>\n                                <div class="qlLatestCircularDwnd mb-2 col-6">SEBI Circular: <br /><a href="' + obj.field_sebi_file_attachement.url + '" target="_blank" rel="noreferrer noopener"><img src="/assets/images/icon-pdf.svg" width="18" height="18" class="mr-1" alt="Icon Pdf" title="Icon Pdf">' + obj.field_sebi_circular_date + '</a>\n                                </div>\n                            </div>\n                        </div>');
+                });
+            } else {
+                $('#circulars_debt_data').append('<div class="p-3 borderBottom text-center">No Records</div>');
+            }
+        });
+    } catch (e) {
+        console.log(e);
+        $('#circulars_equity_data, #circulars_debt_data').append('<div class="p-3 borderBottom text-center">No Records</div>');
+    }
+}
+
+var mergedReportData = false;
+var latestCircularData = false;
+function loadQuickLinkModal(modalLink) {
+    if (modalLink === 'qlink_corporates') {
+        if (!latestCircularData) {
+            latestCircularData = true;
+            latestCircular();
+        }
+        $('#qlink_corporates').toggle('modal');
+    } else if (modalLink === 'qlink_members') {
+        getcircularData();
+        $('#qlink_members').toggle('modal');
+    } else if (modalLink === 'merged_reports') {
+        if (!mergedReportData) {
+            //Load Investor Market Capital
+            investorEquity("favCapital", "#QLEquityMarket");
+            investorEquity("favDerivatives", "#QLDerivativeMarket");
+            investorEquity("favDebt", "#QLDebtMarket");
+            mergedReportData = true;
+        }
+    }
+}
+
+var entityMap = {
+    '&': '&amp;',
+    '<': '&lt;',
+    '>': '&gt;',
+    '"': '&quot;',
+    "'": '&#39;',
+    '/': '/',
+    '`': '&#x60;',
+    '=': '&#x3D;'
+};
+
+function escapeHtml(string) {
+    var query = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
+
+    if (query) {
+        return String(string).replace(/[<>"'`=\/]/g, function fromEntityMap(s) {
+            return entityMap[s];
+        });
+    } else {
+        return String(string).replace(/[&<>"'`=\/]/g, function fromEntityMap(s) {
+            return entityMap[s];
+        });
+    }
+}

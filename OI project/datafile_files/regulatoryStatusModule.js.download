@@ -1,0 +1,76 @@
+"use strict";
+
+function checkRegulatory() {
+    B.get('/api/regulatorymodulestatus').then(function (resp) {
+        var respJSON = JSON.parse(resp);
+        if (respJSON.data.t0settlement === "false") {
+            $("#market-T0").hide();
+        }
+        if (respJSON.data.market_stat === "false") {
+            // hide all new pages
+            $("#Advance").hide();
+            $("#stocksTraded").hide();
+            // use previous page for priceband hitter
+            $("#priceband_hitters").attr('href', '/market-data/old-price-band-hitters');
+            $("#52_week_highlow").attr('href', '/market-data/old-52-week-high-low-equity-market');
+        }
+        if (respJSON.data.niftynxt === "false") {
+            $(".niftynxt").hide();
+        }
+        if (respJSON.data.xbrl_ann === "false") {
+            $('#leftNav a[data-name="AnnXBRL-LOS"]').closest('li').hide();
+            $('#leftNav a[data-name="AnnXBRL-CTW"]').closest('li').hide();
+            $("#event_type option[value='CIRP']").remove();
+        }
+        if (respJSON.data.scheme_summary_mf === "true") {
+            if ($('#staticComponent-MF').length) {
+                document.getElementById("staticComponent-MF").setAttribute("href", "/market-data/securities-available-for-trading-mf");
+                document.getElementById("staticComponent-MF").setAttribute("target", "_blank");
+                $('#staticComponent-MF').removeAttr('role');
+                $('#staticComponent-MF').removeAttr('data-bs-toggle');
+            }
+        }
+        setTimeout(function () {
+            if (respJSON.data.quotesurveillanceindicator === "false") {
+                if ($("#Surveillance") && $(".surv-ind")) {
+                    $("#Surveillance").removeClass("d-none");
+                    $(".surv-ind").removeClass("d-none");
+                }
+            }
+        }, 1000);
+        if (respJSON.data.zczpsse === "false") {
+            $("#zczp_active").hide();
+        }
+        if (respJSON.data.statementimpact === "false") {
+            $("#StmtOfImpact,#stmtOnImpact").hide();
+        }
+
+        if (respJSON.data.insiderPlan === "false") {
+            $("#insiderPlan,#insiderTradingPlan").hide();
+        }
+        if (respJSON.data.pit_ebd === "false") {
+            $("#PIT_EBD").hide();
+        }
+
+        if (respJSON.data.pit_qd === "false") {
+            $("#PIT_QD").hide();
+        }
+
+        if (respJSON.data.mobileApp === "false") {
+            $("#mobileApp").hide();
+        }
+
+        if (respJSON.data.socialMedia === "false") {
+            $("#socialMedia").hide();
+        }
+
+        if (respJSON.data.integratedFiling === "false") {
+
+            // Get Quote
+            $("#integratedFiling").hide();
+
+            // Corporate Filings / Listing
+            $('#leftNav a[data-name="IntegratedFiling"]').closest('li').hide();
+        }
+    });
+}

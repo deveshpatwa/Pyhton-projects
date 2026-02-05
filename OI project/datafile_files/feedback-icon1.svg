@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+    <defs>
+        <style>
+            .cls-1{fill:#e6ad1d}.cls-2{fill:#fff}
+        </style>
+    </defs>
+    <g id="Feedback" transform="translate(-427 -787)">
+        <path id="Rectangle_542" d="M0 0h30v30H0z" class="cls-1" data-name="Rectangle 542" transform="translate(427 787)"/>
+        <path id="Path_798" d="M32.14 10.506v14.556a1.507 1.507 0 0 1-1.506 1.506h-.5v-13.05a2.514 2.514 0 0 0-2.51-2.51h-8.535v-.5A1.507 1.507 0 0 1 20.6 9h10.034a1.507 1.507 0 0 1 1.506 1.506zm-3.012 3.012v14.556a1.507 1.507 0 0 1-1.506 1.506H17.583a1.507 1.507 0 0 1-1.506-1.506V14.521a.5.5 0 0 0-.115-.321l-1.822-2.188h13.485a1.507 1.507 0 0 1 1.503 1.506zm-3.012 9.788a.5.5 0 0 0-.5-.5h-7.029a.5.5 0 1 0 0 1h7.027a.5.5 0 0 0 .503-.5zM18.587 21.3h6.023a.5.5 0 1 0 0-1h-6.023a.5.5 0 1 0 0 1zm8.533-3.012a.5.5 0 0 0-.5-.5h-8.033a.5.5 0 1 0 0 1h8.031a.5.5 0 0 0 .502-.502z" class="cls-2" data-name="Path 798" transform="translate(419 783)"/>
+    </g>
+</svg>

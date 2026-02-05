@@ -1,0 +1,166 @@
+var multilang;
+    
+function multilang() {
+    var selectedLang = getCookie("lang");
+    if (!selectedLang || selectedLang == 'en') {
+      refreshLabels();
+    } else {
+        multilang = new MultiLang(`/json/language/${selectedLang}.json`, selectedLang, this.delayedOnLoad);
+        multilang.setLanguage(selectedLang);
+    }  
+}
+function delayedOnLoad() {
+    setTimeout(()=>{
+        refreshLabels();
+        hideInCurrentRelease();
+        isTranslationScope();
+    }, 0)
+}
+function refreshLabels(event = undefined) {
+  const placeholdersArr = [
+    'header-search-input',
+    'input_symbol',
+    'ms-derivative-quote-search'
+  ]
+  let allnodes = document.body.getElementsByTagName("*");
+  let allnodesWithDataAttr = document.querySelectorAll(
+    "[data-nse-translate]"
+  );
+  // if ancestorId found in event, then replace allnodes
+  if (event && event.detail && event.detail.ancestorId) {
+    const parentNode = document.getElementById(event.detail.ancestorId);
+    if (parentNode) {
+      allnodes = parentNode.getElementsByTagName("*");
+    }
+  }
+  
+  const nseLangTranslator = new NSELangTranslator();
+  if (!selectedLang || selectedLang == 'en') {
+    
+  } else {
+    // loop through all document elements
+    // console.log('refreshLabels|allnodes count', allnodes.length);
+    for (let i = 0, max = allnodes.length; i < max; i++) {
+      // get id current elements
+      const idname =
+        allnodes[i] && "id" in allnodes[i] && allnodes[i].id
+          ? allnodes[i].id
+          : "";
+      // if id exists, set get id current elements
+      // && idname != 'main_navbar'
+      // fix: do not translate/replace textContent for progress-bar element
+      if (idname != "" &&  $(allnodes[i]).hasClass("progress-bar") == false && $(allnodes[i]).attr("data-nse-translate-ignore") !== 'true') {
+        const val = multilang.get(idname);
+        if (val) {
+          allnodes[i].textContent = val;
+        }
+        // to change placeholder of global search
+        if(placeholdersArr.includes(idname)) {
+          $(allnodes[i]).attr('placeholder',val);
+        }
+      }
+    }
+    for (let i = 0, max = allnodesWithDataAttr.length; i < max; i++) {
+      let dataAttrVal = $(allnodesWithDataAttr[i]).attr("data-nse-translate");
+      if (dataAttrVal && $(allnodesWithDataAttr[i]).hasClass("progress-bar") == false) {
+        switch (dataAttrVal) {
+            case 'symbol':
+              //symbol
+              const x = nseLangTranslator.translateSymbolTo( $(allnodesWithDataAttr[i]).attr("data-nse-translate-symbol") , {
+                name: 'symbol'
+              })
+              allnodesWithDataAttr[i].textContent = x;
+            break;
+             case 'columnheader':
+              //columnheader
+              dataAttrVal = $(allnodesWithDataAttr[i]).attr("data-nse-translate-columnheader");
+              if (!!dataAttrVal) {
+                const val1 = multilang.get(dataAttrVal);
+                if (val1) {
+                  allnodesWithDataAttr[i].textContent = val1;
+                }
+              }
+            case 'currencyunit':
+              //marekt turnover currency unit text with rupees symbol
+              dataAttrVal = $(allnodesWithDataAttr[i]).attr("data-nse-translate-currencyunit");
+              if (!!dataAttrVal) {
+                const val1 = multilang.get(dataAttrVal);
+                if (val1) {
+                  allnodesWithDataAttr[i].textContent = `(₹ ${val1})`;
+                }
+              }
+            break;
+            default:
+              const val = multilang.get(dataAttrVal);
+              if (val && $(allnodesWithDataAttr[i]).hasClass("progress-bar") == false && $(allnodesWithDataAttr[i]).attr("data-nse-translate-ignore") !== 'true') {
+                allnodesWithDataAttr[i].textContent = val;
+              }
+            break;
+        }
+      }
+    }
+  }
+  
+}
+
+function translateIndices() {
+  const nseLangTranslator = new NSELangTranslator();
+  let allnodesWithDataAttr = document.getElementById('selectIndicesModal').getElementsByTagName('*');
+  for (let i = 0, max = allnodesWithDataAttr.length; i < max; i++) {
+    const dataAttrVal = $(allnodesWithDataAttr[i]).attr("data-nse-translate-symbol");
+    if (dataAttrVal && $(allnodesWithDataAttr[i]).hasClass("progress-bar") == false) {
+      switch (dataAttrVal) {
+        case 'symbol':
+          //symbol
+          const x = nseLangTranslator.translateSymbolTo( $(allnodesWithDataAttr[i]).attr("data-nse-translate-symbol-value") , {
+            name: 'symbol'
+          })
+          allnodesWithDataAttr[i].textContent = x;
+        break;
+      }
+    }
+  }    
+}
+
+function isTranslationScope(pageref) {
+  // console.log('check isTranslationScope...');
+  if  (pageref === 'glossary') {
+  }
+}
+
+function hideInCurrentRelease() {
+  //  $("#disclaimer").hide();
+  // $("#privacy-policy").hide();
+  // $("#terms-of-use").hide();
+  // $("#copyright").hide();
+  $("#site-map").hide(); 
+  $("#website-policies").hide();
+  $("a#submit-a-tip-off").hide();
+  $("#report-here").hide();
+  $("#call-centre-for-members").hide();
+  $("#Glossary").hide();
+  $("#corporate_info").hide();
+  $(".setting_btn").hide();
+  $(".feedbackIconBtn").hide();
+  $(".loginIconBtn").hide();
+  $(".footer_strip ul li a").hide();
+  $("#complaints_click_here").hide();
+  $("#complaints_click").hide();
+  $("#trade_cm_tab2").hide();
+  // footer rss feed hide in languages
+  // $("#footerRSSFeed").hide();
+  $("#metals-cntrctinfo-glossary-nav").hide();
+  $("#bullion-cntrctinfo-glossary-nav").hide();
+  $("#energy-cntrctinfo-glossary-nav").hide();
+  $("#agri-cntrctinfo-glossary-nav").hide();
+  $("#cntrctinfo-glossary-nav").hide();
+  $("#empanelment-auditors").hide(); 
+  $("#empaneled-audit").hide(); 
+}
+// CSP Header unsafe-inline and unsafe-eval handling
+B.on(document,'allGood',()=> {
+  let translateIndices = document.getElementById('translateIndices');
+  if(translateIndices && typeof translateIndices ==='function'){
+    translateIndices()
+  } 
+})

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+    <defs>
+        <style>
+            .cls-1{fill:#e6ad1d}.cls-2{fill:#fff}
+        </style>
+    </defs>
+    <g id="Accessible" transform="translate(-387 -787)">
+        <path id="Rectangle_541" d="M0 0h30v30H0z" class="cls-1" data-name="Rectangle 541" transform="translate(387 787)"/>
+        <g id="Group_1076" data-name="Group 1076" transform="translate(-.7 -.579)">
+            <path id="Path_796" d="M13 1.82a1.82 1.82 0 1 1 1.82 1.82A1.82 1.82 0 0 1 13 1.82z" class="cls-2" data-name="Path 796" transform="translate(387.555 792.579)"/>
+            <path id="Path_797" d="M12.8 7.522l6.248-2.7L18.6 3.7l-7.618 2.609H9.768L2.151 3.7 1.7 4.827l6.248 2.7v4.853L5.46 20.424l1.134.43 3.521-7.872h.52l3.521 7.872 1.134-.43-2.49-8.049z" class="cls-2" data-name="Path 797" transform="translate(392 791.123)"/>
+        </g>
+    </g>
+</svg>
