@@ -1,0 +1,1809 @@
+TripID,ShipperID,CategoryID,Customer,ShipDate,OriginCity,OriginState,ShipDays,DestinationCity,DestinationState,TotalMiles,LoadedMiles,ShippingCost,Revenue,Capacity,TripType,CheckPoints
+10001,1,5,Reddoit,2016-07-08,Grand Rapids,MI,3,Toledo,OH,955,687,2232,2910,99,Domestic,9
+10002,2,7,Plustax,2016-05-21,Milwaukee,WI,2,Springfield,IL,317,317,646,1199,62,Domestic,8
+10003,1,4,Quotelane,2016-08-25,Chicago,IL,4,Rockford,IL,536,536,7276,5778,61,Domestic,10
+10004,1,5,Viatom,2016-05-20,Indianapolis,IN,1,Northbrook,IL,450,362,6807,7571,77,Domestic,4
+10005,1,4,Silverfase,2016-04-25,Northbrook,IL,3,Naperville,IL,514,205,7647,5456,60,Domestic,2
+10006,1,4,O-Job,2016-04-03,Detriot,MI,4,Monon,IN,332,332,4687,3084,68,Domestic,4
+10007,2,4,Howtaxon,2016-05-14,Gary,IN,4,Milwaukee,WI,1041,328,7603,5516,97,Domestic,4
+10008,1,6,Xx-Way,2016-07-24,Joliet,IL,3,Madison,WI,286,286,3968,4654,88,Domestic,4
+10009,2,6,San-Plex,2016-04-08,Monon,IN,10,Lansing,MI,804,663,3746,4107,90,International,4
+10010,1,7,Dentocity,2016-01-10,Madison,WI,5,Kalamazoo,MI,732,248,3718,3916,63,International,10
+10011,2,7,Indi-Dox,2016-03-02,Green Bay,WI,6,Joliet,IL,470,284,3389,3978,55,International,2
+10012,2,8,Subdrill,2016-03-17,Rockford,IL,10,Green Bay,WI,1175,361,763,1477,50,International,10
+10013,2,6,Conzumzap,2016-05-19,Appleton,WI,1,Grand Rapids,MI,486,451,4896,5272,69,Intercom,4
+10014,2,6,Ontotam,2016-02-22,Cincinnati,OH,1,Gary,IN,701,701,933,1265,78,Domestic,5
+10015,2,7,Trio-Dax,2016-02-01,Dayton,OH,4,Elgin,IL,732,620,3876,4471,65,Domestic,1
+10016,1,5,Tampquote,2016-04-19,Lansing,MI,9,Dayton,OH,328,328,37,736,94,International,1
+10017,2,8,Recode,2016-08-26,Bangor,MI,6,Davenport,IA,525,460,2321,2656,71,International,4
+10018,1,6,Ganjazone,2016-05-24,Elgin,IL,2,Cincinnati,OH,220,220,5772,6491,83,Domestic,9
+10019,2,7,Hottaxon,2016-01-03,Skokie,IL,2,Chicago,IL,786,347,3801,4080,54,Domestic,7
+10020,2,6,Keyzunbase,2016-04-27,Kalamazoo,MI,1,Bangor,MI,1141,503,4886,5180,72,Domestic,9
+10021,2,6,K-Is,2016-07-07,Davenport,IA,2,Appleton,WI,874,325,539,1226,82,Domestic,9
+10022,2,6,Zotit,2016-04-04,Milwaukee,WI,2,Springfield,IL,1068,267,88,911,73,Domestic,7
+10023,2,8,Scotquote,2016-03-12,Springfield,IL,2,Skokie,IL,680,303,1417,1663,85,Domestic,7
+10024,1,4,Stimmedia,2016-01-05,Chicago,IL,2,Rockford,IL,1004,289,4025,2598,52,Domestic,6
+10025,1,8,Lazap,2016-03-19,Indianapolis,IN,4,Northbrook,IL,1094,258,8546,8824,86,Domestic,5
+10026,2,6,Baselux,2016-02-28,Northbrook,IL,10,Naperville,IL,875,247,1780,2445,70,International,8
+10027,1,5,Dingity,2016-06-06,Detriot,MI,7,Monon,IN,694,243,5139,6100,68,International,10
+10028,2,8,Planethouse,2016-07-23,Monon,IN,9,Lansing,MI,1012,641,8065,8603,81,International,2
+10029,2,5,Overtam,2016-06-07,Madison,WI,1,Kalamazoo,MI,1123,733,7614,8038,79,Intercom,2
+10030,2,5,Solholdings,2016-07-28,Green Bay,WI,1,Joliet,IL,751,751,7247,7877,55,Domestic,5
+10031,2,7,Cannamcon,2016-01-31,Naperville,IL,2,Indianapolis,IN,508,321,3102,3655,54,Domestic,2
+10032,2,6,Zerfax,2016-07-17,Rockford,IL,2,Green Bay,WI,1102,446,4355,4911,79,Domestic,8
+10033,1,7,Technoline,2016-04-13,Appleton,WI,7,Grand Rapids,MI,435,435,1762,2342,89,International,2
+10034,1,5,Applanet,2016-04-09,Cincinnati,OH,7,Gary,IN,220,220,4984,5421,71,International,5
+10035,2,5,Zoncone,2016-02-06,Dayton,OH,3,Elgin,IL,463,307,7272,8119,99,Domestic,5
+10036,2,8,Canemedkix,2016-01-29,Toledo,OH,4,Detriot,MI,455,455,938,1747,89,Domestic,1
+10037,2,7,Strongdax,2016-04-20,Bangor,MI,3,Davenport,IA,726,348,919,1084,85,Domestic,6
+10038,2,5,Xx-Dotone,2016-03-09,Elgin,IL,3,Cincinnati,OH,1047,398,6309,6723,88,Domestic,9
+10039,1,7,Tamcan,2016-01-03,Skokie,IL,3,Chicago,IL,948,684,1212,1568,66,Domestic,8
+10040,1,8,Sanin,2016-06-23,Kalamazoo,MI,2,Bangor,MI,363,363,7941,8874,78,Domestic,1
+10041,2,5,Groovestrip,2016-02-01,Grand Rapids,MI,2,Toledo,OH,331,331,6801,7218,83,Domestic,1
+10042,1,5,Matdex,2016-07-27,Milwaukee,WI,10,Springfield,IL,219,219,802,1184,59,International,7
+10043,2,4,Saohow,2016-04-02,Springfield,IL,7,Skokie,IL,1187,742,6043,4255,52,International,2
+10044,2,5,Yearlex,2016-08-27,Chicago,IL,9,Rockford,IL,1166,250,2857,3320,54,International,5
+10045,2,6,Bamtechnology,2016-07-04,Indianapolis,IN,8,Northbrook,IL,1170,729,7183,7517,78,International,2
+10046,1,4,Dripkix,2016-01-21,Northbrook,IL,5,Naperville,IL,1008,778,5397,3284,71,International,4
+10047,2,6,Instrip,2016-02-22,Detriot,MI,1,Monon,IN,812,535,3551,4147,94,Intercom,5
+10048,2,5,Xx-Bam,2016-05-02,Gary,IN,4,Milwaukee,WI,609,609,5290,6278,61,Domestic,9
+10049,2,6,Zaamhouse,2016-03-27,Joliet,IL,1,Madison,WI,1007,288,2352,3042,80,Domestic,2
+10050,2,5,Zuntexon,2016-01-23,Madison,WI,10,Kalamazoo,MI,254,254,3221,3441,71,International,10
+10051,2,7,Howplanet,2016-02-29,Green Bay,WI,9,Joliet,IL,1130,462,6108,6863,89,International,8
+10052,2,5,Fasezim,2016-03-02,Naperville,IL,2,Indianapolis,IN,832,458,6187,6513,58,Domestic,1
+10053,1,6,Sanlab,2016-08-11,Rockford,IL,3,Green Bay,WI,737,349,777,979,66,Domestic,2
+10054,2,8,Tamholding,2016-08-23,Cincinnati,OH,4,Gary,IN,986,264,6554,7325,90,Domestic,7
+10055,1,4,Greentech,2016-05-06,Dayton,OH,3,Elgin,IL,952,256,7540,5295,74,Domestic,4
+10056,2,6,Goldenbam,2016-07-24,Toledo,OH,4,Detriot,MI,336,336,559,1143,64,Domestic,9
+10057,2,7,Silfase,2016-04-11,Lansing,MI,4,Dayton,OH,1002,735,6107,6447,62,Domestic,10
+10058,1,6,Unoex,2016-05-06,Bangor,MI,4,Davenport,IA,705,522,3456,3744,51,Domestic,4
+10059,2,7,Zoodrill,2016-05-07,Elgin,IL,2,Cincinnati,OH,552,552,3790,4454,96,Domestic,6
+10060,2,5,Anmedia,2016-05-16,Kalamazoo,MI,8,Bangor,MI,1044,564,424,958,50,International,6
+10061,2,5,Daltfax,2016-05-16,Davenport,IA,5,Appleton,WI,377,377,1306,1702,94,International,2
+10062,1,4,Physcone,2016-03-22,Grand Rapids,MI,9,Toledo,OH,563,563,5547,3321,65,International,1
+10063,2,4,Kincorporation,2016-01-28,Milwaukee,WI,7,Springfield,IL,239,239,2315,581,58,International,6
+10064,2,6,Plusla,2016-08-31,Chicago,IL,4,Rockford,IL,419,419,337,1053,86,Domestic,10
+10065,1,8,Nimlab,2016-08-29,Indianapolis,IN,3,Northbrook,IL,1172,737,6569,7298,99,Domestic,8
+10066,2,7,Blueit,2016-05-08,Detriot,MI,6,Monon,IN,970,414,6036,6301,55,International,1
+10067,2,5,Roundphase,2016-02-26,Gary,IN,6,Milwaukee,WI,695,617,3590,4495,73,International,1
+10068,1,5,Faseway,2016-03-19,Joliet,IL,4,Madison,WI,222,222,7465,7721,99,Domestic,6
+10069,1,6,Tripplekix,2016-03-30,Monon,IN,2,Lansing,MI,815,627,982,1798,99,Domestic,1
+10070,2,5,Dontam,2016-02-26,Madison,WI,1,Kalamazoo,MI,1182,637,7817,8576,89,Domestic,6
+10071,2,8,Zimity,2016-01-12,Appleton,WI,4,Grand Rapids,MI,701,668,2102,2846,67,Domestic,1
+10072,1,8,Dongbiolex,2016-02-05,Cincinnati,OH,2,Gary,IN,477,477,6643,7155,79,Domestic,1
+10073,1,6,Geofind,2016-02-06,Toledo,OH,5,Detriot,MI,627,381,7974,8470,69,International,9
+10074,2,6,Iceelectrics,2016-03-27,Lansing,MI,9,Dayton,OH,248,248,17,133,62,International,6
+10075,1,7,Vaiazoom,2016-03-25,Bangor,MI,7,Davenport,IA,400,400,6941,7103,74,International,2
+10076,1,7,Vaiataxon,2016-03-11,Elgin,IL,5,Cincinnati,OH,443,443,3836,4534,92,International,4
+10077,1,5,Pluslam,2016-08-29,Skokie,IL,9,Chicago,IL,771,601,1954,2742,87,International,8
+10078,1,5,Singleholdings,2016-06-17,Davenport,IA,4,Appleton,WI,858,677,7105,7478,70,Domestic,6
+10079,1,5,Gravetech,2016-05-07,Grand Rapids,MI,1,Toledo,OH,469,264,6183,6330,75,Domestic,9
+10080,1,7,Strongcane,2016-06-01,Milwaukee,WI,1,Springfield,IL,834,570,6718,7087,81,Domestic,4
+10081,1,4,Condintex,2016-05-01,Springfield,IL,5,Skokie,IL,477,287,5134,2429,66,International,8
+10082,2,5,Xx-Canex,2016-06-01,Chicago,IL,6,Rockford,IL,649,649,7969,8439,88,International,3
+10083,1,4,Itdom,2016-08-14,Indianapolis,IN,4,Northbrook,IL,740,684,7126,4937,57,Domestic,9
+10084,1,4,Zamholdings,2016-02-10,Northbrook,IL,3,Naperville,IL,1077,361,4421,2824,63,Domestic,3
+10085,2,7,Duo-Fase,2016-06-22,Detriot,MI,1,Monon,IN,818,705,7012,7890,89,Domestic,8
+10086,1,7,Saozoomtex,2016-08-31,Gary,IN,1,Milwaukee,WI,1050,548,6381,7088,67,Domestic,8
+10087,1,7,Funlax,2016-03-11,Joliet,IL,2,Madison,WI,965,659,8235,8684,54,Domestic,7
+10088,1,8,Beta-Ron,2016-07-02,Monon,IN,3,Lansing,MI,1096,455,4658,5505,59,Domestic,6
+10089,1,8,Zentrax,2016-08-17,Madison,WI,2,Kalamazoo,MI,448,231,6069,6291,73,Domestic,9
+10090,1,4,Bluecorporation,2016-01-02,Green Bay,WI,1,Joliet,IL,919,445,5920,4258,53,Domestic,1
+10091,2,7,Fin-Cone,2016-03-06,Naperville,IL,4,Indianapolis,IN,669,332,2235,2655,85,Domestic,5
+10092,2,6,Ranmedia,2016-08-15,Rockford,IL,6,Green Bay,WI,695,695,2626,2858,93,International,4
+10093,1,7,Trueplus,2016-02-04,Appleton,WI,5,Grand Rapids,MI,607,525,2872,3445,77,International,2
+10094,1,5,Templax,2016-05-15,Cincinnati,OH,8,Gary,IN,610,600,1255,1647,50,International,5
+10095,1,4,Roundphase,2016-01-23,Dayton,OH,9,Elgin,IL,1170,444,4594,3406,61,International,10
+10096,1,7,Medialax,2016-08-25,Toledo,OH,8,Detriot,MI,782,563,3742,4572,66,International,5
+10097,2,5,Ronlamice,2016-06-09,Lansing,MI,1,Dayton,OH,293,293,6384,6606,54,Intercom,1
+10098,2,5,Zummatexon,2016-06-27,Bangor,MI,2,Davenport,IA,335,204,6827,7676,79,Domestic,4
+10099,1,4,Aptaxon,2016-07-09,Elgin,IL,3,Cincinnati,OH,425,425,4752,3175,53,Domestic,6
+10100,1,5,Strongtechnology,2016-01-14,Skokie,IL,4,Chicago,IL,362,362,3690,4608,99,Domestic,2
+10101,1,6,Plextechi,2016-06-09,Kalamazoo,MI,5,Bangor,MI,861,731,8088,8367,95,International,1
+10102,1,5,Donplanet,2016-03-06,Davenport,IA,7,Appleton,WI,988,333,306,917,80,International,2
+10103,2,7,Whitekix,2016-04-19,Grand Rapids,MI,4,Toledo,OH,981,619,3440,4129,89,Domestic,8
+10104,2,6,Streetplus,2016-01-25,Milwaukee,WI,1,Springfield,IL,787,539,976,1431,86,Domestic,7
+10105,2,7,K-Antex,2016-08-16,Springfield,IL,1,Skokie,IL,961,369,104,886,93,Domestic,9
+10106,1,7,Constreet,2016-04-27,Chicago,IL,1,Rockford,IL,1188,325,5105,5460,86,Domestic,3
+10107,2,5,Quotefix,2016-06-13,Indianapolis,IN,4,Northbrook,IL,830,265,1536,1894,82,Domestic,6
+10108,2,7,Trustcorporation,2016-08-11,Detriot,MI,3,Monon,IN,849,439,7701,8358,97,Domestic,6
+10109,2,8,Scotcan,2016-03-18,Joliet,IL,3,Madison,WI,587,367,521,910,83,Domestic,2
+10110,2,7,Duoflex,2016-08-23,Monon,IN,10,Lansing,MI,201,201,2117,3047,70,International,8
+10111,1,6,Canetechnology,2016-08-18,Madison,WI,5,Kalamazoo,MI,263,240,2678,3012,78,International,1
+10112,1,4,Solostreet,2016-05-24,Naperville,IL,7,Indianapolis,IN,322,322,2472,612,63,International,7
+10113,1,4,Xx-Planet,2016-06-20,Rockford,IL,10,Green Bay,WI,360,316,2687,776,94,International,1
+10114,1,8,Apzone,2016-08-30,Appleton,WI,2,Grand Rapids,MI,378,378,7332,7485,78,Intercom,5
+10115,2,6,Donglax,2016-05-12,Cincinnati,OH,1,Gary,IN,1135,227,4738,5382,61,Domestic,10
+10116,2,4,Jaylane,2016-05-17,Dayton,OH,2,Elgin,IL,1085,635,8143,5905,77,Domestic,8
+10117,1,6,Silverace,2016-03-05,Toledo,OH,2,Detriot,MI,559,216,7038,7844,97,Domestic,1
+10118,2,6,Conelane,2016-03-19,Lansing,MI,8,Dayton,OH,284,284,2208,3010,60,International,5
+10119,2,7,Matsanice,2016-05-08,Bangor,MI,10,Davenport,IA,411,290,6017,6119,100,International,1
+10120,1,6,Ronplanet,2016-01-10,Elgin,IL,2,Cincinnati,OH,294,294,5431,5627,80,Domestic,4
+10121,1,6,Lexiplus,2016-01-10,Skokie,IL,4,Chicago,IL,1085,716,7184,7901,73,Domestic,10
+10122,1,5,Plusity,2016-08-21,Kalamazoo,MI,3,Bangor,MI,414,414,7683,8396,68,Domestic,9
+10123,2,8,Quotefix,2016-01-14,Davenport,IA,2,Appleton,WI,1192,730,1928,2138,97,Domestic,10
+10124,2,6,Laex,2016-02-14,Grand Rapids,MI,4,Toledo,OH,773,496,8025,8752,59,Domestic,4
+10125,2,6,Tantax,2016-06-03,Milwaukee,WI,4,Springfield,IL,622,425,7765,8068,70,Domestic,6
+10126,2,7,Solohex,2016-05-22,Springfield,IL,4,Skokie,IL,701,290,1970,2241,57,Domestic,1
+10127,2,8,Zapline,2016-02-09,Chicago,IL,1,Rockford,IL,315,315,6544,7396,61,Domestic,6
+10128,2,5,Tamtexon,2016-03-25,Indianapolis,IN,4,Northbrook,IL,1069,362,2981,3523,83,Domestic,6
+10129,2,5,D-Zohex,2016-04-04,Northbrook,IL,10,Naperville,IL,365,365,7742,8060,90,International,9
+10130,2,7,Joyancom,2016-05-22,Detriot,MI,7,Monon,IN,1114,294,8044,8210,68,International,2
+10131,2,8,Zunice,2016-08-31,Joliet,IL,7,Madison,WI,801,427,2219,2646,84,International,7
+10132,1,4,Goodquoing,2016-03-11,Monon,IN,7,Lansing,MI,697,495,2594,885,56,International,4
+10133,1,4,Flexplex,2016-03-26,Green Bay,WI,3,Joliet,IL,1007,357,4135,2809,81,Domestic,10
+10134,1,6,Bluezoombam,2016-07-04,Naperville,IL,3,Indianapolis,IN,759,265,6313,6958,57,Domestic,3
+10135,1,5,Cityis,2016-01-03,Rockford,IL,4,Green Bay,WI,492,492,2190,3072,81,Domestic,10
+10136,2,5,Kantone,2016-08-14,Appleton,WI,8,Grand Rapids,MI,986,654,389,998,57,International,5
+10137,2,6,Treedrill,2016-07-31,Cincinnati,OH,10,Gary,IN,660,570,2773,3203,100,International,4
+10138,1,4,Stripzim,2016-03-27,Dayton,OH,3,Elgin,IL,230,230,8556,6617,94,Domestic,8
+10139,2,5,Dingquokix,2016-06-20,Toledo,OH,2,Detriot,MI,589,589,3886,4241,52,Domestic,5
+10140,2,7,Ronvivalam,2016-03-04,Lansing,MI,3,Dayton,OH,814,714,1649,2329,65,Domestic,6
+10141,2,8,Y-Flex,2016-03-30,Bangor,MI,3,Davenport,IA,972,211,5245,5681,68,Domestic,10
+10142,2,5,Faxotfind,2016-01-25,Elgin,IL,2,Cincinnati,OH,753,628,1233,1748,86,Domestic,7
+10143,1,7,Warelane,2016-01-29,Skokie,IL,1,Chicago,IL,204,204,2931,3392,58,Domestic,1
+10144,2,4,Hexunobam,2016-03-09,Kalamazoo,MI,3,Bangor,MI,732,201,7807,5690,54,Domestic,10
+10145,1,7,Opehouse,2016-03-13,Grand Rapids,MI,2,Toledo,OH,587,587,3197,3471,90,Domestic,6
+10146,1,8,Carekix,2016-07-27,Milwaukee,WI,9,Springfield,IL,981,679,7743,8705,79,International,2
+10147,1,5,Ozeris,2016-08-12,Springfield,IL,5,Skokie,IL,540,540,2049,2790,74,International,7
+10148,1,7,Singlejob,2016-07-25,Chicago,IL,8,Rockford,IL,1160,564,7265,7854,85,International,9
+10149,2,4,Y-Zoom,2016-03-07,Indianapolis,IN,7,Northbrook,IL,393,379,1926,142,52,International,3
+10150,1,4,Faxron,2016-08-13,Northbrook,IL,7,Naperville,IL,1146,787,2284,874,98,International,10
+10151,1,6,Faseron,2016-06-05,Detriot,MI,2,Monon,IN,307,307,252,757,73,Intercom,10
+10152,1,6,Lamlab,2016-03-04,Gary,IN,2,Milwaukee,WI,636,536,7145,7537,72,Domestic,4
+10153,2,4,Planetron,2016-08-07,Monon,IN,1,Lansing,MI,305,305,3456,2098,86,Domestic,9
+10154,2,5,Stimcore,2016-04-16,Madison,WI,10,Kalamazoo,MI,1047,476,1367,1811,96,International,10
+10155,1,5,Zuntone,2016-04-01,Green Bay,WI,7,Joliet,IL,329,329,4455,5455,90,International,2
+10156,2,4,Techmedia,2016-02-04,Naperville,IL,2,Indianapolis,IN,832,439,5441,4106,92,Domestic,9
+10157,1,8,Labdox,2016-08-08,Rockford,IL,2,Green Bay,WI,760,265,97,738,83,Domestic,7
+10158,2,5,Lexidom,2016-01-12,Appleton,WI,1,Grand Rapids,MI,653,207,6603,7192,75,Domestic,8
+10159,2,8,Zummatax,2016-07-20,Cincinnati,OH,4,Gary,IN,1055,717,1236,2015,84,Domestic,1
+10160,1,7,Saokeycane,2016-02-03,Dayton,OH,3,Elgin,IL,262,262,2650,3413,80,Domestic,1
+10161,2,6,Inzone,2016-03-18,Lansing,MI,2,Dayton,OH,1029,475,6911,7281,67,Domestic,4
+10162,2,7,Zerlane,2016-02-07,Bangor,MI,2,Davenport,IA,809,555,1754,2692,52,Domestic,9
+10163,1,6,Fixace,2016-03-25,Elgin,IL,4,Cincinnati,OH,313,313,3579,4181,60,Domestic,7
+10164,1,8,Unaity,2016-02-16,Kalamazoo,MI,6,Bangor,MI,1147,399,294,553,99,International,3
+10165,1,6,Scotline,2016-05-30,Davenport,IA,8,Appleton,WI,725,641,3633,3738,89,International,6
+10166,2,5,Daltcare,2016-06-30,Grand Rapids,MI,9,Toledo,OH,365,365,4892,5431,58,International,1
+10167,2,8,Doubleis,2016-07-31,Milwaukee,WI,10,Springfield,IL,422,422,2300,2928,57,International,7
+10168,1,6,Ontohatron,2016-04-22,Springfield,IL,1,Skokie,IL,600,281,859,1174,94,Intercom,7
+10169,2,4,Indibase,2016-03-05,Chicago,IL,2,Rockford,IL,328,328,2583,802,71,Domestic,1
+10170,2,5,Dongtinlux,2016-06-02,Indianapolis,IN,2,Northbrook,IL,836,712,2144,2515,93,Domestic,8
+10171,2,5,Mediaware,2016-01-16,Detriot,MI,9,Monon,IN,530,530,4071,4550,87,International,7
+10172,2,8,Goldenlex,2016-03-13,Gary,IN,5,Milwaukee,WI,1152,268,5802,6065,71,International,2
+10173,1,4,Canecare,2016-06-04,Joliet,IL,2,Madison,WI,750,672,3456,1506,73,Domestic,2
+10174,1,5,Zumcane,2016-01-24,Monon,IN,4,Lansing,MI,392,392,7024,7175,78,Domestic,3
+10175,2,5,Ganzsannix,2016-01-18,Green Bay,WI,4,Joliet,IL,813,241,4154,4927,80,Domestic,5
+10176,2,6,Yearcorporation,2016-06-03,Naperville,IL,2,Indianapolis,IN,917,665,6418,6544,74,Domestic,1
+10177,2,4,Planetware,2016-07-04,Appleton,WI,4,Grand Rapids,MI,937,227,5530,3445,66,Domestic,5
+10178,1,5,Indigoice,2016-02-25,Cincinnati,OH,2,Gary,IN,1159,738,897,1853,68,Domestic,4
+10179,2,8,Zotfan,2016-02-29,Dayton,OH,4,Elgin,IL,550,421,6668,7405,87,Domestic,7
+10180,1,5,Medcan,2016-02-23,Toledo,OH,5,Detriot,MI,400,379,3964,4854,90,International,5
+10181,1,7,Dentoelectrics,2016-03-29,Bangor,MI,7,Davenport,IA,211,211,6122,7098,53,International,2
+10182,2,7,Conestreet,2016-07-13,Elgin,IL,9,Cincinnati,OH,819,503,4528,5311,67,International,10
+10183,2,6,Toncode,2016-05-16,Skokie,IL,8,Chicago,IL,413,291,2270,2520,57,International,9
+10184,1,6,Rankphase,2016-08-04,Kalamazoo,MI,2,Bangor,MI,1052,440,5470,6318,79,Intercom,10
+10185,1,4,Gravemedia,2016-08-05,Davenport,IA,1,Appleton,WI,972,594,5874,3607,55,Domestic,5
+10186,2,6,Alphadax,2016-06-15,Grand Rapids,MI,1,Toledo,OH,324,323,623,1108,84,Domestic,3
+10187,1,8,Citytone,2016-04-15,Milwaukee,WI,1,Springfield,IL,347,347,91,942,64,Domestic,7
+10188,2,6,Alphafan,2016-04-25,Springfield,IL,7,Skokie,IL,735,735,822,1725,78,International,7
+10189,1,7,D-Quadlux,2016-06-01,Chicago,IL,5,Rockford,IL,533,310,6977,7301,68,International,1
+10190,2,4,Funlatlex,2016-07-22,Indianapolis,IN,1,Northbrook,IL,797,400,8741,6735,88,Domestic,8
+10191,2,6,Wareholding,2016-04-25,Northbrook,IL,4,Naperville,IL,441,441,64,546,98,Domestic,1
+10192,1,8,Anzammedia,2016-05-21,Detriot,MI,2,Monon,IN,1014,367,3668,3911,92,Domestic,4
+10193,2,8,Qvofix,2016-06-04,Monon,IN,1,Lansing,MI,1196,477,2726,3391,73,Domestic,9
+10194,1,7,Isdexon,2016-05-09,Madison,WI,4,Kalamazoo,MI,1116,299,7865,8111,96,Domestic,9
+10195,1,7,Faseelectronics,2016-06-02,Green Bay,WI,4,Joliet,IL,343,343,6101,6353,88,Domestic,5
+10196,2,7,Golddexon,2016-06-29,Rockford,IL,6,Green Bay,WI,845,503,3701,4343,81,International,1
+10197,1,5,Zunhouse,2016-05-31,Appleton,WI,5,Grand Rapids,MI,933,361,3801,4113,65,International,3
+10198,2,6,Inchholdings,2016-02-19,Cincinnati,OH,9,Gary,IN,879,765,8478,8987,75,International,9
+10199,1,5,Runhigh,2016-07-30,Dayton,OH,6,Elgin,IL,1124,459,4067,4191,60,International,4
+10200,1,5,White-High,2016-06-08,Toledo,OH,7,Detriot,MI,1146,670,6868,7134,92,International,2
+10201,1,6,Fasezoomfix,2016-02-28,Lansing,MI,2,Dayton,OH,771,654,4975,5427,51,Intercom,3
+10202,1,6,Dingcan,2016-03-09,Bangor,MI,3,Davenport,IA,802,703,2842,3827,55,Domestic,2
+10203,2,5,Opebase,2016-06-17,Elgin,IL,3,Cincinnati,OH,721,511,6773,7092,88,Domestic,3
+10204,2,4,Scotlex,2016-03-06,Kalamazoo,MI,5,Bangor,MI,1107,730,2776,1197,76,International,8
+10205,1,6,Good-Find,2016-03-26,Davenport,IA,10,Appleton,WI,337,337,7473,8089,62,International,9
+10206,1,8,Plexlamway,2016-05-10,Grand Rapids,MI,4,Toledo,OH,834,580,954,1633,68,Domestic,6
+10207,1,8,Latgotrax,2016-04-20,Milwaukee,WI,2,Springfield,IL,939,685,1198,2094,63,Domestic,9
+10208,1,5,Hotity,2016-06-15,Springfield,IL,2,Skokie,IL,355,355,5635,6038,55,Domestic,2
+10209,1,8,Scothouse,2016-03-15,Chicago,IL,1,Rockford,IL,843,275,605,1133,78,Domestic,1
+10210,2,7,Striplane,2016-05-20,Indianapolis,IN,3,Northbrook,IL,397,296,3040,3402,77,Domestic,10
+10211,1,5,Technodax,2016-04-15,Northbrook,IL,1,Naperville,IL,599,485,736,1424,98,Domestic,10
+10212,1,8,Re-Can,2016-05-28,Detriot,MI,2,Monon,IN,759,695,401,567,65,Domestic,6
+10213,2,8,Unatrax,2016-03-22,Gary,IN,1,Milwaukee,WI,614,430,62,638,76,Domestic,3
+10214,2,4,Acequote,2016-02-26,Joliet,IL,4,Madison,WI,704,376,6635,4774,68,Domestic,10
+10215,2,6,Ganz-Is,2016-08-01,Monon,IN,6,Lansing,MI,723,715,8510,8882,65,International,7
+10216,2,8,Sonbam,2016-03-01,Madison,WI,6,Kalamazoo,MI,820,793,5563,5854,82,International,8
+10217,2,8,Freebam,2016-05-30,Green Bay,WI,7,Joliet,IL,489,437,1549,1841,100,International,5
+10218,2,8,Faxzumtrax,2016-03-07,Naperville,IL,9,Indianapolis,IN,411,411,3865,4172,79,International,9
+10219,1,5,Linezatlam,2016-07-06,Appleton,WI,2,Grand Rapids,MI,481,481,1637,1770,50,Intercom,5
+10220,1,6,O-Ace,2016-07-09,Cincinnati,OH,3,Gary,IN,660,454,8330,8910,68,Domestic,4
+10221,1,7,Statway,2016-02-08,Dayton,OH,4,Elgin,IL,1005,461,157,527,87,Domestic,6
+10222,1,4,Zunzone,2016-03-25,Toledo,OH,4,Detriot,MI,383,310,3667,1209,51,Domestic,5
+10223,1,5,Hat-Core,2016-03-27,Lansing,MI,10,Dayton,OH,338,338,2821,3750,73,International,8
+10224,1,6,Saltfan,2016-06-13,Skokie,IL,3,Chicago,IL,506,410,3997,4478,99,Domestic,5
+10225,1,7,Joygreen,2016-06-08,Kalamazoo,MI,2,Bangor,MI,958,406,8395,8500,91,Domestic,5
+10226,2,5,Donelectrics,2016-01-04,Davenport,IA,4,Appleton,WI,742,215,4958,5087,58,Domestic,6
+10227,2,5,Icedox,2016-08-29,Grand Rapids,MI,2,Toledo,OH,755,576,5104,5273,53,Domestic,1
+10228,1,4,Namelectronics,2016-02-26,Milwaukee,WI,3,Springfield,IL,559,271,1751,585,54,Domestic,5
+10229,2,4,Donremlane,2016-06-26,Chicago,IL,4,Rockford,IL,778,342,5315,2945,86,Domestic,8
+10230,1,5,Ganzlane,2016-07-26,Indianapolis,IN,4,Northbrook,IL,758,681,2995,3970,62,Domestic,3
+10231,1,6,Streetlam,2016-07-08,Northbrook,IL,6,Naperville,IL,394,390,1961,2173,71,International,6
+10232,1,8,Tonsanhigh,2016-06-21,Detriot,MI,7,Monon,IN,658,658,5263,5873,77,International,6
+10233,1,7,Siliconcore,2016-08-13,Gary,IN,5,Milwaukee,WI,313,313,3503,4259,92,International,9
+10234,2,5,Dan-High,2016-05-11,Joliet,IL,8,Madison,WI,975,279,976,1088,77,International,7
+10235,1,7,Jobtechnology,2016-01-23,Monon,IN,10,Lansing,MI,302,302,679,814,70,International,1
+10236,2,6,Daltron,2016-01-21,Madison,WI,2,Kalamazoo,MI,404,404,8216,8605,97,Intercom,7
+10237,2,7,Y-Strip,2016-02-07,Green Bay,WI,4,Joliet,IL,313,313,4053,4515,99,Domestic,5
+10238,2,8,Danfan,2016-02-16,Naperville,IL,2,Indianapolis,IN,207,207,2683,3245,100,Domestic,2
+10239,1,4,Plustaxon,2016-03-13,Rockford,IL,2,Green Bay,WI,239,239,7178,5528,98,Domestic,9
+10240,1,8,Truebam,2016-08-01,Appleton,WI,8,Grand Rapids,MI,529,529,7025,7700,71,International,5
+10241,1,5,Triootity,2016-08-15,Cincinnati,OH,9,Gary,IN,942,682,5940,6176,86,International,1
+10242,1,7,Konknix,2016-07-18,Dayton,OH,2,Elgin,IL,432,359,6187,6387,67,Domestic,8
+10243,2,6,Dongbase,2016-04-16,Toledo,OH,3,Detriot,MI,800,247,2889,3764,61,Domestic,9
+10244,1,7,Howelectrics,2016-05-31,Lansing,MI,1,Dayton,OH,269,269,6061,6560,54,Domestic,6
+10245,2,5,Zimex,2016-05-31,Elgin,IL,4,Cincinnati,OH,1043,213,2571,3393,67,Domestic,3
+10246,2,8,Joyzim,2016-03-15,Kalamazoo,MI,4,Bangor,MI,948,437,8264,8844,75,Domestic,1
+10247,1,6,Silver-Line,2016-05-15,Davenport,IA,2,Appleton,WI,730,229,3488,4168,64,Domestic,10
+10248,1,7,Una-Phase,2016-03-22,Grand Rapids,MI,4,Toledo,OH,649,649,4755,5022,79,Domestic,7
+10249,1,8,Condexon,2016-07-01,Milwaukee,WI,5,Springfield,IL,759,217,5365,5716,89,International,6
+10250,2,6,Roundlam,2016-04-07,Springfield,IL,9,Skokie,IL,806,262,6351,6620,91,International,6
+10251,1,4,Canphase,2016-01-30,Chicago,IL,8,Rockford,IL,1103,565,7517,5013,99,International,3
+10252,1,4,Betaity,2016-08-23,Indianapolis,IN,6,Northbrook,IL,411,411,8197,5857,57,International,8
+10253,2,7,Jaydox,2016-02-21,Northbrook,IL,8,Naperville,IL,976,369,1819,2450,54,International,6
+10254,1,8,O-Tom,2016-03-05,Detriot,MI,2,Monon,IN,901,530,3739,4153,54,Intercom,8
+10255,1,7,Canex,2016-08-04,Gary,IN,2,Milwaukee,WI,384,235,6799,7607,52,Domestic,1
+10256,1,8,Villahouse,2016-05-29,Joliet,IL,4,Madison,WI,1181,216,1580,1756,75,Domestic,5
+10257,2,7,Vivazim,2016-06-30,Madison,WI,5,Kalamazoo,MI,564,423,7029,7151,63,International,2
+10258,1,6,Citydexon,2016-01-19,Green Bay,WI,6,Joliet,IL,1145,583,7890,8331,68,International,2
+10259,2,6,Ittam,2016-08-10,Naperville,IL,3,Indianapolis,IN,451,310,6043,6957,64,Domestic,4
+10260,2,4,Saltlab,2016-03-19,Rockford,IL,4,Green Bay,WI,1132,616,2991,911,100,Domestic,4
+10261,1,6,Conehotice,2016-02-28,Appleton,WI,2,Grand Rapids,MI,807,200,863,1113,73,Domestic,1
+10262,2,5,Itcantrans,2016-01-16,Cincinnati,OH,2,Gary,IN,890,569,4835,5208,68,Domestic,7
+10263,1,4,Blue-Tech,2016-06-26,Dayton,OH,2,Elgin,IL,226,223,7093,4947,85,Domestic,8
+10264,1,6,Unahigh,2016-07-24,Toledo,OH,4,Detriot,MI,654,585,4033,4336,92,Domestic,10
+10265,2,4,Openzap,2016-04-09,Lansing,MI,2,Dayton,OH,728,728,8452,6119,98,Domestic,7
+10266,1,7,Redozetam,2016-01-20,Bangor,MI,1,Davenport,IA,585,251,5588,6279,56,Domestic,1
+10267,1,6,Coneranron,2016-08-25,Elgin,IL,2,Cincinnati,OH,781,458,3069,4045,58,Domestic,10
+10268,1,4,Zen-Holdings,2016-03-31,Skokie,IL,5,Chicago,IL,363,363,4423,2640,97,International,4
+10269,1,5,Warebam,2016-08-22,Kalamazoo,MI,6,Bangor,MI,248,248,8142,8817,56,International,10
+10270,1,8,Zathlane,2016-06-28,Davenport,IA,8,Appleton,WI,950,502,2060,3030,60,International,6
+10271,2,8,Hayholding,2016-05-19,Grand Rapids,MI,5,Toledo,OH,628,220,2892,3019,80,International,4
+10272,1,8,Finlux,2016-01-02,Milwaukee,WI,10,Springfield,IL,951,639,6711,7603,60,International,10
+10273,1,5,Zamlane,2016-06-06,Springfield,IL,2,Skokie,IL,400,304,5274,5875,52,Intercom,10
+10274,2,4,Viacane,2016-04-11,Chicago,IL,2,Rockford,IL,482,482,6815,4337,87,Domestic,10
+10275,2,7,Gogokeying,2016-07-03,Indianapolis,IN,2,Northbrook,IL,570,570,2144,2467,89,Domestic,2
+10276,1,8,Tinron,2016-05-08,Northbrook,IL,3,Naperville,IL,619,468,6931,7513,75,Domestic,4
+10277,1,4,Canace,2016-07-25,Detriot,MI,10,Monon,IN,725,622,5011,3002,88,International,10
+10278,1,7,Linetone,2016-07-22,Joliet,IL,4,Madison,WI,545,545,2051,2503,98,Domestic,5
+10279,2,4,Tantechi,2016-04-03,Monon,IN,3,Lansing,MI,996,731,6170,4854,93,Domestic,5
+10280,2,7,Goldentechi,2016-06-22,Madison,WI,1,Kalamazoo,MI,925,293,5266,6049,78,Domestic,6
+10281,2,5,Iselectrics,2016-06-06,Green Bay,WI,4,Joliet,IL,368,280,3101,3406,86,Domestic,5
+10282,2,8,Funfintech,2016-03-26,Appleton,WI,1,Grand Rapids,MI,747,664,2821,3786,59,Domestic,4
+10283,2,5,Latcore,2016-04-29,Cincinnati,OH,2,Gary,IN,1188,240,3668,3822,59,Domestic,3
+10284,1,6,Reddoit,2016-08-05,Dayton,OH,3,Elgin,IL,800,466,3263,3866,68,Domestic,8
+10285,1,4,Plustax,2016-04-28,Toledo,OH,8,Detriot,MI,580,580,6512,4328,58,International,4
+10286,2,5,Bamity,2016-05-10,Lansing,MI,8,Dayton,OH,426,357,3782,3882,55,International,6
+10287,2,4,Quotelane,2016-04-13,Bangor,MI,5,Davenport,IA,465,465,5225,3538,62,International,2
+10288,1,4,Viatom,2016-03-31,Elgin,IL,6,Cincinnati,OH,381,381,5904,3890,74,International,9
+10289,2,7,Silverfase,2016-05-03,Skokie,IL,5,Chicago,IL,1147,533,5004,5718,87,International,6
+10290,1,6,O-Job,2016-06-17,Kalamazoo,MI,1,Bangor,MI,293,293,5608,6000,83,Intercom,8
+10291,2,8,Howtaxon,2016-06-26,Davenport,IA,3,Appleton,WI,703,578,7900,8046,82,Domestic,6
+10292,2,6,Xx-Way,2016-02-28,Grand Rapids,MI,2,Toledo,OH,915,570,1595,1796,64,Domestic,3
+10293,1,8,San-Plex,2016-01-22,Milwaukee,WI,4,Springfield,IL,805,594,6423,7059,79,Domestic,5
+10294,2,8,Dentocity,2016-02-27,Springfield,IL,10,Skokie,IL,501,501,6376,6830,100,International,8
+10295,2,6,Indi-Dox,2016-01-10,Chicago,IL,8,Rockford,IL,482,217,3007,3735,85,International,9
+10296,2,6,Damdexon,2016-05-28,Indianapolis,IN,4,Northbrook,IL,511,312,538,1135,59,Domestic,10
+10297,2,7,Subdrill,2016-01-24,Northbrook,IL,3,Naperville,IL,906,546,5843,6388,90,Domestic,10
+10298,1,5,Conzumzap,2016-07-13,Detriot,MI,4,Monon,IN,869,762,3164,4100,58,Domestic,8
+10299,1,5,Trio-Dax,2016-02-27,Joliet,IL,3,Madison,WI,531,525,6577,7001,62,Domestic,8
+10300,2,8,Ventocore,2016-08-13,Monon,IN,2,Lansing,MI,945,481,432,1179,56,Domestic,4
+10301,1,4,Tampquote,2016-02-11,Madison,WI,2,Kalamazoo,MI,862,494,4827,3015,65,Domestic,2
+10302,1,5,Recode,2016-03-11,Green Bay,WI,1,Joliet,IL,614,204,4790,5610,89,Domestic,10
+10303,2,6,Ganjazone,2016-08-09,Naperville,IL,3,Indianapolis,IN,349,349,5287,6043,93,Domestic,10
+10304,2,8,Hottaxon,2016-06-01,Rockford,IL,10,Green Bay,WI,606,606,1474,2097,91,International,1
+10305,1,8,Keyzunbase,2016-04-16,Appleton,WI,10,Grand Rapids,MI,1154,753,7830,8630,77,International,3
+10306,2,6,K-Is,2016-06-02,Cincinnati,OH,8,Gary,IN,1116,388,4145,4672,84,International,1
+10307,2,8,Villacom,2016-01-21,Dayton,OH,6,Elgin,IL,742,698,4823,5181,86,International,3
+10308,1,7,Zotit,2016-07-11,Toledo,OH,6,Detriot,MI,523,295,2795,3290,53,International,7
+10309,1,5,Stimmedia,2016-04-11,Bangor,MI,3,Davenport,IA,980,767,5221,5395,65,Domestic,10
+10310,2,5,Lazap,2016-07-25,Elgin,IL,1,Cincinnati,OH,630,266,980,1403,57,Domestic,10
+10311,2,6,Baselux,2016-01-04,Skokie,IL,2,Chicago,IL,442,442,3630,3900,90,Domestic,6
+10312,2,8,Dingity,2016-04-11,Kalamazoo,MI,10,Bangor,MI,958,477,7558,8307,61,International,6
+10313,1,7,Fax-Ex,2016-08-11,Davenport,IA,5,Appleton,WI,721,687,2534,3110,93,International,2
+10314,2,8,Duodax,2016-04-15,Grand Rapids,MI,4,Toledo,OH,510,510,3950,4763,98,Domestic,5
+10315,2,8,Planethouse,2016-04-14,Milwaukee,WI,1,Springfield,IL,716,716,2311,3104,52,Domestic,4
+10316,2,7,Overtam,2016-06-12,Springfield,IL,3,Skokie,IL,274,274,5279,5973,98,Domestic,4
+10317,1,5,Solholdings,2016-01-18,Chicago,IL,2,Rockford,IL,874,548,1677,1943,83,Domestic,1
+10318,2,4,Cannamcon,2016-07-11,Indianapolis,IN,2,Northbrook,IL,864,674,5245,3337,91,Domestic,7
+10319,1,8,Zerfax,2016-06-03,Northbrook,IL,1,Naperville,IL,1131,682,7481,8435,57,Domestic,7
+10320,2,5,Zoncone,2016-06-07,Joliet,IL,2,Madison,WI,797,450,8026,8699,98,Domestic,7
+10321,2,4,Canemedkix,2016-01-06,Monon,IN,7,Lansing,MI,352,352,4871,3056,62,International,10
+10322,1,6,Whitefan,2016-05-06,Madison,WI,10,Kalamazoo,MI,743,228,5263,5689,65,International,6
+10323,2,6,Strongdax,2016-03-28,Green Bay,WI,6,Joliet,IL,496,496,773,1542,72,International,10
+10324,1,6,Xx-Dotone,2016-08-28,Naperville,IL,7,Indianapolis,IN,575,575,2798,3710,55,International,2
+10325,2,8,Tamcan,2016-07-23,Rockford,IL,8,Green Bay,WI,208,208,7446,7858,85,International,9
+10326,1,7,Sanin,2016-03-16,Appleton,WI,1,Grand Rapids,MI,495,243,5565,6560,91,Intercom,9
+10327,1,6,Sonlex,2016-04-15,Cincinnati,OH,4,Gary,IN,1121,572,5114,5274,86,Domestic,1
+10328,1,5,Groovestrip,2016-04-13,Dayton,OH,3,Elgin,IL,312,312,7048,7815,92,Domestic,4
+10329,2,6,Matdex,2016-02-14,Toledo,OH,3,Detriot,MI,1195,570,1584,1947,72,Domestic,3
+10330,1,8,Saohow,2016-05-16,Lansing,MI,10,Dayton,OH,718,464,543,1214,51,International,4
+10331,1,8,Yearlex,2016-03-29,Bangor,MI,9,Davenport,IA,661,514,272,866,66,International,6
+10332,2,4,Dripkix,2016-08-16,Skokie,IL,1,Chicago,IL,711,630,3354,1279,96,Domestic,10
+10333,1,7,Xx-Bam,2016-04-01,Davenport,IA,2,Appleton,WI,884,631,1394,2083,74,Domestic,3
+10334,1,8,Zaamhouse,2016-05-31,Grand Rapids,MI,4,Toledo,OH,1158,403,2008,2185,91,Domestic,9
+10335,1,4,Zoofan,2016-04-16,Milwaukee,WI,3,Springfield,IL,1101,206,7533,5369,65,Domestic,1
+10336,1,6,Zuntexon,2016-05-09,Springfield,IL,1,Skokie,IL,320,320,3648,4591,98,Domestic,4
+10337,2,6,Howplanet,2016-05-22,Chicago,IL,4,Rockford,IL,1013,562,6912,7754,56,Domestic,7
+10338,1,8,Fasezim,2016-05-30,Indianapolis,IN,4,Northbrook,IL,1087,737,6313,6651,79,Domestic,5
+10339,1,5,Sanlab,2016-05-23,Northbrook,IL,8,Naperville,IL,1002,778,324,755,93,International,1
+10340,1,7,Mathing,2016-01-18,Detriot,MI,9,Monon,IN,754,754,6150,6476,68,International,8
+10341,2,8,Tamholding,2016-06-23,Gary,IN,9,Milwaukee,WI,412,412,7810,8365,70,International,6
+10342,2,6,Greentech,2016-07-06,Joliet,IL,7,Madison,WI,464,275,1344,1676,100,International,9
+10343,2,5,Goldenbam,2016-01-13,Monon,IN,8,Lansing,MI,944,702,1383,1968,77,International,4
+10344,2,8,Silfase,2016-05-12,Madison,WI,2,Kalamazoo,MI,1034,215,1551,2330,52,Intercom,4
+10345,2,6,Unoex,2016-03-29,Green Bay,WI,1,Joliet,IL,293,293,3826,4316,92,Domestic,1
+10346,2,6,Zoodrill,2016-01-01,Naperville,IL,1,Indianapolis,IN,224,224,8501,8941,65,Domestic,10
+10347,1,4,Sunjob,2016-04-05,Rockford,IL,4,Green Bay,WI,623,623,5041,2847,70,Domestic,10
+10348,1,8,Anmedia,2016-05-10,Appleton,WI,8,Grand Rapids,MI,1117,743,777,1397,53,International,7
+10349,2,5,Daltfax,2016-03-13,Cincinnati,OH,9,Gary,IN,1076,699,377,546,90,International,3
+10350,1,8,Physcone,2016-08-02,Dayton,OH,2,Elgin,IL,661,661,5769,6347,95,Domestic,9
+10351,1,8,Vaiazozice,2016-07-27,Lansing,MI,4,Dayton,OH,1098,626,542,1458,69,Domestic,6
+10352,1,4,Nimlab,2016-01-24,Elgin,IL,3,Cincinnati,OH,571,339,6023,3448,77,Domestic,6
+10353,2,6,Blueit,2016-07-15,Kalamazoo,MI,2,Bangor,MI,720,579,5267,5849,98,Domestic,10
+10354,2,7,Roundphase,2016-02-04,Davenport,IA,1,Appleton,WI,322,315,3471,3942,96,Domestic,7
+10355,2,7,Faseway,2016-06-11,Grand Rapids,MI,2,Toledo,OH,741,707,3920,4540,73,Domestic,2
+10356,1,8,Tripplekix,2016-08-09,Milwaukee,WI,6,Springfield,IL,208,208,1539,1797,59,International,4
+10357,2,4,Dontam,2016-04-11,Springfield,IL,6,Skokie,IL,1152,568,6702,4978,94,International,2
+10358,2,8,Scotfase,2016-02-12,Chicago,IL,5,Rockford,IL,1019,218,2705,3556,52,International,10
+10359,1,6,Newzap,2016-01-12,Indianapolis,IN,5,Northbrook,IL,346,346,1347,2119,79,International,6
+10360,2,6,Mathtouch,2016-07-31,Northbrook,IL,8,Naperville,IL,283,274,3047,3871,53,International,6
+10361,2,8,Zimity,2016-02-03,Detriot,MI,2,Monon,IN,1027,210,3246,3480,71,Intercom,5
+10362,2,8,Dongbiolex,2016-02-23,Gary,IN,2,Milwaukee,WI,1067,296,4611,5281,64,Domestic,4
+10363,2,5,J-Lax,2016-04-13,Joliet,IL,2,Madison,WI,836,530,4154,4766,56,Domestic,10
+10364,1,4,Geofind,2016-06-15,Monon,IN,1,Lansing,MI,500,500,7089,4982,65,Domestic,5
+10365,1,5,Iceelectrics,2016-02-01,Madison,WI,8,Kalamazoo,MI,450,341,8253,8504,60,International,8
+10366,2,8,Vaiazoom,2016-02-03,Green Bay,WI,5,Joliet,IL,671,480,1819,2109,68,International,4
+10367,2,4,Vaiataxon,2016-07-01,Naperville,IL,2,Indianapolis,IN,654,534,7133,4666,75,Domestic,1
+10368,2,7,Pluslam,2016-06-26,Rockford,IL,2,Green Bay,WI,493,319,1182,1736,90,Domestic,9
+10369,1,7,Rancan,2016-04-08,Appleton,WI,3,Grand Rapids,MI,787,787,5635,6057,60,Domestic,7
+10370,1,5,Singleholdings,2016-03-30,Cincinnati,OH,4,Gary,IN,557,501,1623,2421,74,Domestic,3
+10371,1,8,Gravetech,2016-01-15,Dayton,OH,2,Elgin,IL,676,223,295,515,78,Domestic,6
+10372,2,5,Strongcane,2016-06-16,Toledo,OH,3,Detriot,MI,679,616,2477,3019,67,Domestic,9
+10373,1,8,Condintex,2016-07-07,Lansing,MI,2,Dayton,OH,1178,243,4585,4756,94,Domestic,10
+10374,2,8,Xx-Canex,2016-05-29,Bangor,MI,3,Davenport,IA,886,701,3501,3812,53,Domestic,4
+10375,2,6,Itdom,2016-08-31,Elgin,IL,3,Cincinnati,OH,1138,244,1693,2492,99,Domestic,7
+10376,2,7,Zamholdings,2016-04-18,Skokie,IL,7,Chicago,IL,834,569,571,1395,95,International,7
+10377,2,4,Duo-Fase,2016-05-11,Kalamazoo,MI,7,Bangor,MI,297,297,4223,2349,68,International,8
+10378,2,6,Saozoomtex,2016-05-20,Davenport,IA,8,Appleton,WI,222,222,6687,7409,76,International,10
+10379,1,7,Funlax,2016-05-27,Grand Rapids,MI,7,Toledo,OH,200,200,2022,2539,92,International,2
+10380,1,5,Beta-Ron,2016-08-26,Milwaukee,WI,5,Springfield,IL,204,204,8573,8815,95,International,5
+10381,1,7,Zentrax,2016-07-18,Springfield,IL,2,Skokie,IL,456,456,5626,6117,68,Intercom,7
+10382,1,4,Bluecorporation,2016-08-03,Chicago,IL,4,Rockford,IL,842,644,5379,2953,57,Domestic,4
+10383,1,8,Fin-Cone,2016-08-20,Indianapolis,IN,4,Northbrook,IL,453,453,2467,3207,62,Domestic,2
+10384,2,7,Ranmedia,2016-08-07,Northbrook,IL,2,Naperville,IL,435,426,3533,3781,97,Domestic,8
+10385,1,4,Trueplus,2016-07-15,Detriot,MI,7,Monon,IN,835,497,4623,2604,98,International,10
+10386,1,7,Templax,2016-05-04,Gary,IN,9,Milwaukee,WI,370,316,575,923,91,International,1
+10387,1,6,Roundphase,2016-03-07,Joliet,IL,2,Madison,WI,618,204,7216,7893,61,Domestic,6
+10388,1,7,Medialax,2016-03-11,Monon,IN,4,Lansing,MI,303,303,4784,5203,80,Domestic,9
+10389,2,5,Ronlamice,2016-08-20,Madison,WI,1,Kalamazoo,MI,535,246,6336,6975,57,Domestic,5
+10390,1,8,Zummatexon,2016-03-02,Green Bay,WI,4,Joliet,IL,1022,479,6497,6819,67,Domestic,2
+10391,2,8,Aptaxon,2016-04-21,Naperville,IL,1,Indianapolis,IN,648,417,6274,6733,81,Domestic,10
+10392,2,7,Strongtechnology,2016-01-05,Rockford,IL,1,Green Bay,WI,868,335,5294,5574,79,Domestic,10
+10393,1,4,Plextechi,2016-06-02,Appleton,WI,2,Grand Rapids,MI,878,525,7935,6361,93,Domestic,5
+10394,1,4,Donplanet,2016-01-14,Cincinnati,OH,2,Gary,IN,895,739,1890,623,88,Domestic,8
+10395,1,6,Whitekix,2016-02-02,Dayton,OH,3,Elgin,IL,1006,307,3990,4829,92,Domestic,3
+10396,1,7,Streetplus,2016-05-28,Toledo,OH,6,Detriot,MI,346,258,5455,5936,79,International,1
+10397,1,4,K-Antex,2016-02-07,Lansing,MI,7,Dayton,OH,706,436,5614,3693,72,International,4
+10398,1,5,Constreet,2016-05-12,Bangor,MI,10,Davenport,IA,366,366,6401,6573,72,International,5
+10399,2,6,Quotefix,2016-08-07,Elgin,IL,10,Cincinnati,OH,1003,675,6343,6650,72,International,10
+10400,1,5,Dripvivadex,2016-08-01,Skokie,IL,5,Chicago,IL,386,386,6259,6443,53,International,5
+10401,1,6,Trustcorporation,2016-03-21,Kalamazoo,MI,2,Bangor,MI,614,614,3550,4334,98,Intercom,1
+10402,1,4,Zimjiit,2016-05-21,Davenport,IA,3,Appleton,WI,1165,729,2273,722,89,Domestic,2
+10403,1,6,Scotcan,2016-04-18,Grand Rapids,MI,2,Toledo,OH,459,459,2137,2948,67,Domestic,4
+10404,2,8,Duoflex,2016-08-01,Milwaukee,WI,3,Springfield,IL,511,511,3856,4319,66,Domestic,9
+10405,2,5,Canetechnology,2016-06-14,Springfield,IL,5,Skokie,IL,419,419,4112,4363,58,International,6
+10406,2,4,Zotcare,2016-06-20,Chicago,IL,9,Rockford,IL,266,266,3738,1277,98,International,4
+10407,1,6,Solostreet,2016-06-11,Indianapolis,IN,2,Northbrook,IL,242,242,5721,6307,89,Domestic,10
+10408,1,8,Xx-Planet,2016-02-20,Northbrook,IL,4,Naperville,IL,321,225,6006,6913,100,Domestic,6
+10409,1,4,Apzone,2016-04-22,Detriot,MI,1,Monon,IN,451,451,8713,6285,61,Domestic,6
+10410,2,4,Jaylane,2016-04-26,Joliet,IL,2,Madison,WI,886,518,7594,5516,74,Domestic,9
+10411,2,7,Silverace,2016-01-10,Monon,IN,3,Lansing,MI,326,326,3808,4093,80,Domestic,6
+10412,1,5,Conelane,2016-01-11,Madison,WI,4,Kalamazoo,MI,225,225,128,868,81,Domestic,7
+10413,2,5,Matsanice,2016-06-13,Green Bay,WI,1,Joliet,IL,660,418,2617,3435,54,Domestic,8
+10414,1,6,Ronplanet,2016-05-19,Naperville,IL,2,Indianapolis,IN,404,404,7234,8108,72,Domestic,5
+10415,2,6,Lexiplus,2016-03-22,Rockford,IL,10,Green Bay,WI,762,334,3494,3902,73,International,7
+10416,2,8,Plusity,2016-08-15,Appleton,WI,10,Grand Rapids,MI,393,393,4627,5297,57,International,4
+10417,2,6,Quotefix,2016-03-27,Cincinnati,OH,8,Gary,IN,434,206,3131,3682,97,International,6
+10418,1,4,Laex,2016-06-05,Dayton,OH,7,Elgin,IL,923,527,2480,269,73,International,5
+10419,2,5,Tantax,2016-04-23,Toledo,OH,8,Detriot,MI,865,238,2490,2670,71,International,5
+10420,1,6,Solohex,2016-08-05,Lansing,MI,1,Dayton,OH,326,326,7461,7932,65,Intercom,8
+10421,1,6,Zapline,2016-01-04,Bangor,MI,1,Davenport,IA,1099,690,8256,8689,58,Domestic,1
+10422,1,8,Tamtexon,2016-06-09,Elgin,IL,1,Cincinnati,OH,596,559,3861,4050,64,Domestic,5
+10423,1,8,D-Zohex,2016-06-09,Skokie,IL,1,Chicago,IL,757,251,615,1009,94,Domestic,6
+10424,2,5,Joyancom,2016-01-25,Kalamazoo,MI,7,Bangor,MI,487,426,2111,2450,63,International,3
+10425,2,7,Goodtechno,2016-03-12,Davenport,IA,10,Appleton,WI,1140,710,4002,4367,86,International,1
+10426,1,7,Goodquoing,2016-07-22,Milwaukee,WI,4,Springfield,IL,1128,489,1700,2330,78,Domestic,2
+10427,1,6,Fasetech,2016-05-17,Springfield,IL,3,Skokie,IL,1019,210,59,296,97,Domestic,5
+10428,1,5,Flexplex,2016-03-29,Chicago,IL,3,Rockford,IL,635,426,7381,8067,97,Domestic,4
+10429,2,7,Bluezoombam,2016-04-11,Indianapolis,IN,2,Northbrook,IL,994,291,2844,3108,82,Domestic,10
+10430,1,5,Cityis,2016-01-23,Northbrook,IL,1,Naperville,IL,528,409,5942,6779,83,Domestic,4
+10431,1,7,Kantone,2016-03-11,Detriot,MI,2,Monon,IN,906,319,1581,2182,69,Domestic,8
+10432,1,6,Treedrill,2016-05-23,Gary,IN,1,Milwaukee,WI,1056,738,2673,2937,66,Domestic,4
+10433,2,7,Stripzim,2016-06-15,Joliet,IL,2,Madison,WI,447,430,5142,5287,92,Domestic,3
+10434,1,7,Dingquokix,2016-05-13,Monon,IN,7,Lansing,MI,1138,221,7676,8148,92,International,5
+10435,1,6,Ronvivalam,2016-08-31,Madison,WI,6,Kalamazoo,MI,469,300,5940,6656,62,International,3
+10436,1,5,Y-Flex,2016-01-23,Green Bay,WI,9,Joliet,IL,266,266,6255,6656,88,International,5
+10437,2,4,Faxotfind,2016-03-28,Naperville,IL,9,Indianapolis,IN,280,280,5911,3286,69,International,7
+10438,1,6,Warelane,2016-01-25,Rockford,IL,5,Green Bay,WI,929,224,5997,6181,60,International,6
+10439,1,5,Hexunobam,2016-02-11,Appleton,WI,2,Grand Rapids,MI,784,731,198,1187,89,Intercom,10
+10440,1,6,Quadplanet,2016-07-20,Cincinnati,OH,3,Gary,IN,453,453,183,311,75,Domestic,8
+10441,1,6,Opehouse,2016-03-29,Dayton,OH,4,Elgin,IL,791,531,2514,3105,83,Domestic,2
+10442,2,8,Ozeris,2016-03-18,Lansing,MI,9,Dayton,OH,265,265,803,978,51,International,9
+10443,2,6,Singlejob,2016-06-07,Bangor,MI,10,Davenport,IA,591,201,7485,7774,53,International,5
+10444,1,8,Y-Zoom,2016-08-06,Elgin,IL,3,Cincinnati,OH,255,255,3296,4273,50,Domestic,9
+10445,2,5,Faxron,2016-06-03,Skokie,IL,4,Chicago,IL,891,200,8380,8740,91,Domestic,8
+10446,2,8,Faseron,2016-01-04,Kalamazoo,MI,4,Bangor,MI,1003,302,7392,8099,58,Domestic,6
+10447,2,4,Geoit,2016-03-25,Grand Rapids,MI,2,Toledo,OH,268,268,6177,3709,99,Domestic,9
+10448,1,8,Planetron,2016-07-27,Milwaukee,WI,2,Springfield,IL,362,328,7043,7694,53,Domestic,3
+10449,1,7,Stimcore,2016-08-10,Springfield,IL,2,Skokie,IL,308,308,6684,6964,57,Domestic,2
+10450,2,8,Zuntone,2016-05-12,Chicago,IL,4,Rockford,IL,201,201,4839,5146,95,Domestic,1
+10451,1,8,Techmedia,2016-02-12,Indianapolis,IN,2,Northbrook,IL,897,691,4174,4316,50,Domestic,4
+10452,1,4,Labdox,2016-05-29,Northbrook,IL,7,Naperville,IL,894,789,7760,5750,50,International,6
+10453,2,8,Zummatax,2016-07-19,Gary,IN,8,Milwaukee,WI,516,516,5616,6376,57,International,6
+10454,1,4,Saokeycane,2016-05-03,Joliet,IL,8,Madison,WI,552,552,3736,1678,74,International,3
+10455,1,8,Keystreet,2016-08-16,Monon,IN,6,Lansing,MI,353,258,326,678,70,International,3
+10456,1,8,Inzone,2016-07-15,Madison,WI,2,Kalamazoo,MI,1017,221,8562,8875,85,Intercom,3
+10457,2,4,Zerlane,2016-01-24,Green Bay,WI,4,Joliet,IL,672,376,3644,1560,84,Domestic,4
+10458,1,8,Fixace,2016-01-03,Naperville,IL,2,Indianapolis,IN,1180,439,1930,2770,64,Domestic,1
+10459,1,6,Tres-Tone,2016-04-01,Rockford,IL,1,Green Bay,WI,477,234,6954,7115,87,Domestic,8
+10460,1,5,Unaity,2016-06-11,Appleton,WI,8,Grand Rapids,MI,1195,586,5137,5404,79,International,6
+10461,2,6,Scotline,2016-04-01,Cincinnati,OH,10,Gary,IN,246,246,1043,1897,78,International,2
+10462,2,8,Daltcare,2016-06-19,Dayton,OH,2,Elgin,IL,629,286,1175,1282,96,Domestic,1
+10463,1,8,Doubleis,2016-07-29,Toledo,OH,4,Detriot,MI,876,357,3740,4523,62,Domestic,7
+10464,1,4,Indibase,2016-02-14,Bangor,MI,2,Davenport,IA,475,306,6559,4503,57,Domestic,8
+10465,2,5,Dongtinlux,2016-05-10,Elgin,IL,2,Cincinnati,OH,383,383,5734,6388,74,Domestic,9
+10466,2,4,Geohigh,2016-05-20,Skokie,IL,1,Chicago,IL,683,486,3812,1533,51,Domestic,1
+10467,1,4,Mediaware,2016-05-21,Kalamazoo,MI,2,Bangor,MI,1026,568,4716,3001,87,Domestic,1
+10468,2,5,Goldenlex,2016-01-10,Davenport,IA,1,Appleton,WI,675,675,2677,3669,77,Domestic,8
+10469,1,5,Canecare,2016-08-22,Grand Rapids,MI,2,Toledo,OH,1111,570,489,1089,56,Domestic,5
+10470,2,7,Zumcane,2016-06-19,Milwaukee,WI,6,Springfield,IL,642,642,5333,6082,77,International,5
+10471,1,8,Zerhouse,2016-02-21,Springfield,IL,7,Skokie,IL,307,307,3029,3981,91,International,3
+10472,1,6,Ganzsannix,2016-07-22,Chicago,IL,9,Rockford,IL,1179,286,2184,2331,57,International,6
+10473,2,4,Yearcorporation,2016-05-14,Indianapolis,IN,6,Northbrook,IL,608,517,3658,2453,86,International,6
+10474,1,7,Planetline,2016-08-09,Northbrook,IL,9,Naperville,IL,565,215,5451,6260,90,International,5
+10475,2,6,Planetware,2016-06-30,Detriot,MI,2,Monon,IN,1130,543,7377,7559,55,Intercom,9
+10476,2,7,Indigoice,2016-01-17,Gary,IN,3,Milwaukee,WI,567,404,113,418,90,Domestic,3
+10477,2,8,Zotfan,2016-01-23,Joliet,IL,2,Madison,WI,571,361,5270,5537,87,Domestic,6
+10478,1,4,Medcan,2016-02-05,Monon,IN,2,Lansing,MI,330,330,3747,1385,68,Domestic,7
+10479,2,8,Dentoelectrics,2016-02-15,Green Bay,WI,7,Joliet,IL,795,687,4054,4530,82,International,5
+10480,1,5,Conestreet,2016-07-04,Naperville,IL,2,Indianapolis,IN,913,733,884,1319,83,Domestic,3
+10481,2,6,Toncode,2016-06-05,Rockford,IL,4,Green Bay,WI,742,733,7120,7692,78,Domestic,8
+10482,1,4,Rankphase,2016-04-17,Appleton,WI,2,Grand Rapids,MI,968,374,7960,5505,79,Domestic,2
+10483,2,7,Gravemedia,2016-01-02,Cincinnati,OH,3,Gary,IN,724,314,2176,2933,59,Domestic,6
+10484,1,4,Alphadax,2016-03-07,Dayton,OH,1,Elgin,IL,349,349,6634,4927,65,Domestic,5
+10485,1,8,Citytone,2016-02-23,Toledo,OH,1,Detriot,MI,1190,713,5347,6099,77,Domestic,1
+10486,2,5,Alphafan,2016-03-07,Lansing,MI,4,Dayton,OH,273,273,3302,3490,71,Domestic,8
+10487,1,8,D-Quadlux,2016-01-25,Bangor,MI,1,Davenport,IA,1036,476,1973,2570,77,Domestic,7
+10488,1,6,Funlatlex,2016-04-19,Elgin,IL,2,Cincinnati,OH,446,446,6336,7212,66,Domestic,9
+10489,1,8,Wareholding,2016-07-07,Skokie,IL,9,Chicago,IL,937,229,6171,6411,99,International,7
+10490,2,8,Anzammedia,2016-06-16,Kalamazoo,MI,5,Bangor,MI,1159,712,7897,8006,73,International,6
+10491,1,8,Zoomhex,2016-04-05,Davenport,IA,5,Appleton,WI,1104,679,6931,7665,89,International,5
+10492,2,7,Qvofix,2016-04-27,Milwaukee,WI,9,Springfield,IL,1017,421,5028,5342,86,International,7
+10493,2,6,Faseelectronics,2016-06-19,Chicago,IL,2,Rockford,IL,371,371,1218,1838,97,Domestic,10
+10494,1,8,Golddexon,2016-08-16,Northbrook,IL,4,Naperville,IL,1094,619,3359,3686,67,Domestic,8
+10495,2,5,Zunhouse,2016-08-17,Detriot,MI,5,Monon,IN,632,238,3257,3645,80,International,1
+10496,1,8,Inchholdings,2016-07-08,Gary,IN,6,Milwaukee,WI,222,222,2737,3501,89,International,3
+10497,1,6,Runhigh,2016-01-10,Joliet,IL,2,Madison,WI,980,303,2430,2818,94,Domestic,3
+10498,1,5,White-High,2016-07-05,Monon,IN,4,Lansing,MI,464,464,4584,5553,89,Domestic,3
+10499,1,8,Fasezoomfix,2016-04-28,Madison,WI,3,Kalamazoo,MI,355,355,1138,1702,53,Domestic,5
+10500,1,6,Dingcan,2016-06-10,Green Bay,WI,4,Joliet,IL,1027,756,4805,5786,67,Domestic,7
+10501,1,7,Hexzim,2016-07-11,Rockford,IL,3,Green Bay,WI,963,301,6063,6946,80,Domestic,8
+10502,1,5,Scotlex,2016-06-03,Appleton,WI,3,Grand Rapids,MI,456,456,7067,7784,64,Domestic,7
+10503,1,4,Good-Find,2016-02-09,Cincinnati,OH,2,Gary,IN,740,452,4053,1512,65,Domestic,8
+10504,1,5,Plexlamway,2016-02-22,Dayton,OH,4,Elgin,IL,932,341,4624,4803,92,Domestic,5
+10505,2,8,Latgotrax,2016-06-09,Toledo,OH,7,Detriot,MI,369,229,5364,6299,82,International,6
+10506,1,4,Hotity,2016-01-16,Lansing,MI,9,Dayton,OH,1032,409,5465,3481,90,International,9
+10507,1,6,Scothouse,2016-02-24,Bangor,MI,7,Davenport,IA,767,677,3409,4125,99,International,9
+10508,2,4,Striplane,2016-01-21,Elgin,IL,9,Cincinnati,OH,1165,437,3166,1238,71,International,10
+10509,1,8,Technodax,2016-04-16,Skokie,IL,5,Chicago,IL,653,624,3442,4094,66,International,1
+10510,1,4,Re-Can,2016-03-17,Kalamazoo,MI,1,Bangor,MI,758,392,1971,291,99,Intercom,2
+10511,2,6,Unatrax,2016-06-05,Davenport,IA,1,Appleton,WI,980,296,846,1478,57,Domestic,6
+10512,1,7,Acequote,2016-08-02,Grand Rapids,MI,1,Toledo,OH,749,739,3584,4156,84,Domestic,9
+10513,1,5,Ganz-Is,2016-06-04,Milwaukee,WI,1,Springfield,IL,1151,772,4794,5611,98,Domestic,2
+10514,1,4,Sonbam,2016-05-11,Springfield,IL,7,Skokie,IL,451,451,6931,4961,50,International,6
+10515,2,5,Freebam,2016-06-29,Chicago,IL,10,Rockford,IL,495,403,4591,5339,77,International,7
+10516,2,8,Faxzumtrax,2016-05-02,Indianapolis,IN,2,Northbrook,IL,934,548,1789,2397,93,Domestic,1
+10517,2,5,Linezatlam,2016-08-31,Detriot,MI,3,Monon,IN,1041,359,2189,2653,57,Domestic,2
+10518,1,4,O-Ace,2016-08-10,Gary,IN,4,Milwaukee,WI,246,246,3062,1186,66,Domestic,9
+10519,1,5,Statway,2016-03-20,Joliet,IL,3,Madison,WI,537,249,1440,2166,50,Domestic,8
+10520,1,5,Zunzone,2016-05-03,Monon,IN,3,Lansing,MI,573,571,5382,6119,56,Domestic,5
+10521,2,6,Hat-Core,2016-01-01,Madison,WI,1,Kalamazoo,MI,983,231,1239,1720,73,Domestic,3
+10522,2,6,Zathhow,2016-06-04,Green Bay,WI,1,Joliet,IL,757,690,5109,5731,52,Domestic,9
+10523,1,5,Subvivais,2016-02-28,Naperville,IL,2,Indianapolis,IN,649,366,2655,2874,73,Domestic,6
+10524,1,8,Saltfan,2016-02-04,Rockford,IL,6,Green Bay,WI,955,280,131,835,92,International,3
+10525,1,5,Joygreen,2016-02-15,Appleton,WI,7,Grand Rapids,MI,877,232,6466,6606,74,International,4
+10526,2,6,Icedox,2016-03-14,Dayton,OH,10,Elgin,IL,940,288,598,915,64,International,10
+10527,2,8,Namelectronics,2016-03-27,Toledo,OH,10,Detriot,MI,745,642,5058,5433,94,International,3
+10528,2,5,Warecity,2016-07-03,Lansing,MI,2,Dayton,OH,623,382,2149,2646,56,Intercom,10
+10529,1,5,Donremlane,2016-06-26,Bangor,MI,1,Davenport,IA,372,372,6537,6803,72,Domestic,3
+10530,1,8,Ganzlane,2016-03-20,Elgin,IL,4,Cincinnati,OH,827,565,5772,6077,56,Domestic,5
+10531,1,7,Streetlam,2016-05-26,Skokie,IL,3,Chicago,IL,531,531,8066,8994,58,Domestic,10
+10532,2,8,Tonsanhigh,2016-08-02,Kalamazoo,MI,8,Bangor,MI,1168,466,2611,3458,57,International,1
+10533,2,7,Siliconcore,2016-06-29,Davenport,IA,10,Appleton,WI,590,348,2354,3040,50,International,4
+10534,1,6,Dan-High,2016-02-15,Grand Rapids,MI,2,Toledo,OH,827,513,5718,5862,88,Domestic,7
+10535,2,6,Jobtechnology,2016-02-25,Milwaukee,WI,2,Springfield,IL,833,603,334,930,50,Domestic,4
+10536,2,6,Daltron,2016-01-08,Springfield,IL,4,Skokie,IL,1153,360,1274,2190,64,Domestic,10
+10537,1,6,Y-Strip,2016-05-14,Chicago,IL,3,Rockford,IL,861,429,1555,2279,70,Domestic,6
+10538,1,5,Danfan,2016-07-08,Indianapolis,IN,2,Northbrook,IL,513,513,1238,1492,81,Domestic,7
+10539,2,6,Plustaxon,2016-06-02,Northbrook,IL,3,Naperville,IL,915,594,7720,8038,61,Domestic,2
+10540,1,5,Truebam,2016-04-11,Detriot,MI,3,Monon,IN,1025,480,2163,3047,55,Domestic,3
+10541,2,4,Dongbase,2016-07-20,Monon,IN,10,Lansing,MI,1057,384,8798,6619,76,International,3
+10542,1,8,Howelectrics,2016-04-03,Madison,WI,7,Kalamazoo,MI,957,217,5913,6632,93,International,8
+10543,1,5,Zimex,2016-08-25,Naperville,IL,8,Indianapolis,IN,859,730,5904,6529,50,International,10
+10544,2,8,Joyzim,2016-03-03,Appleton,WI,2,Grand Rapids,MI,1162,637,96,626,69,Intercom,7
+10545,1,8,Silver-Line,2016-01-11,Cincinnati,OH,3,Gary,IN,1054,353,6526,6895,61,Domestic,1
+10546,2,5,Una-Phase,2016-02-14,Dayton,OH,2,Elgin,IL,1159,507,6721,7409,59,Domestic,6
+10547,2,7,Condexon,2016-03-10,Toledo,OH,4,Detriot,MI,1039,547,4004,4613,61,Domestic,4
+10548,2,7,Canphase,2016-08-18,Bangor,MI,10,Davenport,IA,578,578,5126,5850,93,International,1
+10549,2,6,Betaity,2016-04-12,Elgin,IL,1,Cincinnati,OH,714,714,2032,2976,59,Domestic,5
+10550,2,6,Jaydox,2016-02-07,Skokie,IL,3,Chicago,IL,373,207,6861,7110,67,Domestic,6
+10551,2,8,O-Tom,2016-03-15,Kalamazoo,MI,3,Bangor,MI,525,525,6716,7394,82,Domestic,4
+10552,1,6,Canex,2016-07-26,Davenport,IA,1,Appleton,WI,1052,800,7652,8381,55,Domestic,5
+10553,1,7,Villahouse,2016-03-07,Grand Rapids,MI,2,Toledo,OH,1179,658,1843,2235,50,Domestic,8
+10554,1,5,Tempfan,2016-03-24,Milwaukee,WI,1,Springfield,IL,620,620,772,1207,68,Domestic,5
+10555,1,8,Vivazim,2016-07-08,Springfield,IL,4,Skokie,IL,232,232,3400,3731,63,Domestic,2
+10556,1,6,Citydexon,2016-04-26,Chicago,IL,3,Rockford,IL,1046,374,3336,3821,96,Domestic,4
+10557,1,5,Ittam,2016-05-06,Indianapolis,IN,2,Northbrook,IL,953,507,1373,1509,67,Domestic,4
+10558,2,5,Saltlab,2016-03-16,Northbrook,IL,10,Naperville,IL,1145,236,2158,2699,77,International,9
+10559,1,4,Conehotice,2016-07-25,Detriot,MI,5,Monon,IN,272,272,7066,4453,78,International,8
+10560,1,4,Itcantrans,2016-07-11,Gary,IN,9,Milwaukee,WI,778,485,3123,545,54,International,10
+10561,1,4,Blue-Tech,2016-01-26,Joliet,IL,9,Madison,WI,1046,572,6916,5265,58,International,10
+10562,2,7,Unahigh,2016-04-06,Monon,IN,8,Lansing,MI,560,560,101,574,63,International,5
+10563,2,6,Openzap,2016-07-14,Madison,WI,1,Kalamazoo,MI,753,281,5241,5558,79,Intercom,7
+10564,2,7,Redozetam,2016-08-06,Green Bay,WI,3,Joliet,IL,643,599,1687,2575,63,Domestic,1
+10565,2,4,Coneranron,2016-02-08,Naperville,IL,2,Indianapolis,IN,1175,724,8072,5901,95,Domestic,6
+10566,1,6,Zen-Holdings,2016-04-04,Rockford,IL,2,Green Bay,WI,591,291,228,744,61,Domestic,7
+10567,1,8,Warebam,2016-02-17,Appleton,WI,7,Grand Rapids,MI,586,586,4810,5193,92,International,4
+10568,1,8,Zathlane,2016-05-03,Cincinnati,OH,8,Gary,IN,1175,420,2447,3148,79,International,7
+10569,2,7,Hayholding,2016-07-20,Dayton,OH,4,Elgin,IL,922,572,4539,5393,65,Domestic,1
+10570,1,8,Finlux,2016-05-09,Toledo,OH,1,Detriot,MI,1020,643,2354,3256,62,Domestic,6
+10571,2,8,Zamlane,2016-03-09,Lansing,MI,2,Dayton,OH,429,325,1876,2259,86,Domestic,8
+10572,1,6,Viacane,2016-05-07,Bangor,MI,1,Davenport,IA,806,326,161,736,72,Domestic,4
+10573,2,6,Gogokeying,2016-05-27,Elgin,IL,2,Cincinnati,OH,721,721,8563,8918,50,Domestic,8
+10574,2,5,Tinron,2016-01-13,Skokie,IL,2,Chicago,IL,670,487,6338,7289,58,Domestic,6
+10575,2,5,Canace,2016-02-11,Kalamazoo,MI,4,Bangor,MI,245,245,3100,3591,62,Domestic,10
+10576,1,5,Donware,2016-01-27,Davenport,IA,1,Appleton,WI,1003,621,7184,7988,51,Domestic,1
+10577,2,4,Linetone,2016-06-16,Grand Rapids,MI,2,Toledo,OH,301,301,6622,4610,67,Domestic,5
+10578,1,8,Goldentechi,2016-06-22,Springfield,IL,9,Skokie,IL,614,521,1420,2018,68,International,8
+10579,2,7,Iselectrics,2016-07-28,Chicago,IL,9,Rockford,IL,630,214,3269,3558,63,International,10
+10580,2,5,Kinice,2016-08-26,Indianapolis,IN,8,Northbrook,IL,991,656,421,582,62,International,9
+10581,2,7,Bamgeohigh,2016-07-12,Northbrook,IL,8,Naperville,IL,794,575,1438,1569,61,International,9
+10582,1,5,Funfintech,2016-08-24,Detriot,MI,1,Monon,IN,1095,251,4179,5110,96,Intercom,7
+10583,1,4,Latcore,2016-05-03,Gary,IN,4,Milwaukee,WI,524,451,4276,2422,58,Domestic,7
+10584,1,6,Reddoit,2016-08-04,Joliet,IL,1,Madison,WI,1163,498,7125,7611,70,Domestic,8
+10585,1,8,Plustax,2016-06-29,Monon,IN,2,Lansing,MI,985,626,7253,7621,51,Domestic,8
+10586,1,7,Bamity,2016-04-25,Madison,WI,6,Kalamazoo,MI,343,343,7993,8557,79,International,3
+10587,1,7,Quotelane,2016-07-13,Green Bay,WI,6,Joliet,IL,311,311,5252,5579,87,International,8
+10588,2,4,Viatom,2016-02-29,Naperville,IL,2,Indianapolis,IN,947,744,5440,3358,81,Domestic,4
+10589,1,6,Silverfase,2016-08-23,Rockford,IL,3,Green Bay,WI,1121,410,7092,7492,98,Domestic,10
+10590,1,8,O-Job,2016-08-20,Appleton,WI,3,Grand Rapids,MI,526,335,2088,2515,67,Domestic,10
+10591,2,6,Howtaxon,2016-06-05,Cincinnati,OH,3,Gary,IN,390,320,2352,3057,75,Domestic,9
+10592,2,6,Xx-Way,2016-07-31,Dayton,OH,2,Elgin,IL,946,623,3805,4071,74,Domestic,9
+10593,2,8,San-Plex,2016-03-05,Toledo,OH,1,Detriot,MI,828,655,779,1238,96,Domestic,7
+10594,1,5,Indi-Dox,2016-02-24,Bangor,MI,2,Davenport,IA,425,425,8439,8814,89,Domestic,6
+10595,2,5,Damdexon,2016-08-03,Elgin,IL,2,Cincinnati,OH,470,470,7335,7703,87,Domestic,6
+10596,1,4,Subdrill,2016-01-31,Skokie,IL,5,Chicago,IL,1065,488,5196,3360,84,International,1
+10597,1,8,Conzumzap,2016-02-13,Kalamazoo,MI,7,Bangor,MI,766,233,1075,1792,96,International,9
+10598,2,7,Ontotam,2016-08-17,Davenport,IA,5,Appleton,WI,1036,335,6357,7319,90,International,1
+10599,1,8,Trio-Dax,2016-05-20,Grand Rapids,MI,10,Toledo,OH,985,270,4635,4922,56,International,1
+10600,2,4,Ventocore,2016-02-08,Milwaukee,WI,10,Springfield,IL,523,336,3326,1979,92,International,8
+10601,2,7,Tampquote,2016-03-25,Springfield,IL,2,Skokie,IL,210,210,7290,7603,95,Intercom,2
+10602,2,7,Recode,2016-04-16,Chicago,IL,3,Rockford,IL,271,209,5902,6462,79,Domestic,10
+10603,1,5,Ganjazone,2016-07-11,Indianapolis,IN,3,Northbrook,IL,880,256,1605,2359,74,Domestic,3
+10604,2,5,Hottaxon,2016-03-16,Northbrook,IL,4,Naperville,IL,1001,788,4248,4697,78,Domestic,7
+10605,2,5,Keyzunbase,2016-07-09,Detriot,MI,8,Monon,IN,535,442,4501,4725,66,International,3
+10606,2,5,K-Is,2016-04-12,Gary,IN,6,Milwaukee,WI,663,350,6747,7370,80,International,2
+10607,1,7,Villacom,2016-06-09,Joliet,IL,2,Madison,WI,1160,650,2334,3067,76,Domestic,9
+10608,1,7,Zotit,2016-07-05,Monon,IN,2,Lansing,MI,1013,396,3311,3733,67,Domestic,1
+10609,1,8,Scotquote,2016-05-18,Madison,WI,3,Kalamazoo,MI,1046,708,2864,3242,75,Domestic,3
+10610,2,8,Stimmedia,2016-07-19,Green Bay,WI,4,Joliet,IL,373,366,4644,5437,70,Domestic,2
+10611,2,4,Lazap,2016-07-02,Naperville,IL,3,Indianapolis,IN,254,246,7021,4690,71,Domestic,7
+10612,2,6,Dingity,2016-01-09,Appleton,WI,3,Grand Rapids,MI,1057,534,51,1038,65,Domestic,6
+10613,2,4,Fax-Ex,2016-08-28,Cincinnati,OH,1,Gary,IN,446,446,8698,6541,59,Domestic,10
+10614,1,6,Duodax,2016-01-30,Dayton,OH,2,Elgin,IL,1048,244,3554,4527,71,Domestic,9
+10615,2,6,Planethouse,2016-05-30,Toledo,OH,10,Detriot,MI,1104,765,665,1092,57,International,2
+10616,1,5,Overtam,2016-07-29,Lansing,MI,10,Dayton,OH,887,580,682,1348,86,International,4
+10617,2,5,Solholdings,2016-08-18,Bangor,MI,10,Davenport,IA,870,610,5515,5788,57,International,10
+10618,2,5,Cannamcon,2016-03-08,Elgin,IL,8,Cincinnati,OH,529,450,6014,6538,53,International,8
+10619,1,4,Zerfax,2016-01-29,Skokie,IL,6,Chicago,IL,658,220,3484,1257,61,International,1
+10620,1,5,Technoline,2016-08-08,Kalamazoo,MI,1,Bangor,MI,840,508,3696,4346,78,Intercom,9
+10621,1,4,Applanet,2016-02-27,Davenport,IA,3,Appleton,WI,349,349,7682,5934,58,Domestic,2
+10622,1,7,Zoncone,2016-03-19,Grand Rapids,MI,3,Toledo,OH,1088,202,30,821,69,Domestic,2
+10623,2,8,Canemedkix,2016-06-18,Milwaukee,WI,4,Springfield,IL,656,257,389,533,71,Domestic,9
+10624,2,6,Whitefan,2016-03-11,Springfield,IL,9,Skokie,IL,682,636,1197,1523,63,International,8
+10625,1,4,Xx-Dotone,2016-01-12,Indianapolis,IN,4,Northbrook,IL,347,347,6215,4341,78,Domestic,2
+10626,1,6,Tamcan,2016-06-29,Northbrook,IL,2,Naperville,IL,866,563,3845,4170,98,Domestic,4
+10627,2,6,Sanin,2016-05-01,Detriot,MI,3,Monon,IN,1058,423,5577,5944,93,Domestic,3
+10628,1,6,Sonlex,2016-08-13,Gary,IN,1,Milwaukee,WI,1166,228,8454,8893,78,Domestic,4
+10629,2,5,Groovestrip,2016-05-27,Joliet,IL,3,Madison,WI,205,205,7974,8918,54,Domestic,5
+10630,1,8,Matdex,2016-06-02,Monon,IN,2,Lansing,MI,337,337,6547,7366,64,Domestic,9
+10631,1,5,Saohow,2016-07-18,Madison,WI,4,Kalamazoo,MI,1186,373,3198,3451,84,Domestic,10
+10632,1,5,Yearlex,2016-08-21,Green Bay,WI,4,Joliet,IL,994,290,56,1016,73,Domestic,5
+10633,2,6,Bamtechnology,2016-03-04,Naperville,IL,2,Indianapolis,IN,380,380,1910,2067,97,Domestic,6
+10634,1,5,Dripkix,2016-01-27,Rockford,IL,6,Green Bay,WI,966,790,5938,6216,52,International,10
+10635,2,7,Instrip,2016-08-01,Appleton,WI,10,Grand Rapids,MI,420,407,4568,5475,58,International,4
+10636,1,7,Xx-Bam,2016-01-01,Cincinnati,OH,7,Gary,IN,402,402,677,911,98,International,8
+10637,2,5,Zaamhouse,2016-04-21,Dayton,OH,10,Elgin,IL,438,212,4807,5400,93,International,4
+10638,2,6,Zoofan,2016-02-10,Toledo,OH,10,Detriot,MI,417,321,3831,4804,75,International,6
+10639,1,8,Zuntexon,2016-03-23,Lansing,MI,2,Dayton,OH,392,392,4270,4540,99,Intercom,2
+10640,1,8,Howplanet,2016-03-03,Bangor,MI,2,Davenport,IA,390,390,4594,4956,54,Domestic,4
+10641,2,8,Sanlab,2016-07-02,Skokie,IL,3,Chicago,IL,432,432,6030,6871,65,Domestic,8
+10642,2,8,Mathing,2016-05-16,Kalamazoo,MI,8,Bangor,MI,868,235,7835,8248,93,International,2
+10643,2,7,Tamholding,2016-01-17,Davenport,IA,8,Appleton,WI,970,497,7742,8687,63,International,5
+10644,1,5,Greentech,2016-05-21,Grand Rapids,MI,4,Toledo,OH,993,227,8519,8748,57,Domestic,4
+10645,2,5,Goldenbam,2016-05-11,Milwaukee,WI,2,Springfield,IL,295,295,646,1289,83,Domestic,1
+10646,1,7,Silfase,2016-07-28,Springfield,IL,3,Skokie,IL,989,385,4723,5448,94,Domestic,10
+10647,1,5,Unoex,2016-04-27,Chicago,IL,3,Rockford,IL,409,257,2195,2949,83,Domestic,8
+10648,1,6,Zoodrill,2016-01-20,Indianapolis,IN,4,Northbrook,IL,1143,591,6993,7568,67,Domestic,3
+10649,2,6,Sunjob,2016-08-15,Northbrook,IL,3,Naperville,IL,1159,778,3648,4557,97,Domestic,10
+10650,1,6,Anmedia,2016-03-05,Detriot,MI,2,Monon,IN,1143,563,7882,8267,61,Domestic,2
+10651,2,8,Daltfax,2016-08-10,Gary,IN,1,Milwaukee,WI,1155,257,7583,8379,80,Domestic,6
+10652,1,7,Physcone,2016-06-28,Joliet,IL,1,Madison,WI,903,282,7351,8272,51,Domestic,1
+10653,1,5,Kincorporation,2016-07-12,Monon,IN,10,Lansing,MI,308,286,6050,6688,59,International,1
+10654,2,6,Vaiazozice,2016-01-03,Madison,WI,6,Kalamazoo,MI,552,266,6595,7202,57,International,10
+10655,2,6,Plusla,2016-08-08,Green Bay,WI,5,Joliet,IL,308,308,7272,8062,86,International,2
+10656,1,8,Nimlab,2016-03-24,Naperville,IL,10,Indianapolis,IN,431,431,3846,4526,78,International,1
+10657,1,4,Tamplex,2016-08-05,Rockford,IL,10,Green Bay,WI,496,496,4112,1789,89,International,2
+10658,2,6,Roundphase,2016-08-14,Cincinnati,OH,2,Gary,IN,1005,529,6984,7360,81,Domestic,2
+10659,1,4,Faseway,2016-05-17,Dayton,OH,2,Elgin,IL,851,733,2807,537,82,Domestic,5
+10660,2,7,Tripplekix,2016-07-20,Toledo,OH,3,Detriot,MI,261,261,787,1736,69,Domestic,4
+10661,2,5,Dontam,2016-01-15,Lansing,MI,6,Dayton,OH,513,435,8053,8593,66,International,9
+10662,1,4,Scotfase,2016-06-04,Bangor,MI,10,Davenport,IA,528,528,8062,6262,70,International,7
+10663,2,7,Newzap,2016-03-10,Elgin,IL,2,Cincinnati,OH,1197,234,6019,6190,58,Domestic,2
+10664,2,7,Mathtouch,2016-02-28,Skokie,IL,4,Chicago,IL,699,678,8014,8429,53,Domestic,10
+10665,2,8,Zimity,2016-02-23,Kalamazoo,MI,1,Bangor,MI,873,384,7386,7729,56,Domestic,10
+10666,2,8,Dongbiolex,2016-07-17,Davenport,IA,1,Appleton,WI,863,305,4503,4869,70,Domestic,3
+10667,1,4,J-Lax,2016-03-13,Grand Rapids,MI,3,Toledo,OH,999,574,1568,51,54,Domestic,1
+10668,2,7,Geofind,2016-03-20,Milwaukee,WI,3,Springfield,IL,1013,492,783,1711,64,Domestic,4
+10669,1,6,Iceelectrics,2016-06-05,Springfield,IL,3,Skokie,IL,651,632,4860,5668,97,Domestic,5
+10670,2,4,Vaiazoom,2016-03-08,Chicago,IL,4,Rockford,IL,388,388,6071,3903,82,Domestic,2
+10671,1,7,Vaiataxon,2016-06-22,Indianapolis,IN,2,Northbrook,IL,785,712,7847,8389,61,Domestic,8
+10672,1,6,Pluslam,2016-08-19,Northbrook,IL,5,Naperville,IL,437,437,2642,3461,87,International,4
+10673,1,5,Singleholdings,2016-01-05,Gary,IN,5,Milwaukee,WI,1071,546,8603,8817,91,International,6
+10674,2,5,Strongcane,2016-06-15,Monon,IN,7,Lansing,MI,965,311,7654,8317,89,International,6
+10675,2,8,Condintex,2016-08-10,Madison,WI,2,Kalamazoo,MI,410,410,7434,7686,55,Intercom,9
+10676,1,8,Xx-Canex,2016-06-07,Green Bay,WI,2,Joliet,IL,955,234,1109,1943,76,Domestic,1
+10677,1,6,Itdom,2016-08-03,Naperville,IL,4,Indianapolis,IN,339,339,4701,5433,66,Domestic,4
+10678,2,8,Zamholdings,2016-08-29,Rockford,IL,2,Green Bay,WI,762,660,7119,7571,99,Domestic,8
+10679,1,8,Duo-Fase,2016-04-07,Appleton,WI,10,Grand Rapids,MI,537,522,4026,4631,64,International,2
+10680,2,8,Saozoomtex,2016-05-10,Cincinnati,OH,5,Gary,IN,468,468,2959,3114,88,International,2
+10681,1,8,Funlax,2016-01-31,Dayton,OH,2,Elgin,IL,1070,738,7240,7594,86,Domestic,1
+10682,1,7,Beta-Ron,2016-01-27,Toledo,OH,3,Detriot,MI,328,328,5351,5616,82,Domestic,3
+10683,2,8,Bluecorporation,2016-05-20,Bangor,MI,3,Davenport,IA,1123,415,2709,3521,74,Domestic,4
+10684,2,8,Fin-Cone,2016-02-12,Elgin,IL,4,Cincinnati,OH,976,484,830,1487,73,Domestic,7
+10685,1,6,Ranmedia,2016-08-23,Skokie,IL,1,Chicago,IL,987,250,3453,3862,97,Domestic,8
+10686,2,7,Trueplus,2016-05-04,Kalamazoo,MI,1,Bangor,MI,241,241,2503,3118,73,Domestic,1
+10687,2,8,Templax,2016-02-12,Davenport,IA,1,Appleton,WI,690,223,7808,8502,85,Domestic,2
+10688,2,4,Roundphase,2016-05-17,Grand Rapids,MI,4,Toledo,OH,953,462,2888,291,83,Domestic,3
+10689,2,4,Medialax,2016-03-24,Milwaukee,WI,10,Springfield,IL,631,319,4791,2154,67,International,5
+10690,2,7,Ronlamice,2016-07-27,Springfield,IL,6,Skokie,IL,643,328,1019,1222,55,International,10
+10691,1,8,Zummatexon,2016-08-01,Chicago,IL,8,Rockford,IL,369,320,5754,6350,82,International,1
+10692,2,4,Aptaxon,2016-04-01,Indianapolis,IN,9,Northbrook,IL,1090,278,3505,1098,92,International,9
+10693,1,8,Strongtechnology,2016-07-16,Northbrook,IL,6,Naperville,IL,400,400,873,1000,87,International,5
+10694,1,5,Plextechi,2016-03-13,Detriot,MI,2,Monon,IN,524,524,6846,7562,74,Intercom,2
+10695,2,7,Donplanet,2016-05-22,Gary,IN,4,Milwaukee,WI,1094,208,7449,7606,96,Domestic,4
+10696,1,8,Streetplus,2016-04-22,Monon,IN,2,Lansing,MI,463,384,6905,7336,95,Domestic,5
+10697,2,5,K-Antex,2016-04-14,Madison,WI,6,Kalamazoo,MI,553,553,4077,4990,63,International,6
+10698,1,8,Constreet,2016-08-26,Green Bay,WI,9,Joliet,IL,1093,715,2788,2894,77,International,2
+10699,2,5,Quotefix,2016-02-28,Naperville,IL,2,Indianapolis,IN,1038,452,2556,2858,73,Domestic,10
+10700,1,4,Dripvivadex,2016-01-06,Rockford,IL,3,Green Bay,WI,419,419,6312,4268,93,Domestic,6
+10701,1,4,Trustcorporation,2016-08-27,Appleton,WI,1,Grand Rapids,MI,542,542,7700,6346,98,Domestic,3
+10702,1,4,Zimjiit,2016-01-03,Cincinnati,OH,1,Gary,IN,353,305,4545,3118,59,Domestic,7
+10703,1,8,Scotcan,2016-05-27,Dayton,OH,1,Elgin,IL,1173,302,4050,4826,72,Domestic,7
+10704,1,6,Duoflex,2016-04-19,Toledo,OH,2,Detriot,MI,929,518,912,1324,79,Domestic,2
+10705,2,4,Canetechnology,2016-01-10,Lansing,MI,2,Dayton,OH,1196,410,8138,6536,89,Domestic,8
+10706,2,6,Zotcare,2016-01-19,Bangor,MI,2,Davenport,IA,1035,220,392,742,86,Domestic,10
+10707,2,6,Solostreet,2016-01-24,Elgin,IL,4,Cincinnati,OH,202,202,380,792,96,Domestic,8
+10708,1,7,Xx-Planet,2016-06-28,Skokie,IL,5,Chicago,IL,697,346,2292,2407,80,International,1
+10709,1,7,Apzone,2016-01-12,Kalamazoo,MI,7,Bangor,MI,319,319,1570,2508,61,International,10
+10710,2,6,Donglax,2016-04-07,Davenport,IA,5,Appleton,WI,766,536,1314,2224,80,International,4
+10711,2,6,Jaylane,2016-03-17,Grand Rapids,MI,9,Toledo,OH,633,220,2771,3293,71,International,9
+10712,1,8,Silverace,2016-03-10,Milwaukee,WI,7,Springfield,IL,1018,484,6039,6526,73,International,3
+10713,1,5,Conelane,2016-08-06,Springfield,IL,2,Skokie,IL,431,431,7972,8435,54,Intercom,7
+10714,2,4,Matsanice,2016-08-29,Chicago,IL,2,Rockford,IL,390,390,2572,890,84,Domestic,5
+10715,2,6,Ronplanet,2016-03-02,Indianapolis,IN,1,Northbrook,IL,315,315,5028,5230,97,Domestic,5
+10716,1,5,Plusity,2016-05-02,Detriot,MI,8,Monon,IN,1152,312,1209,1959,78,International,7
+10717,1,6,Quotefix,2016-06-20,Gary,IN,5,Milwaukee,WI,479,479,1518,2165,77,International,2
+10718,2,6,Laex,2016-04-12,Joliet,IL,1,Madison,WI,254,254,6575,7232,91,Domestic,5
+10719,1,7,Tantax,2016-05-06,Monon,IN,3,Lansing,MI,721,541,2636,3408,82,Domestic,10
+10720,1,5,Solohex,2016-03-28,Madison,WI,1,Kalamazoo,MI,679,522,2217,3032,90,Domestic,8
+10721,2,4,Zapline,2016-06-25,Green Bay,WI,3,Joliet,IL,1141,420,5991,3543,60,Domestic,4
+10722,2,5,Tamtexon,2016-08-22,Naperville,IL,4,Indianapolis,IN,552,552,3035,3135,88,Domestic,9
+10723,2,8,D-Zohex,2016-02-03,Rockford,IL,3,Green Bay,WI,1069,561,427,859,84,Domestic,2
+10724,1,5,Joyancom,2016-07-04,Appleton,WI,2,Grand Rapids,MI,762,740,7962,8395,89,Domestic,7
+10725,2,6,Zunice,2016-03-24,Dayton,OH,3,Elgin,IL,778,758,3071,3781,54,Domestic,10
+10726,1,6,Goodquoing,2016-02-22,Toledo,OH,6,Detriot,MI,702,702,4083,4244,77,International,3
+10727,1,8,Fasetech,2016-03-15,Lansing,MI,10,Dayton,OH,968,630,5889,6087,66,International,8
+10728,1,5,Flexplex,2016-08-14,Bangor,MI,8,Davenport,IA,468,294,758,1733,59,International,3
+10729,1,5,Bluezoombam,2016-02-26,Elgin,IL,5,Cincinnati,OH,609,376,3453,3926,94,International,5
+10730,1,6,Cityis,2016-03-06,Skokie,IL,7,Chicago,IL,467,363,6208,7203,88,International,10
+10731,1,7,Stripzim,2016-04-21,Grand Rapids,MI,4,Toledo,OH,241,241,1601,2570,94,Domestic,8
+10732,1,7,Dingquokix,2016-06-26,Milwaukee,WI,1,Springfield,IL,793,674,2050,2792,83,Domestic,9
+10733,2,8,Ronvivalam,2016-07-01,Springfield,IL,6,Skokie,IL,917,769,4670,4994,63,International,8
+10734,2,5,Y-Flex,2016-05-02,Chicago,IL,7,Rockford,IL,519,427,925,1541,51,International,10
+10735,1,5,Faxotfind,2016-06-16,Indianapolis,IN,2,Northbrook,IL,413,413,5610,6262,79,Domestic,7
+10736,1,6,Warelane,2016-02-15,Northbrook,IL,2,Naperville,IL,1087,579,2709,3225,87,Domestic,5
+10737,1,7,Hexunobam,2016-06-14,Detriot,MI,1,Monon,IN,533,370,1152,1813,58,Domestic,3
+10738,2,8,Carekix,2016-08-10,Monon,IN,4,Lansing,MI,369,339,5430,5752,76,Domestic,8
+10739,1,5,Ozeris,2016-04-23,Madison,WI,1,Kalamazoo,MI,334,253,7858,8394,91,Domestic,8
+10740,1,5,Singlejob,2016-05-31,Green Bay,WI,2,Joliet,IL,1073,781,6886,7699,72,Domestic,4
+10741,2,5,Y-Zoom,2016-07-03,Naperville,IL,4,Indianapolis,IN,1086,305,6114,6737,95,Domestic,1
+10742,1,5,Faxron,2016-03-23,Rockford,IL,6,Green Bay,WI,863,517,2331,3290,98,International,5
+10743,2,6,Faseron,2016-02-11,Appleton,WI,9,Grand Rapids,MI,1086,336,6975,7112,66,International,4
+10744,2,5,Lamlab,2016-03-02,Cincinnati,OH,8,Gary,IN,754,350,4571,4763,92,International,10
+10745,2,6,Geoit,2016-05-06,Dayton,OH,8,Elgin,IL,1138,356,1931,2199,78,International,4
+10746,1,5,Planetron,2016-06-13,Toledo,OH,5,Detriot,MI,863,636,7674,8644,75,International,6
+10747,2,5,Zuntone,2016-08-07,Bangor,MI,1,Davenport,IA,1144,470,5718,5883,70,Domestic,3
+10748,2,6,Techmedia,2016-03-31,Elgin,IL,2,Cincinnati,OH,586,413,4263,4601,100,Domestic,4
+10749,1,6,Labdox,2016-05-19,Skokie,IL,3,Chicago,IL,1171,798,2516,3077,77,Domestic,7
+10750,2,7,Lexidom,2016-05-06,Kalamazoo,MI,9,Bangor,MI,1091,527,2695,3202,68,International,2
+10751,1,5,Saokeycane,2016-03-17,Grand Rapids,MI,4,Toledo,OH,1076,798,3560,3913,57,Domestic,5
+10752,1,5,Keystreet,2016-07-28,Milwaukee,WI,2,Springfield,IL,1139,248,890,1316,100,Domestic,10
+10753,2,6,Zerlane,2016-06-01,Chicago,IL,4,Rockford,IL,558,558,5943,6756,70,Domestic,1
+10754,2,6,Fixace,2016-05-07,Indianapolis,IN,4,Northbrook,IL,533,429,5951,6803,73,Domestic,7
+10755,1,4,Tres-Tone,2016-06-05,Northbrook,IL,3,Naperville,IL,1145,578,7944,6354,57,Domestic,2
+10756,1,5,Unaity,2016-07-12,Detriot,MI,1,Monon,IN,1003,387,2806,3070,86,Domestic,7
+10757,2,4,Scotline,2016-08-05,Gary,IN,4,Milwaukee,WI,735,587,7613,5673,89,Domestic,6
+10758,1,7,Daltcare,2016-02-08,Joliet,IL,2,Madison,WI,746,377,11,706,50,Domestic,2
+10759,1,4,Doubleis,2016-03-23,Monon,IN,9,Lansing,MI,267,267,3696,1931,63,International,8
+10760,2,8,Ontohatron,2016-06-26,Madison,WI,7,Kalamazoo,MI,265,265,2305,3222,71,International,9
+10761,2,6,Indibase,2016-03-23,Green Bay,WI,5,Joliet,IL,963,227,5991,6242,94,International,7
+10762,1,8,Dongtinlux,2016-01-12,Naperville,IL,7,Indianapolis,IN,842,455,5741,6617,61,International,4
+10763,2,6,Geohigh,2016-03-04,Rockford,IL,5,Green Bay,WI,568,568,8309,8508,90,International,1
+10764,2,6,Mediaware,2016-01-24,Appleton,WI,1,Grand Rapids,MI,686,650,8272,8527,62,Intercom,2
+10765,2,6,Goldenlex,2016-01-11,Cincinnati,OH,2,Gary,IN,1068,270,6669,7194,85,Domestic,3
+10766,1,4,Canecare,2016-01-04,Dayton,OH,3,Elgin,IL,1163,551,6799,4125,93,Domestic,4
+10767,1,6,Zumcane,2016-04-17,Toledo,OH,1,Detriot,MI,340,340,3149,3885,96,Domestic,3
+10768,2,4,Zerhouse,2016-02-19,Lansing,MI,10,Dayton,OH,1005,206,4708,2385,62,International,4
+10769,1,5,Ganzsannix,2016-06-05,Bangor,MI,9,Davenport,IA,863,288,4838,5494,80,International,2
+10770,1,4,Yearcorporation,2016-06-15,Elgin,IL,4,Cincinnati,OH,536,416,7095,4753,50,Domestic,7
+10771,1,5,Planetline,2016-08-11,Skokie,IL,1,Chicago,IL,868,721,2596,3054,73,Domestic,2
+10772,1,4,Planetware,2016-04-13,Kalamazoo,MI,3,Bangor,MI,472,472,8048,6114,57,Domestic,6
+10773,2,7,Indigoice,2016-02-14,Davenport,IA,4,Appleton,WI,620,458,2619,2839,66,Domestic,2
+10774,1,8,Zotfan,2016-05-07,Grand Rapids,MI,2,Toledo,OH,475,475,3291,3491,65,Domestic,8
+10775,1,8,Medcan,2016-02-12,Milwaukee,WI,1,Springfield,IL,1101,414,7752,8520,50,Domestic,1
+10776,2,8,Fixcan,2016-02-02,Springfield,IL,3,Skokie,IL,555,555,4968,5227,96,Domestic,6
+10777,2,8,Dentoelectrics,2016-08-22,Chicago,IL,4,Rockford,IL,1020,320,8072,8923,64,Domestic,4
+10778,1,7,Conestreet,2016-04-01,Indianapolis,IN,2,Northbrook,IL,436,354,2756,3403,71,Domestic,2
+10779,1,4,Toncode,2016-01-31,Northbrook,IL,10,Naperville,IL,926,648,7163,5205,60,International,6
+10780,2,5,Gravemedia,2016-08-09,Gary,IN,10,Milwaukee,WI,935,549,1647,2455,59,International,2
+10781,2,4,Alphadax,2016-04-17,Joliet,IL,8,Madison,WI,312,312,7766,6286,97,International,1
+10782,2,8,Citytone,2016-07-26,Monon,IN,10,Lansing,MI,843,707,5230,5828,84,International,4
+10783,1,6,Alphafan,2016-01-03,Madison,WI,2,Kalamazoo,MI,800,228,4402,4955,61,Intercom,4
+10784,2,7,D-Quadlux,2016-06-30,Green Bay,WI,1,Joliet,IL,515,515,8162,8796,50,Domestic,7
+10785,2,6,Funlatlex,2016-05-19,Naperville,IL,3,Indianapolis,IN,938,244,4497,4963,96,Domestic,5
+10786,1,8,Wareholding,2016-02-09,Rockford,IL,2,Green Bay,WI,1010,756,4534,5415,60,Domestic,8
+10787,2,7,Anzammedia,2016-03-16,Appleton,WI,7,Grand Rapids,MI,833,620,7683,8104,69,International,1
+10788,1,8,Zoomhex,2016-04-10,Cincinnati,OH,6,Gary,IN,768,693,7359,7501,50,International,2
+10789,2,5,Tripple-Fax,2016-05-26,Dayton,OH,3,Elgin,IL,981,644,7343,8079,99,Domestic,5
+10790,1,8,Qvofix,2016-04-07,Toledo,OH,1,Detriot,MI,1005,592,8072,8935,67,Domestic,7
+10791,1,8,Isdexon,2016-06-06,Lansing,MI,3,Dayton,OH,607,305,8286,8722,76,Domestic,4
+10792,2,4,Solozap,2016-07-14,Elgin,IL,3,Cincinnati,OH,248,248,3504,1449,79,Domestic,8
+10793,1,6,Golddexon,2016-02-15,Skokie,IL,4,Chicago,IL,490,490,1369,2102,90,Domestic,1
+10794,1,4,Inchholdings,2016-08-16,Davenport,IA,4,Appleton,WI,868,249,7013,4792,82,Domestic,2
+10795,1,5,Runhigh,2016-07-02,Grand Rapids,MI,2,Toledo,OH,243,243,146,709,96,Domestic,5
+10796,1,5,White-High,2016-07-30,Milwaukee,WI,7,Springfield,IL,202,202,5835,6626,88,International,6
+10797,1,7,Fasezoomfix,2016-02-01,Springfield,IL,8,Skokie,IL,1192,663,3722,4657,85,International,7
+10798,1,4,Dingcan,2016-06-19,Chicago,IL,5,Rockford,IL,322,322,6371,4929,78,International,3
+10799,1,7,Opebase,2016-05-11,Indianapolis,IN,8,Northbrook,IL,246,246,5351,5695,81,International,2
+10800,1,4,Hexzim,2016-05-08,Northbrook,IL,7,Naperville,IL,1145,238,6510,4823,57,International,1
+10801,2,8,Scotlex,2016-03-16,Detriot,MI,1,Monon,IN,304,304,7021,7945,60,Intercom,1
+10802,2,7,Good-Find,2016-08-31,Gary,IN,4,Milwaukee,WI,1099,433,5312,6047,80,Domestic,3
+10803,2,7,Plexlamway,2016-07-20,Joliet,IL,3,Madison,WI,565,331,7529,7948,94,Domestic,5
+10804,2,4,Latgotrax,2016-01-28,Monon,IN,4,Lansing,MI,905,681,7668,5557,75,Domestic,2
+10805,2,8,Scothouse,2016-02-21,Green Bay,WI,5,Joliet,IL,1111,497,7277,8186,69,International,4
+10806,2,5,Technodax,2016-04-04,Rockford,IL,3,Green Bay,WI,549,474,6240,6882,58,Domestic,5
+10807,1,6,Re-Can,2016-07-07,Appleton,WI,4,Grand Rapids,MI,248,248,1197,2015,85,Domestic,2
+10808,1,6,Unatrax,2016-02-13,Cincinnati,OH,4,Gary,IN,429,429,1810,2373,84,Domestic,3
+10809,1,8,Acequote,2016-07-09,Dayton,OH,3,Elgin,IL,803,443,1841,2434,87,Domestic,2
+10810,2,6,Ganz-Is,2016-01-27,Toledo,OH,1,Detriot,MI,1145,318,3311,3714,86,Domestic,9
+10811,2,8,Sonbam,2016-01-29,Lansing,MI,2,Dayton,OH,658,658,5247,5410,72,Domestic,1
+10812,1,8,Freebam,2016-08-15,Bangor,MI,2,Davenport,IA,1072,489,3762,4056,68,Domestic,7
+10813,1,5,Faxzumtrax,2016-04-24,Elgin,IL,4,Cincinnati,OH,1118,613,7710,7959,60,Domestic,4
+10814,2,8,Sonzamace,2016-03-26,Skokie,IL,5,Chicago,IL,857,500,6884,7307,91,International,8
+10815,2,7,Linezatlam,2016-01-09,Kalamazoo,MI,6,Bangor,MI,1153,673,6089,6622,51,International,2
+10816,1,6,O-Ace,2016-04-18,Davenport,IA,9,Appleton,WI,348,348,6092,6643,66,International,2
+10817,2,7,Statway,2016-06-21,Grand Rapids,MI,10,Toledo,OH,398,398,2787,3575,80,International,7
+10818,2,4,Zunzone,2016-06-25,Milwaukee,WI,8,Springfield,IL,452,452,2716,40,88,International,4
+10819,1,4,Zathhow,2016-03-03,Chicago,IL,1,Rockford,IL,638,638,6417,4224,81,Domestic,2
+10820,1,4,Saltfan,2016-01-28,Northbrook,IL,4,Naperville,IL,443,443,8192,5819,77,Domestic,1
+10821,1,8,Joygreen,2016-08-18,Detriot,MI,10,Monon,IN,738,626,1662,2144,50,International,10
+10822,1,4,Donelectrics,2016-04-27,Gary,IN,7,Milwaukee,WI,916,302,3283,1708,63,International,8
+10823,1,4,Icedox,2016-08-02,Joliet,IL,2,Madison,WI,538,538,5738,3541,84,Domestic,3
+10824,2,7,Namelectronics,2016-03-07,Monon,IN,2,Lansing,MI,568,509,2010,2921,63,Domestic,5
+10825,1,5,Warecity,2016-08-05,Madison,WI,1,Kalamazoo,MI,385,302,440,1027,67,Domestic,1
+10826,1,8,Donremlane,2016-02-26,Green Bay,WI,1,Joliet,IL,916,591,6765,7258,56,Domestic,7
+10827,1,8,Ganzlane,2016-08-02,Naperville,IL,3,Indianapolis,IN,1187,624,659,1092,55,Domestic,4
+10828,1,8,Streetlam,2016-03-30,Rockford,IL,2,Green Bay,WI,1022,447,1665,2265,95,Domestic,5
+10829,2,8,Tonsanhigh,2016-05-01,Appleton,WI,3,Grand Rapids,MI,959,638,4747,4849,99,Domestic,2
+10830,2,6,Siliconcore,2016-01-13,Cincinnati,OH,4,Gary,IN,794,453,4939,5773,51,Domestic,8
+10831,2,8,Dan-High,2016-05-04,Dayton,OH,4,Elgin,IL,491,491,1533,1711,71,Domestic,4
+10832,1,6,Jobtechnology,2016-01-03,Toledo,OH,9,Detriot,MI,933,390,7526,8015,86,International,5
+10833,2,8,Daltron,2016-08-13,Lansing,MI,10,Dayton,OH,668,507,1374,1632,65,International,4
+10834,2,4,Y-Strip,2016-04-05,Bangor,MI,6,Davenport,IA,212,212,8274,6710,53,International,7
+10835,2,7,Danfan,2016-03-25,Elgin,IL,9,Cincinnati,OH,721,312,2555,2685,80,International,6
+10836,2,5,Plustaxon,2016-02-24,Skokie,IL,8,Chicago,IL,703,703,5226,5599,76,International,5
+10837,1,7,Truebam,2016-04-15,Kalamazoo,MI,1,Bangor,MI,998,302,4291,4453,81,Intercom,5
+10838,1,4,Triootity,2016-01-19,Davenport,IA,1,Appleton,WI,1130,636,5040,3126,51,Domestic,6
+10839,1,6,Konknix,2016-03-07,Grand Rapids,MI,3,Toledo,OH,219,219,485,721,86,Domestic,4
+10840,1,6,Dongbase,2016-08-22,Milwaukee,WI,4,Springfield,IL,436,436,3312,3901,68,Domestic,3
+10841,1,4,Howelectrics,2016-04-18,Springfield,IL,8,Skokie,IL,379,379,3381,1797,62,International,8
+10842,1,4,Dingfax,2016-03-29,Chicago,IL,8,Rockford,IL,716,445,8317,6058,64,International,2
+10843,1,7,Zimex,2016-08-24,Indianapolis,IN,3,Northbrook,IL,523,523,8111,8311,67,Domestic,6
+10844,1,6,Saocity,2016-05-04,Northbrook,IL,3,Naperville,IL,322,322,7741,8195,53,Domestic,9
+10845,2,3,Joyzim,2016-01-01,Detriot,MI,1,Monon,IN,392,273,2981,3487,95,Domestic,8
+10846,2,6,Silver-Line,2016-05-03,Gary,IN,4,Milwaukee,WI,558,480,3998,4392,80,Domestic,3
+10847,2,1,Una-Phase,2016-06-09,Joliet,IL,1,Madison,WI,577,577,8199,13410,85,Domestic,9
+10848,2,6,Condexon,2016-01-29,Monon,IN,2,Lansing,MI,1196,586,4547,4794,85,Domestic,8
+10849,1,5,Roundlam,2016-08-26,Madison,WI,2,Kalamazoo,MI,885,527,7852,8476,74,Domestic,9
+10850,2,2,Canphase,2016-07-02,Green Bay,WI,4,Joliet,IL,1180,446,4920,5256,86,Domestic,3
+10851,1,2,Betaity,2016-07-02,Naperville,IL,2,Indianapolis,IN,823,501,7050,7512,90,Domestic,4
+10852,1,3,Jaydox,2016-08-27,Rockford,IL,6,Green Bay,WI,1098,786,1243,2060,84,International,2
+10853,1,4,O-Tom,2016-06-02,Appleton,WI,8,Grand Rapids,MI,332,310,5580,3966,54,International,5
+10854,1,2,Canex,2016-01-13,Cincinnati,OH,10,Gary,IN,581,581,1295,2006,51,International,9
+10855,1,3,Villahouse,2016-08-05,Dayton,OH,6,Elgin,IL,742,434,6376,7001,93,International,2
+10856,1,6,Tempfan,2016-01-04,Toledo,OH,10,Detriot,MI,342,253,6202,6946,83,International,3
+10857,2,6,Vivazim,2016-03-05,Lansing,MI,2,Dayton,OH,274,274,7657,8611,98,Intercom,3
+10858,2,2,Citydexon,2016-07-17,Bangor,MI,4,Davenport,IA,225,217,4648,4915,87,Domestic,9
+10859,2,6,Ittam,2016-03-11,Elgin,IL,1,Cincinnati,OH,225,225,6466,7168,57,Domestic,1
+10860,1,4,Saltlab,2016-03-18,Skokie,IL,2,Chicago,IL,1041,202,7832,5575,94,Domestic,2
+10861,1,5,Itcantrans,2016-04-06,Davenport,IA,10,Appleton,WI,1100,351,7715,7855,61,International,3
+10862,1,2,Blue-Tech,2016-04-11,Grand Rapids,MI,4,Toledo,OH,498,498,4017,4431,78,Domestic,3
+10863,2,3,Unahigh,2016-07-15,Milwaukee,WI,2,Springfield,IL,796,286,2817,3254,54,Domestic,7
+10864,1,1,Openzap,2016-04-30,Springfield,IL,1,Skokie,IL,748,324,892,5621,92,Domestic,1
+10865,2,3,Redozetam,2016-06-03,Chicago,IL,1,Rockford,IL,519,519,7925,8692,69,Domestic,3
+10866,2,6,Coneranron,2016-07-01,Indianapolis,IN,4,Northbrook,IL,685,568,4627,5322,68,Domestic,5
+10867,1,5,Zen-Holdings,2016-03-14,Northbrook,IL,2,Naperville,IL,288,288,50,218,88,Domestic,2
+10868,1,5,Warebam,2016-02-15,Detriot,MI,4,Monon,IN,500,500,2220,3166,87,Domestic,6
+10869,2,5,Zathlane,2016-04-01,Gary,IN,2,Milwaukee,WI,1166,321,4576,4752,82,Domestic,1
+10870,1,3,Hayholding,2016-02-28,Joliet,IL,2,Madison,WI,214,214,3667,3832,64,Domestic,6
+10871,2,3,Finlux,2016-04-28,Monon,IN,5,Lansing,MI,433,421,5900,6025,74,International,6
+10872,1,4,Zamlane,2016-08-05,Madison,WI,7,Kalamazoo,MI,238,238,5288,3463,68,International,10
+10873,1,3,Viacane,2016-02-06,Green Bay,WI,7,Joliet,IL,864,784,7594,7841,98,International,9
+10874,1,5,Gogokeying,2016-03-28,Naperville,IL,8,Indianapolis,IN,213,213,2144,2835,69,International,5
+10875,1,6,Canace,2016-02-28,Appleton,WI,1,Grand Rapids,MI,488,233,484,698,96,Intercom,3
+10876,1,1,Donware,2016-08-25,Cincinnati,OH,2,Gary,IN,696,671,2547,7963,71,Domestic,1
+10877,1,2,Linetone,2016-03-13,Dayton,OH,1,Elgin,IL,1186,606,5584,6366,60,Domestic,7
+10878,1,2,Tantechi,2016-03-16,Toledo,OH,3,Detriot,MI,759,759,322,765,53,Domestic,8
+10879,2,3,Goldentechi,2016-05-08,Lansing,MI,5,Dayton,OH,726,726,5069,5859,50,International,3
+10880,1,2,Iselectrics,2016-01-25,Bangor,MI,6,Davenport,IA,936,237,7156,7730,85,International,5
+10881,1,4,Kinice,2016-08-11,Elgin,IL,4,Cincinnati,OH,1175,582,4810,3138,51,Domestic,3
+10882,2,1,Bamgeohigh,2016-07-11,Skokie,IL,4,Chicago,IL,968,560,5665,9800,97,Domestic,8
+10883,2,6,Funfintech,2016-01-16,Kalamazoo,MI,1,Bangor,MI,755,397,5933,6638,54,Domestic,9
+10884,1,4,Latcore,2016-02-04,Davenport,IA,3,Appleton,WI,470,470,3411,1098,51,Domestic,5
+10885,2,5,Reddoit,2016-01-04,Grand Rapids,MI,4,Toledo,OH,736,353,1214,2153,97,Domestic,4
+10886,2,4,Plustax,2016-05-20,Milwaukee,WI,1,Springfield,IL,669,572,8067,6342,50,Domestic,6
+10887,1,1,Bamity,2016-04-01,Springfield,IL,3,Skokie,IL,565,205,852,5815,98,Domestic,7
+10888,2,3,Viatom,2016-08-26,Indianapolis,IN,1,Northbrook,IL,898,309,1487,2112,100,Domestic,6
+10889,2,5,Silverfase,2016-05-06,Northbrook,IL,10,Naperville,IL,1155,612,5656,6194,100,International,1
+10890,2,2,O-Job,2016-06-17,Detriot,MI,6,Monon,IN,450,450,5092,5456,80,International,2
+10891,1,6,Howtaxon,2016-02-13,Gary,IN,6,Milwaukee,WI,782,270,3184,3743,62,International,7
+10892,2,6,Xx-Way,2016-05-22,Joliet,IL,8,Madison,WI,1148,701,1379,1587,98,International,5
+10893,2,4,San-Plex,2016-04-21,Monon,IN,7,Lansing,MI,655,438,2346,274,58,International,5
+10894,2,6,Dentocity,2016-02-10,Madison,WI,1,Kalamazoo,MI,755,205,3664,4519,81,Intercom,4
+10895,1,6,Indi-Dox,2016-08-11,Green Bay,WI,4,Joliet,IL,751,612,5730,6395,98,Domestic,8
+10896,2,2,Damdexon,2016-03-20,Naperville,IL,3,Indianapolis,IN,763,655,884,1342,57,Domestic,1
+10897,2,3,Subdrill,2016-01-10,Rockford,IL,4,Green Bay,WI,954,515,5908,6900,54,Domestic,4
+10898,2,4,Conzumzap,2016-02-07,Appleton,WI,5,Grand Rapids,MI,986,518,8523,6370,92,International,5
+10899,2,4,Ontotam,2016-08-16,Cincinnati,OH,5,Gary,IN,1065,389,3912,1660,75,International,9
+10900,1,2,Trio-Dax,2016-07-22,Dayton,OH,2,Elgin,IL,881,760,680,874,86,Domestic,3
+10901,1,6,Ventocore,2016-05-30,Toledo,OH,1,Detriot,MI,593,593,1719,2169,58,Domestic,10
+10902,2,1,Tampquote,2016-03-18,Lansing,MI,4,Dayton,OH,515,267,442,4379,83,Domestic,1
+10903,2,2,Recode,2016-06-08,Bangor,MI,3,Davenport,IA,707,423,5214,5385,99,Domestic,5
+10904,2,2,Ganjazone,2016-04-10,Elgin,IL,3,Cincinnati,OH,763,713,7500,7877,62,Domestic,5
+10905,1,2,Hottaxon,2016-07-19,Skokie,IL,3,Chicago,IL,411,411,2111,2480,91,Domestic,4
+10906,2,2,Keyzunbase,2016-02-11,Kalamazoo,MI,2,Bangor,MI,887,410,4731,4967,55,Domestic,8
+10907,1,2,K-Is,2016-06-08,Davenport,IA,1,Appleton,WI,787,688,4886,5487,86,Domestic,5
+10908,1,6,Villacom,2016-02-18,Grand Rapids,MI,2,Toledo,OH,772,217,7350,8346,79,Domestic,3
+10909,1,5,Zotit,2016-04-21,Milwaukee,WI,6,Springfield,IL,471,471,6110,7050,54,International,5
+10910,1,5,Scotquote,2016-01-26,Springfield,IL,10,Skokie,IL,1086,417,3793,3937,62,International,10
+10911,2,4,Stimmedia,2016-04-28,Chicago,IL,6,Rockford,IL,956,643,5256,3113,72,International,1
+10912,2,1,Lazap,2016-06-03,Indianapolis,IN,5,Northbrook,IL,407,290,627,5146,96,International,7
+10913,3,1,Baselux,2016-03-08,Northbrook,IL,10,Naperville,IL,1109,505,5198,10155,90,International,1
+10914,2,3,Dingity,2016-05-02,Detriot,MI,2,Monon,IN,1001,402,2891,3740,59,Intercom,7
+10915,3,3,Fax-Ex,2016-06-24,Gary,IN,2,Milwaukee,WI,1145,400,6693,6834,80,Domestic,2
+10916,3,1,Duodax,2016-06-15,Joliet,IL,1,Madison,WI,410,410,1941,6905,91,Domestic,3
+10917,3,5,Planethouse,2016-02-27,Monon,IN,2,Lansing,MI,755,693,6392,7120,93,Domestic,3
+10918,2,2,Overtam,2016-03-31,Madison,WI,8,Kalamazoo,MI,1149,435,1849,2574,95,International,1
+10919,3,6,Solholdings,2016-06-12,Green Bay,WI,8,Joliet,IL,801,730,7362,7580,67,International,7
+10920,3,2,Cannamcon,2016-05-15,Naperville,IL,2,Indianapolis,IN,980,736,4976,5446,96,Domestic,8
+10921,3,4,Zerfax,2016-01-26,Rockford,IL,1,Green Bay,WI,354,240,2661,650,66,Domestic,6
+10922,3,2,Technoline,2016-08-01,Appleton,WI,4,Grand Rapids,MI,504,504,7032,7647,75,Domestic,1
+10923,2,4,Applanet,2016-05-29,Cincinnati,OH,2,Gary,IN,771,475,4821,2767,67,Domestic,1
+10924,2,4,Zoncone,2016-05-30,Dayton,OH,4,Elgin,IL,1124,476,5818,4403,71,Domestic,8
+10925,2,3,Canemedkix,2016-04-15,Toledo,OH,4,Detriot,MI,822,367,7855,8306,95,Domestic,8
+10926,2,2,Whitefan,2016-01-27,Lansing,MI,1,Dayton,OH,1145,429,4147,4614,97,Domestic,5
+10927,2,3,Strongdax,2016-05-26,Bangor,MI,2,Davenport,IA,279,279,2681,3320,73,Domestic,9
+10928,3,2,Xx-Dotone,2016-03-26,Elgin,IL,4,Cincinnati,OH,270,270,5049,5607,93,Domestic,10
+10929,2,1,Tamcan,2016-08-04,Skokie,IL,9,Chicago,IL,203,203,1910,5785,60,International,5
+10930,3,3,Sanin,2016-05-13,Kalamazoo,MI,6,Bangor,MI,478,478,4082,4613,65,International,1
+10931,2,2,Groovestrip,2016-07-29,Grand Rapids,MI,5,Toledo,OH,475,475,1606,1727,83,International,5
+10932,3,2,Saohow,2016-04-28,Springfield,IL,2,Skokie,IL,685,524,7150,7794,60,Intercom,2
+10933,3,3,Bamtechnology,2016-02-20,Indianapolis,IN,4,Northbrook,IL,1162,602,1646,2034,90,Domestic,5
+10934,2,2,Dripkix,2016-08-22,Northbrook,IL,3,Naperville,IL,420,420,3817,4311,51,Domestic,5
+10935,3,1,Instrip,2016-06-14,Detriot,MI,5,Monon,IN,1006,403,6172,10586,71,International,3
+10936,2,4,Xx-Bam,2016-01-22,Gary,IN,10,Milwaukee,WI,1037,352,2456,604,55,International,9
+10937,3,2,Zaamhouse,2016-05-23,Joliet,IL,2,Madison,WI,993,449,7016,7614,52,Domestic,5
+10938,3,5,Zoofan,2016-06-12,Monon,IN,2,Lansing,MI,912,785,7289,8186,94,Domestic,4
+10939,3,1,Zuntexon,2016-05-16,Madison,WI,4,Kalamazoo,MI,281,281,6303,10865,74,Domestic,1
+10940,2,3,Howplanet,2016-04-12,Green Bay,WI,3,Joliet,IL,318,318,1859,2231,90,Domestic,7
+10941,2,1,Fasezim,2016-06-26,Naperville,IL,1,Indianapolis,IN,902,742,2511,7397,83,Domestic,9
+10942,2,2,Sanlab,2016-03-19,Rockford,IL,1,Green Bay,WI,744,649,525,742,83,Domestic,10
+10943,3,1,Mathing,2016-08-19,Appleton,WI,1,Grand Rapids,MI,1110,497,1259,6156,76,Domestic,5
+10944,3,6,Greentech,2016-06-27,Dayton,OH,3,Elgin,IL,588,307,5958,6751,52,Domestic,3
+10945,3,5,Goldenbam,2016-05-14,Toledo,OH,9,Detriot,MI,1149,663,5948,6077,53,International,10
+10946,2,5,Silfase,2016-07-07,Lansing,MI,7,Dayton,OH,856,791,761,1338,90,International,7
+10947,2,3,Zoodrill,2016-08-17,Elgin,IL,7,Cincinnati,OH,543,543,2130,2737,75,International,3
+10948,3,5,Sunjob,2016-04-16,Skokie,IL,8,Chicago,IL,937,794,7473,8465,57,International,9
+10949,2,2,Anmedia,2016-08-22,Kalamazoo,MI,2,Bangor,MI,275,275,23,946,50,Intercom,9
+10950,3,6,Daltfax,2016-02-16,Davenport,IA,1,Appleton,WI,1114,677,2796,3566,79,Domestic,4
+10951,3,6,Physcone,2016-07-19,Grand Rapids,MI,4,Toledo,OH,398,398,3372,3952,53,Domestic,6
+10952,2,5,Kincorporation,2016-06-16,Milwaukee,WI,1,Springfield,IL,527,527,8424,8643,57,Domestic,2
+10953,3,3,Plusla,2016-01-01,Chicago,IL,5,Rockford,IL,780,275,5832,6808,82,International,4
+10954,3,5,Nimlab,2016-07-06,Indianapolis,IN,4,Northbrook,IL,977,350,3367,4081,57,Domestic,1
+10955,2,4,Tamplex,2016-06-09,Northbrook,IL,1,Naperville,IL,703,421,7873,5743,98,Domestic,1
+10956,3,6,Blueit,2016-08-25,Detriot,MI,4,Monon,IN,1159,566,6553,7238,92,Domestic,9
+10957,2,5,Faseway,2016-05-05,Joliet,IL,1,Madison,WI,1134,708,7588,8438,64,Domestic,10
+10958,2,3,Dontam,2016-06-26,Madison,WI,2,Kalamazoo,MI,331,331,7268,7620,52,Domestic,4
+10959,2,1,Scotfase,2016-03-24,Green Bay,WI,1,Joliet,IL,1080,272,7801,11626,68,Domestic,7
+10960,3,3,Newzap,2016-02-22,Naperville,IL,3,Indianapolis,IN,1050,680,3631,3969,99,Domestic,10
+10961,2,2,Mathtouch,2016-03-10,Rockford,IL,6,Green Bay,WI,401,401,7172,7857,68,International,6
+10962,2,3,Dongbiolex,2016-07-25,Cincinnati,OH,10,Gary,IN,923,798,2418,2967,95,International,6
+10963,3,4,J-Lax,2016-06-28,Dayton,OH,5,Elgin,IL,1115,551,3404,1013,100,International,9
+10964,2,2,Geofind,2016-07-08,Toledo,OH,6,Detriot,MI,700,220,5178,5534,94,International,6
+10965,2,2,Vaiazoom,2016-06-29,Bangor,MI,1,Davenport,IA,468,370,3083,4016,99,Domestic,9
+10966,2,5,Vaiataxon,2016-01-07,Elgin,IL,1,Cincinnati,OH,546,546,6102,7028,67,Domestic,7
+10967,3,2,Pluslam,2016-05-31,Skokie,IL,3,Chicago,IL,1196,630,8005,8642,95,Domestic,1
+10968,3,5,Rancan,2016-06-04,Kalamazoo,MI,10,Bangor,MI,316,236,4670,4923,59,International,4
+10969,2,3,Singleholdings,2016-04-16,Davenport,IA,8,Appleton,WI,886,724,5315,6180,67,International,2
+10970,2,2,Strongcane,2016-03-02,Milwaukee,WI,2,Springfield,IL,524,524,5693,5958,99,Domestic,1
+10971,2,3,Condintex,2016-01-01,Springfield,IL,2,Skokie,IL,710,710,1122,1831,78,Domestic,1
+10972,3,6,Xx-Canex,2016-07-10,Chicago,IL,1,Rockford,IL,1012,355,2732,3227,99,Domestic,3
+10973,2,3,Itdom,2016-07-11,Indianapolis,IN,4,Northbrook,IL,248,248,6704,7373,100,Domestic,6
+10974,2,4,Zamholdings,2016-03-30,Northbrook,IL,2,Naperville,IL,1090,370,5981,4160,73,Domestic,1
+10975,3,6,Duo-Fase,2016-01-30,Detriot,MI,4,Monon,IN,306,306,266,1168,78,Domestic,8
+10976,2,1,Saozoomtex,2016-06-22,Gary,IN,2,Milwaukee,WI,295,295,1592,6772,89,Domestic,5
+10977,3,1,Funlax,2016-05-16,Joliet,IL,4,Madison,WI,397,397,7168,11280,90,Domestic,5
+10978,3,5,Beta-Ron,2016-03-26,Monon,IN,6,Lansing,MI,233,233,8039,8578,66,International,8
+10979,2,1,Zentrax,2016-07-24,Madison,WI,7,Kalamazoo,MI,595,595,6378,10381,58,International,4
+10980,2,1,Bluecorporation,2016-07-11,Green Bay,WI,8,Joliet,IL,1108,346,3672,7984,51,International,3
+10981,2,5,Fin-Cone,2016-06-29,Naperville,IL,10,Indianapolis,IN,782,304,1321,1915,60,International,4
+10982,3,6,Ranmedia,2016-01-26,Rockford,IL,10,Green Bay,WI,486,441,3385,3826,75,International,9
+10983,3,2,Trueplus,2016-03-17,Appleton,WI,1,Grand Rapids,MI,785,499,439,1240,80,Intercom,10
+10984,3,1,Templax,2016-03-21,Cincinnati,OH,3,Gary,IN,582,237,6479,11083,76,Domestic,8
+10985,3,6,Roundphase,2016-01-09,Dayton,OH,4,Elgin,IL,866,474,8231,8658,75,Domestic,1
+10986,3,2,Medialax,2016-05-12,Toledo,OH,3,Detriot,MI,224,224,2937,3724,97,Domestic,8
+10987,2,2,Ronlamice,2016-08-09,Lansing,MI,8,Dayton,OH,561,372,1123,1813,59,International,10
+10988,2,6,Zummatexon,2016-05-21,Bangor,MI,6,Davenport,IA,271,271,1905,2341,66,International,7
+10989,2,3,Aptaxon,2016-08-08,Elgin,IL,2,Cincinnati,OH,716,235,5909,6025,66,Domestic,7
+10990,2,2,Strongtechnology,2016-03-15,Skokie,IL,4,Chicago,IL,514,514,5208,5612,50,Domestic,10
+10991,2,4,Plextechi,2016-05-24,Kalamazoo,MI,1,Bangor,MI,997,608,3534,1836,99,Domestic,5
+10992,3,5,Streetplus,2016-02-21,Milwaukee,WI,2,Springfield,IL,583,214,1934,2882,83,Domestic,5
+10993,3,6,K-Antex,2016-07-27,Springfield,IL,1,Skokie,IL,555,555,5038,5936,75,Domestic,3
+10994,3,5,Constreet,2016-05-07,Chicago,IL,4,Rockford,IL,482,482,4716,5015,71,Domestic,7
+10995,3,1,Quotefix,2016-06-24,Indianapolis,IN,2,Northbrook,IL,1108,792,6900,11576,96,Domestic,6
+10996,2,2,Dripvivadex,2016-01-30,Northbrook,IL,6,Naperville,IL,345,214,8526,8735,68,International,10
+10997,2,2,Zimjiit,2016-06-01,Gary,IN,10,Milwaukee,WI,1055,252,3678,4337,90,International,5
+10998,2,3,Scotcan,2016-03-22,Joliet,IL,6,Madison,WI,594,594,4605,5545,67,International,7
+10999,3,3,Duoflex,2016-04-02,Monon,IN,10,Lansing,MI,386,386,7916,8284,50,International,6
+11000,3,6,Canetechnology,2016-05-27,Madison,WI,1,Kalamazoo,MI,287,205,4617,5194,64,Intercom,1
+11001,2,3,Zotcare,2016-05-20,Green Bay,WI,2,Joliet,IL,1003,668,107,345,75,Domestic,3
+11002,3,4,Solostreet,2016-01-10,Naperville,IL,2,Indianapolis,IN,463,202,2362,478,76,Domestic,10
+11003,2,1,Xx-Planet,2016-03-05,Rockford,IL,2,Green Bay,WI,936,427,1396,5802,99,Domestic,2
+11004,2,6,Apzone,2016-06-29,Appleton,WI,8,Grand Rapids,MI,845,554,6464,6733,100,International,6
+11005,3,1,Jaylane,2016-05-14,Dayton,OH,3,Elgin,IL,938,515,3307,8375,74,Domestic,8
+11006,3,1,Silverace,2016-08-11,Toledo,OH,2,Detriot,MI,445,291,760,5789,100,Domestic,9
+11007,3,5,Conelane,2016-07-29,Lansing,MI,3,Dayton,OH,1105,367,5615,6171,68,Domestic,9
+11008,2,3,Matsanice,2016-03-25,Bangor,MI,3,Davenport,IA,367,367,5088,5923,93,Domestic,3
+11009,3,6,Ronplanet,2016-03-18,Elgin,IL,4,Cincinnati,OH,1079,452,7914,8741,98,Domestic,2
+11010,2,5,Lexiplus,2016-02-21,Skokie,IL,4,Chicago,IL,813,438,8472,8920,83,Domestic,7
+11011,2,6,Plusity,2016-05-17,Kalamazoo,MI,2,Bangor,MI,781,535,828,1627,77,Domestic,4
+11012,2,2,Quotefix,2016-06-10,Davenport,IA,2,Appleton,WI,1184,373,7125,7824,93,Domestic,3
+11013,3,1,Laex,2016-05-08,Grand Rapids,MI,4,Toledo,OH,338,297,4967,8956,54,Domestic,3
+11014,2,1,Tantax,2016-06-29,Milwaukee,WI,8,Springfield,IL,1002,350,6122,9643,74,International,1
+11015,3,1,Solohex,2016-01-16,Springfield,IL,9,Skokie,IL,778,614,3562,7865,72,International,5
+11016,2,3,Zapline,2016-08-24,Chicago,IL,6,Rockford,IL,1088,692,8285,8651,50,International,5
+11017,2,4,Tamtexon,2016-08-04,Indianapolis,IN,5,Northbrook,IL,1071,582,3805,1179,70,International,10
+11018,2,6,D-Zohex,2016-01-29,Northbrook,IL,8,Naperville,IL,831,490,8449,8791,51,International,6
+11019,2,4,Joyancom,2016-04-05,Detriot,MI,1,Monon,IN,818,743,7496,6308,67,Intercom,1
+11020,3,1,Goodtechno,2016-07-29,Gary,IN,2,Milwaukee,WI,888,263,4566,9263,58,Domestic,2
+11021,3,3,Zunice,2016-06-25,Joliet,IL,4,Madison,WI,1078,782,6338,6605,95,Domestic,8
+11022,3,6,Goodquoing,2016-06-07,Monon,IN,3,Lansing,MI,1058,466,551,1504,51,Domestic,4
+11023,3,2,Fasetech,2016-07-29,Madison,WI,10,Kalamazoo,MI,1030,232,3444,4380,56,International,4
+11024,2,5,Flexplex,2016-04-10,Green Bay,WI,5,Joliet,IL,1181,342,5346,6335,57,International,10
+11025,3,4,Bluezoombam,2016-08-24,Naperville,IL,3,Indianapolis,IN,1065,637,6720,4794,91,Domestic,1
+11026,3,2,Cityis,2016-02-11,Rockford,IL,2,Green Bay,WI,903,214,7230,7444,56,Domestic,9
+11027,3,5,Kantone,2016-01-26,Appleton,WI,2,Grand Rapids,MI,1197,628,5634,6475,70,Domestic,6
+11028,3,6,Treedrill,2016-05-26,Cincinnati,OH,3,Gary,IN,1160,792,7179,7285,89,Domestic,2
+11029,2,3,Stripzim,2016-01-08,Dayton,OH,2,Elgin,IL,822,669,6135,6669,71,Domestic,1
+11030,3,4,Dingquokix,2016-03-21,Toledo,OH,1,Detriot,MI,922,292,2407,40,83,Domestic,10
+11031,2,5,Ronvivalam,2016-06-16,Lansing,MI,2,Dayton,OH,924,287,6145,6506,93,Domestic,2
+11032,3,5,Y-Flex,2016-02-16,Bangor,MI,1,Davenport,IA,778,640,3288,3975,84,Domestic,2
+11033,2,3,Faxotfind,2016-03-27,Elgin,IL,3,Cincinnati,OH,247,247,8059,8659,54,Domestic,4
+11034,2,2,Warelane,2016-05-13,Skokie,IL,9,Chicago,IL,216,216,2373,3311,59,International,9
+11035,3,3,Hexunobam,2016-08-23,Kalamazoo,MI,5,Bangor,MI,302,302,1066,1844,62,International,4
+11036,3,5,Ozeris,2016-08-07,Springfield,IL,1,Skokie,IL,1135,614,1519,2168,95,Intercom,8
+11037,3,2,Singlejob,2016-01-30,Chicago,IL,4,Rockford,IL,881,534,5346,5669,89,Domestic,3
+11038,2,5,Y-Zoom,2016-08-18,Indianapolis,IN,2,Northbrook,IL,296,296,469,1117,73,Domestic,4
+11039,3,5,Faxron,2016-02-03,Northbrook,IL,3,Naperville,IL,493,493,851,1228,97,Domestic,6
+11040,3,2,Faseron,2016-04-19,Detriot,MI,5,Monon,IN,996,262,2234,3176,73,International,6
+11041,2,6,Lamlab,2016-03-19,Gary,IN,5,Milwaukee,WI,292,292,3753,4586,62,International,9
+11042,2,6,Geoit,2016-01-06,Joliet,IL,2,Madison,WI,721,262,7301,7775,67,Domestic,6
+11043,2,1,Planetron,2016-02-05,Monon,IN,2,Lansing,MI,1018,349,3826,7485,73,Domestic,2
+11044,2,3,Stimcore,2016-02-24,Madison,WI,3,Kalamazoo,MI,502,379,838,1726,64,Domestic,4
+11045,2,3,Zuntone,2016-03-18,Green Bay,WI,2,Joliet,IL,1109,260,5431,6169,58,Domestic,8
+11046,3,2,Labdox,2016-07-23,Rockford,IL,2,Green Bay,WI,1158,331,2994,3649,74,Domestic,10
+11047,2,2,Lexidom,2016-01-27,Appleton,WI,2,Grand Rapids,MI,521,415,5416,6096,68,Domestic,9
+11048,2,6,Zummatax,2016-05-17,Cincinnati,OH,2,Gary,IN,621,367,6739,7231,53,Domestic,6
+11049,3,2,Saokeycane,2016-06-03,Dayton,OH,3,Elgin,IL,343,343,3960,4828,77,Domestic,2
+11050,2,5,Inzone,2016-02-13,Lansing,MI,9,Dayton,OH,986,450,1024,1194,55,International,6
+11051,2,3,Zerlane,2016-02-01,Bangor,MI,10,Davenport,IA,1189,708,6042,6971,59,International,9
+11052,2,4,Fixace,2016-02-03,Elgin,IL,10,Cincinnati,OH,769,629,4680,2901,67,International,9
+11053,3,5,Tres-Tone,2016-01-22,Skokie,IL,10,Chicago,IL,975,414,6217,6748,94,International,1
+11054,2,5,Unaity,2016-08-07,Kalamazoo,MI,2,Bangor,MI,598,219,2976,3973,64,Intercom,5
+11055,2,6,Scotline,2016-06-24,Davenport,IA,1,Appleton,WI,949,439,1549,2488,65,Domestic,7
+11056,2,1,Daltcare,2016-01-04,Grand Rapids,MI,2,Toledo,OH,1026,650,7924,12343,74,Domestic,2
+11057,2,5,Doubleis,2016-07-24,Milwaukee,WI,2,Springfield,IL,876,433,124,398,90,Domestic,3
+11058,2,1,Ontohatron,2016-08-07,Springfield,IL,8,Skokie,IL,629,248,4341,8773,97,International,8
+11059,3,6,Indibase,2016-08-08,Chicago,IL,5,Rockford,IL,712,629,2208,3025,69,International,4
+11060,3,5,Dongtinlux,2016-05-25,Indianapolis,IN,2,Northbrook,IL,920,543,281,800,93,Domestic,6
+11061,2,3,Geohigh,2016-07-12,Northbrook,IL,1,Naperville,IL,567,567,6665,6952,85,Domestic,7
+11062,2,4,Mediaware,2016-02-09,Detriot,MI,2,Monon,IN,1045,297,7152,5420,89,Domestic,2
+11063,2,4,Goldenlex,2016-03-07,Gary,IN,1,Milwaukee,WI,938,260,3202,404,93,Domestic,6
+11064,2,5,Canecare,2016-02-07,Joliet,IL,2,Madison,WI,588,588,6170,6843,78,Domestic,10
+11065,3,4,Zumcane,2016-08-09,Monon,IN,4,Lansing,MI,1010,724,6716,4665,61,Domestic,1
+11066,2,3,Zerhouse,2016-08-08,Madison,WI,3,Kalamazoo,MI,842,303,7683,8222,50,Domestic,4
+11067,3,3,Yearcorporation,2016-07-25,Naperville,IL,2,Indianapolis,IN,644,557,549,698,64,Domestic,2
+11068,3,3,Planetware,2016-02-27,Appleton,WI,9,Grand Rapids,MI,461,328,1773,2015,73,International,9
+11069,3,6,Indigoice,2016-07-18,Cincinnati,OH,10,Gary,IN,288,231,1210,1383,91,International,6
+11070,3,3,Zotfan,2016-05-18,Dayton,OH,8,Elgin,IL,499,366,7168,7690,59,International,7
+11071,3,6,Medcan,2016-05-08,Toledo,OH,5,Detriot,MI,654,654,7390,8186,83,International,2
+11072,2,1,Dentoelectrics,2016-06-07,Bangor,MI,3,Davenport,IA,301,301,1780,5748,86,Domestic,2
+11073,2,1,Conestreet,2016-02-01,Elgin,IL,2,Cincinnati,OH,228,228,7542,11550,92,Domestic,6
+11074,2,2,Toncode,2016-04-14,Skokie,IL,3,Chicago,IL,904,587,1292,2076,82,Domestic,1
+11075,2,3,Rankphase,2016-04-29,Kalamazoo,MI,9,Bangor,MI,484,484,2835,3590,83,International,10
+11076,2,1,Gravemedia,2016-01-19,Davenport,IA,9,Appleton,WI,448,448,5012,9455,98,International,5
+11077,3,3,Alphadax,2016-06-29,Grand Rapids,MI,2,Toledo,OH,772,647,2506,2750,69,Domestic,3
+11078,3,1,Citytone,2016-04-07,Milwaukee,WI,2,Springfield,IL,1156,320,5917,9561,97,Domestic,8
+11079,3,6,Alphafan,2016-04-29,Springfield,IL,3,Skokie,IL,509,509,441,1171,53,Domestic,3
+11080,2,2,D-Quadlux,2016-07-11,Chicago,IL,4,Rockford,IL,1007,475,2885,3670,75,Domestic,6
+11081,2,3,Funlatlex,2016-07-09,Indianapolis,IN,1,Northbrook,IL,1062,770,3521,3808,76,Domestic,9
+11082,2,3,Wareholding,2016-08-06,Northbrook,IL,4,Naperville,IL,514,273,5746,6457,73,Domestic,9
+11083,2,4,Anzammedia,2016-05-25,Detriot,MI,2,Monon,IN,640,640,6536,4539,63,Domestic,1
+11084,3,2,Zoomhex,2016-01-14,Gary,IN,3,Milwaukee,WI,860,734,1905,2599,93,Domestic,8
+11085,2,1,Tripple-Fax,2016-06-25,Joliet,IL,4,Madison,WI,794,706,388,4931,77,Domestic,3
+11086,3,2,Qvofix,2016-06-05,Monon,IN,10,Lansing,MI,257,257,779,1274,86,International,3
+11087,3,1,Faseelectronics,2016-06-20,Green Bay,WI,9,Joliet,IL,950,284,5895,10787,62,International,6
+11088,3,2,Solozap,2016-06-22,Naperville,IL,7,Indianapolis,IN,726,208,3723,4286,64,International,10
+11089,2,1,Golddexon,2016-01-23,Rockford,IL,7,Green Bay,WI,375,375,2617,8076,60,International,2
+11090,3,6,Zunhouse,2016-07-31,Appleton,WI,1,Grand Rapids,MI,708,209,4931,5606,97,Intercom,6
+11091,3,2,Inchholdings,2016-01-19,Cincinnati,OH,4,Gary,IN,1155,455,6654,7506,77,Domestic,4
+11092,3,6,Runhigh,2016-08-05,Dayton,OH,3,Elgin,IL,675,481,3831,4536,87,Domestic,1
+11093,3,5,White-High,2016-04-19,Toledo,OH,2,Detriot,MI,744,637,661,1262,88,Domestic,4
+11094,3,2,Fasezoomfix,2016-03-25,Lansing,MI,6,Dayton,OH,300,283,1660,2220,62,International,3
+11095,2,5,Dingcan,2016-08-30,Bangor,MI,7,Davenport,IA,383,383,3340,3578,53,International,5
+11096,3,2,Opebase,2016-08-06,Elgin,IL,3,Cincinnati,OH,434,434,5983,6719,89,Domestic,4
+11097,3,3,Hexzim,2016-01-28,Skokie,IL,1,Chicago,IL,923,745,4244,5195,54,Domestic,5
+11098,3,3,Scotlex,2016-02-08,Kalamazoo,MI,3,Bangor,MI,799,799,4013,4545,69,Domestic,10
+11099,2,2,Good-Find,2016-03-03,Davenport,IA,4,Appleton,WI,704,468,5215,5939,96,Domestic,8
+11100,2,2,Plexlamway,2016-03-30,Grand Rapids,MI,4,Toledo,OH,849,408,4588,4689,89,Domestic,5
+11101,3,2,Latgotrax,2016-06-04,Milwaukee,WI,1,Springfield,IL,982,710,4948,5114,91,Domestic,5
+11102,3,5,Hotity,2016-04-13,Springfield,IL,1,Skokie,IL,303,303,3886,4247,61,Domestic,5
+11103,2,6,Striplane,2016-06-23,Indianapolis,IN,2,Northbrook,IL,1070,535,3071,3892,83,Domestic,7
+11104,2,1,Technodax,2016-01-19,Northbrook,IL,10,Naperville,IL,1130,788,3677,7917,99,International,6
+11105,3,3,Re-Can,2016-04-19,Detriot,MI,8,Monon,IN,731,441,1473,1787,91,International,2
+11106,2,1,Unatrax,2016-06-12,Gary,IN,7,Milwaukee,WI,1127,223,537,4845,54,International,9
+11107,2,3,Ganz-Is,2016-04-25,Monon,IN,6,Lansing,MI,766,314,5853,5965,58,International,6
+11108,2,2,Sonbam,2016-08-23,Madison,WI,2,Kalamazoo,MI,287,287,605,929,94,Intercom,6
+11109,2,3,Freebam,2016-05-06,Green Bay,WI,4,Joliet,IL,835,627,74,364,71,Domestic,6
+11110,2,2,Faxzumtrax,2016-04-16,Naperville,IL,1,Indianapolis,IN,862,395,6527,7415,65,Domestic,2
+11111,3,2,Sonzamace,2016-06-07,Rockford,IL,1,Green Bay,WI,598,304,5026,5597,96,Domestic,7
+11112,3,1,Linezatlam,2016-04-15,Appleton,WI,8,Grand Rapids,MI,704,330,5386,9762,57,International,5
+11113,3,3,O-Ace,2016-07-16,Cincinnati,OH,10,Gary,IN,334,334,8424,8724,87,International,4
+11114,2,2,Statway,2016-05-09,Dayton,OH,3,Elgin,IL,870,263,3421,3958,86,Domestic,7
+11115,3,6,Zunzone,2016-01-06,Toledo,OH,4,Detriot,MI,509,218,359,1117,82,Domestic,2
+11116,3,2,Hat-Core,2016-02-06,Lansing,MI,4,Dayton,OH,784,410,5982,6723,66,Domestic,9
+11117,3,3,Zathhow,2016-04-06,Bangor,MI,1,Davenport,IA,846,235,1348,1895,60,Domestic,5
+11118,2,3,Subvivais,2016-08-10,Elgin,IL,3,Cincinnati,OH,889,502,2718,3258,56,Domestic,5
+11119,3,5,Joygreen,2016-06-03,Kalamazoo,MI,3,Bangor,MI,620,319,8454,8991,84,Domestic,9
+11120,2,4,Donelectrics,2016-02-28,Davenport,IA,3,Appleton,WI,508,493,2674,860,73,Domestic,3
+11121,2,1,Icedox,2016-01-01,Grand Rapids,MI,3,Toledo,OH,357,238,2276,7388,60,Domestic,10
+11122,3,3,Namelectronics,2016-04-23,Milwaukee,WI,9,Springfield,IL,384,361,498,1465,57,International,9
+11123,2,6,Warecity,2016-02-02,Springfield,IL,7,Skokie,IL,875,518,6056,6354,84,International,6
+11124,3,1,Donremlane,2016-07-04,Chicago,IL,5,Rockford,IL,1057,216,6694,11259,52,International,8
+11125,3,5,Ganzlane,2016-07-30,Indianapolis,IN,8,Northbrook,IL,645,645,6897,7373,63,International,10
+11126,2,6,Streetlam,2016-04-11,Northbrook,IL,8,Naperville,IL,279,262,7859,8810,68,International,2
+11127,2,1,Tonsanhigh,2016-02-26,Detriot,MI,2,Monon,IN,441,353,5679,10241,52,Intercom,10
+11128,2,3,Siliconcore,2016-02-29,Gary,IN,1,Milwaukee,WI,297,297,3948,4412,87,Domestic,1
+11129,3,2,Dan-High,2016-02-05,Joliet,IL,2,Madison,WI,772,660,4336,4985,94,Domestic,3
+11130,2,5,Jobtechnology,2016-03-25,Monon,IN,2,Lansing,MI,415,349,7780,8652,76,Domestic,8
+11131,2,4,Daltron,2016-02-08,Madison,WI,8,Kalamazoo,MI,601,566,4722,2547,79,International,7
+11132,3,2,Y-Strip,2016-04-03,Green Bay,WI,10,Joliet,IL,1031,205,554,921,79,International,5
+11133,3,5,Danfan,2016-01-20,Naperville,IL,4,Indianapolis,IN,360,212,1749,2438,63,Domestic,6
+11134,3,6,Plustaxon,2016-02-28,Rockford,IL,4,Green Bay,WI,721,717,8314,8586,74,Domestic,7
+11135,3,6,Truebam,2016-04-27,Appleton,WI,3,Grand Rapids,MI,860,330,486,858,84,Domestic,3
+11136,2,5,Triootity,2016-08-27,Cincinnati,OH,2,Gary,IN,425,425,2551,3222,59,Domestic,10
+11137,3,2,Konknix,2016-05-12,Dayton,OH,3,Elgin,IL,209,209,257,1232,75,Domestic,3
+11138,2,2,Dongbase,2016-04-21,Toledo,OH,3,Detriot,MI,571,238,3966,4608,61,Domestic,6
+11139,2,1,Dingfax,2016-06-05,Bangor,MI,4,Davenport,IA,417,417,5609,10727,63,Domestic,1
+11140,3,2,Zimex,2016-06-19,Elgin,IL,2,Cincinnati,OH,515,245,2199,3038,75,Domestic,9
+11141,2,6,Saocity,2016-04-11,Skokie,IL,9,Chicago,IL,483,211,4834,5155,93,International,5
+11142,3,5,Joyzim,2016-08-12,Kalamazoo,MI,9,Bangor,MI,376,376,7657,7921,58,International,2
+11143,3,1,Silver-Line,2016-04-25,Davenport,IA,5,Appleton,WI,1171,726,7699,12593,52,International,3
+11144,2,5,Una-Phase,2016-07-26,Grand Rapids,MI,8,Toledo,OH,778,336,2653,3073,51,International,2
+11145,2,6,Condexon,2016-05-16,Milwaukee,WI,7,Springfield,IL,324,324,1173,1301,99,International,7
+11146,2,2,Canphase,2016-01-29,Chicago,IL,2,Rockford,IL,1181,789,6685,7441,94,Domestic,7
+11147,3,2,Betaity,2016-05-23,Indianapolis,IN,4,Northbrook,IL,660,464,4320,4745,92,Domestic,7
+11148,2,5,Jaydox,2016-03-02,Northbrook,IL,1,Naperville,IL,1160,522,5837,6816,59,Domestic,2
+11149,2,1,O-Tom,2016-03-22,Detriot,MI,5,Monon,IN,290,289,1185,4621,76,International,5
+11150,2,6,Canex,2016-07-12,Gary,IN,10,Milwaukee,WI,376,376,4676,4798,90,International,4
+11151,2,1,Villahouse,2016-03-11,Joliet,IL,3,Madison,WI,1074,553,2018,5684,77,Domestic,3
+11152,3,6,Tempfan,2016-05-27,Monon,IN,3,Lansing,MI,1130,518,6847,7684,65,Domestic,8
+11153,3,5,Vivazim,2016-02-08,Madison,WI,2,Kalamazoo,MI,999,321,2628,2971,83,Domestic,6
+11154,2,5,Citydexon,2016-06-16,Green Bay,WI,1,Joliet,IL,1079,564,6387,6801,60,Domestic,9
+11155,3,4,Ittam,2016-06-13,Naperville,IL,4,Indianapolis,IN,1050,266,7866,5649,82,Domestic,5
+11156,3,1,Saltlab,2016-01-20,Rockford,IL,2,Green Bay,WI,774,217,4269,8935,85,Domestic,2
+11157,2,3,Conehotice,2016-08-23,Appleton,WI,2,Grand Rapids,MI,983,614,5377,6238,72,Domestic,7
+11158,3,6,Itcantrans,2016-02-24,Cincinnati,OH,1,Gary,IN,959,520,7549,8424,93,Domestic,4
+11159,3,3,Blue-Tech,2016-03-01,Dayton,OH,3,Elgin,IL,551,551,453,1165,80,Domestic,9
+11160,2,2,Unahigh,2016-08-05,Toledo,OH,5,Detriot,MI,555,280,5461,5932,87,International,10
+11161,2,3,Openzap,2016-08-06,Lansing,MI,5,Dayton,OH,333,333,848,1655,100,International,8
+11162,3,6,Redozetam,2016-04-06,Bangor,MI,10,Davenport,IA,662,564,6958,7307,64,International,5
+11163,3,4,Coneranron,2016-01-29,Elgin,IL,6,Cincinnati,OH,352,352,6181,5026,72,International,8
+11164,3,6,Zen-Holdings,2016-02-14,Skokie,IL,10,Chicago,IL,469,469,5735,6120,67,International,2
+11165,2,5,Warebam,2016-06-30,Kalamazoo,MI,2,Bangor,MI,357,253,2510,3480,80,Intercom,6
+11166,2,2,Zathlane,2016-05-06,Davenport,IA,2,Appleton,WI,908,767,512,1280,82,Domestic,3
+11167,2,1,Hayholding,2016-08-14,Grand Rapids,MI,2,Toledo,OH,265,265,6625,11210,89,Domestic,6
+11168,2,2,Finlux,2016-08-23,Milwaukee,WI,3,Springfield,IL,361,361,1740,2342,87,Domestic,3
+11169,3,1,Zamlane,2016-01-22,Springfield,IL,8,Skokie,IL,737,211,262,5340,56,International,5
+11170,2,6,Viacane,2016-05-16,Chicago,IL,8,Rockford,IL,358,358,8076,8719,52,International,6
+11171,2,4,Gogokeying,2016-01-01,Indianapolis,IN,2,Northbrook,IL,1119,788,2508,201,72,Domestic,8
+11172,2,2,Tinron,2016-03-08,Northbrook,IL,3,Naperville,IL,810,633,214,441,63,Domestic,10
+11173,2,4,Canace,2016-07-18,Detriot,MI,1,Monon,IN,965,738,5122,3080,84,Domestic,3
+11174,2,2,Donware,2016-05-28,Gary,IN,1,Milwaukee,WI,1048,642,1750,2741,55,Domestic,6
+11175,3,5,Linetone,2016-05-31,Joliet,IL,1,Madison,WI,945,315,40,141,60,Domestic,9
+11176,3,1,Tantechi,2016-02-28,Monon,IN,3,Lansing,MI,1002,585,702,5415,82,Domestic,6
+11177,3,4,Goldentechi,2016-05-25,Madison,WI,3,Kalamazoo,MI,708,481,4671,3175,85,Domestic,7
+11178,3,2,Iselectrics,2016-05-09,Green Bay,WI,2,Joliet,IL,489,489,956,1269,59,Domestic,5
+11179,3,4,Kinice,2016-08-02,Naperville,IL,2,Indianapolis,IN,250,250,4551,2397,62,Domestic,3
+11180,3,5,Bamgeohigh,2016-07-10,Rockford,IL,6,Green Bay,WI,601,274,8130,8769,55,International,10
+11181,3,3,Funfintech,2016-04-25,Appleton,WI,7,Grand Rapids,MI,224,224,6092,6819,89,International,4
+11182,2,4,Latcore,2016-05-17,Cincinnati,OH,10,Gary,IN,488,488,4117,1938,75,International,7
+11183,3,6,Reddoit,2016-06-09,Dayton,OH,10,Elgin,IL,938,226,3751,4175,58,International,3
+11184,3,1,Plustax,2016-04-13,Toledo,OH,6,Detriot,MI,256,256,6334,11409,98,International,7
+11185,3,1,Bamity,2016-02-23,Lansing,MI,2,Dayton,OH,236,236,3652,8794,94,Intercom,10
+11186,2,4,Quotelane,2016-02-23,Bangor,MI,2,Davenport,IA,1048,708,8801,6031,87,Domestic,3
+11187,3,6,Viatom,2016-02-17,Elgin,IL,3,Cincinnati,OH,509,407,4671,5467,90,Domestic,5
+11188,3,5,Silverfase,2016-07-16,Skokie,IL,2,Chicago,IL,1038,791,3986,4781,89,Domestic,3
+11189,3,6,O-Job,2016-04-26,Kalamazoo,MI,10,Bangor,MI,624,528,6944,7674,75,International,2
+11190,3,2,Howtaxon,2016-01-24,Davenport,IA,8,Appleton,WI,814,695,7739,8360,64,International,4
+11191,2,1,Xx-Way,2016-08-22,Grand Rapids,MI,3,Toledo,OH,802,207,404,5251,58,Domestic,7
+11192,2,3,San-Plex,2016-05-19,Milwaukee,WI,2,Springfield,IL,470,470,8760,8948,93,Domestic,4
+11193,3,3,Dentocity,2016-07-28,Springfield,IL,3,Skokie,IL,1042,756,8072,8700,64,Domestic,3
+11194,2,4,Indi-Dox,2016-08-22,Chicago,IL,3,Rockford,IL,515,494,6531,4642,99,Domestic,3
+11195,2,2,Subdrill,2016-08-14,Northbrook,IL,2,Naperville,IL,1060,550,1984,2213,96,Domestic,2
+11196,3,4,Conzumzap,2016-06-09,Detriot,MI,1,Monon,IN,337,337,2702,954,65,Domestic,3
+11197,2,6,Ontotam,2016-07-12,Gary,IN,1,Milwaukee,WI,1151,566,6591,7330,85,Domestic,2
+11198,2,2,Trio-Dax,2016-02-28,Joliet,IL,2,Madison,WI,216,216,1797,2306,71,Domestic,1
+11199,2,5,Ventocore,2016-07-25,Monon,IN,10,Lansing,MI,788,440,2236,2730,93,International,7
+11200,2,5,Recode,2016-02-24,Green Bay,WI,5,Joliet,IL,406,339,1483,1970,85,International,7
+11201,2,4,Ganjazone,2016-04-06,Naperville,IL,6,Indianapolis,IN,955,452,4082,2891,95,International,8
+11202,3,4,Hottaxon,2016-01-03,Rockford,IL,6,Green Bay,WI,224,224,2772,1113,72,International,3
+11203,2,3,Keyzunbase,2016-03-02,Appleton,WI,1,Grand Rapids,MI,932,526,7977,8757,81,Intercom,10
+11204,3,5,K-Is,2016-03-12,Cincinnati,OH,3,Gary,IN,430,430,7975,8312,78,Domestic,4
+11205,2,2,Villacom,2016-05-18,Dayton,OH,3,Elgin,IL,275,256,7264,8065,63,Domestic,9
+11206,2,2,Zotit,2016-04-01,Toledo,OH,2,Detriot,MI,812,402,5748,6366,70,Domestic,6
+11207,3,6,Scotquote,2016-08-23,Lansing,MI,9,Dayton,OH,320,238,1132,1879,73,International,3
+11208,3,4,Stimmedia,2016-03-18,Bangor,MI,9,Davenport,IA,876,547,5912,3702,57,International,3
+11209,3,5,Lazap,2016-06-09,Elgin,IL,4,Cincinnati,OH,476,476,7600,7783,93,Domestic,9
+11210,3,6,Baselux,2016-07-02,Skokie,IL,4,Chicago,IL,1069,416,5128,5454,68,Domestic,1
+11211,2,6,Dingity,2016-04-02,Kalamazoo,MI,2,Bangor,MI,342,342,2783,3720,100,Domestic,8
+11212,3,6,Fax-Ex,2016-04-27,Davenport,IA,3,Appleton,WI,890,328,3403,4058,54,Domestic,6
+11213,3,6,Duodax,2016-02-04,Grand Rapids,MI,4,Toledo,OH,481,284,2100,3021,57,Domestic,8
+11214,3,6,Planethouse,2016-07-09,Milwaukee,WI,3,Springfield,IL,728,728,223,857,50,Domestic,8
+11215,2,3,Overtam,2016-08-09,Springfield,IL,3,Skokie,IL,886,682,8667,8920,64,Domestic,6
+11216,3,6,Solholdings,2016-04-13,Chicago,IL,3,Rockford,IL,256,256,2151,2842,50,Domestic,2
+11217,2,3,Cannamcon,2016-01-08,Indianapolis,IN,4,Northbrook,IL,838,422,229,1033,52,Domestic,1
+11218,2,6,Zerfax,2016-03-24,Northbrook,IL,7,Naperville,IL,882,287,6118,6456,77,International,1
+11219,2,2,Technoline,2016-02-14,Detriot,MI,9,Monon,IN,582,582,5136,5292,82,International,6
+11220,3,3,Applanet,2016-07-18,Gary,IN,8,Milwaukee,WI,729,632,5087,5418,70,International,7
+11221,3,3,Zoncone,2016-08-19,Joliet,IL,5,Madison,WI,305,305,5533,6501,71,International,1
+11222,3,3,Canemedkix,2016-07-05,Monon,IN,5,Lansing,MI,723,212,7485,7773,91,International,2
+11223,3,1,Whitefan,2016-05-02,Madison,WI,2,Kalamazoo,MI,412,357,3008,7170,58,Intercom,1
+11224,2,4,Xx-Dotone,2016-05-30,Naperville,IL,2,Indianapolis,IN,618,618,5974,4485,57,Domestic,2
+11225,2,3,Tamcan,2016-07-17,Rockford,IL,4,Green Bay,WI,650,432,2038,2182,94,Domestic,8
+11226,3,6,Sanin,2016-04-23,Appleton,WI,7,Grand Rapids,MI,388,388,4091,4729,91,International,5
+11227,3,1,Sonlex,2016-07-01,Cincinnati,OH,8,Gary,IN,830,647,340,5818,58,International,10
+11228,3,1,Groovestrip,2016-02-22,Dayton,OH,4,Elgin,IL,341,341,1217,6339,91,Domestic,4
+11229,2,4,Saohow,2016-04-23,Lansing,MI,3,Dayton,OH,394,394,4583,2468,79,Domestic,7
+11230,2,5,Yearlex,2016-07-24,Bangor,MI,4,Davenport,IA,926,377,3872,4215,77,Domestic,2
+11231,2,1,Bamtechnology,2016-03-24,Elgin,IL,2,Cincinnati,OH,1004,598,1093,5295,80,Domestic,2
+11232,3,3,Dripkix,2016-03-07,Skokie,IL,1,Chicago,IL,711,242,2893,3318,85,Domestic,5
+11233,2,6,Instrip,2016-04-12,Kalamazoo,MI,3,Bangor,MI,871,642,912,1394,78,Domestic,3
+11234,3,3,Xx-Bam,2016-07-03,Davenport,IA,4,Appleton,WI,424,424,3026,3502,57,Domestic,2
+11235,2,1,Zaamhouse,2016-07-27,Grand Rapids,MI,4,Toledo,OH,1005,634,3279,7376,88,Domestic,7
+11236,2,6,Zoofan,2016-06-13,Milwaukee,WI,5,Springfield,IL,323,323,3233,3591,60,International,2
+11237,3,1,Zuntexon,2016-07-01,Springfield,IL,10,Skokie,IL,916,592,1880,6531,87,International,5
+11238,3,5,Howplanet,2016-05-18,Chicago,IL,9,Rockford,IL,357,357,2266,2764,81,International,10
+11239,3,1,Sanlab,2016-01-25,Northbrook,IL,10,Naperville,IL,744,287,307,4599,75,International,4
+11240,3,6,Mathing,2016-07-25,Detriot,MI,1,Monon,IN,876,539,1015,1131,93,Intercom,5
+11241,3,3,Tamholding,2016-07-12,Gary,IN,2,Milwaukee,WI,1035,331,8,608,63,Domestic,2
+11242,3,6,Greentech,2016-04-26,Joliet,IL,1,Madison,WI,681,681,1580,1840,81,Domestic,3
+11243,2,2,Goldenbam,2016-04-06,Monon,IN,4,Lansing,MI,859,685,7977,8519,77,Domestic,1
+11244,2,2,Silfase,2016-08-31,Madison,WI,10,Kalamazoo,MI,663,650,8122,8327,53,International,3
+11245,2,2,Unoex,2016-07-05,Green Bay,WI,9,Joliet,IL,1173,719,3740,3881,65,International,3
+11246,3,5,Zoodrill,2016-01-26,Naperville,IL,2,Indianapolis,IN,410,410,3532,4469,83,Domestic,6
+11247,2,2,Sunjob,2016-04-10,Rockford,IL,2,Green Bay,WI,1035,384,2623,3414,100,Domestic,8
+11248,2,3,Anmedia,2016-07-08,Appleton,WI,3,Grand Rapids,MI,895,559,5870,6432,98,Domestic,8
+11249,3,4,Daltfax,2016-04-30,Cincinnati,OH,2,Gary,IN,561,561,6363,4394,82,Domestic,3
+11250,3,5,Physcone,2016-06-25,Dayton,OH,2,Elgin,IL,1155,376,5700,6380,97,Domestic,2
+11251,2,1,Kincorporation,2016-07-10,Toledo,OH,2,Detriot,MI,541,541,184,4259,99,Domestic,10
+11252,2,2,Vaiazozice,2016-06-13,Lansing,MI,3,Dayton,OH,954,725,8128,8237,87,Domestic,8
+11253,2,1,Plusla,2016-06-09,Bangor,MI,1,Davenport,IA,597,597,7134,11967,53,Domestic,1
+11254,3,5,Nimlab,2016-02-15,Elgin,IL,3,Cincinnati,OH,1042,258,4438,5222,64,Domestic,8
+11255,3,6,Faseway,2016-07-12,Grand Rapids,MI,6,Toledo,OH,1160,724,6086,7020,89,International,3
+11256,2,5,Dontam,2016-06-10,Springfield,IL,2,Skokie,IL,1075,610,6371,6907,57,Intercom,1
+11257,3,6,Scotfase,2016-01-02,Chicago,IL,2,Rockford,IL,402,268,1419,1748,56,Domestic,9
+11258,3,6,Newzap,2016-04-30,Indianapolis,IN,1,Northbrook,IL,1081,383,7503,7945,51,Domestic,2
+11259,3,3,Mathtouch,2016-08-22,Northbrook,IL,1,Naperville,IL,856,549,504,1448,71,Domestic,8
+11260,2,4,Zimity,2016-04-05,Detriot,MI,7,Monon,IN,515,431,4241,1864,55,International,8
+11261,3,3,Dongbiolex,2016-06-28,Gary,IN,6,Milwaukee,WI,927,542,3289,4159,65,International,7
+11262,3,4,J-Lax,2016-08-04,Joliet,IL,3,Madison,WI,651,555,5600,4118,73,Domestic,10
+11263,2,6,Geofind,2016-03-17,Monon,IN,4,Lansing,MI,248,248,3089,3972,64,Domestic,4
+11264,3,4,Iceelectrics,2016-07-28,Madison,WI,3,Kalamazoo,MI,236,236,4329,2938,65,Domestic,6
+11265,2,3,Vaiazoom,2016-02-20,Green Bay,WI,2,Joliet,IL,411,411,1439,1547,71,Domestic,1
+11266,3,4,Vaiataxon,2016-03-21,Naperville,IL,2,Indianapolis,IN,247,247,4532,2815,65,Domestic,9
+11267,3,6,Pluslam,2016-08-17,Rockford,IL,1,Green Bay,WI,562,562,5395,5659,94,Domestic,6
+11268,2,2,Rancan,2016-08-14,Appleton,WI,3,Grand Rapids,MI,350,350,2521,2880,73,Domestic,8
+11269,2,3,Singleholdings,2016-04-26,Cincinnati,OH,3,Gary,IN,1054,441,4101,5092,89,Domestic,1
+11270,2,6,Gravetech,2016-02-03,Dayton,OH,1,Elgin,IL,486,486,8196,8589,81,Domestic,6
+11271,3,5,Strongcane,2016-08-23,Toledo,OH,9,Detriot,MI,357,357,3556,4474,51,International,10
+11272,2,4,Condintex,2016-04-20,Lansing,MI,10,Dayton,OH,804,257,1907,27,53,International,3
+11273,3,5,Xx-Canex,2016-05-09,Bangor,MI,8,Davenport,IA,482,481,742,1679,54,International,10
+11274,2,6,Itdom,2016-05-25,Elgin,IL,8,Cincinnati,OH,484,399,3255,3825,80,International,9
+11275,2,1,Zamholdings,2016-08-06,Skokie,IL,8,Chicago,IL,700,388,2735,7537,96,International,3
+11276,3,6,Duo-Fase,2016-05-20,Kalamazoo,MI,1,Bangor,MI,460,460,7937,8704,50,Intercom,6
+11277,2,3,Saozoomtex,2016-07-18,Davenport,IA,2,Appleton,WI,330,330,5438,6118,65,Domestic,1
+11278,2,4,Beta-Ron,2016-07-20,Milwaukee,WI,2,Springfield,IL,1157,749,7325,5082,99,Domestic,4
+11279,3,1,Zentrax,2016-07-08,Springfield,IL,10,Skokie,IL,593,593,79,5294,61,International,8
+11280,3,4,Bluecorporation,2016-07-04,Chicago,IL,10,Rockford,IL,1181,472,4557,2875,67,International,6
+11281,3,2,Fin-Cone,2016-02-02,Indianapolis,IN,2,Northbrook,IL,503,503,6981,7485,94,Domestic,5
+11282,3,3,Ranmedia,2016-04-16,Northbrook,IL,4,Naperville,IL,1105,792,7358,8158,69,Domestic,5
+11283,3,5,Trueplus,2016-04-02,Detriot,MI,1,Monon,IN,790,584,823,1445,71,Domestic,7
+11284,2,1,Templax,2016-06-24,Gary,IN,4,Milwaukee,WI,365,365,5073,9144,51,Domestic,1
+11285,3,6,Roundphase,2016-02-12,Joliet,IL,1,Madison,WI,796,300,479,1401,79,Domestic,6
+11286,3,3,Medialax,2016-08-27,Monon,IN,4,Lansing,MI,410,410,6966,7111,85,Domestic,1
+11287,3,3,Ronlamice,2016-06-27,Madison,WI,3,Kalamazoo,MI,1035,505,1460,1860,79,Domestic,2
+11288,3,2,Zummatexon,2016-03-24,Green Bay,WI,1,Joliet,IL,477,477,297,515,87,Domestic,8
+11289,3,6,Aptaxon,2016-07-03,Naperville,IL,4,Indianapolis,IN,778,635,3995,4340,100,Domestic,1
+11290,2,3,Strongtechnology,2016-06-03,Rockford,IL,8,Green Bay,WI,365,333,2614,3459,55,International,2
+11291,2,5,Whitekix,2016-01-09,Dayton,OH,9,Elgin,IL,866,200,769,1756,61,International,5
+11292,3,3,Streetplus,2016-02-25,Toledo,OH,8,Detriot,MI,883,326,4628,5299,60,International,5
+11293,3,1,K-Antex,2016-02-06,Lansing,MI,1,Dayton,OH,283,283,2048,6750,95,Intercom,3
+11294,2,3,Constreet,2016-02-06,Bangor,MI,4,Davenport,IA,251,251,7778,8471,76,Domestic,6
+11295,3,1,Quotefix,2016-04-12,Elgin,IL,3,Cincinnati,OH,210,210,3154,8241,77,Domestic,8
+11296,2,5,Dripvivadex,2016-08-19,Skokie,IL,2,Chicago,IL,516,516,6024,6650,98,Domestic,9
+11297,3,3,Trustcorporation,2016-02-03,Kalamazoo,MI,10,Bangor,MI,1147,750,6228,6712,62,International,3
+11298,3,3,Zimjiit,2016-05-24,Davenport,IA,8,Appleton,WI,457,457,1623,1996,56,International,7
+11299,2,6,Scotcan,2016-02-22,Grand Rapids,MI,4,Toledo,OH,992,324,2942,3674,55,Domestic,9
+11300,3,1,Duoflex,2016-02-12,Milwaukee,WI,1,Springfield,IL,905,782,7305,11509,50,Domestic,10
+11301,3,2,Canetechnology,2016-06-04,Springfield,IL,1,Skokie,IL,297,297,3833,4345,82,Domestic,6
+11302,3,6,Zotcare,2016-06-03,Chicago,IL,2,Rockford,IL,569,268,4084,4658,79,Domestic,7
+11303,3,1,Solostreet,2016-03-21,Indianapolis,IN,1,Northbrook,IL,1129,291,3628,8175,55,Domestic,8
+11304,3,1,Xx-Planet,2016-04-14,Northbrook,IL,2,Naperville,IL,592,592,8507,12806,56,Domestic,4
+11305,2,3,Apzone,2016-07-18,Detriot,MI,2,Monon,IN,551,551,7634,8467,89,Domestic,8
+11306,2,5,Donglax,2016-08-17,Gary,IN,1,Milwaukee,WI,296,296,7764,8507,81,Domestic,3
+11307,2,5,Jaylane,2016-03-07,Joliet,IL,2,Madison,WI,277,277,1929,2654,76,Domestic,5
+11308,2,2,Silverace,2016-07-01,Monon,IN,8,Lansing,MI,641,327,8055,8231,63,International,10
+11309,2,2,Conelane,2016-06-02,Madison,WI,10,Kalamazoo,MI,551,551,4246,4388,88,International,3
+11310,3,2,Matsanice,2016-01-24,Green Bay,WI,10,Joliet,IL,359,359,2431,2898,83,International,8
+11311,3,5,Ronplanet,2016-01-25,Naperville,IL,7,Indianapolis,IN,578,578,983,1927,90,International,3
+11312,2,6,Lexiplus,2016-01-08,Rockford,IL,10,Green Bay,WI,323,208,3222,3480,94,International,1
+11313,2,2,Plusity,2016-08-14,Appleton,WI,2,Grand Rapids,MI,350,350,7144,7853,73,Intercom,5
+11314,3,1,Quotefix,2016-05-27,Cincinnati,OH,3,Gary,IN,459,318,542,5174,88,Domestic,8
+11315,2,2,Laex,2016-02-28,Dayton,OH,3,Elgin,IL,453,341,1520,2197,71,Domestic,6
+11316,2,6,Tantax,2016-03-01,Toledo,OH,1,Detriot,MI,518,518,4674,4931,64,Domestic,4
+11317,2,2,Solohex,2016-07-14,Lansing,MI,10,Dayton,OH,826,383,2440,2745,100,International,10
+11318,2,4,Zapline,2016-07-23,Bangor,MI,9,Davenport,IA,714,334,4466,3417,92,International,3
+11319,2,2,Tamtexon,2016-03-26,Elgin,IL,2,Cincinnati,OH,229,229,2505,2705,89,Domestic,5
+11320,2,5,Joyancom,2016-06-12,Kalamazoo,MI,4,Bangor,MI,1037,378,7661,8016,66,Domestic,3
+11321,3,3,Goodtechno,2016-06-22,Davenport,IA,2,Appleton,WI,436,436,6982,7559,74,Domestic,6
+11322,2,6,Zunice,2016-01-02,Grand Rapids,MI,1,Toledo,OH,652,652,318,756,61,Domestic,4
+11323,2,4,Goodquoing,2016-05-16,Milwaukee,WI,1,Springfield,IL,847,308,6283,4679,76,Domestic,5
+11324,2,3,Fasetech,2016-04-01,Springfield,IL,4,Skokie,IL,297,297,338,1250,89,Domestic,5
+11325,3,6,Flexplex,2016-02-07,Chicago,IL,3,Rockford,IL,389,389,1604,2012,86,Domestic,7
+11326,2,2,Bluezoombam,2016-08-22,Indianapolis,IN,3,Northbrook,IL,826,245,4796,5106,96,Domestic,3
+11327,3,2,Treedrill,2016-02-04,Gary,IN,8,Milwaukee,WI,810,212,237,1086,55,International,8
+11328,3,5,Stripzim,2016-04-26,Joliet,IL,6,Madison,WI,953,654,2196,3118,99,International,10
+11329,2,6,Dingquokix,2016-04-22,Monon,IN,6,Lansing,MI,791,551,5388,5895,60,International,6
+11330,3,2,Ronvivalam,2016-07-24,Madison,WI,1,Kalamazoo,MI,814,679,4965,5717,60,Intercom,6
+11331,2,2,Y-Flex,2016-01-27,Green Bay,WI,3,Joliet,IL,909,723,1028,1927,65,Domestic,9
+11332,2,3,Faxotfind,2016-06-28,Naperville,IL,4,Indianapolis,IN,974,622,3426,3739,53,Domestic,4
+11333,2,6,Warelane,2016-01-31,Rockford,IL,1,Green Bay,WI,1040,570,8329,8594,59,Domestic,9
+11334,3,1,Hexunobam,2016-07-13,Appleton,WI,10,Grand Rapids,MI,377,343,1621,6885,56,International,9
+11335,3,6,Quadplanet,2016-01-13,Cincinnati,OH,9,Gary,IN,333,333,8196,8694,96,International,2
+11336,3,6,Opehouse,2016-02-19,Dayton,OH,3,Elgin,IL,387,387,338,484,70,Domestic,2
+11337,2,1,Carekix,2016-07-20,Toledo,OH,1,Detriot,MI,588,588,7195,11688,100,Domestic,7
+11338,2,1,Ozeris,2016-05-12,Lansing,MI,1,Dayton,OH,387,223,5607,9738,56,Domestic,2
+11339,2,5,Singlejob,2016-06-01,Bangor,MI,3,Davenport,IA,595,595,2021,2215,91,Domestic,5
+11340,3,6,Y-Zoom,2016-04-18,Elgin,IL,2,Cincinnati,OH,1078,511,2741,3093,93,Domestic,2
+11341,2,4,Faxron,2016-02-20,Skokie,IL,2,Chicago,IL,660,378,5937,3878,78,Domestic,7
+11342,3,3,Faseron,2016-05-23,Kalamazoo,MI,3,Bangor,MI,702,702,6159,6277,69,Domestic,1
+11343,3,3,Lamlab,2016-06-04,Davenport,IA,2,Appleton,WI,254,254,6136,6378,100,Domestic,7
+11344,3,1,Geoit,2016-02-18,Grand Rapids,MI,3,Toledo,OH,303,303,1429,6695,65,Domestic,9
+11345,3,1,Planetron,2016-06-29,Milwaukee,WI,10,Springfield,IL,912,295,2422,6866,65,International,3
+11346,3,1,Stimcore,2016-08-01,Springfield,IL,5,Skokie,IL,320,320,4291,8506,88,International,8
+11347,3,4,Zuntone,2016-07-08,Chicago,IL,10,Rockford,IL,451,202,7933,6142,97,International,1
+11348,3,1,Techmedia,2016-02-04,Indianapolis,IN,6,Northbrook,IL,1070,572,2398,6682,71,International,5
+11349,2,6,Labdox,2016-06-14,Northbrook,IL,7,Naperville,IL,937,270,5033,5886,78,International,3
+11350,3,2,Lexidom,2016-08-31,Detriot,MI,1,Monon,IN,807,281,236,586,92,Intercom,1
+11351,3,5,Zummatax,2016-05-27,Gary,IN,3,Milwaukee,WI,478,478,7552,8326,50,Domestic,3
+11352,2,6,Saokeycane,2016-03-15,Joliet,IL,1,Madison,WI,1077,454,6067,6192,60,Domestic,2
+11353,3,5,Keystreet,2016-07-28,Monon,IN,1,Lansing,MI,1163,323,2142,2262,64,Domestic,3
+11354,2,4,Inzone,2016-04-30,Madison,WI,6,Kalamazoo,MI,1148,652,7340,5518,92,International,9
+11355,2,3,Zerlane,2016-04-11,Green Bay,WI,5,Joliet,IL,609,609,722,1323,82,International,9
+11356,2,6,Fixace,2016-02-20,Naperville,IL,3,Indianapolis,IN,384,384,6709,7199,79,Domestic,2
+11357,2,6,Tres-Tone,2016-05-06,Rockford,IL,3,Green Bay,WI,1019,711,1358,2174,96,Domestic,7
+11358,3,4,Unaity,2016-03-24,Appleton,WI,4,Grand Rapids,MI,1048,594,3105,904,95,Domestic,9
+11359,3,1,Scotline,2016-07-02,Cincinnati,OH,2,Gary,IN,515,410,4994,9200,97,Domestic,9
+11360,3,2,Daltcare,2016-02-15,Dayton,OH,3,Elgin,IL,381,332,5954,6751,56,Domestic,7
+11361,2,2,Doubleis,2016-02-26,Toledo,OH,1,Detriot,MI,938,422,5998,6115,84,Domestic,2
+11362,2,6,Ontohatron,2016-05-04,Lansing,MI,1,Dayton,OH,325,256,1095,1773,50,Domestic,7
+11363,3,1,Indibase,2016-06-07,Bangor,MI,3,Davenport,IA,950,751,7050,11226,67,Domestic,9
+11364,2,1,Dongtinlux,2016-08-22,Elgin,IL,4,Cincinnati,OH,232,232,7040,10695,64,Domestic,2
+11365,2,5,Geohigh,2016-04-24,Skokie,IL,8,Chicago,IL,339,266,6599,7397,54,International,1
+11366,2,4,Mediaware,2016-02-18,Kalamazoo,MI,7,Bangor,MI,411,411,3335,1145,100,International,1
+11367,2,4,Goldenlex,2016-05-23,Davenport,IA,5,Appleton,WI,535,480,5136,3635,93,International,9
+11368,2,1,Canecare,2016-06-09,Grand Rapids,MI,10,Toledo,OH,619,446,2293,6418,54,International,3
+11369,2,6,Zumcane,2016-07-27,Milwaukee,WI,8,Springfield,IL,1027,658,2574,3114,66,International,1
+11370,2,5,Zerhouse,2016-05-01,Springfield,IL,1,Skokie,IL,218,218,6297,6804,87,Intercom,3
+11371,3,6,Ganzsannix,2016-07-01,Chicago,IL,1,Rockford,IL,941,218,3534,4135,91,Domestic,6
+11372,2,4,Yearcorporation,2016-04-04,Indianapolis,IN,1,Northbrook,IL,408,388,4039,2189,76,Domestic,2
+11373,2,5,Planetline,2016-07-06,Northbrook,IL,1,Naperville,IL,476,462,335,718,83,Domestic,2
+11374,2,2,Planetware,2016-08-29,Detriot,MI,7,Monon,IN,1028,264,1940,2780,58,International,4
+11375,3,2,Indigoice,2016-04-30,Gary,IN,7,Milwaukee,WI,961,520,2391,2808,56,International,5
+11376,3,2,Zotfan,2016-08-10,Joliet,IL,1,Madison,WI,1054,732,709,1598,76,Domestic,6
+11377,2,5,Medcan,2016-02-14,Monon,IN,3,Lansing,MI,1067,679,4378,4843,100,Domestic,6
+11378,3,2,Fixcan,2016-03-02,Madison,WI,1,Kalamazoo,MI,263,263,8077,8545,78,Domestic,4
+11379,3,6,Dentoelectrics,2016-03-06,Green Bay,WI,3,Joliet,IL,425,425,7781,8270,88,Domestic,9
+11380,2,3,Toncode,2016-07-04,Rockford,IL,1,Green Bay,WI,893,296,6035,7025,79,Domestic,1
+11381,2,2,Rankphase,2016-04-26,Appleton,WI,3,Grand Rapids,MI,1089,588,1301,1993,70,Domestic,4
+11382,3,4,Gravemedia,2016-01-29,Cincinnati,OH,4,Gary,IN,596,354,7012,5576,69,Domestic,9
+11383,2,3,Alphadax,2016-03-06,Dayton,OH,4,Elgin,IL,773,601,5120,5994,68,Domestic,9
+11384,3,5,Citytone,2016-03-27,Toledo,OH,5,Detriot,MI,341,341,826,1264,63,International,3
+11385,3,5,Alphafan,2016-04-09,Lansing,MI,8,Dayton,OH,590,590,6088,6198,96,International,2
+11386,2,4,D-Quadlux,2016-07-13,Bangor,MI,7,Davenport,IA,261,261,4385,1991,61,International,5
+11387,2,6,Funlatlex,2016-08-26,Elgin,IL,7,Cincinnati,OH,462,430,6162,7144,92,International,5
+11388,2,6,Wareholding,2016-02-16,Skokie,IL,9,Chicago,IL,630,341,3191,4062,63,International,7
+11389,2,3,Anzammedia,2016-08-13,Kalamazoo,MI,2,Bangor,MI,835,637,4954,5440,73,Intercom,2
+11390,3,3,Tripple-Fax,2016-05-25,Grand Rapids,MI,1,Toledo,OH,1056,700,6937,7759,86,Domestic,10
+11391,2,4,Qvofix,2016-05-25,Milwaukee,WI,1,Springfield,IL,960,523,5073,3779,96,Domestic,10
+11392,2,2,Faseelectronics,2016-05-14,Chicago,IL,10,Rockford,IL,786,234,3138,3873,74,International,5
+11393,3,6,Solozap,2016-04-28,Indianapolis,IN,3,Northbrook,IL,1170,381,5424,6057,65,Domestic,10
+11394,3,3,Golddexon,2016-04-18,Northbrook,IL,3,Naperville,IL,887,220,1309,1843,90,Domestic,7
+11395,2,3,Inchholdings,2016-07-11,Gary,IN,4,Milwaukee,WI,525,525,6453,7245,89,Domestic,7
+11396,2,4,Runhigh,2016-08-31,Joliet,IL,2,Madison,WI,303,303,1794,137,63,Domestic,6
+11397,2,1,White-High,2016-04-01,Monon,IN,1,Lansing,MI,469,469,2123,6608,73,Domestic,6
+11398,3,2,Fasezoomfix,2016-03-01,Madison,WI,1,Kalamazoo,MI,213,213,2505,3498,60,Domestic,5
+11399,2,5,Dingcan,2016-08-28,Green Bay,WI,1,Joliet,IL,927,522,228,361,76,Domestic,8
+11400,2,5,Opebase,2016-06-28,Naperville,IL,4,Indianapolis,IN,1018,229,8126,8410,67,Domestic,7
+11401,3,3,Hexzim,2016-06-02,Rockford,IL,7,Green Bay,WI,968,758,6397,6540,73,International,3
+11402,3,5,Scotlex,2016-02-22,Appleton,WI,6,Grand Rapids,MI,253,253,2142,3003,84,International,5
+11403,3,2,Good-Find,2016-07-30,Cincinnati,OH,10,Gary,IN,863,564,5607,6519,90,International,3
+11404,2,1,Plexlamway,2016-05-10,Dayton,OH,5,Elgin,IL,415,367,7117,11395,70,International,1
+11405,2,1,Latgotrax,2016-06-07,Toledo,OH,7,Detriot,MI,1183,297,988,6289,71,International,5
+11406,3,3,Hotity,2016-01-06,Lansing,MI,1,Dayton,OH,1121,646,7386,7563,67,Intercom,1
+11407,2,3,Scothouse,2016-05-15,Bangor,MI,2,Davenport,IA,535,525,3179,4070,56,Domestic,5
+11408,3,1,Striplane,2016-06-01,Elgin,IL,2,Cincinnati,OH,1038,313,6958,11527,66,Domestic,10
+11409,3,2,Technodax,2016-05-29,Skokie,IL,2,Chicago,IL,814,505,7802,8407,99,Domestic,10
+11410,2,2,Re-Can,2016-03-04,Kalamazoo,MI,8,Bangor,MI,721,419,2021,2498,80,International,10
+11411,3,3,Acequote,2016-01-15,Grand Rapids,MI,2,Toledo,OH,338,338,3162,3345,76,Domestic,10
+11412,3,2,Ganz-Is,2016-05-24,Milwaukee,WI,2,Springfield,IL,472,349,6860,7495,82,Domestic,8
+11413,3,1,Sonbam,2016-02-17,Springfield,IL,1,Skokie,IL,565,530,440,5848,57,Domestic,5
+11414,3,2,Faxzumtrax,2016-07-09,Indianapolis,IN,3,Northbrook,IL,1135,746,3783,3951,56,Domestic,8
+11415,2,1,Sonzamace,2016-03-16,Northbrook,IL,1,Naperville,IL,221,221,8182,12995,96,Domestic,5
+11416,3,2,Linezatlam,2016-04-01,Detriot,MI,2,Monon,IN,259,231,5011,5952,93,Domestic,1
+11417,3,3,O-Ace,2016-01-08,Gary,IN,1,Milwaukee,WI,886,203,25,847,54,Domestic,5
+11418,3,5,Statway,2016-04-20,Joliet,IL,2,Madison,WI,336,305,7958,8594,66,Domestic,10
+11419,2,2,Zunzone,2016-07-22,Monon,IN,7,Lansing,MI,629,629,5889,6210,59,International,8
+11420,3,6,Hat-Core,2016-08-02,Madison,WI,9,Kalamazoo,MI,611,242,1402,2266,71,International,10
+11421,2,2,Zathhow,2016-04-05,Green Bay,WI,8,Joliet,IL,811,559,8443,8936,51,International,6
+11422,2,6,Joygreen,2016-05-03,Appleton,WI,1,Grand Rapids,MI,656,656,25,720,95,Intercom,6
+11423,3,5,Donelectrics,2016-04-23,Cincinnati,OH,2,Gary,IN,279,231,579,999,79,Domestic,9
+11424,2,3,Icedox,2016-01-19,Dayton,OH,1,Elgin,IL,346,346,3263,3512,98,Domestic,6
+11425,2,6,Namelectronics,2016-05-31,Toledo,OH,2,Detriot,MI,505,505,696,916,77,Domestic,5
+11426,3,6,Warecity,2016-07-08,Lansing,MI,7,Dayton,OH,537,442,2745,3674,68,International,4
+11427,3,2,Donremlane,2016-07-01,Bangor,MI,9,Davenport,IA,362,362,2412,2938,78,International,10
+11428,2,5,Ganzlane,2016-05-05,Elgin,IL,3,Cincinnati,OH,919,672,8089,8345,61,Domestic,5
+11429,3,5,Streetlam,2016-01-22,Skokie,IL,4,Chicago,IL,316,316,3973,4959,68,Domestic,7
+11430,2,3,Tonsanhigh,2016-03-23,Kalamazoo,MI,2,Bangor,MI,492,492,1144,1754,73,Domestic,8
+11431,3,2,Siliconcore,2016-02-21,Davenport,IA,4,Appleton,WI,291,291,5801,5936,59,Domestic,6
+11432,3,1,Dan-High,2016-01-08,Grand Rapids,MI,4,Toledo,OH,505,346,518,5502,95,Domestic,10
+11433,2,5,Jobtechnology,2016-04-19,Milwaukee,WI,4,Springfield,IL,833,461,1823,2493,77,Domestic,3
+11434,2,5,Daltron,2016-08-03,Springfield,IL,4,Skokie,IL,946,461,324,807,96,Domestic,9
+11435,2,6,Y-Strip,2016-08-09,Chicago,IL,3,Rockford,IL,720,546,3963,4215,88,Domestic,5
+11436,2,3,Danfan,2016-08-29,Indianapolis,IN,4,Northbrook,IL,607,495,1863,2802,59,Domestic,1
+11437,3,3,Plustaxon,2016-06-08,Northbrook,IL,9,Naperville,IL,801,273,5474,5634,65,International,2
+11438,2,2,Triootity,2016-02-21,Gary,IN,6,Milwaukee,WI,786,281,2582,3104,86,International,3
+11439,2,1,Konknix,2016-05-15,Joliet,IL,9,Madison,WI,932,662,1343,5313,71,International,10
+11440,2,6,Dongbase,2016-01-08,Monon,IN,7,Lansing,MI,590,498,4901,5051,62,International,3
+11441,3,6,Howelectrics,2016-03-16,Madison,WI,2,Kalamazoo,MI,943,594,1651,1838,82,Intercom,4
+11442,2,1,Dingfax,2016-03-24,Green Bay,WI,1,Joliet,IL,697,557,1144,5076,70,Domestic,5
+11443,3,6,Zimex,2016-07-13,Naperville,IL,3,Indianapolis,IN,959,776,8277,8417,69,Domestic,5
+11444,2,2,Saocity,2016-02-15,Rockford,IL,2,Green Bay,WI,1138,256,4254,4701,61,Domestic,7
+11445,2,3,Joyzim,2016-08-07,Appleton,WI,8,Grand Rapids,MI,1127,255,8372,8859,61,International,6
+11446,2,6,Silver-Line,2016-07-18,Cincinnati,OH,10,Gary,IN,497,209,1199,2084,56,International,4
+11447,3,5,Una-Phase,2016-02-02,Dayton,OH,2,Elgin,IL,278,278,749,1211,54,Domestic,4
+11448,3,1,Condexon,2016-05-29,Toledo,OH,2,Detriot,MI,248,248,42,4240,51,Domestic,9
+11449,2,4,Roundlam,2016-07-06,Lansing,MI,2,Dayton,OH,863,243,2643,769,53,Domestic,6
+11450,2,5,Canphase,2016-04-29,Bangor,MI,1,Davenport,IA,675,542,7990,8539,93,Domestic,10
+11451,3,2,Betaity,2016-04-28,Elgin,IL,2,Cincinnati,OH,1031,541,6424,7035,84,Domestic,9
+11452,3,1,Jaydox,2016-04-11,Skokie,IL,2,Chicago,IL,271,271,1892,6159,69,Domestic,1
+11453,3,2,O-Tom,2016-07-28,Kalamazoo,MI,2,Bangor,MI,480,335,2124,2634,61,Domestic,2
+11454,2,2,Canex,2016-08-20,Davenport,IA,1,Appleton,WI,253,253,5680,6123,54,Domestic,2
+11455,2,3,Villahouse,2016-03-30,Grand Rapids,MI,2,Toledo,OH,741,366,5408,6167,71,Domestic,10
+11456,2,1,Tempfan,2016-08-24,Milwaukee,WI,5,Springfield,IL,755,366,5721,9906,92,International,2
+11457,3,4,Vivazim,2016-03-12,Springfield,IL,9,Skokie,IL,769,448,6266,4926,99,International,10
+11458,3,5,Citydexon,2016-05-30,Chicago,IL,10,Rockford,IL,896,320,5599,5890,88,International,3
+11459,3,6,Ittam,2016-03-31,Indianapolis,IN,10,Northbrook,IL,971,275,993,1451,51,International,5
+11460,3,6,Saltlab,2016-08-08,Northbrook,IL,10,Naperville,IL,209,209,2997,3898,87,International,5
+11461,2,4,Conehotice,2016-08-30,Detriot,MI,2,Monon,IN,684,590,7371,5030,50,Intercom,5
+11462,3,1,Blue-Tech,2016-04-23,Joliet,IL,4,Madison,WI,971,795,5143,9604,60,Domestic,6
+11463,3,3,Unahigh,2016-08-13,Monon,IN,3,Lansing,MI,711,570,7698,8379,53,Domestic,2
+11464,3,4,Openzap,2016-04-11,Madison,WI,9,Kalamazoo,MI,1040,448,6135,4100,52,International,9
+11465,2,5,Redozetam,2016-02-18,Green Bay,WI,7,Joliet,IL,461,461,6233,6495,59,International,9
+11466,2,2,Coneranron,2016-08-17,Naperville,IL,1,Indianapolis,IN,922,545,2504,3018,56,Domestic,8
+11467,2,2,Zen-Holdings,2016-03-19,Rockford,IL,1,Green Bay,WI,453,248,8607,8733,94,Domestic,1
+11468,2,6,Warebam,2016-08-14,Appleton,WI,2,Grand Rapids,MI,1086,206,6382,6538,53,Domestic,9
+11469,2,3,Zathlane,2016-05-21,Cincinnati,OH,1,Gary,IN,401,261,7421,8082,97,Domestic,2
+11470,2,3,Finlux,2016-05-04,Toledo,OH,3,Detriot,MI,1060,202,4919,5517,71,Domestic,10
+11471,3,5,Zamlane,2016-06-08,Lansing,MI,3,Dayton,OH,476,385,4417,4696,58,Domestic,10
+11472,2,3,Viacane,2016-05-20,Bangor,MI,1,Davenport,IA,928,638,4369,5267,87,Domestic,10
+11473,3,3,Gogokeying,2016-01-04,Elgin,IL,1,Cincinnati,OH,936,693,862,1406,98,Domestic,6
+11474,2,2,Tinron,2016-01-26,Skokie,IL,8,Chicago,IL,1195,798,8303,8437,61,International,6
+11475,2,5,Canace,2016-07-01,Kalamazoo,MI,10,Bangor,MI,324,324,1552,1871,59,International,10
+11476,2,2,Donware,2016-06-29,Davenport,IA,9,Appleton,WI,382,303,7949,8200,72,International,7
+11477,3,6,Linetone,2016-04-17,Grand Rapids,MI,5,Toledo,OH,267,267,126,733,62,International,3
+11478,3,5,Tantechi,2016-03-12,Milwaukee,WI,9,Springfield,IL,481,481,1689,2348,76,International,6
+11479,2,5,Goldentechi,2016-03-03,Springfield,IL,2,Skokie,IL,233,203,5624,6000,95,Intercom,4
+11480,3,6,Kinice,2016-07-06,Indianapolis,IN,4,Northbrook,IL,1191,540,2912,3656,51,Domestic,1
+11481,2,4,Bamgeohigh,2016-08-29,Northbrook,IL,4,Naperville,IL,975,760,4776,2891,61,Domestic,7
+11482,3,6,Funfintech,2016-01-28,Detriot,MI,10,Monon,IN,984,267,3707,4431,97,International,1
+11483,2,2,Latcore,2016-04-18,Gary,IN,7,Milwaukee,WI,886,771,3957,4876,97,International,1
+11484,2,4,Reddoit,2016-01-03,Joliet,IL,4,Madison,WI,803,707,7036,4861,52,Domestic,2
+11485,3,6,Plustax,2016-06-12,Monon,IN,3,Lansing,MI,942,645,1309,1583,71,Domestic,8
+11486,2,4,Bamity,2016-06-27,Madison,WI,1,Kalamazoo,MI,964,328,5692,3893,85,Domestic,3
+11487,3,1,Quotelane,2016-02-20,Green Bay,WI,2,Joliet,IL,702,222,1409,5883,81,Domestic,4
+11488,3,3,Viatom,2016-04-21,Naperville,IL,2,Indianapolis,IN,868,349,7410,8258,88,Domestic,6
+11489,3,2,Silverfase,2016-05-14,Rockford,IL,4,Green Bay,WI,991,684,1194,1760,57,Domestic,1
+11490,2,2,O-Job,2016-05-25,Appleton,WI,2,Grand Rapids,MI,518,426,324,1324,76,Domestic,2
+11491,3,2,Howtaxon,2016-03-24,Cincinnati,OH,2,Gary,IN,1127,659,4666,5028,70,Domestic,8
+11492,2,3,Xx-Way,2016-04-01,Dayton,OH,2,Elgin,IL,939,446,6371,7224,93,Domestic,6
+11493,2,6,Dentocity,2016-04-16,Lansing,MI,6,Dayton,OH,752,288,7404,7592,69,International,3
+11494,3,3,Indi-Dox,2016-02-24,Bangor,MI,8,Davenport,IA,576,299,1075,1448,53,International,7
+11495,2,4,Damdexon,2016-02-24,Elgin,IL,10,Cincinnati,OH,391,391,2770,1131,83,International,2
+11496,2,1,Subdrill,2016-05-09,Skokie,IL,8,Chicago,IL,543,229,6000,10643,89,International,6
+11497,2,6,Conzumzap,2016-07-23,Kalamazoo,MI,2,Bangor,MI,1042,602,7718,8144,54,Intercom,10
+11498,2,5,Ontotam,2016-08-11,Davenport,IA,1,Appleton,WI,715,575,3133,3442,84,Domestic,6
+11499,3,6,Trio-Dax,2016-07-25,Grand Rapids,MI,1,Toledo,OH,844,231,8219,8344,80,Domestic,10
+11500,3,5,Ventocore,2016-06-12,Milwaukee,WI,1,Springfield,IL,656,236,6946,7305,91,Domestic,8
+11501,3,2,Recode,2016-08-30,Chicago,IL,9,Rockford,IL,641,641,1315,1560,95,International,8
+11502,3,4,Ganjazone,2016-01-08,Indianapolis,IN,2,Northbrook,IL,595,585,6342,4315,83,Domestic,4
+11503,2,4,Hottaxon,2016-01-24,Northbrook,IL,3,Naperville,IL,1131,627,6380,3873,75,Domestic,3
+11504,2,5,Keyzunbase,2016-05-27,Detriot,MI,2,Monon,IN,436,436,5018,5128,89,Domestic,2
+11505,3,5,K-Is,2016-03-20,Gary,IN,4,Milwaukee,WI,944,522,1657,1930,62,Domestic,3
+11506,2,3,Villacom,2016-07-03,Joliet,IL,2,Madison,WI,1102,771,1598,2131,59,Domestic,8
+11507,3,1,Zotit,2016-06-01,Monon,IN,2,Lansing,MI,290,290,5088,9621,87,Domestic,9
+11508,3,2,Scotquote,2016-01-16,Madison,WI,3,Kalamazoo,MI,1006,459,3428,4295,84,Domestic,7
+11509,2,1,Stimmedia,2016-07-13,Green Bay,WI,1,Joliet,IL,866,342,7709,12448,73,Domestic,3
+11510,3,1,Lazap,2016-01-03,Naperville,IL,2,Indianapolis,IN,719,263,4280,8990,94,Domestic,2
+11511,3,6,Baselux,2016-07-15,Rockford,IL,8,Green Bay,WI,793,793,1636,2475,51,International,5
+11512,3,4,Dingity,2016-04-03,Appleton,WI,10,Grand Rapids,MI,336,336,6735,4483,72,International,5
+11513,3,3,Fax-Ex,2016-08-07,Cincinnati,OH,10,Gary,IN,1101,738,3996,4351,56,International,4
+11514,3,5,Duodax,2016-02-09,Dayton,OH,9,Elgin,IL,1076,759,6245,6383,84,International,5
+11515,3,5,Planethouse,2016-06-13,Toledo,OH,8,Detriot,MI,905,370,5678,6501,90,International,10
+11516,2,2,Overtam,2016-08-28,Lansing,MI,1,Dayton,OH,609,609,1097,1916,85,Intercom,6
+11517,3,6,Solholdings,2016-07-02,Bangor,MI,4,Davenport,IA,694,331,533,831,89,Domestic,2
+11518,2,6,Cannamcon,2016-01-13,Elgin,IL,3,Cincinnati,OH,1055,582,1074,1576,95,Domestic,10
+11519,3,4,Zerfax,2016-06-15,Skokie,IL,2,Chicago,IL,560,345,2174,616,88,Domestic,6
+11520,3,4,Technoline,2016-07-24,Kalamazoo,MI,10,Bangor,MI,1036,614,4448,2491,64,International,10
+11521,3,6,Applanet,2016-01-17,Davenport,IA,6,Appleton,WI,482,366,4671,5445,55,International,7
+11522,2,1,Zoncone,2016-01-15,Grand Rapids,MI,2,Toledo,OH,330,330,7992,12494,68,Domestic,5
+11523,3,1,Canemedkix,2016-07-15,Milwaukee,WI,3,Springfield,IL,632,511,1351,5049,98,Domestic,5
+11524,2,4,Whitefan,2016-02-14,Springfield,IL,3,Skokie,IL,756,711,8591,6237,59,Domestic,6
+11525,2,2,Strongdax,2016-02-16,Chicago,IL,3,Rockford,IL,837,268,697,1635,78,Domestic,9
+11526,3,3,Xx-Dotone,2016-02-08,Indianapolis,IN,3,Northbrook,IL,1001,438,5705,6356,64,Domestic,8
+11527,2,5,Tamcan,2016-07-31,Northbrook,IL,2,Naperville,IL,336,254,5420,5630,71,Domestic,2
+11528,3,3,Sanin,2016-01-28,Detriot,MI,1,Monon,IN,885,241,3219,4213,82,Domestic,1
+11529,3,6,Sonlex,2016-02-18,Gary,IN,2,Milwaukee,WI,737,253,8103,8463,83,Domestic,1
+11530,3,2,Groovestrip,2016-06-14,Joliet,IL,2,Madison,WI,219,219,163,265,94,Domestic,4
+11531,2,1,Matdex,2016-04-07,Monon,IN,6,Lansing,MI,939,529,2982,7861,99,International,4
+11532,2,3,Saohow,2016-02-18,Madison,WI,10,Kalamazoo,MI,754,752,404,559,59,International,7
+11533,3,1,Yearlex,2016-02-05,Green Bay,WI,8,Joliet,IL,612,389,8117,12877,64,International,2
+11534,2,1,Bamtechnology,2016-06-18,Naperville,IL,7,Indianapolis,IN,602,342,3928,7575,93,International,1
+11535,2,3,Dripkix,2016-03-08,Rockford,IL,5,Green Bay,WI,411,411,8227,8949,70,International,10
+11536,3,6,Instrip,2016-07-27,Appleton,WI,1,Grand Rapids,MI,432,421,5925,6335,56,Intercom,7
+11537,3,6,Xx-Bam,2016-06-18,Cincinnati,OH,2,Gary,IN,719,547,5523,6425,67,Domestic,7
+11538,3,3,Zaamhouse,2016-03-04,Dayton,OH,3,Elgin,IL,1133,279,668,958,85,Domestic,7
+11539,2,3,Zoofan,2016-03-25,Toledo,OH,4,Detriot,MI,1067,787,3767,4281,91,Domestic,2
+11540,3,2,Zuntexon,2016-02-03,Lansing,MI,9,Dayton,OH,755,407,1903,2597,54,International,10
+11541,2,5,Howplanet,2016-08-05,Bangor,MI,10,Davenport,IA,707,563,4916,5161,64,International,4
+11542,3,2,Fasezim,2016-02-15,Elgin,IL,1,Cincinnati,OH,318,318,7783,8518,87,Domestic,10
+11543,3,3,Sanlab,2016-05-26,Skokie,IL,3,Chicago,IL,278,278,3482,3725,68,Domestic,9
+11544,2,3,Mathing,2016-02-21,Kalamazoo,MI,3,Bangor,MI,386,278,2055,2800,91,Domestic,6
+11545,2,2,Tamholding,2016-03-15,Davenport,IA,1,Appleton,WI,573,573,2363,2807,66,Domestic,1
+11546,2,6,Greentech,2016-07-24,Grand Rapids,MI,3,Toledo,OH,522,215,2996,3351,50,Domestic,6
+11547,3,2,Silfase,2016-07-11,Springfield,IL,1,Skokie,IL,971,446,8538,8867,80,Domestic,2
+11548,2,1,Unoex,2016-06-06,Chicago,IL,3,Rockford,IL,264,264,1061,5773,65,Domestic,6
+11549,3,2,Zoodrill,2016-05-19,Indianapolis,IN,2,Northbrook,IL,489,489,7832,8393,78,Domestic,6
+11550,2,4,Sunjob,2016-04-14,Northbrook,IL,7,Naperville,IL,536,536,6667,3860,71,International,10
+11551,2,6,Anmedia,2016-03-05,Detriot,MI,6,Monon,IN,536,455,5542,6309,89,International,9
+11552,2,2,Daltfax,2016-07-24,Gary,IN,6,Milwaukee,WI,437,437,6525,6742,78,International,9
+11553,2,6,Physcone,2016-06-17,Joliet,IL,6,Madison,WI,1196,383,4973,5231,100,International,3
+11554,3,5,Kincorporation,2016-04-18,Monon,IN,5,Lansing,MI,383,383,1632,2310,64,International,7
+11555,2,6,Vaiazozice,2016-03-03,Madison,WI,2,Kalamazoo,MI,634,634,6318,6733,96,Intercom,9
+11556,3,1,Plusla,2016-05-03,Green Bay,WI,3,Joliet,IL,1011,545,3394,8507,78,Domestic,10
+11557,2,1,Nimlab,2016-06-15,Naperville,IL,2,Indianapolis,IN,249,249,5892,10387,100,Domestic,10
+11558,3,1,Blueit,2016-03-29,Appleton,WI,9,Grand Rapids,MI,749,432,1464,6719,57,International,7
+11559,2,6,Roundphase,2016-08-09,Cincinnati,OH,10,Gary,IN,455,206,6726,7209,65,International,10
+11560,2,6,Faseway,2016-03-15,Dayton,OH,4,Elgin,IL,316,316,7824,8066,63,Domestic,10
+11561,3,1,Tripplekix,2016-06-27,Toledo,OH,2,Detriot,MI,254,230,2500,7369,59,Domestic,3
+11562,2,4,Dontam,2016-08-30,Lansing,MI,4,Dayton,OH,1004,275,4979,2847,53,Domestic,4
+11563,2,5,Scotfase,2016-01-18,Bangor,MI,3,Davenport,IA,398,398,7382,8187,86,Domestic,8
+11564,3,2,Newzap,2016-06-15,Elgin,IL,3,Cincinnati,OH,559,559,1798,2151,64,Domestic,5
+11565,3,6,Mathtouch,2016-01-28,Skokie,IL,3,Chicago,IL,539,453,6412,7314,90,Domestic,9
+11566,3,2,Zimity,2016-02-25,Kalamazoo,MI,3,Bangor,MI,1006,683,7695,8599,60,Domestic,2
+11567,2,3,Dongbiolex,2016-01-25,Davenport,IA,3,Appleton,WI,518,452,3772,4508,82,Domestic,8
+11568,3,1,J-Lax,2016-07-13,Grand Rapids,MI,2,Toledo,OH,818,553,31,5144,97,Domestic,2
+11569,2,6,Geofind,2016-07-20,Milwaukee,WI,8,Springfield,IL,1134,370,7101,7894,53,International,8
+11570,2,2,Iceelectrics,2016-02-03,Springfield,IL,7,Skokie,IL,1150,274,6734,7057,71,International,3
+11571,3,2,Vaiazoom,2016-02-19,Chicago,IL,9,Rockford,IL,460,206,6672,7085,74,International,8
+11572,2,3,Vaiataxon,2016-04-25,Indianapolis,IN,7,Northbrook,IL,871,283,3019,3537,94,International,8
+11573,2,3,Pluslam,2016-01-02,Northbrook,IL,9,Naperville,IL,1167,294,8090,8858,76,International,4
+11574,3,2,Singleholdings,2016-07-24,Gary,IN,4,Milwaukee,WI,296,296,656,1251,94,Domestic,5
+11575,3,3,Gravetech,2016-07-24,Joliet,IL,4,Madison,WI,262,262,7457,8065,90,Domestic,9
+11576,3,4,Condintex,2016-08-09,Madison,WI,5,Kalamazoo,MI,260,260,6269,4214,73,International,3
+11577,3,6,Itdom,2016-06-05,Naperville,IL,2,Indianapolis,IN,1171,376,3013,4003,74,Domestic,7
+11578,3,4,Zamholdings,2016-03-24,Rockford,IL,2,Green Bay,WI,246,246,4683,2315,64,Domestic,2
+11579,2,1,Duo-Fase,2016-04-12,Appleton,WI,4,Grand Rapids,MI,503,503,2950,7266,71,Domestic,3
+11580,3,2,Funlax,2016-06-20,Dayton,OH,4,Elgin,IL,412,296,4733,4930,52,Domestic,7
+11581,2,5,Beta-Ron,2016-03-04,Toledo,OH,3,Detriot,MI,287,287,2875,3433,97,Domestic,3
+11582,3,4,Zentrax,2016-05-14,Lansing,MI,1,Dayton,OH,398,376,4753,3382,58,Domestic,9
+11583,2,3,Bluecorporation,2016-05-08,Bangor,MI,1,Davenport,IA,947,643,7880,8812,53,Domestic,8
+11584,3,1,Fin-Cone,2016-05-17,Elgin,IL,1,Cincinnati,OH,941,263,4797,10512,70,Domestic,9
+11585,2,1,Ranmedia,2016-06-04,Skokie,IL,6,Chicago,IL,650,382,6438,11198,54,International,6
+11586,3,4,Trueplus,2016-08-09,Kalamazoo,MI,10,Bangor,MI,225,225,7199,4386,66,International,10
+11587,2,1,Templax,2016-03-26,Davenport,IA,7,Appleton,WI,698,614,5821,11534,99,International,8
+11588,2,3,Roundphase,2016-04-18,Grand Rapids,MI,7,Toledo,OH,342,220,2982,3670,66,International,2
+11589,2,2,Ronlamice,2016-08-26,Springfield,IL,2,Skokie,IL,1041,539,5065,5536,77,Intercom,8
+11590,3,3,Zummatexon,2016-05-10,Chicago,IL,4,Rockford,IL,870,210,4122,4229,73,Domestic,8
+11591,2,1,Aptaxon,2016-08-29,Indianapolis,IN,3,Northbrook,IL,689,528,7908,11555,56,Domestic,8
+11592,3,1,Plextechi,2016-08-21,Detriot,MI,5,Monon,IN,365,365,7528,12495,79,International,10
+11593,2,2,Donplanet,2016-05-25,Gary,IN,5,Milwaukee,WI,808,217,820,1713,69,International,1
+11594,3,5,Whitekix,2016-05-31,Joliet,IL,2,Madison,WI,270,270,8414,8770,81,Domestic,2
+11595,3,2,K-Antex,2016-04-10,Madison,WI,4,Kalamazoo,MI,355,355,6501,6932,92,Domestic,4
+11596,2,2,Constreet,2016-08-21,Green Bay,WI,3,Joliet,IL,1192,439,1825,2255,67,Domestic,10
+11597,2,2,Quotefix,2016-01-25,Naperville,IL,1,Indianapolis,IN,496,496,3520,4402,56,Domestic,5
+11598,2,1,Dripvivadex,2016-05-21,Rockford,IL,4,Green Bay,WI,943,525,2326,6700,97,Domestic,4
+11599,3,1,Trustcorporation,2016-01-13,Appleton,WI,3,Grand Rapids,MI,202,202,2830,6860,96,Domestic,2
+11600,2,5,Zimjiit,2016-04-08,Cincinnati,OH,3,Gary,IN,504,286,2404,2710,52,Domestic,7
+11601,2,2,Scotcan,2016-03-04,Dayton,OH,3,Elgin,IL,1014,235,3038,3544,100,Domestic,5
+11602,3,5,Duoflex,2016-06-14,Toledo,OH,5,Detriot,MI,501,501,4122,5083,94,International,4
+11603,3,6,Canetechnology,2016-05-09,Lansing,MI,7,Dayton,OH,1119,269,2820,3269,96,International,7
+11604,2,3,Solostreet,2016-05-02,Elgin,IL,5,Cincinnati,OH,680,680,3965,4520,56,International,7
+11605,3,1,Xx-Planet,2016-03-28,Skokie,IL,9,Chicago,IL,969,216,1166,5514,83,International,3
+11606,2,3,Apzone,2016-08-03,Kalamazoo,MI,2,Bangor,MI,630,513,4557,5076,92,Intercom,2
+11607,3,6,Donglax,2016-06-19,Davenport,IA,4,Appleton,WI,291,291,8085,8921,99,Domestic,9
+11608,2,6,Jaylane,2016-08-13,Grand Rapids,MI,3,Toledo,OH,356,356,375,1240,62,Domestic,8
+11609,2,1,Silverace,2016-08-07,Milwaukee,WI,3,Springfield,IL,689,399,2870,7914,65,Domestic,2
+11610,3,2,Matsanice,2016-05-16,Chicago,IL,5,Rockford,IL,923,339,7915,8213,92,International,1
+11611,2,4,Ronplanet,2016-02-17,Indianapolis,IN,1,Northbrook,IL,265,265,6771,4137,71,Domestic,1
+11612,3,4,Plusity,2016-06-13,Detriot,MI,1,Monon,IN,219,219,3790,2095,85,Domestic,1
+11613,3,5,Quotefix,2016-06-17,Gary,IN,4,Milwaukee,WI,1096,628,6646,7458,58,Domestic,4
+11614,3,6,Laex,2016-06-30,Joliet,IL,4,Madison,WI,661,661,5750,6438,50,Domestic,4
+11615,2,3,Tantax,2016-01-03,Monon,IN,2,Lansing,MI,719,655,1584,2007,76,Domestic,9
+11616,2,6,Solohex,2016-01-16,Madison,WI,2,Kalamazoo,MI,319,319,1234,2045,65,Domestic,7
+11617,2,2,Zapline,2016-02-14,Green Bay,WI,3,Joliet,IL,444,255,6036,6505,53,Domestic,5
+11618,2,3,Tamtexon,2016-02-28,Naperville,IL,2,Indianapolis,IN,967,581,363,711,70,Domestic,7
+11619,2,5,D-Zohex,2016-03-23,Rockford,IL,6,Green Bay,WI,508,202,5611,6081,84,International,7
+11620,3,2,Joyancom,2016-04-03,Appleton,WI,7,Grand Rapids,MI,815,781,3242,3489,60,International,2
+11621,2,1,Goodtechno,2016-06-28,Cincinnati,OH,7,Gary,IN,749,612,708,6373,77,International,5
+11622,3,3,Zunice,2016-08-22,Dayton,OH,5,Elgin,IL,252,252,2431,2729,94,International,9
+11623,2,5,Goodquoing,2016-03-06,Toledo,OH,10,Detriot,MI,824,545,7805,8613,76,International,2
+11624,3,4,Fasetech,2016-06-15,Lansing,MI,2,Dayton,OH,326,326,6463,4767,60,Intercom,3
+11625,2,5,Bluezoombam,2016-02-28,Elgin,IL,4,Cincinnati,OH,228,228,6603,7537,88,Domestic,9
+11626,3,1,Cityis,2016-04-11,Skokie,IL,1,Chicago,IL,406,406,8073,12642,74,Domestic,8
+11627,2,5,Kantone,2016-05-26,Kalamazoo,MI,5,Bangor,MI,1146,673,3109,3255,58,International,10
+11628,2,2,Treedrill,2016-05-26,Davenport,IA,9,Appleton,WI,779,764,3884,4146,69,International,6
+11629,2,1,Stripzim,2016-05-05,Grand Rapids,MI,4,Toledo,OH,628,349,3795,8188,55,Domestic,7
+11630,2,5,Dingquokix,2016-01-17,Milwaukee,WI,4,Springfield,IL,568,420,401,1235,63,Domestic,3
+11631,2,1,Ronvivalam,2016-03-01,Springfield,IL,3,Skokie,IL,576,359,8,3710,52,Domestic,5
+11632,3,5,Y-Flex,2016-04-24,Chicago,IL,4,Rockford,IL,437,374,5763,6748,62,Domestic,1
+11633,3,3,Faxotfind,2016-03-05,Indianapolis,IN,4,Northbrook,IL,692,692,4059,4695,63,Domestic,8
+11634,3,6,Warelane,2016-07-25,Northbrook,IL,1,Naperville,IL,436,401,1798,2533,97,Domestic,5
+11635,3,2,Hexunobam,2016-08-15,Detriot,MI,4,Monon,IN,761,327,7035,7205,66,Domestic,1
+11636,2,5,Quadplanet,2016-03-01,Gary,IN,1,Milwaukee,WI,1146,473,1179,1685,94,Domestic,6
+11637,3,4,Opehouse,2016-03-21,Joliet,IL,2,Madison,WI,1180,369,7965,6106,62,Domestic,2
+11638,3,5,Carekix,2016-08-10,Monon,IN,8,Lansing,MI,245,245,6048,6778,67,International,1
+11639,2,1,Ozeris,2016-06-07,Madison,WI,8,Kalamazoo,MI,452,380,7839,12996,53,International,6
+11640,3,1,Singlejob,2016-02-29,Green Bay,WI,8,Joliet,IL,429,391,1918,5363,84,International,7
+11641,3,2,Y-Zoom,2016-03-22,Naperville,IL,10,Indianapolis,IN,601,365,803,1765,50,International,4
+11642,3,5,Faxron,2016-01-24,Rockford,IL,8,Green Bay,WI,790,501,7970,8413,89,International,1
+11643,2,2,Faseron,2016-04-28,Appleton,WI,1,Grand Rapids,MI,898,313,4872,5745,72,Intercom,9
+11644,2,4,Lamlab,2016-03-22,Cincinnati,OH,4,Gary,IN,1082,620,4786,2738,97,Domestic,2
+11645,2,1,Geoit,2016-05-07,Dayton,OH,1,Elgin,IL,1167,627,7258,11700,82,Domestic,9
+11646,2,6,Planetron,2016-03-03,Toledo,OH,2,Detriot,MI,396,337,4932,5355,89,Domestic,5
+11647,3,1,Stimcore,2016-03-24,Lansing,MI,5,Dayton,OH,1143,669,7606,11703,92,International,9
+11648,3,1,Zuntone,2016-04-02,Bangor,MI,10,Davenport,IA,497,216,7995,11529,63,International,9
+11649,3,5,Lexidom,2016-03-13,Kalamazoo,MI,1,Bangor,MI,536,536,3143,3855,98,Domestic,4
+11650,2,4,Zummatax,2016-02-22,Davenport,IA,2,Appleton,WI,1119,709,3118,1422,91,Domestic,10
+11651,3,3,Saokeycane,2016-02-04,Grand Rapids,MI,3,Toledo,OH,888,204,5985,6200,60,Domestic,2
+11652,2,4,Keystreet,2016-05-11,Milwaukee,WI,4,Springfield,IL,708,338,6542,4367,53,Domestic,7
+11653,3,5,Zerlane,2016-08-29,Chicago,IL,2,Rockford,IL,232,232,4391,4655,62,Domestic,9
+11654,2,2,Fixace,2016-07-07,Indianapolis,IN,2,Northbrook,IL,957,690,7558,8319,52,Domestic,8
+11655,2,5,Tres-Tone,2016-03-18,Northbrook,IL,10,Naperville,IL,660,660,3577,4430,78,International,7
+11656,3,2,Unaity,2016-08-09,Detriot,MI,6,Monon,IN,258,258,6009,6165,60,International,8
+11657,3,2,Scotline,2016-04-27,Gary,IN,8,Milwaukee,WI,405,405,2536,2911,75,International,3
+11658,3,2,Daltcare,2016-02-26,Joliet,IL,8,Madison,WI,918,470,2839,3504,67,International,9
+11659,2,1,Doubleis,2016-04-03,Monon,IN,6,Lansing,MI,320,320,4053,8405,90,International,5
+11660,2,2,Dongtinlux,2016-05-24,Naperville,IL,4,Indianapolis,IN,917,237,7339,7822,80,Domestic,6
+11661,2,3,Geohigh,2016-03-04,Rockford,IL,2,Green Bay,WI,1013,424,8006,8753,80,Domestic,4
+11662,2,6,Mediaware,2016-02-21,Appleton,WI,7,Grand Rapids,MI,474,474,8376,8984,69,International,10
+11663,2,1,Goldenlex,2016-08-15,Cincinnati,OH,9,Gary,IN,825,268,3085,7247,77,International,5
+11664,2,1,Canecare,2016-02-15,Dayton,OH,4,Elgin,IL,370,370,4747,9253,88,Domestic,1
+11665,3,2,Zerhouse,2016-06-25,Lansing,MI,4,Dayton,OH,1062,645,4637,5085,64,Domestic,7
+11666,2,4,Ganzsannix,2016-07-04,Bangor,MI,1,Davenport,IA,379,379,2629,658,93,Domestic,4
+11667,3,3,Yearcorporation,2016-06-01,Elgin,IL,3,Cincinnati,OH,378,284,1555,1700,54,Domestic,8
+11668,3,5,Planetline,2016-07-08,Skokie,IL,2,Chicago,IL,805,240,8322,8425,92,Domestic,9
+11669,3,1,Planetware,2016-07-05,Kalamazoo,MI,3,Bangor,MI,572,324,8229,13250,62,Domestic,5
+11670,3,5,Indigoice,2016-05-16,Davenport,IA,2,Appleton,WI,601,335,6660,7068,50,Domestic,4
+11671,2,1,Zotfan,2016-02-17,Grand Rapids,MI,1,Toledo,OH,682,664,2283,6658,81,Domestic,6
+11672,3,5,Medcan,2016-04-10,Milwaukee,WI,10,Springfield,IL,474,474,3816,4247,57,International,8
+11673,2,5,Fixcan,2016-01-21,Springfield,IL,9,Skokie,IL,721,457,7770,8533,95,International,7
+11674,2,5,Dentoelectrics,2016-06-14,Chicago,IL,8,Rockford,IL,751,529,6673,7298,69,International,3
+11675,3,1,Toncode,2016-08-03,Northbrook,IL,7,Naperville,IL,692,632,2556,7395,88,International,6
+11676,3,1,Rankphase,2016-04-30,Detriot,MI,1,Monon,IN,454,397,5243,9861,84,Intercom,7
+11677,2,5,Gravemedia,2016-06-09,Gary,IN,1,Milwaukee,WI,1000,704,3152,3931,71,Domestic,7
+11678,3,1,Alphafan,2016-01-31,Madison,WI,9,Kalamazoo,MI,378,378,4135,8022,77,International,7
+11679,3,3,D-Quadlux,2016-04-28,Green Bay,WI,7,Joliet,IL,845,547,1248,1723,73,International,3
+11680,2,3,Funlatlex,2016-02-26,Naperville,IL,1,Indianapolis,IN,985,254,746,1526,85,Domestic,5
+11681,3,6,Wareholding,2016-08-20,Rockford,IL,4,Green Bay,WI,533,464,8470,8797,72,Domestic,4
+11682,3,6,Anzammedia,2016-05-26,Appleton,WI,1,Grand Rapids,MI,545,545,6433,6713,51,Domestic,9
+11683,2,6,Zoomhex,2016-08-20,Cincinnati,OH,2,Gary,IN,503,503,5772,6378,52,Domestic,4
+11684,2,4,Tripple-Fax,2016-04-22,Dayton,OH,4,Elgin,IL,749,509,6888,4851,93,Domestic,6
+11685,3,2,Isdexon,2016-07-18,Lansing,MI,4,Dayton,OH,205,205,4327,5066,90,Domestic,8
+11686,2,6,Solozap,2016-04-27,Elgin,IL,3,Cincinnati,OH,320,320,5353,6261,72,Domestic,6
+11687,3,2,Golddexon,2016-05-13,Skokie,IL,8,Chicago,IL,606,588,5091,5706,88,International,9
+11688,2,6,Zunhouse,2016-02-28,Kalamazoo,MI,8,Bangor,MI,1158,319,7542,7955,76,International,6
+11689,3,1,Inchholdings,2016-08-13,Davenport,IA,6,Appleton,WI,1033,627,4766,8714,50,International,2
+11690,2,2,Runhigh,2016-06-09,Grand Rapids,MI,8,Toledo,OH,744,464,2897,3354,65,International,8
+11691,2,6,White-High,2016-05-13,Milwaukee,WI,10,Springfield,IL,613,312,7805,8194,86,International,1
+11692,2,6,Fasezoomfix,2016-01-26,Springfield,IL,1,Skokie,IL,835,724,4951,5165,69,Intercom,4
+11693,3,3,Opebase,2016-06-15,Indianapolis,IN,1,Northbrook,IL,836,251,7981,8370,83,Domestic,6
+11694,3,2,Hexzim,2016-06-02,Northbrook,IL,2,Naperville,IL,671,671,4751,4890,92,Domestic,6
+11695,3,3,Scotlex,2016-02-24,Detriot,MI,9,Monon,IN,806,458,4680,5318,81,International,8
+11696,2,3,Good-Find,2016-06-16,Gary,IN,9,Milwaukee,WI,312,297,1816,2285,73,International,4
+11697,3,6,Plexlamway,2016-02-03,Joliet,IL,1,Madison,WI,885,599,6876,6995,66,Domestic,4
+11698,3,2,Latgotrax,2016-03-15,Monon,IN,1,Lansing,MI,1072,692,1484,1915,83,Domestic,8
+11699,2,5,Hotity,2016-08-19,Madison,WI,4,Kalamazoo,MI,527,401,7353,8238,61,Domestic,10
+11700,3,6,Scothouse,2016-06-18,Green Bay,WI,3,Joliet,IL,449,412,2136,3063,56,Domestic,10
+11701,3,2,Striplane,2016-05-08,Naperville,IL,4,Indianapolis,IN,505,505,2461,2581,90,Domestic,8
+11702,2,2,Technodax,2016-06-22,Rockford,IL,1,Green Bay,WI,1060,787,8454,8721,85,Domestic,1
+11703,2,3,Re-Can,2016-05-10,Appleton,WI,1,Grand Rapids,MI,1062,514,6242,6600,62,Domestic,8
+11704,2,3,Unatrax,2016-01-01,Cincinnati,OH,1,Gary,IN,365,365,4465,4971,72,Domestic,7
+11705,3,2,Acequote,2016-01-17,Dayton,OH,4,Elgin,IL,972,551,5565,5996,86,Domestic,5
+11706,2,4,Ganz-Is,2016-08-09,Toledo,OH,10,Detriot,MI,518,518,2563,1151,82,International,7
+11707,3,4,Sonbam,2016-04-12,Lansing,MI,5,Dayton,OH,717,717,3108,977,71,International,2
+11708,3,3,Freebam,2016-02-07,Bangor,MI,6,Davenport,IA,532,532,6509,7131,98,International,3
+11709,2,2,Faxzumtrax,2016-03-04,Elgin,IL,7,Cincinnati,OH,360,360,3877,4031,99,International,7
+11710,3,2,Sonzamace,2016-02-03,Skokie,IL,5,Chicago,IL,905,571,2414,2663,99,International,2
+11711,2,6,Linezatlam,2016-05-13,Kalamazoo,MI,2,Bangor,MI,852,314,4757,5046,93,Intercom,2
+11712,3,1,O-Ace,2016-03-27,Davenport,IA,1,Appleton,WI,599,439,2861,7068,59,Domestic,6
+11713,3,4,Statway,2016-03-28,Grand Rapids,MI,3,Toledo,OH,1174,708,2759,1477,55,Domestic,8
+11714,2,2,Zunzone,2016-06-17,Milwaukee,WI,2,Springfield,IL,427,427,4010,4480,96,Domestic,10
+11715,3,6,Hat-Core,2016-02-23,Springfield,IL,9,Skokie,IL,571,555,3672,4016,55,International,9
+11716,3,5,Zathhow,2016-06-27,Chicago,IL,10,Rockford,IL,530,343,4762,5480,90,International,6
+11717,2,1,Subvivais,2016-07-11,Indianapolis,IN,1,Northbrook,IL,819,318,7438,12100,75,Domestic,10
+11718,2,3,Saltfan,2016-01-25,Northbrook,IL,2,Naperville,IL,753,753,6291,6399,96,Domestic,3
+11719,2,3,Joygreen,2016-05-20,Detriot,MI,3,Monon,IN,240,240,2243,2745,84,Domestic,9
+11720,3,4,Namelectronics,2016-05-16,Monon,IN,1,Lansing,MI,970,578,6611,4713,81,Domestic,7
+11721,2,3,Warecity,2016-08-31,Madison,WI,2,Kalamazoo,MI,289,245,445,1184,58,Domestic,3
+11722,3,6,Donremlane,2016-01-19,Green Bay,WI,3,Joliet,IL,560,560,7332,8272,81,Domestic,10
+11723,2,4,Ganzlane,2016-04-29,Naperville,IL,2,Indianapolis,IN,406,406,8389,5510,56,Domestic,5
+11724,3,2,Streetlam,2016-02-11,Rockford,IL,9,Green Bay,WI,434,310,2653,3131,97,International,2
+11725,3,6,Tonsanhigh,2016-07-21,Appleton,WI,6,Grand Rapids,MI,899,534,4657,5596,55,International,7
+11726,3,4,Siliconcore,2016-08-11,Cincinnati,OH,7,Gary,IN,907,373,7077,5491,70,International,5
+11727,3,4,Dan-High,2016-04-28,Dayton,OH,8,Elgin,IL,555,207,6611,4334,61,International,8
+11728,2,5,Jobtechnology,2016-02-15,Toledo,OH,8,Detriot,MI,521,521,2550,2813,55,International,3
+11729,3,1,Daltron,2016-02-01,Lansing,MI,2,Dayton,OH,295,201,4503,9231,58,Intercom,4
+11730,3,3,Y-Strip,2016-08-18,Bangor,MI,2,Davenport,IA,995,258,6160,6467,59,Domestic,2
+11731,2,2,Danfan,2016-05-11,Elgin,IL,2,Cincinnati,OH,852,426,5042,5912,99,Domestic,1
+11732,3,4,Plustaxon,2016-04-11,Skokie,IL,1,Chicago,IL,266,266,3601,1554,54,Domestic,3
+11733,3,6,Truebam,2016-04-23,Kalamazoo,MI,8,Bangor,MI,230,230,8751,8870,52,International,2
+11734,3,3,Konknix,2016-03-21,Grand Rapids,MI,4,Toledo,OH,520,283,1316,1755,78,Domestic,7
+11735,2,4,Dongbase,2016-07-03,Milwaukee,WI,1,Springfield,IL,598,598,2915,1119,71,Domestic,2
+11736,3,6,Howelectrics,2016-01-04,Springfield,IL,1,Skokie,IL,909,551,595,1218,96,Domestic,8
+11737,2,2,Dingfax,2016-03-18,Chicago,IL,3,Rockford,IL,1162,320,2468,2835,92,Domestic,6
+11738,3,2,Zimex,2016-05-19,Indianapolis,IN,3,Northbrook,IL,960,415,5229,5378,89,Domestic,8
+11739,2,3,Saocity,2016-08-01,Northbrook,IL,2,Naperville,IL,537,537,1971,2449,61,Domestic,8
+11740,2,1,Joyzim,2016-08-04,Detriot,MI,4,Monon,IN,647,647,3483,8106,55,Domestic,5
+11741,3,2,Silver-Line,2016-06-10,Gary,IN,3,Milwaukee,WI,988,584,3354,4279,61,Domestic,8
+11742,3,3,Una-Phase,2016-07-12,Joliet,IL,2,Madison,WI,427,427,208,421,67,Domestic,6
+11743,2,6,Condexon,2016-02-10,Monon,IN,10,Lansing,MI,579,522,2728,3703,91,International,10
+11744,2,4,Roundlam,2016-06-06,Madison,WI,9,Kalamazoo,MI,638,416,5670,3395,70,International,4
+11745,3,2,Canphase,2016-08-16,Green Bay,WI,5,Joliet,IL,357,357,1523,1934,56,International,4
+11746,3,6,Betaity,2016-07-31,Naperville,IL,9,Indianapolis,IN,736,515,4108,4495,78,International,7
+11747,3,2,Jaydox,2016-03-24,Rockford,IL,7,Green Bay,WI,525,355,626,1360,86,International,7
+11748,2,3,O-Tom,2016-06-25,Appleton,WI,2,Grand Rapids,MI,244,244,1798,2147,58,Intercom,7
+11749,3,4,Canex,2016-06-05,Cincinnati,OH,1,Gary,IN,375,234,5321,3172,78,Domestic,7
+11750,3,3,Villahouse,2016-02-08,Dayton,OH,4,Elgin,IL,1036,770,5733,6203,72,Domestic,9
+11751,2,5,Tempfan,2016-08-14,Toledo,OH,1,Detriot,MI,1074,500,5414,5647,76,Domestic,7
+11752,3,3,Vivazim,2016-06-24,Lansing,MI,6,Dayton,OH,1118,357,7938,8895,62,International,4
+11753,2,5,Citydexon,2016-07-17,Bangor,MI,5,Davenport,IA,594,594,8331,8621,74,International,2
+11754,3,5,Ittam,2016-03-16,Elgin,IL,2,Cincinnati,OH,479,238,742,1135,54,Domestic,8
+11755,3,5,Saltlab,2016-07-13,Skokie,IL,3,Chicago,IL,409,409,5071,5662,83,Domestic,9
+11756,3,3,Conehotice,2016-03-27,Kalamazoo,MI,2,Bangor,MI,633,541,246,625,84,Domestic,10
+11757,3,6,Itcantrans,2016-07-11,Davenport,IA,4,Appleton,WI,499,499,5954,6468,79,Domestic,2
+11758,3,6,Blue-Tech,2016-04-29,Grand Rapids,MI,4,Toledo,OH,1137,323,7274,8125,76,Domestic,10
+11759,2,2,Unahigh,2016-02-22,Milwaukee,WI,2,Springfield,IL,1008,729,5481,6286,66,Domestic,1
+11760,3,5,Openzap,2016-07-10,Springfield,IL,4,Skokie,IL,1101,222,8324,8800,75,Domestic,2
+11761,2,1,Redozetam,2016-01-08,Chicago,IL,1,Rockford,IL,735,458,4412,8998,85,Domestic,4
+11762,3,4,Coneranron,2016-08-06,Indianapolis,IN,2,Northbrook,IL,317,317,2975,1179,84,Domestic,6
+11763,3,3,Zen-Holdings,2016-01-13,Northbrook,IL,7,Naperville,IL,490,251,8850,8977,60,International,9
+11764,3,2,Warebam,2016-01-15,Detriot,MI,9,Monon,IN,376,376,7800,8382,66,International,8
+11765,2,6,Zathlane,2016-03-02,Gary,IN,5,Milwaukee,WI,689,689,126,294,82,International,7
+11766,3,1,Hayholding,2016-07-21,Joliet,IL,6,Madison,WI,337,337,3637,8945,81,International,1
+11767,2,5,Zamlane,2016-04-12,Madison,WI,2,Kalamazoo,MI,481,481,2189,2923,64,Intercom,1
+11768,3,3,Viacane,2016-03-05,Green Bay,WI,1,Joliet,IL,1094,354,8459,8818,52,Domestic,10
+11769,2,5,Gogokeying,2016-05-24,Naperville,IL,1,Indianapolis,IN,558,453,6941,7297,83,Domestic,7
+11770,2,4,Tinron,2016-05-30,Rockford,IL,2,Green Bay,WI,1078,432,6933,4673,90,Domestic,8
+11771,2,2,Canace,2016-05-09,Appleton,WI,6,Grand Rapids,MI,317,317,7111,7260,51,International,9
+11772,3,6,Donware,2016-03-29,Cincinnati,OH,10,Gary,IN,613,613,3613,3822,70,International,6
+11773,3,5,Linetone,2016-06-08,Dayton,OH,3,Elgin,IL,650,557,3809,4497,73,Domestic,3
+11774,2,3,Tantechi,2016-05-14,Toledo,OH,1,Detriot,MI,684,455,6097,6224,59,Domestic,4
+11775,3,1,Goldentechi,2016-05-17,Lansing,MI,2,Dayton,OH,394,319,3610,8891,66,Domestic,3
+11776,3,2,Iselectrics,2016-07-25,Bangor,MI,2,Davenport,IA,451,319,7199,8147,74,Domestic,3
+11777,2,3,Kinice,2016-07-11,Elgin,IL,4,Cincinnati,OH,981,394,5115,5566,84,Domestic,4
+11778,2,6,Bamgeohigh,2016-04-26,Skokie,IL,2,Chicago,IL,999,580,1972,2870,53,Domestic,2
+11779,2,5,Funfintech,2016-01-09,Kalamazoo,MI,1,Bangor,MI,941,290,2450,2877,78,Domestic,8
+11780,3,5,Latcore,2016-07-19,Davenport,IA,4,Appleton,WI,804,418,4568,5110,67,Domestic,7
+11781,3,3,Reddoit,2016-06-10,Grand Rapids,MI,2,Toledo,OH,617,481,8090,8398,93,Domestic,9
+11782,3,6,Plustax,2016-02-07,Milwaukee,WI,9,Springfield,IL,1200,485,2583,2985,76,International,7
+11783,3,6,Bamity,2016-08-31,Springfield,IL,8,Skokie,IL,881,456,2486,3351,75,International,8
+11784,2,4,Quotelane,2016-06-30,Chicago,IL,7,Rockford,IL,646,571,5485,3641,81,International,4
+11785,2,5,Viatom,2016-04-11,Indianapolis,IN,10,Northbrook,IL,1007,781,617,1411,59,International,6
+11786,2,2,Silverfase,2016-03-06,Northbrook,IL,8,Naperville,IL,862,773,5321,6295,90,International,10
+11787,2,6,Howtaxon,2016-01-28,Gary,IN,4,Milwaukee,WI,796,664,6271,6537,79,Domestic,6
+11788,3,1,Xx-Way,2016-03-21,Joliet,IL,2,Madison,WI,928,757,1915,6011,54,Domestic,7
+11789,2,2,San-Plex,2016-04-21,Monon,IN,1,Lansing,MI,529,529,7671,7864,93,Domestic,4
+11790,2,1,Dentocity,2016-04-02,Madison,WI,5,Kalamazoo,MI,638,638,2496,7123,50,International,1
+11791,2,2,Indi-Dox,2016-07-18,Green Bay,WI,7,Joliet,IL,950,681,8035,8618,58,International,2
+11792,2,5,Damdexon,2016-04-28,Naperville,IL,3,Indianapolis,IN,751,552,7541,8321,65,Domestic,4
+11793,2,2,Subdrill,2016-04-15,Rockford,IL,3,Green Bay,WI,632,239,229,990,65,Domestic,3
+11794,3,4,Conzumzap,2016-06-29,Appleton,WI,2,Grand Rapids,MI,1139,358,4116,1848,72,Domestic,9
+11795,2,6,Ontotam,2016-08-07,Cincinnati,OH,1,Gary,IN,742,417,4909,5540,93,Domestic,7
+11796,3,4,Trio-Dax,2016-08-06,Dayton,OH,3,Elgin,IL,880,362,6287,4300,50,Domestic,1
+11797,3,5,Ventocore,2016-06-04,Toledo,OH,4,Detriot,MI,1191,478,2326,2924,87,Domestic,4
+11798,2,1,Tampquote,2016-01-24,Lansing,MI,1,Dayton,OH,842,566,1191,5663,60,Domestic,7
+11799,2,6,Recode,2016-06-19,Bangor,MI,2,Davenport,IA,736,321,7013,7492,80,Domestic,2
+11800,2,6,Ganjazone,2016-01-08,Elgin,IL,3,Cincinnati,OH,1135,518,431,872,66,Domestic,8
+11801,2,4,Hottaxon,2016-07-29,Skokie,IL,5,Chicago,IL,429,216,6711,5593,58,International,2
+11802,2,4,Keyzunbase,2016-07-19,Kalamazoo,MI,7,Bangor,MI,208,208,4491,2730,50,International,1
+11803,2,3,Villacom,2016-06-01,Grand Rapids,MI,5,Toledo,OH,594,594,6902,7786,56,International,2
+11804,3,2,Zotit,2016-01-15,Milwaukee,WI,6,Springfield,IL,364,364,5284,5784,88,International,5
+11805,3,5,Scotquote,2016-07-07,Springfield,IL,1,Skokie,IL,824,432,7605,8441,99,Intercom,9
+11806,3,4,Lazap,2016-03-10,Indianapolis,IN,3,Northbrook,IL,988,352,7584,5055,64,Domestic,10
+11807,2,2,Baselux,2016-08-04,Northbrook,IL,1,Naperville,IL,1193,433,4390,4974,74,Domestic,6
+11808,3,6,Dingity,2016-02-12,Detriot,MI,10,Monon,IN,721,619,1000,1362,68,International,7
