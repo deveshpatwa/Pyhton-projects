@@ -45,3 +45,14 @@ fig = px.scatter_3d(
 
 # 3. Show plot
 fig.show()
+
+
+# 2. Create interactive 3D scatter plot
+fig = px.scatter_3d( 
+    x=X, 
+    y=Y, 
+    z=Z
+)
+
+# 3. Show plot
+fig.show()
